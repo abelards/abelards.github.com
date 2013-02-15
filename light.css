@@ -2,43 +2,51 @@
 @import url('http://fonts.googleapis.com/css?family=Josefin+Sans');
 
 body{
- margin:auto;
- width:28em;
- font-family: "Quicksand", Arial,sans-serif;
- font-size:18px;
- font-weight:300;
- line-height:20px;
- color:#555555;
- background-color:#F3F3F3;
+ font-family: Quicksand, Helvetica, Arial, sans-serif;
+ font-size: 16px;
+ font-weight: 300;
+ line-height: 20px;
+ color: #555555;
+ background-color: #F3F3F3;
+}
+
+.content {
+ margin: auto;
+ width: 28em;
 }
 
 h1,h2,h3,h4,h5,h6{
-  margin:10px 0;
-  font-family:"Josefin Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight:bold;
+ margin: 10px 0;
+ font-family: Helvetica, "Josefin Sans", Helvetica, Arial, sans-serif;
+ font-weight: bold;
 }
-h1 { font-family: Quicksand;}
+h1 { font-family: Arial, Quicksand, Helvetica, sans-serif; }
 
-img{max-width:100%;width:auto\9;height:auto;vertical-align:middle;border:0;-ms-interpolation-mode:bicubic;}
-a{color:#3E86AA;text-decoration:none;}
-a:hover{color:#33475F;text-decoration:underline;}
-
-p{margin: 0 0.5em 0.25em 0.5em;}
-p.breaking{margin: 0; background: #FAFAFA; padding:0.5em;
+p { margin: 0 0.5em 0.25em 0.5em; }
+p.breaking {
+ margin: 0;
+ padding: 0.25em 0.5em;
+ background: #FAFAFA;
  border-top: 1px solid silver;
  border-bottom: 1px solid silver;
 }
 
-ul,ol{padding:0;margin:0 0 10px 25px; }
-ul ul,ul ol,ol ol,ol ul{margin-bottom:0;}
-li{line-height:20px;}
+img{
+ max-width:100%;width:auto\9;height:auto;vertical-align:middle;border:0;
+ -ms-interpolation-mode:bicubic; }
 
-hr {clear:both; display:none;}
-.fl {float:left; margin-left:1em;}
+ul,ol { padding:0;margin:0 0 10px 25px; }
+ul ul,ul ol,ol ol,ol ul { margin-bottom:0; }
+li { line-height:20px; }
 
-h1{font-size:36px; line-height:50px; font-weight:300; }
-h2{font-size:32px; line-height:50px; font-weight:400; }
-h3{font-size:24px; line-height:30px; font-weight:400; margin: 1em 0 0 0}
+hr { clear:both; display:none; }
+.fl { float:left; margin-left:1em; }
 
+h1 { font-size:36px; line-height:50px; font-weight:300; }
+h2 { font-size:32px; line-height:50px; font-weight:400; }
+h3 { font-size:22px; line-height:30px; font-weight:400; margin: 1em 0 0 0 }
+
+a { color:#3E86AA;text-decoration:none; font-weight:500; }
+a:hover { color:#33475F;text-decoration:underline; }
 h3 a { font-weight:700; }
-a { font-weight:500; }
+
