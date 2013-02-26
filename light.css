@@ -8,45 +8,114 @@ body{
  line-height: 20px;
  color: #555555;
  background-color: #F3F3F3;
+ margin: 0;
 }
 
-.content {
- margin: auto;
- width: 28em;
+#bio {
+  background: #D4D4D4;
+  padding: 1em;
 }
+
+#bio p { margin: 0; }
 
 h1,h2,h3,h4,h5,h6{
- margin: 10px 0;
+ margin: 0;
  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
  font-weight: bold;
 }
 h1 { font-family: Quicksand, Helvetica, sans-serif; }
 
-p { margin: 0 0.5em 0.25em 0.5em; }
+p {
+  margin: 0.25em 1em 1em 1em;
+  word-wrap: break-word;
+}
 p.breaking {
- margin: 0;
  padding: 0.25em 0.5em;
  background: #FAFAFA;
  border-top: 1px solid silver;
  border-bottom: 1px solid silver;
 }
 
-img{
- max-width:100%;width:auto\9;height:auto;vertical-align:middle;border:0;
- -ms-interpolation-mode:bicubic; }
+img {
+ border:0;
+ width:auto;
+ height:auto;
+ max-width:100%;
+ vertical-align:middle;
+ -ms-interpolation-mode:bicubic;
+}
+a img { width: 16px; height: 16px; }
 
-ul,ol { padding:0;margin:0 0 10px 25px; }
+ul,ol {
+ clear:both;
+ padding:0;
+ margin: 0;
+ list-style-type: none;
+}
 ul ul,ul ol,ol ol,ol ul { margin-bottom:0; }
 li { line-height:20px; }
 
-hr { clear:both; display:none; }
+hr { clear:both; } // display:none; }
 .fl { float:left; margin-left:1em; }
 
 h1 { font-size:36px; line-height:50px; font-weight:300; }
-h2 { font-size:32px; line-height:50px; font-weight:400; }
-h3 { font-size:22px; line-height:30px; font-weight:400; margin: 1em 0 0 0 }
+h2 { font-size:32px; line-height:32px; font-weight:400;
+     margin-top: 0.5em; }
+h3 { font-size:22px; line-height:32px; font-weight:400;
+     padding-left: 0.5em; }
 
 a { color:#3E86AA;text-decoration:none; font-weight:500; }
 a:hover { color:#33475F;text-decoration:underline; }
 h3 a { font-weight:700; }
 
+
+.content {
+ margin: auto;
+ width: 28em;
+ clear: both;
+}
+
+@media screen and (min-width:870px) {
+ #bio {
+  position:fixed;
+  height:100%;
+  width: 180px;
+  left: 0;
+  top: 0;
+  padding-top: 170px;
+  background-position: 50% 10px; // top, center;
+  background-repeat: no-repeat;
+  background-image: url('img/abelar_s_round.png');
+ }
+ #bio .content { width: 100%; }
+}
+
+@media screen and (max-width:870px) {
+ #bio {
+  background-image: none;
+  position: relative;
+  padding: 0.25em;
+  min-height: 8em;
+  width: 98%;
+  margin: auto;
+ }
+
+ #bio h2 { display: none; }
+
+ h1 {text-align: center;}
+ hr { display: none; }
+
+ ul li {float:left; width: 12em;}
+ ul#speaking li { width: 98%; }
+}
+
+@media screen and (max-width:500px) {
+ ul li {float:left; width: 10em;}
+ #bio { min-height: 8em; }
+ .content { width: 98%; }
+}
+
+@media screen and (max-width:450px) {
+ #intro {display:none; }
+ h1 {text-align: left; margin-left: 1.5em; }
+}
