@@ -96,7 +96,7 @@ li h4 {margin-top: 0.75em; }
   background-image: none;
   position: relative;
   padding: 0.25em;
-  min-height: 8em;
+  min-height: 9em;
   width: 98%;
   margin: auto;
  }
@@ -110,7 +110,7 @@ li h4 {margin-top: 0.75em; }
 
 @media screen and (max-width:500px) {
  ul li {float:left; width: 10em;}
- #bio { min-height: 8em; }
+ #bio { min-height: 9em; }
  .content { width: 98%; }
 }
 
