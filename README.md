@@ -1,5 +1,5 @@
 # Hi,
-This my my website on GitHub Pages.
+This my GitHub Pages' "business card on the web".
 
 I wanted the Minimum Viable Résumé, and these were already taken:
 * "Knows his shit, gives a damn"
