@@ -127,5 +127,8 @@ li h4 { margin-top: 0.75em; }
 @media screen and (max-width:330px) {
  body p {
   font-family: Helvetica, Arial, sans-serif;
+  margin: 0 0 0.5em 0.25em;
  }
+
+ .sgs3 { display:none; }
 }
