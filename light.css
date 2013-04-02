@@ -113,13 +113,19 @@ li h4 { margin-top: 0.75em; }
 }
 
 @media screen and (max-width:500px) {
- ul li {float:left; width: 10em;}
+ ul li { float:left; width: 47%; }
  #bio { min-height: 10em; }
  .content { width: 98%; }
 }
 
 @media screen and (max-width:450px) {
- .txt { display:none; }
+ .txt { display: none; }
  .short { display: inline; }
  p { margin: 0 0 0.5em 1em; }
+}
+
+@media screen and (max-width:330px) {
+ body p {
+  font-family: Helvetica, Arial, sans-serif;
+ }
 }
