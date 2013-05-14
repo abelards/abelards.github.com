@@ -11,6 +11,14 @@ body{
  margin: 0;
 }
 
+.tooltip {
+ border: 1px solid silver;
+ background: #EEEEEE;
+ display: none;
+ padding: 5px;
+}
+div:hover > .tooltip { display: block; }
+
 #bio {
   background: #E0E0E0;
   padding: 1em;
@@ -58,6 +66,7 @@ li { line-height:20px; }
 
 hr { clear:both; }
 .fl { float:left; margin-left:1em; }
+.b { font-weight: bold; }
 
 h1 { font-size:36px; line-height:50px; font-weight:300;
      font-family: Quicksand, Helvetica, sans-serif;
