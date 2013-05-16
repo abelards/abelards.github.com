@@ -28,7 +28,7 @@ div:hover > .tooltip { display: block; }
 .short { display: none; }
 .tab { display: none; }
 
-#friends .tooltip { height: 7.5em; }
+#friends .tooltip { height: 7.5em; margin-bottom: 1em; }
 
 h1,h2,h3,h4,h5,h6{
  margin: 0;
@@ -67,8 +67,8 @@ ul ul,ul ol,ol ol,ol ul { margin-bottom:0; }
 li { line-height:20px; }
 
 hr { clear:both; }
-.fl { float:left; margin-left:1em; }
-.fr { float:right; margin-right:1em; }
+.fl { float:left; margin-left:0.5em; }
+.fr { float:right; margin-right:0.5em; }
 .half { width: 10em; }
 .b { font-weight: bold; }
 
@@ -119,7 +119,7 @@ li h4 { margin-top: 0.75em; }
  hr, h4 { display: none; }
 
  #bio ul li {float:left; width: 12em;}
- ul#speaking li { width: 98%; }
+ #bio ul#speaking li { width: 98%; }
 
  .lng { display:none; }
  .tab { display: inline; }
