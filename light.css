@@ -20,11 +20,14 @@ body{
 div:hover > .tooltip { display: block; }
 
 #bio {
-  background: #E0E0E0;
   padding: 1em;
+  background: #E0E0E0;
+  border-top: 1px solid silver;
+  border-bottom: 1px solid #FEFEFE;
 }
-
 #bio p { margin: 0; }
+#bio ul li.wide { width: 98%; }
+
 .short { display: none; }
 .tab { display: none; }
 
@@ -118,15 +121,14 @@ li h4 { margin-top: 0.75em; }
  #bio h2 { display: none; }
  hr, h4 { display: none; }
 
- #bio ul li {float:left; width: 12em;}
- #bio ul#speaking li { width: 98%; }
+ ul li {float:left; width: 12em;}
 
  .lng { display:none; }
  .tab { display: inline; }
 }
 
 @media screen and (max-width:500px) {
-#bio ul li { float:left; width: 47%; }
+ #bio ul li { float:left; width: 47%; }
  .content { width: 98%; }
 }
 
