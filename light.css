@@ -17,7 +17,9 @@ body{
  display: none;
  padding: 5px;
 }
+.tooltip.open { display: block; }
 div:hover > .tooltip { display: block; }
+
 
 #bio {
   padding: 1em;

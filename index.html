@@ -8,6 +8,13 @@
     <meta name="viewport" content="width=device-width; initial-scale=1.0;" />
     <meta name="viewport" content="width=device-width" />
     <link href="light.css" rel="stylesheet">
+    <script>
+      function toggle_friends() {
+        var tip = document.getElementById('friends_list');
+        tip.classList.contains('open') ? tip.classList.remove('open') : tip.classList.add('open');
+      }
+    </script>
+
     <!-- Welcome to Expert Mode \o/ -->
   </head>
   <body>
@@ -117,8 +124,9 @@
  </p>
 
 <hr />
- <div id="friends"><a href="#friends">More friends...</a>
-  <div class="tooltip">
+ <div id="friends" onclick="toggle_friends()">
+  <a href="#friends">More friends...</a>
+  <div id="friends_list" class="tooltip">
    <div class="fr half">
      Conferences<ul>
     <li><a href="http://takeoffconf.com">TakeOffConf</a></li>
