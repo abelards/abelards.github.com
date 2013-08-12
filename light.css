@@ -148,3 +148,13 @@ li h4 { margin-top: 0.75em; }
 
  .sgs3 { display:none; }
 }
+
+
+.left-push { transform: translateX(-12rem); transition: 250ms; }
+.left_page { transform: translateX(0); }
+.left_page ~ .page-wrap { transform: translateX(12rem); transition: 500ms; }
+
+.lp .page { top: 0; left: 0; height: 100%; transform: translateX(-100%); opacity: 0; }
+.lp .main { transition: 500ms; transform: translateX(0); }
+.lp:hover .page, .lp:active .page { transform: translateX(0); opacity: 1; }
+.lp:hover .main, .lp:active .main { transform: translateX(100%); }
