@@ -33,7 +33,7 @@ div:hover > .tooltip { display: block; }
 .short { display: none; }
 .tab { display: none; }
 
-#friends .tooltip { height: 7.5em; margin-bottom: 1em; }
+#friends .tooltip { height: 10.5em; margin-bottom: 1em; }
 
 h1,h2,h3,h4,h5,h6{
  margin: 0;
@@ -74,7 +74,7 @@ li { line-height:20px; }
 hr { clear:both; }
 .fl { float:left; margin-left:0.5em; }
 .fr { float:right; margin-right:0.5em; }
-.half { width: 10em; }
+.half { width: 12em; }
 .b { font-weight: bold; }
 
 h1 { font-size:36px; line-height:50px; font-weight:300;
@@ -138,6 +138,7 @@ li h4 { margin-top: 0.75em; }
  .txt { display: none; }
  .short { display: inline; }
  p { margin: 0 0 0.5em 1em; }
+ .half { width: 11em; margin: 0; }
 }
 
 @media screen and (max-width:330px) {
