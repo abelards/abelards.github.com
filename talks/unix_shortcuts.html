@@ -4,42 +4,45 @@
     <title>Title</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <style type="text/css">
-	  @import url(http://fonts.googleapis.com/css?family=Quicksand:300,700);
-      body {
-		  font-family: 'Quicksand'; font-weight: 300;
-      }
-      .happy {
-      	background-image: url(https://cloud.githubusercontent.com/assets/584600/5992569/2e807aee-aa2f-11e4-9618-e6446ec7fe2f.png)
-      }
-      h1, h2, h3 {
-        font-weight: 300;
-  	    text-align: center;
-		color: #CCC;
-      }
-	  div.remark-slide-content {
-		  color: #999;
-		  background-color: #333;
-		  font-size: 200%;
-	  }
-	  a, a:visited, a:hover{ color: white; }
+	@import url(http://fonts.googleapis.com/css?family=Quicksand:300,700);
+      	body { font-family: 'Quicksand'; font-weight: 300; }
+      	.happy { background-image: url(https://cloud.githubusercontent.com/assets/584600/5992569/2e807aee-aa2f-11e4-9618-e6446ec7fe2f.png) }
+	a, a:visited, a:hover { color: #DDD; }
+	ul { list-style-type: none; }
+	ul li { height: 1.5em; }
+	.best .remark-inline-code { color: yellow; }
+	.best { color: #EEE; }
 
-	  ul { list-style-type: none ; }
-	  ul li { height: 1.6em;}
+      	h1, h2, h3 {
+          font-weight: 300;
+  	  text-align: center;
+	  color: #CCC;
+      	}
+      	.middle h1 {
+      	  font-size: 3em;
+      	  font-weight: bold;
+      	  color: white;
+      	}
+	div.remark-slide-content {
+	  color: #AAA;
+	  background-color: #333;
+	  font-size: 200%;
+	}
 
-      .remark-code, .remark-inline-code {
-		  font-family: monospace, sans-serif, ;
-		  background: #000;
-		  color: #FFF;
-		  padding:0.5em;
-		  font-size: 120%;
-	  }
+	.remark-code, .remark-inline-code {
+	  font-family: monospace, sans-serif, ;
+	  background: #000;
+	  border: 1px solid #666;
+	  border-radius: 2px;
+	  color: #CCC;
+	  padding: 0.25em;
+	  font-size: 120%;
+	}
     </style>
   </head>
   <body>
     <textarea id="source">
-
 class: center, middle
-
 # Unix shortcuts
 `Keyboard shortcuts in Unix`
 
@@ -61,8 +64,11 @@ On a terminal-heavy day, two thirds.
 They quickly go into muscle memory: productivity and RSI will thank you!
 
 ---
+class: center
 # Alphabet
-`ABCDEFGHIJKLMNOPQERSTUVWXYZ`
+- `ABCDEFGHIJKLMNOPQRSTUVWXYZ`
+
+- .best[`CZRAEDLKWY` my top 10]
 
 ???
 So I propose we practice our alphabet: 26 simple letters for 26 simple shortcuts.
@@ -92,8 +98,8 @@ This is how some people think their computer stalled and lose a sessions' worth 
 
 ---
 # Processes
-- `^C` kill process
-- `^Z` background
+- .best[`^C` kill process]
+- .best[`^Z` background]
 - `fg` foreground (+number)
 
 ???
@@ -103,7 +109,7 @@ and pause/reopen your work.
 
 ---
 # Search
-- `^R` history
+- .best[`^R` history]
 - `^G` cancel
 - `^P` paste history lines
 
@@ -114,8 +120,8 @@ Messed up something and want to clean that up?
 
 ---
 # Moving
-- `^A` beginning of line
-- `^E` end of line
+- .best[`^A` beginning of line]
+- .best[`^E` end of line]
 
 - `^B` backwards one char
 - `^F` forwards one char
@@ -126,8 +132,8 @@ They are approved by the Church of Emacs.
 
 ---
 # Inputs
-- `^D` EOF - end of input: stops or quits
-- `^L` clear screen
+- .best[`^D` EOF - end of input: stops or quits]
+- .best[`^L` clear screen]
 - `^T` invert characters
 
 ???
@@ -135,15 +141,15 @@ They are approved by the Church of Emacs.
 
 ---
 # Deleting
-- `^K` kill after cursor
+- .best[`^K` kill after cursor]
 - `^U` kill before cursor
 
 - `^W` kill word before cursor
 - `^H` kill character before cursor
 
-- `^ `+`^W` set mark - kill region
+- .best[`^ `+`^W` set mark - kill region]
 
-- `^Y` yank the kill-ring
+- .best[`^Y` yank the kill-ring]
 
 ???
 Church of Emacs approved, except ^U
@@ -189,11 +195,11 @@ Oh my ZSH!
 ---
 # Alphabet
 - `SQ` - lock/unlock
-- `CZ`, `fg` - Processes
-- `RGP` - search
-- `AEBF` - moving
-- `DLT` - inputs
-- `KUWH Y` - deleting
+- .best[`CZ`, `fg`] - Processes
+- .best[`RGP`] - search
+- .best[`AEBF`] - moving
+- .best[`DLT`] - inputs
+- .best[`KUWH Y`] - deleting
 - `IJMV` - special characters
 - `XNO` - super-special characters
 - now learn your punctuation `!!` `$?`
