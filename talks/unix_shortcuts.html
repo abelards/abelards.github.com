@@ -53,9 +53,19 @@ class: center, middle
  
 [maitre-du-monde.fr](maitre-du-monde.fr)
 
+???
+Hi, welcome to this talk about Unix shortcuts!
+I discovered recently that two skilled devs I admire didn't know these little life-savers.
+In OS and my web IDE, I use a third of these daily.
+On a terminal-heavy day, two thirds.
+They quickly go into muscle memory: productivity and RSI will thank you!
+
 ---
 # Alphabet
 `ABCDEFGHIJKLMNOPQERSTUVWXYZ`
+
+???
+So I propose we practice our alphabet: 26 simple letters for 26 simple shortcuts.
 
 ---
 # Alphabet
@@ -68,10 +78,17 @@ class: center, middle
 - `IJMV`
 - `XNO`
 
+???
+Of course I need a more convenient order, right?
+
 ---
 # Surprise!
 - `^S` XOFF - stops output on screen
 - `^Q` XON - turns back on
+
+???
+I mention these first because they can block your terminal.
+This is how some people think their computer stalled and lose a sessions' worth of work.
 
 ---
 # Processes
@@ -79,11 +96,21 @@ class: center, middle
 - `^Z` background
 - `fg` foreground (+number)
 
+???
+One of the first things you need to know:
+kill/cancel if something goes wrong,
+and pause/reopen your work.
+
 ---
 # Search
 - `^R` history
 - `^G` cancel
 - `^P` paste history lines
+
+???
+You liked what you did before? Want to do it again?
+Typed something you want to improve?
+Messed up something and want to clean that up?
 
 ---
 # Moving
@@ -93,11 +120,18 @@ class: center, middle
 - `^B` backwards one char
 - `^F` forwards one char
 
+???
+These also work on Unix and MacOSX text fields.
+They are approved by the Church of Emacs.
+
 ---
 # Inputs
 - `^D` EOF - end of input: stops or quits
 - `^L` clear screen
 - `^T` invert characters
+
+???
+^D is nice when you want to quit and forgot if it's `exit`, `quit` or whatever.
 
 ---
 # Deleting
@@ -111,10 +145,16 @@ class: center, middle
 
 - `^Y` yank the kill-ring
 
+???
+Church of Emacs approved, except ^U
+
 ---
 # Copy/Paste
 - `Ctrl+insert` - copy
 - `Shift+insert` - paste
+
+???
+BTW last time I checked this is ultra-standard and even works on Windows.
 
 ---
 # Special characters
@@ -123,19 +163,32 @@ class: center, middle
 - `^M` newline?
 - `^V` verbatim - next char is literal
 
+???
+I'm not sure about ^J and ^M nuances.
+
 ---
 # I'm missing three letters!
 - `^N` & `^O` shift iN, shift Out
 - `^X` I have no idea - try `^X^X`
+
+???
+Seriously, teletype?
+Oh and ^X is probably extended commands, emacs-style, or...
+hey, I noticed this allows me to have two cursors in a line and go back and forth.
+`pushd`, `popd`, `cd -` style
 
 ---
 # Depending on
 - `sh`
 - `$EDITOR`
 
+???
+Of course, tab-completion and shortcuts depend on your shell and editor.
+Oh my ZSH!
+
 ---
 # Alphabet
-- `SQ` - surprise
+- `SQ` - lock/unlock
 - `CZ`, `fg` - Processes
 - `RGP` - search
 - `AEBF` - moving
@@ -144,6 +197,10 @@ class: center, middle
 - `IJMV` - special characters
 - `XNO` - super-special characters
 - now learn your punctuation `!!` `$?`
+
+???
+Unix terms are full of error codes, redo-commands, calling args back...
+You should definitely learn your Unix punctuation!
 
 ---
 class: happy
