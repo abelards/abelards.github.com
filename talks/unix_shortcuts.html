@@ -165,12 +165,21 @@ They are approved by the Church of Emacs.
 - `^W` kill word before cursor
 - `^H` kill character before cursor
 
-- .best[`^ `+`^W` set mark - kill region]
-
-- .best[`^Y` yank the kill-ring]
-
 ???
 Church of Emacs approved, except ^U
+
+---
+# Deleting / Yanking
+- .best[`^ ` space sets the mark]
+- .best[`^W` kill region]
+
+- .best[`^Y` paste 1st thing in the kill-ring]
+- .best[`M-Y` cycle the kill-ring]
+
+???
+OK I had to include a Meta-Y in there.
+Meta is alt or esc, there are many more interesting combinations.
+You actually had 'infinite' pasteboard since early Unices.
 
 ---
 # Copy/Paste
@@ -217,7 +226,7 @@ Oh my ZSH!
 - .best[`RGP`] - search
 - .best[`AEBF`] - moving
 - .best[`DLT`] - inputs
-- .best[`KUWH Y`] - deleting
+- .best[`KUWH Y`] - killing / yanking
 - `IJMV` - special characters
 - `XNO` - super-special characters
 - now learn your punctuation `!!` `$?`
