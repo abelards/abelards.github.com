@@ -1,11 +1,6 @@
-# Hi,
-This my GitHub Pages' "business card on the web".
+# Sylvain Abélard's blog
+## Maître du Monde (.fr) : oui, c'est moi ?
 
-I wanted the Minimum Viable Résumé, and these were already taken:
-* "Knows his shit, gives a damn"
-* "Happiness engineer" - @amateurhuman
+This is the [Jekyll](http://jekyllrb.com/) source of [maitre-du-monde.fr], my website and blog.
 
-So I made a static HTML page.
-Goal: making it fit on my phone with no scrolling.
-
-Thanks!
+Thanks for all the fish!
