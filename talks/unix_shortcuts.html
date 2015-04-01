@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+	@import url(http://fonts.googleapis.com/css?family=Quicksand:300,700);
+      	body { font-family: 'Quicksand'; font-weight: 300; }
+      	.happy { background-image: url(https://cloud.githubusercontent.com/assets/584600/5992569/2e807aee-aa2f-11e4-9618-e6446ec7fe2f.png) }
+	a, a:visited, a:hover { color: #DDD; }
+	ul { list-style-type: none; }
+	ul li { height: 1.5em; }
+	.best .remark-inline-code { color: yellow; }
+	.best { color: #EEE; }
+
+      	h1, h2, h3 {
+          font-weight: 300;
+  	  text-align: center;
+	  color: #CCC;
+      	}
+      	.middle h1 {
+      	  font-size: 3em;
+      	  font-weight: bold;
+      	  color: white;
+      	}
+	div.remark-slide-content {
+	  color: #AAA;
+	  background-color: #333;
+	  font-size: 200%;
+	}
+
+	.remark-code, .remark-inline-code {
+	  font-family: monospace, sans-serif;
+	  background: #000;
+	  border: 1px solid #666;
+	  border-radius: 2px;
+	  color: #CCC;
+	  padding: 0.25em;
+	  font-size: 120%;
+	}
+	.b { font-weight: bold; }
+	.contrib { font-size: 90%; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle
+# Unix shortcuts
+
+&nbsp;
+
+.b[[@abelar_s](https://twitter.com/abelar_s) -
+[@ParisRB](https://twitter.com/parisrb) -
+[@RailsGirlsParis](https://twitter.com/railsgirlsparis)]
+ 
+[maitre-du-monde.fr](maitre-du-monde.fr)
+
+.contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/unix_shortcuts.html)]
+
+???
+Hi, welcome to this talk about Unix shortcuts! 
+I discovered recently that two skilled devs I admire didn't know these little life-savers. 
+They quickly go into muscle memory: productivity and RSI will thank you!
+
+---
+class: center, middle
+# Unix shortcuts
+`All CLI: term, irb, sql…`
+
+.b[[@abelar_s](https://twitter.com/abelar_s) -
+[@ParisRB](https://twitter.com/parisrb) -
+[@RailsGirlsParis](https://twitter.com/railsgirlsparis)]
+ 
+[maitre-du-monde.fr](maitre-du-monde.fr)
+
+.contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/unix_shortcuts.html)]
+
+???
+They're great because they work almost everywhere!
+In OS and my web IDE, I use a third of these daily. 
+On a terminal-heavy day, two thirds. 
+
+---
+class: center
+# Alphabet
+- `ABCDEFGHIJKLMNOPQRSTUVWXYZ`
+
+- .best[`CZRAEDLKWY` my top 10]
+
+???
+So I propose we practice our alphabet: 26 simple letters for 26 simple shortcuts. 
+I used these 10 daily, will probably now juse a few more.
+
+---
+# Alphabet
+- `SQ`
+- `CZ`
+- `RGPN`
+- `AEBF`
+- `DLT`
+- `KUWH Y`
+- `IJMV`
+- `XO`
+
+???
+Of course I need a more convenient order, right?
+
+---
+# Surprise!
+
+- `^S` XOFF - stops output on screen
+- `^Q` XON - turns back on
+
+???
+I mention these first because they can block your terminal. 
+This is how some people think their computer stalled and lose a sessions' worth of work.
+
+---
+# Processes
+
+- .best[`^C` kill process]
+- .best[`^Z` background]
+- `fg` foreground (+number)
+
+???
+One of the first things you need to know:
+kill/cancel if something goes wrong,
+and pause/reopen your work.
+
+---
+# Search
+
+- .best[`^R` history]
+- `^G` cancel
+
+- `^P` prev history line
+- `^N` next history line
+
+???
+You liked what you did before? Want to do it again?
+Typed something you want to improve?
+Messed up something and want to clean that up?
+
+---
+# Moving
+
+- .best[`^A` beginning of line]
+- .best[`^E` end of line]
+
+- `^B` backwards one char
+- `^F` forwards one char
+
+???
+These also work on Unix and MacOSX text fields.
+They are approved by the Church of Emacs.
+
+---
+# Inputs
+
+- .best[`^D` EOF - end of input: stops or quits]
+- .best[`^L` clear screen]
+- `^T` invert characters
+
+???
+^D is nice when you want to quit and forgot if it's `exit`, `quit` or whatever.
+
+---
+# Deleting
+
+- .best[`^K` kill after cursor]
+- `^U` kill before cursor
+
+- `^W` kill word before cursor
+- `^H` kill character before cursor
+
+???
+Church of Emacs approved, except ^U
+
+---
+# Deleting / Yanking
+
+- .best[.remark-code.remark-inline-code[^ ] space sets the mark]
+- .best[`^W` kill region]
+
+- .best[`^Y` paste 1st thing in the kill-ring]
+- .best[`M-Y` cycle the kill-ring]
+
+???
+OK I had to include a Meta-Y in there.
+Meta is alt or esc, there are many more interesting combinations.
+You actually had 'infinite' pasteboard since early Unices.
+
+---
+# Copy/Paste
+
+- `Ctrl+insert` - copy
+- `Shift+insert` - paste
+- `Shift+suppr` - cut
+
+???
+That's [IBM CUA](https://en.wikipedia.org/wiki/IBM_Common_User_Access).
+They're in Unix, Windows, KDE/Gnome, Motif...
+Thanks Rubix for pointing this to me!
+
+---
+# Special characters
+
+- `^I` tab
+- `^J` newline
+- `^M` newline?
+- `^V` verbatim - next char is literal
+
+???
+I'm not sure about ^J and ^M nuances.
+
+---
+# I'm missing two letters!
+
+- `^X` I have no idea - try `^X^X`
+- BTW look at `cd -` & `pushd/popd`
+
+- Teletype shift i`^N`, shift `^O`ut
+
+???
+Seriously, teletype?
+Oh and ^X is probably extended commands, emacs-style, or...
+hey, I noticed this allows me to have two cursors in a line and go back and forth.
+`pushd`, `popd`, `cd -` style
+
+---
+# Depending on
+
+- `sh`
+- `$EDITOR`
+
+???
+Of course, tab-completion and shortcuts depend on your shell and editor.
+Oh my ZSH!
+
+---
+# Alphabet
+- `SQ` - lock/unlock
+- .best[`CZ`, `fg`] - Processes
+- .best[`RGP`] - search
+- .best[`AEBF`] - moving
+- .best[`DLT`] - inputs
+- .best[`KUWH Y`] - killing / yanking
+- `IJMV` - special characters
+- `XNO` - super-special characters
+- now learn your punctuation `!!` `$?`
+
+???
+Unix terms are full of error codes, redo-commands, calling args back...
+You should definitely learn your Unix punctuation!
+
+---
+class: center, middle, happy
+# Questions?
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+.b[[@abelar_s](https://twitter.com/abelar_s) -
+[@ParisRB](https://twitter.com/parisrb) -
+[@RailsGirlsParis](https://twitter.com/railsgirlsparis)]
+ 
+[maitre-du-monde.fr](maitre-du-monde.fr)
+
+.contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/unix_shortcuts.html)]
+
+---
+class: center, middle, happy
+# Thanks!
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+.b[[@abelar_s](https://twitter.com/abelar_s) -
+[@ParisRB](https://twitter.com/parisrb) -
+[@RailsGirlsParis](https://twitter.com/railsgirlsparis)]
+ 
+[maitre-du-monde.fr](maitre-du-monde.fr)
+
+.contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/unix_shortcuts.html)]
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
