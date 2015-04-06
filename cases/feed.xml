@@ -6,8 +6,8 @@
 </description>
     <link>http://maitre-du-monde.fr/</link>
     <atom:link href="http://maitre-du-monde.fr/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 01 Apr 2015 21:49:33 +0200</pubDate>
-    <lastBuildDate>Wed, 01 Apr 2015 21:49:33 +0200</lastBuildDate>
+    <pubDate>Mon, 06 Apr 2015 14:16:13 +0200</pubDate>
+    <lastBuildDate>Mon, 06 Apr 2015 14:16:13 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
 
     
@@ -119,7 +119,7 @@ for each context will require a different tradeoff.”&lt;/p&gt;
 
 &lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
 
-&lt;p&gt;A senior monk came to master Banzen.
+&lt;p&gt;A senior monk came to master Bawan.
 “What is the most important thing to master in Computer Science?”&lt;/p&gt;
 
 &lt;p&gt;Replied the master: “The most abstract thing,
@@ -268,7 +268,7 @@ Grimpeur / creuseur de montagne
 &lt;/table&gt;
 
 </description>
-        <pubDate>Wed, 01 Apr 2015 21:49:33 +0200</pubDate>
+        <pubDate>Mon, 06 Apr 2015 14:16:13 +0200</pubDate>
         <link>http://maitre-du-monde.fr/cases/00e.html</link>
         <guid isPermaLink="true">http://maitre-du-monde.fr/cases/00e.html</guid>
         
@@ -279,7 +279,7 @@ Grimpeur / creuseur de montagne
         <title>What&#39;s an object?</title>
         <description>
 </description>
-        <pubDate>Wed, 01 Apr 2015 21:49:33 +0200</pubDate>
+        <pubDate>Mon, 06 Apr 2015 14:16:13 +0200</pubDate>
         <link>http://maitre-du-monde.fr/cases/00g.html</link>
         <guid isPermaLink="true">http://maitre-du-monde.fr/cases/00g.html</guid>
         
@@ -366,11 +366,9 @@ from his monks. He came find the senior monk one evening.&lt;/p&gt;
 they can hear two things &lt;br /&gt;
 depending on previous faith.&lt;/p&gt;
 
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;div class=&quot;footnote&quot; id=&quot;note-*&quot;&gt;
-    &lt;a href=&quot;#noteref-*&quot;&gt;&lt;sup class=&quot;footnote&quot;&gt;*&lt;/sup&gt;&lt;/a&gt;&amp;nbsp; As documented in cases &lt;a href=&quot;http://thecodelesscode.com/case/61&quot;&gt;61&lt;/a&gt;, &lt;a href=&quot;http://thecodelesscode.com/case/62&quot;&gt;62&lt;/a&gt;, &lt;a href=&quot;http://thecodelesscode.com/case/67&quot;&gt;67&lt;/a&gt;, &lt;a href=&quot;http://thecodelesscode.com/case/104&quot;&gt;104&lt;/a&gt;, &lt;a href=&quot;http://thecodelesscode.com/case/120&quot;&gt;120&lt;/a&gt;, &lt;a href=&quot;http://thecodelesscode.com/case/179&quot;&gt;179&lt;/a&gt; and probably a few others besides. Abbots in the Spider Clan have the average life expectancy of a rice bowl before a starving novice.
-  &lt;/div&gt;
-&lt;/div&gt;
+&lt;div class=&quot;footnotes&quot;&gt;&lt;div class=&quot;footnote&quot; id=&quot;note-*&quot;&gt;
+  &lt;a href=&quot;#noteref-*&quot;&gt;&lt;sup class=&quot;footnote&quot;&gt;*&lt;/sup&gt;&lt;/a&gt;&amp;nbsp; As documented in cases &lt;a href=&quot;http://thecodelesscode.com/case/61&quot;&gt;61&lt;/a&gt;, &lt;a href=&quot;http://thecodelesscode.com/case/62&quot;&gt;62&lt;/a&gt;, &lt;a href=&quot;http://thecodelesscode.com/case/67&quot;&gt;67&lt;/a&gt;, &lt;a href=&quot;http://thecodelesscode.com/case/104&quot;&gt;104&lt;/a&gt;, &lt;a href=&quot;http://thecodelesscode.com/case/120&quot;&gt;120&lt;/a&gt;, &lt;a href=&quot;http://thecodelesscode.com/case/179&quot;&gt;179&lt;/a&gt; and probably a few others besides. Abbots in the Spider Clan have the average life expectancy of a rice bowl before a starving novice.
+&lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>2015-03-21</pubDate>
         <link>http://maitre-du-monde.fr/cases/01a.html</link>
@@ -541,7 +539,7 @@ applications, leading to duplicate codebase, reinventing the wheel,
 and creating data which would lead to inconsistencies in
 the legacy applications.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 01 Apr 2015 21:49:33 +0200</pubDate>
+        <pubDate>Mon, 06 Apr 2015 14:16:13 +0200</pubDate>
         <link>http://maitre-du-monde.fr/cases/01d.html</link>
         <guid isPermaLink="true">http://maitre-du-monde.fr/cases/01d.html</guid>
         
@@ -568,7 +566,7 @@ than lose focus and disappoint customers.&lt;/p&gt;
 
 &lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 01 Apr 2015 21:49:33 +0200</pubDate>
+        <pubDate>Mon, 06 Apr 2015 14:16:13 +0200</pubDate>
         <link>http://maitre-du-monde.fr/cases/01e.html</link>
         <guid isPermaLink="true">http://maitre-du-monde.fr/cases/01e.html</guid>
         
@@ -592,7 +590,7 @@ le process. Si Aki disparaît, le Process reste sur les prochains abbés.&lt;/p&
 &lt;p&gt;Haru reçoit tous les jours le low-hanging fruit. A bit ripe.
 Aki reçoit un excellent repas après une semaine de jeûne.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 01 Apr 2015 21:49:33 +0200</pubDate>
+        <pubDate>Mon, 06 Apr 2015 14:16:13 +0200</pubDate>
         <link>http://maitre-du-monde.fr/cases/01f.html</link>
         <guid isPermaLink="true">http://maitre-du-monde.fr/cases/01f.html</guid>
         
@@ -631,7 +629,7 @@ way of &lt;i&gt;quality&lt;/i&gt;: he immediately set up the guidelines, the mee
 and documents that should be produced before working,
 like &lt;a href=&quot;http://thecodelesscode.com/case/&quot;&gt;True Engineers&lt;/a&gt; should.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 01 Apr 2015 21:49:33 +0200</pubDate>
+        <pubDate>Mon, 06 Apr 2015 14:16:13 +0200</pubDate>
         <link>http://maitre-du-monde.fr/cases/01g.html</link>
         <guid isPermaLink="true">http://maitre-du-monde.fr/cases/01g.html</guid>
         
