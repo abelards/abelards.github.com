@@ -6,9 +6,35 @@
 </description>
     <link>http://maitre-du-monde.fr/</link>
     <atom:link href="http://maitre-du-monde.fr/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 06 Apr 2015 14:16:13 +0200</pubDate>
-    <lastBuildDate>Mon, 06 Apr 2015 14:16:13 +0200</lastBuildDate>
+    <pubDate>Fri, 17 Apr 2015 22:05:21 +0200</pubDate>
+    <lastBuildDate>Fri, 17 Apr 2015 22:05:21 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>HADOPI</title>
+        <description>&lt;p&gt;Je n’ai pas compris le manque d’outrage contre HADOPI.
+La loi est compliquée, Internet est compliqué.
+Laissez-moi faire une analogie pour comprendre le souci.&lt;/p&gt;
+
+&lt;p&gt;Il me semble que l’électeur français aime sa voiture.
+Il me semble que les radars partout ont énervé les français.&lt;/p&gt;
+
+&lt;p&gt;HADOPI n’est pas un radar de plus.
+L’idée était un “mouchard de l’État” dans votre ordinateur.&lt;/p&gt;
+
+&lt;p&gt;C’est à dire : une boîte noire dans votre voiture qui,
+dès que vous dépassez la limite de vitesse ou grillez un feu rouge,
+même sans policier alentour, vous êtes pris et payez une amende.&lt;/p&gt;
+
+&lt;p&gt;Ça fait peur ? Probablement pas, parce que c’est passé.
+Et qu’on se prépare à faire mieux.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 15 Mar 2015 00:00:00 +0100</pubDate>
+        <link>http://maitre-du-monde.fr/2015/03/15/hadopi.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2015/03/15/hadopi.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>The Customers startup</title>
@@ -238,28 +264,6 @@ I’m a bad writer, so well… I have a real job.&lt;/p&gt;
         <pubDate>Wed, 14 Jan 2015 00:00:00 +0100</pubDate>
         <link>http://maitre-du-monde.fr/2015/01/14/on_IP.html</link>
         <guid isPermaLink="true">http://maitre-du-monde.fr/2015/01/14/on_IP.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>I share things</title>
-        <description>&lt;p&gt;We all grow by sharing. Ideas grow by being shared.&lt;/p&gt;
-
-&lt;p&gt;I think “whose idea it was in the first place” is barely relevant.
-It’s nice to know where ideas comes from: time, country, socioeconomic status, path the idea took in cultures to get where it is today.
-But we’re products of our times.&lt;/p&gt;
-
-&lt;p&gt;I stole people’s ideas, you’ll be stealing mine. This may or not be conscious.
-Sometimes, bad luck, you put hard work into expressing new ideas in a new way,
-only to find someone else already did it elsewhere, days or centuries before.&lt;/p&gt;
-
-&lt;p&gt;This is why this whole site is &lt;a href=&quot;https:&amp;lt;br /&amp;gt;creativecommons.org&amp;lt;i&amp;gt;licenses&amp;lt;/i&amp;gt;by-sa/2.0/&quot;&gt;CC-BY-SA&lt;/a&gt;.
-It’s on GitHub and I left enough means to contact me, so feel free to do just that.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 07 Jan 2015 00:00:00 +0100</pubDate>
-        <link>http://maitre-du-monde.fr/2015/01/07/i_share_things.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2015/01/07/i_share_things.html</guid>
         
         
       </item>

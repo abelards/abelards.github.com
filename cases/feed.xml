@@ -6,14 +6,16 @@
 </description>
     <link>http://maitre-du-monde.fr/</link>
     <atom:link href="http://maitre-du-monde.fr/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 06 Apr 2015 14:16:13 +0200</pubDate>
-    <lastBuildDate>Mon, 06 Apr 2015 14:16:13 +0200</lastBuildDate>
+    <pubDate>Fri, 17 Apr 2015 22:05:21 +0200</pubDate>
+    <lastBuildDate>Fri, 17 Apr 2015 22:05:21 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
 
     
       <item>
         <title>The Best Code Ever</title>
-        <description>&lt;p&gt;A novice was attending a presentation by the newly-appointed master &lt;a href=&quot;http://thecodelesscode.com/names/Zjing&quot;&gt;Zjing&lt;/a&gt;.&lt;/p&gt;
+        <description>
+	  <i>In which we try to be satisfied with as little as possible.</i><hr />
+	  &lt;p&gt;A novice was attending a presentation by the newly-appointed master &lt;a href=&quot;http://thecodelesscode.com/names/Zjing&quot;&gt;Zjing&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;In a heartfelt oration about the sacred duties of the few people
 who could code or chose to, she asked everyone to do their best,
@@ -38,7 +40,7 @@ to change the world for the better. Would you enlighten me?”&lt;/p&gt;
 
 &lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
 
-&lt;p&gt;The novice asked master &lt;a href=&quot;http://thecodelesscode.com/names/Bawan&quot;&gt;Bawan&lt;/a&gt;: &lt;br /&gt;
+&lt;p&gt;The novice asked master &lt;a href=&quot;http://thecodelesscode.com/names/Banzen&quot;&gt;Banzen&lt;/a&gt;: &lt;br /&gt;
 “This humble nun would like to know how she can do her best
 to change the world for the better. Would you enlighten me?”&lt;/p&gt;
 
@@ -55,7 +57,9 @@ to change the world for the better. Would you enlighten me?”&lt;/p&gt;
   
       <item>
         <title>Kiss</title>
-        <description>&lt;p&gt;A nun came puzzled to master &lt;a href=&quot;http://thecodelesscode.com/names/Banzen&quot;&gt;Banzen&lt;/a&gt;.&lt;/p&gt;
+        <description>
+	  <i>In which we see the first carnal allusion of the whole series.</i><hr />
+	  &lt;p&gt;A nun came puzzled to master &lt;a href=&quot;http://thecodelesscode.com/names/Banzen&quot;&gt;Banzen&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;“I heard we should keep things simple.
 Yet we pride and feed ourselves by dealing with complexity.”&lt;/p&gt;
@@ -75,7 +79,7 @@ What is obvious to the smith is unknown to the herder.&lt;/p&gt;
 
 &lt;p&gt;“If the nun wishes to speak about any craft,
 including and especially her own,
-she has to learn the language of his customer,
+she has to learn the language of her customer,
 talk to each one with his own words,
 and make sure the code explicitly reuses those words.”&lt;/p&gt;
 
@@ -97,7 +101,9 @@ length of time would pass.&lt;/p&gt;
   
       <item>
         <title>Open roads</title>
-        <description>&lt;p&gt;A novice came to master &lt;a href=&quot;http://thecodelesscode.com/names/Bawan&quot;&gt;Bawan&lt;/a&gt;.
+        <description>
+	  <i>In which the most important thing is in the ear of the listener.</i><hr />
+	  &lt;p&gt;A novice came to master &lt;a href=&quot;http://thecodelesscode.com/names/Bawan&quot;&gt;Bawan&lt;/a&gt;.
 “What is the most important thing to master in Computer Science?”&lt;/p&gt;
 
 &lt;p&gt;Replied the master: “The oldest common denominator,
@@ -160,7 +166,9 @@ can we rely on the code their brains and hands produced.”&lt;/p&gt;
   
       <item>
         <title>Lasting discipline</title>
-        <description>&lt;p&gt;A novice came to the scribe &lt;a href=&quot;http://thecodelesscode.com/names/Qi&quot;&gt;Qi&lt;/a&gt; asking:
+        <description>
+	  <i>In which we don&#39;t know who masters the masters.</i><hr />
+	  &lt;p&gt;A novice came to the scribe &lt;a href=&quot;http://thecodelesscode.com/names/Qi&quot;&gt;Qi&lt;/a&gt; asking:
 “Pardon my imprudence, but a question troubles my mind.
 Can I speak privately to you?”&lt;/p&gt;
 
@@ -254,7 +262,9 @@ providing comparison of the others’ strengths and weaknesses.”&lt;/p&gt;
   
       <item>
         <title>The forgotten monk</title>
-        <description>&lt;p&gt;Un moine à la compétence inutile
+        <description>
+	  <i>In which</i><hr />
+	  &lt;p&gt;Un moine à la compétence inutile
 Grimpeur / creuseur de montagne
 … Pas de montagne&lt;/p&gt;
 
@@ -268,7 +278,7 @@ Grimpeur / creuseur de montagne
 &lt;/table&gt;
 
 </description>
-        <pubDate>Mon, 06 Apr 2015 14:16:13 +0200</pubDate>
+        <pubDate>Fri, 17 Apr 2015 22:05:21 +0200</pubDate>
         <link>http://maitre-du-monde.fr/cases/00e.html</link>
         <guid isPermaLink="true">http://maitre-du-monde.fr/cases/00e.html</guid>
         
@@ -278,8 +288,10 @@ Grimpeur / creuseur de montagne
       <item>
         <title>What&#39;s an object?</title>
         <description>
+	  <i>In which</i><hr />
+	  
 </description>
-        <pubDate>Mon, 06 Apr 2015 14:16:13 +0200</pubDate>
+        <pubDate>Fri, 17 Apr 2015 22:05:21 +0200</pubDate>
         <link>http://maitre-du-monde.fr/cases/00g.html</link>
         <guid isPermaLink="true">http://maitre-du-monde.fr/cases/00g.html</guid>
         
@@ -288,7 +300,9 @@ Grimpeur / creuseur de montagne
   
       <item>
         <title>Planning and Acting</title>
-        <description>&lt;p&gt;Two recently appointed abbots &lt;a href=&quot;http://thecodelesscode.com/names/Aki&quot;&gt;Aki&lt;/a&gt; and &lt;a href=&quot;http://thecodelesscode.com/names/Haru&quot;&gt;Haru&lt;/a&gt;
+        <description>
+	  <i>In which the planning errors of others do mean an emergency on your part.</i><hr />
+	  &lt;p&gt;Two recently appointed abbots &lt;a href=&quot;http://thecodelesscode.com/names/Aki&quot;&gt;Aki&lt;/a&gt; and &lt;a href=&quot;http://thecodelesscode.com/names/Haru&quot;&gt;Haru&lt;/a&gt;
 were assigned to their teams and projects.
 Due to the recurring shortage of abbots at the Temple&lt;a href=&quot;#note-*&quot; id=&quot;noteref-*&quot;&gt;&lt;sup class=&quot;footnote&quot;&gt;*&lt;/sup&gt;&lt;/a&gt;,
 they were given much freedom in choosing their ways of leading
@@ -297,14 +311,14 @@ despite their young age.&lt;/p&gt;
 &lt;p&gt;They were also led by a healthy dose of righteousness,
 foolishness, and most of all the wish of not losing one’s head.&lt;/p&gt;
 
-&lt;p&gt;Upon arriving to the &lt;a href=&quot;http://thecodelesscode.com/names/Spider Clan&quot;&gt;Spider Clan&lt;/a&gt;, &lt;a href=&quot;http://thecodelesscode.com/names/Aki&quot;&gt;Aki&lt;/a&gt; immediately
+&lt;p&gt;Upon arriving to the &lt;a href=&quot;http://thecodelesscode.com/names/Spider Clan&quot;&gt;Spider Clan&lt;/a&gt;, Aki immediately
 launched several projects at once, redirecting the monks from
 previous tasks. “The Emperor is waiting for us”, he said,
 “and he is not famous for his patience.”&lt;/p&gt;
 
 &lt;p&gt;Surely, this would please the Province Governor.&lt;/p&gt;
 
-&lt;p&gt;But &lt;a href=&quot;http://thecodelesscode.com/names/Haru&quot;&gt;Haru&lt;/a&gt; scoffed at this attitude: he immediately
+&lt;p&gt;But Haru scoffed at this attitude: he immediately
 set up the guidelines, the meetings and documents that
 should be produced before working, like &lt;a href=&quot;http://thecodelesscode.com/case/154&quot;&gt;True Engineers&lt;/a&gt; should.
 “Once we deliver applications to the Emperor, their failure
@@ -381,7 +395,9 @@ depending on previous faith.&lt;/p&gt;
   
       <item>
         <title>Action, reaction</title>
-        <description>&lt;p&gt;The young abbots &lt;a href=&quot;http://thecodelesscode.com/names/Aki&quot;&gt;Aki&lt;/a&gt; and &lt;a href=&quot;http://thecodelesscode.com/names/Haru&quot;&gt;Haru&lt;/a&gt; had known each other for
+        <description>
+	  <i>In which physical principles are not exerted to teach a lesson.</i><hr />
+	  &lt;p&gt;The young abbots &lt;a href=&quot;http://thecodelesscode.com/names/Aki&quot;&gt;Aki&lt;/a&gt; and &lt;a href=&quot;http://thecodelesscode.com/names/Haru&quot;&gt;Haru&lt;/a&gt; had known each other for
 a few years as novice monks, and were eager to prove their
 methods were better than their rival’s.&lt;/p&gt;
 
@@ -449,7 +465,9 @@ wondering what correction or praise the two young abbots deserved.&lt;/p&gt;
   
       <item>
         <title>Watch and punish</title>
-        <description>&lt;p&gt;Newly appointed master &lt;a href=&quot;http://thecodelesscode.com/names/Zjing&quot;&gt;Zjing&lt;/a&gt; was settling into her position
+        <description>
+	  <i>In which the pendulum, not the staff, swings.</i><hr />
+	  &lt;p&gt;Newly appointed master &lt;a href=&quot;http://thecodelesscode.com/names/Zjing&quot;&gt;Zjing&lt;/a&gt; was settling into her position
 in the &lt;a href=&quot;http://thecodelesscode.com/names/Spider&#39;s Clan&quot;&gt;Spider’s Clan&lt;/a&gt;. A few things had changed with the
 arrival of young abbots &lt;a href=&quot;http://thecodelesscode.com/names/Aki&quot;&gt;Aki&lt;/a&gt; and &lt;a href=&quot;http://thecodelesscode.com/names/Haru&quot;&gt;Haru&lt;/a&gt;, each taking
 strong control on the methods of the teams they were assigned.&lt;/p&gt;
@@ -478,7 +496,7 @@ so surely you will be able to compare and comment.”&lt;/p&gt;
 
 &lt;p&gt;“Please come see my two gardens,” was Shinpuru’s only reply.&lt;/p&gt;
 
-&lt;p&gt;The Chief Abbot was already thinking Shinpuru fool and lazy,
+&lt;p&gt;The Chief Abbot was already thinking Shinpuru &lt;a href=&quot;http://thecodelesscode.com/case/125&quot;&gt;fool and lazy&lt;/a&gt;,
 and as he was ready to mock the old monk, an eye at
 Zjing’s stick and menacing eyes hinted him to say
 nothing and bow his agreement.&lt;/p&gt;
@@ -526,7 +544,9 @@ when Zjing thanked Shinpuru, bowed, and left for the night.&lt;/p&gt;
   
       <item>
         <title>Strict and Lax</title>
-        <description>&lt;p&gt;Young abbots &lt;a href=&quot;http://thecodelesscode.com/names/Aki&quot;&gt;Aki&lt;/a&gt; and &lt;a href=&quot;http://thecodelesscode.com/names/Haru&quot;&gt;Haru&lt;/a&gt; were each given a team
+        <description>
+	  <i>In which</i><hr />
+	  &lt;p&gt;Young abbots &lt;a href=&quot;http://thecodelesscode.com/names/Aki&quot;&gt;Aki&lt;/a&gt; and &lt;a href=&quot;http://thecodelesscode.com/names/Haru&quot;&gt;Haru&lt;/a&gt; were each given a team
 of developers to lead on several projects despite their young age.&lt;/p&gt;
 
 &lt;p&gt;Each of them was foolish enough to devote themselves to a certain approach,
@@ -539,7 +559,7 @@ applications, leading to duplicate codebase, reinventing the wheel,
 and creating data which would lead to inconsistencies in
 the legacy applications.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 06 Apr 2015 14:16:13 +0200</pubDate>
+        <pubDate>Fri, 17 Apr 2015 22:05:21 +0200</pubDate>
         <link>http://maitre-du-monde.fr/cases/01d.html</link>
         <guid isPermaLink="true">http://maitre-du-monde.fr/cases/01d.html</guid>
         
@@ -550,7 +570,9 @@ the legacy applications.&lt;/p&gt;
   
       <item>
         <title>Switch</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://thecodelesscode.com/names/Aki&quot;&gt;Aki&lt;/a&gt; &lt;a href=&quot;http://thecodelesscode.com/names/#00b&quot;&gt;delivered results fast&lt;/a&gt;, but was still
+        <description>
+	  <i>In which</i><hr />
+	  &lt;p&gt;&lt;a href=&quot;http://thecodelesscode.com/names/Aki&quot;&gt;Aki&lt;/a&gt; &lt;a href=&quot;http://thecodelesscode.com/names/#00b&quot;&gt;delivered results fast&lt;/a&gt;, but was still
 losing ground to all the needs that were absolutely required
 immmediately, or even preferably for yesterday.&lt;/p&gt;
 
@@ -566,7 +588,7 @@ than lose focus and disappoint customers.&lt;/p&gt;
 
 &lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 06 Apr 2015 14:16:13 +0200</pubDate>
+        <pubDate>Fri, 17 Apr 2015 22:05:21 +0200</pubDate>
         <link>http://maitre-du-monde.fr/cases/01e.html</link>
         <guid isPermaLink="true">http://maitre-du-monde.fr/cases/01e.html</guid>
         
@@ -577,7 +599,9 @@ than lose focus and disappoint customers.&lt;/p&gt;
   
       <item>
         <title>Stick and carrot</title>
-        <description>&lt;p&gt;Zjing demande son avis.&lt;/p&gt;
+        <description>
+	  <i>In which we&#39;re reminded that people are donkeys.</i><hr />
+	  &lt;p&gt;Zjing demande son avis.&lt;/p&gt;
 
 &lt;p&gt;Landhwa aime Haru.&lt;/p&gt;
 
@@ -590,7 +614,7 @@ le process. Si Aki disparaît, le Process reste sur les prochains abbés.&lt;/p&
 &lt;p&gt;Haru reçoit tous les jours le low-hanging fruit. A bit ripe.
 Aki reçoit un excellent repas après une semaine de jeûne.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 06 Apr 2015 14:16:13 +0200</pubDate>
+        <pubDate>Fri, 17 Apr 2015 22:05:21 +0200</pubDate>
         <link>http://maitre-du-monde.fr/cases/01f.html</link>
         <guid isPermaLink="true">http://maitre-du-monde.fr/cases/01f.html</guid>
         
@@ -601,7 +625,9 @@ Aki reçoit un excellent repas après une semaine de jeûne.&lt;/p&gt;
   
       <item>
         <title>Switch</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://thecodelesscode.com/names/Aki&quot;&gt;Aki&lt;/a&gt; &lt;a href=&quot;http://thecodelesscode.com/names/#00b&quot;&gt;delivered results fast&lt;/a&gt;, but was still
+        <description>
+	  <i>In which things are on and off.</i><hr />
+	  &lt;p&gt;&lt;a href=&quot;http://thecodelesscode.com/names/Aki&quot;&gt;Aki&lt;/a&gt; &lt;a href=&quot;http://thecodelesscode.com/names/#00b&quot;&gt;delivered results fast&lt;/a&gt;, but was still
 losing ground to all the needs that were absolutely required
 immmediately, or even preferably for yesterday.&lt;/p&gt;
 
@@ -629,7 +655,7 @@ way of &lt;i&gt;quality&lt;/i&gt;: he immediately set up the guidelines, the mee
 and documents that should be produced before working,
 like &lt;a href=&quot;http://thecodelesscode.com/case/&quot;&gt;True Engineers&lt;/a&gt; should.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 06 Apr 2015 14:16:13 +0200</pubDate>
+        <pubDate>Fri, 17 Apr 2015 22:05:21 +0200</pubDate>
         <link>http://maitre-du-monde.fr/cases/01g.html</link>
         <guid isPermaLink="true">http://maitre-du-monde.fr/cases/01g.html</guid>
         

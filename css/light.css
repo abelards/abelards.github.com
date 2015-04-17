@@ -13,19 +13,6 @@ body{
  margin: 0;
 }
 
-.menu {
-      font-weight: 700;
-      text-align: center;
-      color: #A5A5A5;
-      border-top: 1px solid #A5A5A5;
-      border-bottom: 1px solid #A5A5A5;
-      padding: 3px;
-      margin: 3px;
-}
-
-.submenu { text-align: center;
-	  border-bottom: 1px solid #A5A5A5; }
-
 .cat { font-weight: 400; color: #444; }
 
 .tooltip {
@@ -95,7 +82,7 @@ ul,ol {
 ul ul,ul ol,ol ol,ol ul { margin-bottom:0; }
 li { line-height:20px; }
 
-hr { clear:both; }
+hr { clear:both; border: 1px dotted #999; }
 .fl { float:left; margin-left:0.5em; }
 .fr { float:right; margin-right:0.5em; }
 .half { width: 12em; }
@@ -198,10 +185,20 @@ ul.post-list .tagline {
 
 /* hovers */
 ul.post-list:hover .post-meta { color: #000; }
-ul.post-list li:hover { color: #333;
+.menu, .submenu, ul.post-list li:hover {
+        color: #333;
 	border-top: 1px solid #6ED6FA;
 	border-bottom: 1px solid #99EEFF;
 	background: #CEF; }
+
+.menu {
+      text-align: center;
+      color: #A5A5A5;
+      padding: 3px;
+}
+
+.submenu { text-align: center; border-top: none; }
+
 
 /*
 .left-push { transform: translateX(-12rem); transition: 250ms; }
