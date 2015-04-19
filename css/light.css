@@ -118,18 +118,20 @@ li h4 { margin-top: 0.75em; }
   background-repeat: no-repeat;
   background-image: url('/img/abelar_s_round.png');
  }
- #bio .content { width: 100%; }
+
 }
 
 @media screen and (max-width:870px) {
  #bio {
   background-image: none;
   position: relative;
-  padding: 0.25em;
+  padding: 0;
   min-height: 9.5em;
-  width: 98%;
+  width: 28em;
   margin: auto;
  }
+
+ #bio .content {padding: 0 1em; width: 27em; }
 
  #bio h2 { display: none; }
  hr, h4 { display: none; }
@@ -141,8 +143,7 @@ li h4 { margin-top: 0.75em; }
 }
 
 @media screen and (max-width:500px) {
- #bio ul li { float:left; width: 47%; }
- .content { width: 98%; }
+ #bio ul li { float:left; width: 46%; }
 }
 
 @media screen and (max-width:450px) {
@@ -150,6 +151,7 @@ li h4 { margin-top: 0.75em; }
  .short { display: inline; }
  p { margin: 0 0 0.5em 1em; }
  .half { width: 10em; margin: 0; }
+ #bio, .menu, .submenu, .content, #bio .content { width: 100%; padding: 0.1em; }
 }
 
 @media screen and (max-width:330px) {
@@ -190,7 +192,7 @@ ul.post-list:hover .post-meta { color: #000; }
 .menu { text-align: center; color: #A5A5A5; }
 .submenu { background: #DEF; border-top: none; }
 
-.menu a { display: inline-block; width: 14%; margin: 0 auto; padding: 3px; }
+.menu a { display: inline-block; width: 13%; margin: 0 auto; padding: 3px; }
 .menu a:hover { background: #6ED6FA; text-decoration: none; }
 .submenu a { width: 17%; }
 
