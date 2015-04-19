@@ -36,10 +36,6 @@ div:hover > .tooltip { display: block; }
 .short { display: none; }
 .tab { display: none; }
 
-/*
- #friends .tooltip { height: 10.5em; margin-bottom: 1em; }
-*/
-
 .post-header .post-meta, .c { text-align: center; }
 
 .koan { font-family: serif; font-size: 85%; }
@@ -73,7 +69,7 @@ img {
 }
 a img { width: 16px; height: 16px; }
 
-ul,ol {
+#bio ul, #bio ol, ul.post-list {
  clear:both;
  padding:0;
  margin: 0;
@@ -170,8 +166,8 @@ ul.post-list { font-size: 90%; }
 ul.post-list li { 
 	clear: both; width: 90%;
 	margin: 0 4.5% 1em 4.5%; padding: 0.5em;
-	border-top: 1px dotted #999;
-	border-bottom: 1px solid #F3F3F3;
+	border-bottom: 1px dotted #999;
+	border-top: 1px solid #F3F3F3;
 }
 ul.post-list h3 { float: left; }
 ul.post-list li p { clear: both; font-size: 90%; }
@@ -185,20 +181,20 @@ ul.post-list .tagline {
 
 /* hovers */
 ul.post-list:hover .post-meta { color: #000; }
-.menu, .submenu, ul.post-list li:hover {
+.menu, ul.post-list li:hover {
         color: #333;
 	border-top: 1px solid #6ED6FA;
 	border-bottom: 1px solid #99EEFF;
 	background: #CEF; }
 
-.menu {
-      text-align: center;
-      color: #A5A5A5;
-      padding: 3px;
-}
+.menu { text-align: center; color: #A5A5A5; }
+.submenu { background: #DEF; border-top: none; }
 
-.submenu { text-align: center; border-top: none; }
+.menu a { display: inline-block; width: 14%; margin: 0 auto; padding: 3px; }
+.menu a:hover { background: #6ED6FA; text-decoration: none; }
+.submenu a { width: 17%; }
 
+a.ext:hover { background: white; text-decoration: underline; }
 
 /*
 .left-push { transform: translateX(-12rem); transition: 250ms; }
