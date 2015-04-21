@@ -165,7 +165,7 @@ li h4 { margin-top: 0.75em; }
 
 /* lists */
 ul.post-list { font-size: 90%; }
-ul.post-list li { 
+ul.post-list li, .post-header .post-meta { 
 	clear: both; width: 90%;
 	margin: 0 4.5% 1em 4.5%; padding: 0.5em;
 	border-bottom: 1px dotted #999;
@@ -194,6 +194,7 @@ ul.post-list:hover .post-meta { color: #000; }
 
 .menu a { display: inline-block; width: 13%; margin: 0 auto; padding: 3px; }
 .menu a:hover { background: #6ED6FA; text-decoration: none; }
+.menu a.active { background: #8EE6FF; }
 .submenu a { width: 17%; }
 
 a.ext:hover { background: white; text-decoration: underline; }
