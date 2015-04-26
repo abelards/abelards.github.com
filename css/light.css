@@ -151,7 +151,8 @@ li h4 { margin-top: 0.75em; }
  .short { display: inline; }
  p { margin: 0 0 0.5em 1em; }
  .half { width: 10em; margin: 0; }
- #bio, .menu, .submenu, .content, #bio .content { width: 100%; padding: 0.1em; }
+ #bio, #bio .content { width: 100%; padding: 0.1em; }
+ .content, .menu, .submenu { width: 100%; }
 }
 
 @media screen and (max-width:330px) {
@@ -167,13 +168,13 @@ li h4 { margin-top: 0.75em; }
 ul.post-list { font-size: 90%; }
 ul.post-list li, .post-header .post-meta { 
 	clear: both; width: 90%;
-	margin: 0 4.5% 1em 4.5%; padding: 0.5em;
+	margin: 0 4.5% 1em 4.5%; // padding: 0.5em;
 	border-bottom: 1px dotted #999;
 	border-top: 1px solid #F3F3F3;
 }
 ul.post-list h3 { float: left; }
 ul.post-list li p { clear: both; font-size: 90%; }
-ul.post-list .post-meta { float: right; }
+ul.post-list .post-meta { float: right; padding: 0.5em 0.25em 0 0; }
 ul.post-list .tagline {
 	clear:both;
 	padding: 0; margin: 0;
