@@ -88,7 +88,7 @@ h1 { font-size:36px; line-height:50px; font-weight:300;
      font-family: Quicksand, Helvetica, sans-serif;
      text-align: center; }
 h2 { font-size:32px; line-height:32px; font-weight:400;
-     margin-top: 0.25em; }
+     margin-top: 0.5em; }
 h3 { font-size:22px; line-height:32px; font-weight:400;
      padding-left: 0.5em; }
 
@@ -147,6 +147,7 @@ li h4 { margin-top: 0.75em; }
 }
 
 @media screen and (max-width:450px) {
+ h2 { text-align: center; }
  .txt { display: none; }
  .short { display: inline; }
  p { margin: 0 0 0.5em 1em; }
@@ -199,6 +200,8 @@ ul.post-list:hover .post-meta { color: #000; }
 .submenu a { width: 17%; }
 
 a.ext:hover { background: white; text-decoration: underline; }
+
+blockquote { border-left: 3px solid #CCC; }
 
 /*
 .left-push { transform: translateX(-12rem); transition: 250ms; }

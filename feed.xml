@@ -6,9 +6,43 @@
 </description>
     <link>http://maitre-du-monde.fr/</link>
     <atom:link href="http://maitre-du-monde.fr/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 May 2015 15:42:49 +0200</pubDate>
-    <lastBuildDate>Sun, 03 May 2015 15:42:49 +0200</lastBuildDate>
+    <pubDate>Wed, 13 May 2015 21:20:22 +0200</pubDate>
+    <lastBuildDate>Wed, 13 May 2015 21:20:22 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Mouchards de l&#39;état</title>
+        <description>&lt;p&gt;Suivant le post HADOPI et l’analogie de la voiture, un ami ajoute de
+nombreux points intéressants, applicables à tous les mouchards d’état
+(ou d’entreprise), leur inutilité et leur dangerosité.&lt;/p&gt;
+
+&lt;p&gt;Poser un mouchard (comme HADOPI ou PJLRenseignement), c’est non
+seulement une boîte noire qui rapporte tout au gouvernement, mais qui
+en plus ne fonctionne qu’avec les voitures de certaines marques.&lt;/p&gt;
+
+&lt;p&gt;Celui qui n’a pas la boîte noire soit a des amendes en continu, soit
+est suspect, cela signifie que tout ce qui sort du cadre est anormal.&lt;/p&gt;
+
+&lt;p&gt;Une voiture étrangère, une voiture rare, une voiture modifiée ?
+Vous êtes un criminel.&lt;/p&gt;
+
+&lt;p&gt;Si la boîte noire fonctionne mal ?
+Vous êtes un criminel.&lt;/p&gt;
+
+&lt;p&gt;Pour se protéger de cela si vous êtes un honnête citoyen (ou un criminel organisé) ?
+Vous trafiquez la boîte pour qu’elle envoie toujours les signaux que tout va bien.&lt;/p&gt;
+
+&lt;p&gt;Ou si elle existe, vous utilisez la dérogation de voiture rare pour
+passer les mailles du filet.&lt;/p&gt;
+
+&lt;p&gt;Les seuls qui se feront prendre sont donc les honnêtes gens distraits.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 12 Apr 2015 00:00:00 +0200</pubDate>
+        <link>http://maitre-du-monde.fr/2015/04/12/mouchards.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2015/04/12/mouchards.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Voting for lizards</title>
@@ -78,15 +112,22 @@ what uncommon thing do you love”.&lt;/p&gt;
     
       <item>
         <title>Smalltalk</title>
-        <description>&lt;p&gt;As a kid I hated chit-chat.
-&amp;gt; Why saying useless things? Do you feel lonely?
-&amp;gt; I don’t, leave me alone.
-&amp;gt; I’m not interested in discussing the weather!&lt;/p&gt;
+        <description>&lt;p&gt;As a kid, I hated chit-chat. I thought:&lt;/p&gt;
 
-&lt;p&gt;Trying to engage in smalltalk is acknowledging the recipiten as a fellow human.
-It’s saying
-&amp;gt; hello, I saw you and want you to know you’re not a nobody to me
-&amp;gt; but deserve some of my time.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Why say useless things? &lt;br /&gt;
+Do you feel lonely? &lt;br /&gt;
+I don’t, leave me alone. &lt;br /&gt;
+I’m not interested in discussing the weather!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;But as I grew up I understood: trying to engage in smalltalk is above
+all acknowledging the recipient as a fellow human. It’s saying:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hello, I saw you and want you to know you’re not a nobody to me,
+but deserve some of my time and attention.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;I still don’t see much point in discussing the weather, but I’m glad you came to me.
 I hope we’ll soon find an opening to anything that’s interesting to you, me, or both!&lt;/p&gt;
@@ -272,32 +313,6 @@ And rarely the arrogant kind who had luck in the first place and thinks it’s h
         <pubDate>Wed, 11 Feb 2015 00:00:00 +0100</pubDate>
         <link>http://maitre-du-monde.fr/2015/02/11/i-love-hate-startups.html</link>
         <guid isPermaLink="true">http://maitre-du-monde.fr/2015/02/11/i-love-hate-startups.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>On Structured Content</title>
-        <description>&lt;p&gt;I’m forcing myself to small-sized chunks of content.&lt;/p&gt;
-
-&lt;p&gt;There’s also two experiments I’d like to make, linking bits of my opinions to the others:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;make their relationships obvious&lt;/li&gt;
-  &lt;li&gt;not mixing ideas and having them as atomic as possible&lt;/li&gt;
-  &lt;li&gt;finding myself which bits of my philosophy most shape my ideas&lt;/li&gt;
-  &lt;li&gt;finding which bits of my philosophy are most useful / explain most things&lt;/li&gt;
-  &lt;li&gt;running a PageRank or reverse-PageRank algo on it to find the “roots” of it&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I suppose this requires a discipline and a lot of rework I probably won’t be able / courageous enough to make.
-But it’d be nice to try, and if someone else does it I’d find it interesting and motivating :)&lt;/p&gt;
-
-&lt;p&gt;Cheers,&lt;/p&gt;
-</description>
-        <pubDate>Wed, 04 Feb 2015 00:00:00 +0100</pubDate>
-        <link>http://maitre-du-monde.fr/2015/02/04/structured-content.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2015/02/04/structured-content.html</guid>
         
         
       </item>
