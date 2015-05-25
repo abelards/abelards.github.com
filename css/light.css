@@ -141,7 +141,7 @@ li h4 { margin-top: 0.75em; }
  #bio h2 { display: none; }
  hr, h4 { display: none; }
 
- ul li {float:left; width: 12em;}
+ #bio ul li {float:left; width: 12em;}
 
  .lng { display:none; }
  .tab { display: inline; }
