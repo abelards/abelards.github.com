@@ -200,13 +200,43 @@ ul.post-list:hover .post-meta { color: #000; }
 .submenu { background: #DEF; border-top: none; }
 
 .menu a { display: inline-block; width: 13%; margin: 0 auto; padding: 3px; }
-.menu a:hover { background: #6ED6FA; text-decoration: none; }
-.menu a.active { background: #8EE6FF; }
+.menu a:hover, #tags .tag:hover { background: #6ED6FA; text-decoration: none; }
+.menu a.active, #tags .tag.active { background: #8EE6FF; }
 .submenu a { width: 17%; }
 
 a.ext:hover { background: white; text-decoration: underline; }
 
 blockquote { border-left: 3px solid #CCC; }
+
+#tags {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+//      border: 1px dotted #CCC;
+	padding: 3px;
+	margin-bottom: 1em;
+	text-align: center;
+	font-size: 90%;
+}
+#tags a {
+     flex: 1 1 auto; 
+//     flex-basis: 75px;
+      display: inline-block;
+      padding: 1px 3px;
+      margin: 2px;
+      border: 1px solid #CCC;
+      background: #EEE;
+      color: #666;
+      border-radius: 3px;
+}
+
+#tags a.active { border-color: #3E86AA; color: #3E86AA; }
+
+#tags a:hover {
+      background: #DDEEFF;
+      color: #3E86AA;
+      border-color: #6ED6FA;
+}
 
 /*
 .left-push { transform: translateX(-12rem); transition: 250ms; }

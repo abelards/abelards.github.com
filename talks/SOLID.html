@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SOLID & concrete</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+	@import url(http://fonts.googleapis.com/css?family=Quicksand:300,700);
+      	body { font-family: 'Quicksand'; font-weight: 300; }
+      	.happy { background-image: url(https://cloud.githubusercontent.com/assets/584600/5992569/2e807aee-aa2f-11e4-9618-e6446ec7fe2f.png) }
+	a, a:visited, a:hover { color: #DDD; }
+	ul { list-style-type: none; }
+	ul li { height: 1.5em; }
+	.best .remark-inline-code { color: yellow; }
+	.best { color: #EEE; }
+
+      	h1, h2, h3 {
+          font-weight: 300;
+  	  text-align: center;
+	  color: #CCC;
+      	}
+      	.middle h1 {
+      	  font-size: 2.5em;
+      	  color: white;
+      	}
+	h1 { font-weight: bold; }
+	div.remark-slide-content {
+	  color: #AAA;
+	  background-color: #333;
+	  font-size: 200%;
+	}
+
+	.remark-code, .remark-inline-code {
+	  font-family: monospace, sans-serif;
+	  background: #000;
+	  border: 1px solid #666;
+	  border-radius: 2px;
+	  color: #CCC;
+	  padding: 0.25em;
+	  font-size: 120%;
+	}
+	.b { font-weight: bold; }
+	.contrib { font-size: 90%; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle
+# SOLID & concrete
+
+&nbsp;
+
+.b[[@abelar_s](https://twitter.com/abelar_s) -
+[@ParisRB](https://twitter.com/parisrb) -
+[@RailsGirlsParis](https://twitter.com/railsgirlsparis)]
+ 
+[maitre-du-monde.fr](maitre-du-monde.fr)
+
+.contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/SOLID.html)]
+
+???
+
+---
+class: center, middle
+# SOLID & concrete
+## SRP + OCP + LSP + ISP + DIP
+
+.b[[@abelar_s](https://twitter.com/abelar_s) -
+[@ParisRB](https://twitter.com/parisrb) -
+[@RailsGirlsParis](https://twitter.com/railsgirlsparis)]
+ 
+[maitre-du-monde.fr](maitre-du-monde.fr)
+
+.contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/SOLID.html)]
+
+???
+
+---
+class: center, java
+# SRP
+## Single Responsibility Principle
+### Javaists
+"A class should only have a single responsibility"
+
+---
+class: center, rationale
+# SRP
+## Single Responsibility Principle
+### Rationale
+"A responsibility is a reason to change"
+
+---
+class: center, ruby
+# SRP
+## Single Responsibility Principle
+### Rubyists
+Triggers: when I create an order in the right state, send an email.
+- right_state?
+- send_email
+- trigger: send_email_when_right_state
+
+Validations: use the block syntax only to chain one or two methods
+
+---
+class: center,koans
+# SRP
+## Single Responsibility Principle
+### Koäns
+ - [175 Flat Shark](http://thecodelesscode.com/case/175)
+ - [83 Consequences](http://thecodelesscode.com/case/83)
+ - [117 Bareback](http://thecodelesscode.com/case/117)
+ - [167 Back to Basics](http://thecodelesscode.com/case/167)
+
+---
+# OCP
+## Open-Closed Principle
+
+"Software entities … should be open for extension, but closed for modification."
+
+---
+class: center, java
+# LSP
+## Liskov Substitution Principle
+### Javaists
+
+"Let Φ(x) be a property provable about objects x of type T.
+ Then Φ(y) should be true for objects y of type S
+ where S is a subtype of T."
+
+A Rectangle is a Square, not the other way around.
+
+---
+class: center, rationale
+# LSP
+## Liskov Substitution Principle
+### Rationale
+
+"Be laxist in what you accept, strict in what you give."
+- keep the same interface
+- accept more data
+- 
+
+---
+class: center, ruby
+# LSP
+## Liskov Substitution Principle
+### Rubyists
+
+Composition over inheritance,
+
+[contracts.coffee], [contracts.ruby]
+
+---
+class: center,koans
+# LSP
+## Liskov Substitution Principle
+### Koäns
+ - [175 Flat Shark](http://thecodelesscode.com/case/175)
+ - [83 Consequences](http://thecodelesscode.com/case/83)
+ - [117 Bareback](http://thecodelesscode.com/case/117)
+ - [167 Back to Basics](http://thecodelesscode.com/case/167)
+
+
+---
+# ISP
+## Interface Separation Principle
+
+    “many client-specific interfaces are better than one general-purpose interface.”[8]
+
+---
+# DIP
+## Dependency Inversion Principle
+    one should “Depend upon Abstractions. Do not depend upon concretions.”[8]
+
+---
+class: center, middle, happy
+# Questions?
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+.b[[@abelar_s](https://twitter.com/abelar_s) -
+[@ParisRB](https://twitter.com/parisrb) -
+[@RailsGirlsParis](https://twitter.com/railsgirlsparis)]
+ 
+[maitre-du-monde.fr](maitre-du-monde.fr)
+
+.contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/SOLID.html)]
+
+---
+class: center, middle, happy
+# Thanks!
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+.b[[@abelar_s](https://twitter.com/abelar_s) -
+[@ParisRB](https://twitter.com/parisrb) -
+[@RailsGirlsParis](https://twitter.com/railsgirlsparis)]
+ 
+[maitre-du-monde.fr](maitre-du-monde.fr)
+
+.contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/SOLID.html)]
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>

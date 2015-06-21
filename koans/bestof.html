@@ -65,13 +65,76 @@
     <div class="content" id="page">
         <h2>My Best Of</h2>
   <p>Here are some cases I found fun to read and share.</p>
+
+<script>
+// v2   return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
+function hasClass(e, cls) { return e.className.indexOf(cls) != -1; }
+
+function removeClass (e, cls) {
+    console.log('before', e, e.className, cls, hasClass(e, cls), e.classList);
+    // v1    e.classList.remove(cls);
+    // v2    e.className.replace(cls, '');
+    
+    var newClass = ' ' + e.className.replace( /[\t\r\n]/g, ' ') + ' ';
+    if (hasClass(e, cls)) {
+	while (newClass.indexOf(' ' + cls + ' ') >= 0 ) {
+	    newClass = newClass.replace(' ' + cls + ' ', ' ');
+	}
+	e.className = newClass.replace(/^\s+|\s+$/g, '');
+    }
+
+    console.log('after', e, e.className, cls, hasClass(e, cls), e.classList);
+}
+
+
+function dispall(sel, disp) {
+    var tags = document.querySelectorAll(sel);
+    for (var i = 0; i < tags.length; i++) { tags[i].style.display = disp; }
+}
+
+function clickTag(event)
+{
+    var e = this;
+    var lit = hasClass(e, 'active');
+    var tags = document.querySelectorAll('#tags .active');
+
+    //    console.log(e, lit, tags.length);
+
+    for (var i = 0; i < tags.length; i++) { removeClass(tags[i], 'active'); }
+
+    if (!lit) { e.className += ' active'; }
+
+    if (document.querySelectorAll('#tags .active').length == 0) {
+	dispall('ul.post-list li', 'block');
+    } else {
+	dispall('ul.post-list li', 'none');
+	dispall('.' + e.innerHTML, 'block');
+    }
+}
+
+window.onload = function(){
+    var tags = document.getElementById('tags');
+    if (tags != null) {
+	var tags = document.getElementsByClassName('tag');
+	for (var i = 0; i < tags.length; i++) {
+	    var e = tags[i];
+	    if (e.addEventListener) { 
+		e.addEventListener('click', clickTag, false); }
+	    else if (e.attachEvent) { // old IEs
+		e.attachEvent('onclick', function() { return clickTag.apply(e, [window.event]) })
+	    }
+	}
+    }
+}
+</script>
+
+<div id="tags"><a class="tag">abstractions</a> <a class="tag">attitude</a> <a class="tag">automation</a> <a class="tag">code</a> <a class="tag">complexity</a> <a class="tag">design</a> <a class="tag">docs</a> <a class="tag">efficiency</a> <a class="tag">errors</a> <a class="tag">frameworks</a> <a class="tag">functional</a> <a class="tag">hackers</a> <a class="tag">internet</a> <a class="tag">learning</a> <a class="tag">management</a> <a class="tag">mentoring</a> <a class="tag">naming</a> <a class="tag">network</a> <a class="tag">perfection</a> <a class="tag">poem</a> <a class="tag">politics</a> <a class="tag">security</a> <a class="tag">specs</a> <a class="tag">style</a> <a class="tag">teaching</a> <a class="tag">teamwork</a> <a class="tag">tests</a> <a class="tag">users</a></div>
+
   <ul class="post-list">
     
-    
-    
-    
-      <li>
-        <span class="post-meta">attitude</span>
+      <li class="attitude  perfection">
+        <span class="post-meta" title="perfection">
+	  attitude, perfection</span>
         <h3>
           <a class="post-link" href="http://www.thecodelesscode.com/case/1">
 	    1. The Small Stuff</a>
@@ -79,12 +142,9 @@
 	<br style="clear:both" />
       </li>
     
-    
-    
-    
-    
-      <li>
-        <span class="post-meta">specs</span>
+      <li class="specs">
+        <span class="post-meta" title="requirements">
+	  specs</span>
         <h3>
           <a class="post-link" href="http://www.thecodelesscode.com/case/2">
 	    2. Unknown Unknowns</a>
@@ -92,12 +152,9 @@
 	<br style="clear:both" />
       </li>
     
-    
-    
-    
-    
-      <li>
-        <span class="post-meta">learning</span>
+      <li class="learning">
+        <span class="post-meta" title="improvement, code reviews">
+	  learning</span>
         <h3>
           <a class="post-link" href="http://www.thecodelesscode.com/case/13">
 	    13. Evolution</a>
@@ -105,12 +162,9 @@
 	<br style="clear:both" />
       </li>
     
-    
-    
-    
-    
-      <li>
-        <span class="post-meta">arch</span>
+      <li class="design">
+        <span class="post-meta" title="reuse, encapsulation">
+	  design</span>
         <h3>
           <a class="post-link" href="http://www.thecodelesscode.com/case/22">
 	    22. Safety</a>
@@ -118,12 +172,9 @@
 	<br style="clear:both" />
       </li>
     
-    
-    
-    
-    
-      <li>
-        <span class="post-meta">arch</span>
+      <li class="attitude  efficiency">
+        <span class="post-meta" title="testing, automated testing">
+	  attitude, efficiency</span>
         <h3>
           <a class="post-link" href="http://www.thecodelesscode.com/case/29">
 	    29. Goldfish</a>
@@ -131,12 +182,9 @@
 	<br style="clear:both" />
       </li>
     
-    
-    
-    
-    
-      <li>
-        <span class="post-meta">learning</span>
+      <li class="learning">
+        <span class="post-meta" title="interviews, neatness, potential">
+	  learning</span>
         <h3>
           <a class="post-link" href="http://www.thecodelesscode.com/case/32">
 	    32. Weeds</a>
@@ -144,6 +192,785 @@
 	<br style="clear:both" />
       </li>
     
+      <li class="politics">
+        <span class="post-meta" title="morale">
+	  politics</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/36">
+	    36. Division</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="docs">
+        <span class="post-meta" title="comments, documentation">
+	  docs</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/39">
+	    39. The River of Tea</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="docs">
+        <span class="post-meta" title="comments, version control">
+	  docs</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/41">
+	    41. Garbage</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="automation">
+        <span class="post-meta" title="databases, triggers">
+	  automation</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/42">
+	    42. Triggers</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="tests">
+        <span class="post-meta" title="testing, automated testing">
+	  tests</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/44">
+	    44. The Backwards Monk</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="management">
+        <span class="post-meta" title="planning, management, production support">
+	  management</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/56">
+	    56. Bear Necessities</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="abstractions">
+        <span class="post-meta" title="memory, infinity, numbers, precision">
+	  abstractions</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/57">
+	    57. Precision</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="tests">
+        <span class="post-meta" title="testing, automated testing">
+	  tests</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/58">
+	    58. Enough to Hang Yourself By</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="management">
+        <span class="post-meta" title="planning, management">
+	  management</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/61">
+	    61. Weight</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="management">
+        <span class="post-meta" title="management">
+	  management</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/62">
+	    62. Confusion</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="attitude  complexity">
+        <span class="post-meta" title="refactoring, elegance, maintainability, rethinking, complexity">
+	  attitude, complexity</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/63">
+	    63. Shackles</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="management">
+        <span class="post-meta" title="management">
+	  management</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/67">
+	    67. Grease</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="code">
+        <span class="post-meta" title="error handling, exceptions">
+	  code</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/71">
+	    71. The Six Unwelcome Hosts</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="design">
+        <span class="post-meta" title="interviews, design, potential, UML, class diagrams, inheritance, single inheritance, multiple inheritance, failure">
+	  design</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/83">
+	    83. Consequences</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="security">
+        <span class="post-meta" title="security, hardening, web interfaces">
+	  security</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/87">
+	    87. The Concubine's Fog</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="style">
+        <span class="post-meta" title="standards, refactoring, perfection, naming, compromise">
+	  style</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/94">
+	    94. Conventions</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="abstractions">
+        <span class="post-meta" title="CSS, naming">
+	  abstractions</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/95">
+	    95. Roses are Red</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="frameworks">
+        <span class="post-meta" title="reflection, partial solutions">
+	  frameworks</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/97">
+	    97. Flammable</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="learning">
+        <span class="post-meta" title="design patterns, anti-patterns">
+	  learning</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/98">
+	    98. Anti Matter</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="learning">
+        <span class="post-meta" title="improvement, authority, perfection">
+	  learning</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/100">
+	    100. Ten Thousand Mistakes</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="attitude  teamwork">
+        <span class="post-meta" title="accountability, production support, teamwork">
+	  attitude, teamwork</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/101">
+	    101. Accountability</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="teamwork">
+        <span class="post-meta" title="teamwork">
+	  teamwork</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/102">
+	    102. Paddle</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="docs">
+        <span class="post-meta" title="APIs, type safety, documentation">
+	  docs</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/104">
+	    104. Guardrails</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="design docs">
+        <span class="post-meta" title="design, documentation, planning">
+	  design,docs</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/105">
+	    105. Navigation</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="abstractions">
+        <span class="post-meta" title="languages, high-level languages, Perl, Python">
+	  abstractions</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/107">
+	    107. Babel</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="frameworks">
+        <span class="post-meta" title="design, frameworks, partial solutions, complexity, configuration">
+	  frameworks</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/109">
+	    109. The Ties That Bind</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="design">
+        <span class="post-meta" title="complexity, efficiency, data transfer objects, YAGNI">
+	  design</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/110">
+	    110. The Trunk</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="design  specs">
+        <span class="post-meta" title="requirements, design, complexity, elegance, neatness, compromise, code reviews, planning">
+	  design, specs</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/111">
+	    111. Labyrinth</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="teamwork">
+        <span class="post-meta" title="refactoring, complexity, communication, design, elegance, teamwork">
+	  teamwork</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/112">
+	    112. Speak to Me</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="teamwork  mentoring">
+        <span class="post-meta" title="mentoring, improvement, IDEs, copy-paste, code reviews, standards, sample code">
+	  teamwork, mentoring</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/113">
+	    113. Black Sheep</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="design  errors">
+        <span class="post-meta" title="error handling, exceptions, null, Java, primitives, data transfer objects, null pointer exception">
+	  design, errors</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/115">
+	    115. Pain</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="learning">
+        <span class="post-meta" title="maintainability, APIs, communication, design, refactoring, rethinking">
+	  learning</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/116">
+	    116. Trust No One</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="design learning">
+        <span class="post-meta" title="design, refactoring, process, planning, cost">
+	  design,learning</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/118">
+	    118. Clay</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="design">
+        <span class="post-meta" title="rethinking, structure">
+	  design</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/119">
+	    119. Sushi</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="management">
+        <span class="post-meta" title="management, planning">
+	  management</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/120">
+	    120. Plug and Play</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="learning">
+        <span class="post-meta" title="threads">
+	  learning</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/121">
+	    121. Where Angels Fear to Thread</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="learning">
+        <span class="post-meta" title="craftsmanship, pride, improvement, progress">
+	  learning</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/122">
+	    122. Craftsmanship</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="design style">
+        <span class="post-meta" title="refactoring, order, chaos, rethinking">
+	  design,style</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/123">
+	    123. Order and Chaos</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="functional">
+        <span class="post-meta" title="philosophy, idempotence, change, immutability">
+	  functional</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/124">
+	    124. The Hidden Variable</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="management">
+        <span class="post-meta" title="power, promotion, management, work-life balance">
+	  management</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/125">
+	    125. Power</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="attitude efficiency">
+        <span class="post-meta" title=" laziness, joy-coding, utilities">
+	  attitude,efficiency</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/129">
+	    129. Like a Rolling Stone</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="attitude">
+        <span class="post-meta" title="creativity, refactoring, philosophy">
+	  attitude</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/130">
+	    130. The First Mantra</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="frameworks">
+        <span class="post-meta" title="data transfer objects, partial initialization, null, null pointer exception, object-relational mapping">
+	  frameworks</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/134">
+	    134. Thin Ice</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="design docs">
+        <span class="post-meta" title="backwards compatibility, regular expressions, documentation, refactoring, testing, unit testing, happy path testing">
+	  design,docs</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/135">
+	    135. Ass-Backwards Compatibility</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="security">
+        <span class="post-meta" title="bugs, Heartbleed Bug, security, open source, taint-checking, trust">
+	  security</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/140">
+	    140. Heartbleed</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="attitude">
+        <span class="post-meta" title="meetings, yes-men">
+	  attitude</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/141">
+	    141. Ill Met By Moonlight</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="management tests">
+        <span class="post-meta" title="testing, automated testing, unit testing, integration testing, manual testing, happy path testing, management, laziness, code reviews, quality assurance">
+	  management,tests</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/142">
+	    142. The Blind Leading the Blind</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="attitude  learning">
+        <span class="post-meta" title="progress, career, joy-hacking, change">
+	  attitude, learning</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/145">
+	    145. Five Years</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="users">
+        <span class="post-meta" title="aesthetics, web interfaces, user experience, CSS, JQuery, Javascript">
+	  users</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/146">
+	    146. Box Model</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="code  efficiency">
+        <span class="post-meta" title="sorting, efficiency, reuse, art">
+	  code, efficiency</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/151">
+	    151. The Summer Scarf</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="management">
+        <span class="post-meta" title="schedules, management, planning, yes-men">
+	  management</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/153">
+	    153. The Red Circle</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="design  management">
+        <span class="post-meta" title="engineering, software engineering, architecture, pride, planning, change, waterfall model, flexibility">
+	  design, management</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/154">
+	    154. A Bridge to Nowhere</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="design  naming">
+        <span class="post-meta" title="naming, design patterns, decorator pattern, adapter pattern, utilities">
+	  design, naming</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/155">
+	    155. Don't Help</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="users">
+        <span class="post-meta" title="design patterns, complexity, maintainability, path of least resistance, coding standards">
+	  users</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/156">
+	    156. The Garden Path</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="docs">
+        <span class="post-meta" title="brevity, communication, design, design reviews, detail, documentation, excess, focus">
+	  docs</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/157">
+	    157. Captive Audience</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="attitude">
+        <span class="post-meta" title="interviews, creativity, performance reviews, promotion, career">
+	  attitude</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/159">
+	    159. Blocks</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="attitude  hackers">
+        <span class="post-meta" title="joy-hacking, morale, design, complexity, challenges">
+	  attitude, hackers</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/160">
+	    160. Eye of the Beholder</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="management">
+        <span class="post-meta" title="refactoring, requirements">
+	  management</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/162">
+	    162. All According to Plan</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="attitude  hackers">
+        <span class="post-meta" title="vacation, joy-hacking">
+	  attitude, hackers</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/163">
+	    163. Vacation</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="management">
+        <span class="post-meta" title="teaching">
+	  management</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/164">
+	    164. Paradox</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="design  errors">
+        <span class="post-meta" title="laziness, error handling, failsafes, testing, perfection">
+	  design, errors</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/165">
+	    165. Failsafe</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="abstractions">
+        <span class="post-meta" title="abstraction, object-oriented programming, type safety, utilities, servlets, Java">
+	  abstractions</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/167">
+	    167. Back to Basics</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="design">
+        <span class="post-meta" title="encapsulation, coupling, cohesion, process, architecture, layered architecture, compromise, APIs, craftsmanship, dependencies, components, consistency, maintainability, full-stack developers">
+	  design</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/168">
+	    168. Horizontal, Vertical</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="teamwork">
+        <span class="post-meta" title="standards, best practices, documentation">
+	  teamwork</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/169">
+	    169. Best Practices</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="internet">
+        <span class="post-meta" title="community, help, challenges">
+	  internet</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/170">
+	    170. The Purple Beggar</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="attitude  management">
+        <span class="post-meta" title="production support, clues, SQL, dynamically-generated SQL">
+	  attitude, management</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/171">
+	    171. Initial Conditions</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="attitude  teaching">
+        <span class="post-meta" title="teaching, mentoring, communication, failure, improvement">
+	  attitude, teaching</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/172">
+	    172. Lesson One</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="network  poem">
+        <span class="post-meta" title="poetry, TCP, IP, HTTP, network, sockets, protocols, clients, servers">
+	  network, poem</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/173">
+	    173. Lost Peer</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="learning">
+        <span class="post-meta" title="improvement, career, changes, courage, change, experience">
+	  learning</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/174">
+	    174. Out of the Zone</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="abstractions  design">
+        <span class="post-meta" title="Java, single-responsibility principle, naming, interfaces, multiple inheritance, delegation, composition, modelling, object-oriented programming">
+	  abstractions, design</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/175">
+	    175. Flat Shark</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="attitude  hackers">
+        <span class="post-meta" title="reuse, abstraction, APIs, bloat, YAGNI">
+	  attitude, hackers</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/177">
+	    177. The Tool-Shed</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="attitude  hackers">
+        <span class="post-meta" title="change, optimism, pessimism, simplicity">
+	  attitude, hackers</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/180">
+	    180. Past Perfect</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="attitude  teamwork">
+        <span class="post-meta" title="change, optimism, pessimism, ambition, legacy, teamwork">
+	  attitude, teamwork</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/181">
+	    181. Future Imperfect</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="tests">
+        <span class="post-meta" title="QA, software analysis, defects, automation, testing, quality">
+	  tests</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/182">
+	    182. Mousetrap</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="management  teaching  teamwork">
+        <span class="post-meta" title="learning, mistakes, frameworks, mentoring, trust, javascript, user interfaces">
+	  management, teaching, teamwork</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/183">
+	    183. Choosing Your Battles</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="attitude  hackers">
+        <span class="post-meta" title="interviews, resumes, honesty">
+	  attitude, hackers</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/187">
+	    187. Exit Interview</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="attitude  hackers  teaching">
+        <span class="post-meta" title="kindness, mentoring">
+	  attitude, hackers, teaching</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/188">
+	    188. Tough Love</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
+    
+      <li class="security">
+        <span class="post-meta" title="encryption, security, cryptography, expertise, specialization">
+	  security</span>
+        <h3>
+          <a class="post-link" href="http://www.thecodelesscode.com/case/190">
+	    190. To Make an Omelette</a>
+        </h3>
+	<br style="clear:both" />
+      </li>
     
   </ul>
 
