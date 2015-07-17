@@ -194,7 +194,8 @@ ul.post-list:hover .post-meta { color: #000; }
         color: #333;
 	border-top: 1px solid #6ED6FA;
 	border-bottom: 1px solid #99EEFF;
-	background: #CEF; }
+	background: #CEF;
+}
 
 .menu { text-align: center; color: #A5A5A5; }
 .submenu { background: #DEF; border-top: none; }

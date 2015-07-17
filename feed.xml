@@ -6,9 +6,39 @@
 </description>
     <link>http://maitre-du-monde.fr/</link>
     <atom:link href="http://maitre-du-monde.fr/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 21 Jun 2015 16:22:34 +0200</pubDate>
-    <lastBuildDate>Sun, 21 Jun 2015 16:22:34 +0200</lastBuildDate>
+    <pubDate>Fri, 17 Jul 2015 16:16:36 +0200</pubDate>
+    <lastBuildDate>Fri, 17 Jul 2015 16:16:36 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Sociologie et développeurs</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http:&amp;lt;br /&amp;gt;pixelastic.com&quot;&gt;Tim Carry&lt;/a&gt; est un développeur et prend des
+notes des nombreux &lt;a href=&quot;http:&amp;lt;br /&amp;gt;meetups.pixelastic.com&quot;&gt;meetups&lt;/a&gt; auxquels
+il assiste.&lt;/p&gt;
+
+&lt;p&gt;Apparemment mon talk sur &lt;a href=&quot;https:&amp;lt;br /&amp;gt;speakerdeck.com/abelar_s/effects-of-sociology-on-devs&quot;&gt;“Quelques effets de la sociologie appliqués aux développeurs”&lt;/a&gt;
+lui a beaucoup plu et au lieu d’un résumé il a écrit une &lt;a href=&quot;http:&amp;lt;br /&amp;gt;meetups.pixelastic.com/2015/06/09/humantalks-juin-2015/#sociologie-applique-aux-dveloppeurs-a-namesocioa&quot;&gt;transcription détaillée&lt;/a&gt;
+de la plupart des effets.&lt;/p&gt;
+
+&lt;p&gt;Devant la masse de travail j’ai également contribué à l’article sur son blog
+en ajoutant notes de pied de page et liens pour en savoir plus.&lt;/p&gt;
+
+&lt;p&gt;Je ne suis pas toujours d’accord avec quelques raccourcis et certaines
+interprétations, et j’ai parfois ajouté mon grain de sel, mais j’ai
+évité de modifier ou retirer son point de vue : il est intéressant de
+voir comment cela a été perçu, et je suppose qu’une autre partie de
+l’audience aura tiré d’autres enseignements encore.&lt;/p&gt;
+
+&lt;p&gt;Merci pour son travail qui ajoute énormément à tous ceux qui n’ont pas pu assister
+au talk ou qui voudraient s’y replonger en format texte !&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 09 Jul 2015 00:00:00 +0200</pubDate>
+        <link>http://maitre-du-monde.fr/2015/07/09/sociologie_devs.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2015/07/09/sociologie_devs.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Responsibility</title>
@@ -102,7 +132,7 @@ Use your marketing smarts.&lt;/p&gt;
     
       <item>
         <title>Looking for dev partner</title>
-        <description>&lt;p&gt;As a developer and organiser of &lt;a href=&quot;rubyparis.org&quot;&gt;ParisRB&lt;/a&gt;, I often get
+        <description>&lt;p&gt;As a developer and organiser of &lt;a href=&quot;http:&amp;lt;br /&amp;gt;rubyparis.org&quot;&gt;ParisRB&lt;/a&gt;, I often get
 asked if I want to be a partner in a new startup adventure.&lt;/p&gt;
 
 &lt;p&gt;First, I’m already a partner and already in an adventure.&lt;/p&gt;
@@ -330,38 +360,6 @@ hold the dearest.&lt;/p&gt;
         <pubDate>Sun, 26 Apr 2015 00:00:00 +0200</pubDate>
         <link>http://maitre-du-monde.fr/2015/04/26/selfWiki.html</link>
         <guid isPermaLink="true">http://maitre-du-monde.fr/2015/04/26/selfWiki.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Have A Nice Day</title>
-        <description>&lt;p&gt;I believe in the power of small things done everyday.
-This is the story of my Have a nice day project
-in three tweet-sized chunks.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;There’s a feared person: never smiles or says hi, looks angry. &lt;br /&gt;
-I tell them everyday ‘hello, Have a nice day!’ &lt;br /&gt;
-Now they smile &amp;amp; say hi to me.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Cleaning employees were sad &amp;amp; silent. &lt;br /&gt;
-White collar people never said hi. &lt;br /&gt;
-I tell them everyday ‘hello, Have a nice day!’ &lt;br /&gt;
-Now they say hi to us&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In 2003 nobody said hi in my student’s residence. &lt;br /&gt;
-I told everyone I met ‘hi, Have a nice day!’ &lt;br /&gt;
-Months later most people spontaneously said hi&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Sun, 19 Apr 2015 00:00:00 +0200</pubDate>
-        <link>http://maitre-du-monde.fr/2015/04/19/haveaniceday.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2015/04/19/haveaniceday.html</guid>
         
         
       </item>
