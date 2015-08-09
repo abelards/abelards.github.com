@@ -6,9 +6,74 @@
 </description>
     <link>http://maitre-du-monde.fr/</link>
     <atom:link href="http://maitre-du-monde.fr/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 02 Aug 2015 11:42:43 +0200</pubDate>
-    <lastBuildDate>Sun, 02 Aug 2015 11:42:43 +0200</lastBuildDate>
+    <pubDate>Sun, 09 Aug 2015 23:39:29 +0200</pubDate>
+    <lastBuildDate>Sun, 09 Aug 2015 23:39:29 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Un nouvel outil organisationnel</title>
+        <description>&lt;p&gt;On m’a récemment demandé mon avis sur la mise en place
+d’une méthodologie et les outils employés.&lt;/p&gt;
+
+&lt;p&gt;Je me suis rendu compte en écrivant ma réponse que cela pouvait
+s’appliquer à tout outil organisationnel.&lt;/p&gt;
+
+&lt;p&gt;Bienvenue dans : la mise en place de l’outil X.&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;Je ne pense pas qu’une stratégie top-down fonctionne bien pour transformer
+et continuer quoi que ce soit.&lt;/p&gt;
+
+&lt;p&gt;Quand chaque N+1 (leader local) a sensibilisé ses équipes au besoin X
+et son importance, il a commencé la transition culturelle. Ses équipes
+et lui permettront alors, par opposition ou par exemple, de fournir un
+retour d’expérience intéressant aux N+2, aux équipes voisines etc.&lt;/p&gt;
+
+&lt;p&gt;Cloisonner le X à un “département X”, une “équipe de X”, un rôle
+“responsable X”… est le meilleur moyen de créer un “eux et nous”, de
+faire passer les “X” pour des gens pénibles qui empêchent les autres
+de travailler et qui se drapent dans une aura indûe de “dernière
+bêtise à la mode qu’un escroc a réussi à vendre aux patrons et pour
+lesquels on vient probablement de dépenser dix fois l’argent qui nous
+aurait permis de sortir la tête de l’eau avec ne serait-ce qu’un
+stagiaire de plus”.&lt;/p&gt;
+
+&lt;p&gt;Une démarche bottom-up, grassroot me semble alors indispensable pour
+tout projet qui veut 1) se lancer et 2) durer.&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;Et mon avis sur X ?&lt;/p&gt;
+
+&lt;p&gt;Par les individus et leurs expériences, dans les différentes équipes
+de mon entreprise, de mon client principal et de nos autres
+partenaires, nous sommes probablement à des étapes différentes sur la
+voie de sensibilisation ou de mise en place d’outils organiques de X :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;on sent la friction sans pouvoir nommer le besoin de X&lt;/li&gt;
+  &lt;li&gt;on fait déjà du X sans le savoir via nos outils et méthodes&lt;/li&gt;
+  &lt;li&gt;on connaît le mot et les concepts du X&lt;/li&gt;
+  &lt;li&gt;on connaît les outils leaders et on veut les mettre en place&lt;/li&gt;
+  &lt;li&gt;on est en process de mise en place de X&lt;/li&gt;
+  &lt;li&gt;nous sommes à l’état de l’art de X&lt;/li&gt;
+  &lt;li&gt;nous dévions des enseignements du X car nous avons vu ses limites et le faisons à notre sauce&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;À l’inverse, ceux qui se présentent avec un département, un outil, une
+charte sans avoir la culture et la preuve que X est dans l’ADN de vos
+équipes, me semblent voués à l’échec&lt;/p&gt;
+
+&lt;p&gt;“Si vous voulez enterrer un problème, crééz une commission.”&lt;br /&gt;
+Prouvez-moi que votre process n’est pas un &lt;a href=&quot;https://fr.wikipedia.org/wiki/Culte_du_cargo#Le_culte_du_cargo.2C_m.C3.A9taphore_et_th.C3.A8me&quot;&gt;Culte du Cargo&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 09 Aug 2015 00:00:00 +0200</pubDate>
+        <link>http://maitre-du-monde.fr/2015/08/09/un-nouvel-outil-organisationnel.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2015/08/09/un-nouvel-outil-organisationnel.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Sociologie et développeurs</title>
@@ -335,31 +400,6 @@ No one should be offended if you want to check what’s really in the job offer.
         <pubDate>Sun, 03 May 2015 00:00:00 +0200</pubDate>
         <link>http://maitre-du-monde.fr/2015/05/03/gullible-young.html</link>
         <guid isPermaLink="true">http://maitre-du-monde.fr/2015/05/03/gullible-young.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The Self Wiki</title>
-        <description>&lt;p&gt;This blog is also an experiment in my values.&lt;/p&gt;
-
-&lt;p&gt;I should link them all to each other, “Wikify” all these views to find
-contradictions, paradoxes, and dependencies.&lt;/p&gt;
-
-&lt;p&gt;That’d be an enlightening, probably difficult, possibly life-changing experience.&lt;/p&gt;
-
-&lt;p&gt;Then it’d be interesting to run some algorithms: graph traversal,
-topological sort, PageRank…&lt;/p&gt;
-
-&lt;p&gt;These would output what are the principles I think apply to the most
-situations, or the roots of the problems and behaviours, or the ones I
-hold the dearest.&lt;/p&gt;
-
-&lt;p&gt;If something already exists for this, I’d be glad to know :)&lt;/p&gt;
-</description>
-        <pubDate>Sun, 26 Apr 2015 00:00:00 +0200</pubDate>
-        <link>http://maitre-du-monde.fr/2015/04/26/selfWiki.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2015/04/26/selfWiki.html</guid>
         
         
       </item>
