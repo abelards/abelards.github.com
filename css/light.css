@@ -6,9 +6,9 @@
 body{
  font-family: Quicksand, Helvetica, Arial, sans-serif;
  font-size: 16px;
- font-weight: 300;
+ font-weight: 500;
  line-height: 20px;
- color: #555555;
+ color: #444;
  background-color: #F3F3F3;
  margin: 0;
 }
@@ -191,7 +191,7 @@ ul.post-list .tagline {
 /* hovers */
 ul.post-list:hover .post-meta { color: #000; }
 .menu, ul.post-list li:hover {
-        color: #333;
+        color: #222;
 	border-top: 1px solid #6ED6FA;
 	border-bottom: 1px solid #99EEFF;
 	background: #CEF;
