@@ -133,12 +133,12 @@
         <lastmod>2015-04-20T16:37:15+02:00</lastmod>
     </url>
     <url>
-        <loc>http://maitre-du-monde.fr/koans/bestof.html</loc>
-        <lastmod>2015-06-21T15:38:39+02:00</lastmod>
-    </url>
-    <url>
         <loc>http://maitre-du-monde.fr/koans_fr/bestof.html</loc>
         <lastmod>2015-06-21T15:38:22+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://maitre-du-monde.fr/koans/bestof.html</loc>
+        <lastmod>2015-06-21T15:38:39+02:00</lastmod>
     </url>
     <url>
         <loc>http://maitre-du-monde.fr/projects/couchsurfrb.html</loc>
@@ -149,16 +149,16 @@
         <lastmod>2015-06-22T20:33:07+02:00</lastmod>
     </url>
     <url>
-        <loc>http://maitre-du-monde.fr/koans_fr/feed.xml</loc>
-        <lastmod>2015-04-11T20:56:45+02:00</lastmod>
-    </url>
-    <url>
         <loc>http://maitre-du-monde.fr/koans/feed.xml</loc>
         <lastmod>2015-04-11T20:56:56+02:00</lastmod>
     </url>
     <url>
-        <loc>http://maitre-du-monde.fr/koans_fr/</loc>
-        <lastmod>2015-04-25T18:03:34+02:00</lastmod>
+        <loc>http://maitre-du-monde.fr/koans_fr/feed.xml</loc>
+        <lastmod>2015-04-11T20:56:45+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://maitre-du-monde.fr/</loc>
+        <lastmod>2015-08-09T16:10:49+02:00</lastmod>
     </url>
     <url>
         <loc>http://maitre-du-monde.fr/koans/</loc>
@@ -169,36 +169,40 @@
         <lastmod>2015-04-20T13:57:53+02:00</lastmod>
     </url>
     <url>
+        <loc>http://maitre-du-monde.fr/blog/series/</loc>
+        <lastmod>2015-05-24T22:07:36+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://maitre-du-monde.fr/projects/boardgames/</loc>
+        <lastmod>2015-08-15T16:13:39+02:00</lastmod>
+    </url>
+    <url>
         <loc>http://maitre-du-monde.fr/blog/</loc>
         <lastmod>2015-05-24T21:32:16+02:00</lastmod>
     </url>
     <url>
         <loc>http://maitre-du-monde.fr/projects/</loc>
-        <lastmod>2015-08-11T12:20:51+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/blog/series/</loc>
-        <lastmod>2015-05-24T22:07:36+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/</loc>
-        <lastmod>2015-08-09T16:10:49+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/talks/</loc>
-        <lastmod>2015-04-20T13:57:29+02:00</lastmod>
+        <lastmod>2015-08-15T16:08:31+02:00</lastmod>
     </url>
     <url>
         <loc>http://maitre-du-monde.fr/blog/archive/</loc>
         <lastmod>2015-05-24T21:31:12+02:00</lastmod>
     </url>
     <url>
-        <loc>http://maitre-du-monde.fr/koans_fr/mine.html</loc>
+        <loc>http://maitre-du-monde.fr/talks/</loc>
+        <lastmod>2015-04-20T13:57:29+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://maitre-du-monde.fr/koans_fr/</loc>
         <lastmod>2015-04-25T18:03:34+02:00</lastmod>
     </url>
     <url>
         <loc>http://maitre-du-monde.fr/koans/mine.html</loc>
         <lastmod>2015-04-25T17:47:04+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://maitre-du-monde.fr/koans_fr/mine.html</loc>
+        <lastmod>2015-04-25T18:03:34+02:00</lastmod>
     </url>
     <url>
         <loc>http://maitre-du-monde.fr/projects/past.html</loc>
