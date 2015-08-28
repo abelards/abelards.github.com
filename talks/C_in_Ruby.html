@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The C in Ruby - `%`</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+	@import url(http://fonts.googleapis.com/css?family=Quicksand:300,700);
+      	body { font-family: 'Quicksand'; font-weight: 300; }
+      	.happy { background-image: url(https://cloud.githubusercontent.com/assets/584600/5992569/2e807aee-aa2f-11e4-9618-e6446ec7fe2f.png) }
+	a, a:visited, a:hover { color: #DDD; }
+	ul { list-style-type: none; }
+	ul li { height: 1.5em; }
+	.best .remark-inline-code { color: yellow; }
+	.best { color: #EEE; }
+
+      	h1, h2, h3 {
+          font-weight: 300;
+  	  text-align: center;
+	  color: #CCC;
+      	}
+      	.middle h1 {
+      	  font-size: 2.5em;
+      	  color: white;
+      	}
+	h1 { font-weight: bold; }
+	div.remark-slide-content {
+	  color: #AAA;
+	  background-color: #333;
+	  font-size: 200%;
+	}
+
+	.remark-code, .remark-inline-code {
+	  font-family: monospace, sans-serif;
+	  background: #000;
+	  border: 1px solid #666;
+	  border-radius: 2px;
+	  color: #CCC;
+	  padding: 0.25em;
+	  font-size: 100%;
+	  text-align: left;
+	}
+
+	code.hljs div.remark-code-line span.hljs-comment { color: gold; }
+
+	.b { font-weight: bold; }
+	.contrib { font-size: 90%; }
+
+	p.info { font-size: 75%; margin: 0; padding: 0; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle
+# The `%%` in Ruby
+
+&nbsp;
+
+.b[[@abelar_s](https://twitter.com/abelar_s) -
+[@ParisRB](https://twitter.com/parisrb) -
+[@RailsGirlsParis](https://twitter.com/railsgirlsparis)]
+ 
+[maitre-du-monde.fr](maitre-du-monde.fr)
+
+.contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/C_in_Ruby.html)]
+
+???
+
+---
+class: center
+# Strings
+```
+'Hello %s' % 'world'
+# => "Hello world!"
+```
+
+---
+class: center
+# c for Character
+```
+%c % 'Hello'
+# => ArgumentError: %c requires a character
+
+%c % 'A'
+# => 'A'
+```
+
+---
+class: center
+# p for inspect (print)
+
+```ruby
+Membre = Struct.new(:nom, :prenom)
+m = Membre.new('Abélard', 'Sylvain')
+
+'%p' % m
+# => "#<struct Membre nom=\"Abélard\", prenom=\"Sylvain\">"
+```
+
+---
+class: center
+# Alignments
+```
+'% 8s' % 'Test.'
+# => "   Test."
+
+'%-8s' % 'Test.'
+# => "Test.   "
+```
+
+---
+class: center
+# Several args
+```
+"%s. %s %s est %i%% fan de Ruby." %
+  ['M', 'Sylvain', 'Abélard', 100]
+# => "M. Sylvain Abélard est 100% fan de Ruby."
+```
+
+---
+class: center
+# Several args
+```
+civ, nom, prenom, pourcent =
+  ['M', 'Sylvain', 'Abélard', 100]
+
+"%s. %s %s est %i%% fan de Ruby." %
+  civ, nom, prenom, pourcent
+
+# => "M. Sylvain Abélard est 100% fan de Ruby."
+```
+
+---
+class: center
+# Strings
+
+```
+'%{sujet} %{verbe} %{complement}' %
+   {sujet: 'printf', verbe: 'formate',
+	complement: 'des chaînes'}
+
+# => "printf formate des chaînes"
+```
+
+---
+class: center
+# _(GetText)
+
+```
+_('%{sujet} %{verbe} %{complement}') %
+   {sujet: 'printf', verbe: _('formate'),
+	complement: _('des chaînes')}
+
+# FR => "printf formate des chaînes"
+# EN => "printf formats strings"
+```
+
+---
+class: center
+# Formats
+```
+'%d %i %u' % [1, 3.14, 0xF]
+# => "1 3 15" # entier
+
+'%o %#o' % [8, 010]
+# => "10 010" # octal
+
+'%b %#b' % [42, 0b101010]
+# => "101010 0b101010" # binaire
+
+'%x %X %#x' % [42, 0xDEADBEEF, 0xC0FFEE]
+# => "2a DEADBEEF 0xc0ffee" # hexa
+```
+
+---
+class: center
+# Numbers
+
+```
+tests = [1, 2048, 3.14159, -42]
+tests.map {|test| pattern % test }
+```
+
+---
+class: center
+# Numbers
+```
+'%04i' % x
+# 0001
+# 2048
+# 0003
+# -042
+```
+
+---
+class: center
+# Numbers
+```
+'%.2f' % x
+# 1.00
+# 2048.00
+# 3.14
+# -42.00
+```
+
+---
+class: center
+# Reading
+<a href="http://batsov.com/articles/2013/06/27/the-elements-of-style-in-ruby-number-2-favor-sprintf-format-over-string-number-percent/">@bbatsov prefers sprintf</a>
+
+```
+'format' % [a, b, c]
+sprintf('format', a, b, c)
+```
+
+<a href="http://ruby-doc.org/core-2.2.3/Kernel.html#method-i-sprintf">
+http://ruby-doc.org/core-2.2.3/Kernel.html#method-i-sprintf</a>
+
+---
+class: center, middle, happy
+# Questions?
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+.b[[@abelar_s](https://twitter.com/abelar_s) -
+[@ParisRB](https://twitter.com/parisrb) -
+[@RailsGirlsParis](https://twitter.com/railsgirlsparis)]
+ 
+[maitre-du-monde.fr](maitre-du-monde.fr)
+
+.contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/C_in_Ruby.html)]
+
+---
+class: center, middle, happy
+# Thanks!
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+.b[[@abelar_s](https://twitter.com/abelar_s) -
+[@ParisRB](https://twitter.com/parisrb) -
+[@RailsGirlsParis](https://twitter.com/railsgirlsparis)]
+ 
+[maitre-du-monde.fr](maitre-du-monde.fr)
+
+.contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/C_in_Ruby.html)]
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create({
+      highlightLanguage: 'ruby',
+      highlightStyle: 'dark'
+      });
+    </script>
+  </body>
+</html>

@@ -2,16 +2,20 @@
 @import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
 @import url('http://fonts.googleapis.com/css?family=Josefin+Sans');
 
-
-body{
+body {
  font-family: Quicksand, Helvetica, Arial, sans-serif;
  font-size: 16px;
  font-weight: 500;
  line-height: 20px;
  color: #444;
- background-color: #F3F3F3;
+ background-color: #EEE;
  margin: 0;
 }
+
+#title { width: 28em; padding: 0; }
+
+#series li { padding: 0.20em 0; }
+#series span { display: block; clear: both; font-size: 80%; }
 
 .cat { font-weight: 400; color: #444; }
 
@@ -24,14 +28,14 @@ body{
 .tooltip.open { display: block; }
 div:hover > .tooltip { display: block; }
 
-#bio {
-  padding: 1em;
+.dark.col {
+  padding: 0.5em;
   background: #E0E0E0;
   border-top: 1px solid silver;
   border-bottom: 1px solid #FEFEFE;
 }
-#bio p { margin: 0; }
-#bio ul li.wide { width: 98%; }
+.dark.col p { margin: 0; }
+.dark.col ul li.wide { width: 98%; }
 
 .short { display: none; }
 .tab { display: none; }
@@ -74,9 +78,9 @@ img {
 }
 a img { width: 16px; height: 16px; }
 
-#bio ul, #bio ol, ul.post-list {
- clear:both;
- padding:0;
+.dark.col ul, .dark.col ol, ul.post-list {
+ clear: both;
+ padding: 0;
  margin: 0;
  list-style-type: none;
 }
@@ -102,53 +106,62 @@ a:hover { color: #33475F; text-decoration: underline; }
 h3 a { font-weight: 700; }
 li h4 { margin-top: 0.75em; }
 
-#page { margin: 1em auto; }
 .help { font-size: 90%; margin-top: 1px; padding-top: 1px; }
 
-.content {
- margin: auto;
- width: 28em;
- clear: both;
+.page, .content {
+  margin: auto;
+  width: 27em;
+  padding: 0.5em;
+  clear: both;
 }
+
+.content { background: #F3F3F3; }
 
 /* responsive */
 @media screen and (min-width:870px) {
- #bio {
-  position:absolute;
+
+.dark.col {
+  position: absolute;
   width: 180px;
-  left: 0;
   top: 0;
+
   padding-top: 170px;
-  background-position: 50% 10px; // top, center;
+  background-position: 50% 10px;
   background-repeat: no-repeat;
-  background-image: url('/img/abelar_s_round.png');
+}
+
+#bio {
+  left: 0;
+  background-image: url('/img/glider_time.png');
  }
+
+#series {
+  right: 0;
+  background-image: url('/img/abelar_s_round.png');
+}
 
 }
 
 @media screen and (max-width:870px) {
- #bio {
+ .dark.col {
   background-image: none;
   position: relative;
-  padding: 0;
+  padding: 0.5em;
   min-height: 9.5em;
-  width: 28em;
+  width: 27em;
   margin: auto;
  }
 
- #bio .content {padding: 0 1em; width: 27em; }
-
- #bio h2 { display: none; }
+ .dark.col ul li { float:left; width: 12em; }
+ .dark.col h2, .dark.col h3 { display: none; }
  hr, h4 { display: none; }
 
- #bio ul li {float:left; width: 12em;}
-
- .lng { display:none; }
+ .lng { display: none; }
  .tab { display: inline; }
 }
 
 @media screen and (max-width:500px) {
- #bio ul li { float:left; width: 46%; }
+ .dark.col ul li { float: left; width: 46%; }
 }
 
 @media screen and (max-width:450px) {
@@ -157,8 +170,9 @@ li h4 { margin-top: 0.75em; }
  .short { display: inline; }
  p { margin: 0 0 0.5em 1em; }
  .half { width: 10em; margin: 0; }
- #bio, #bio .content { width: 100%; padding: 0.1em; }
- .content, .menu, .submenu { width: 100%; }
+ .dark.col, .content { width: 100%; padding: 0.1em; }
+ #title, .page, .menu, .submenu { width: 100%; }
+ #series li { padding: 0 0.2em; }
 }
 
 @media screen and (max-width:330px) {
@@ -174,7 +188,7 @@ li h4 { margin-top: 0.75em; }
 ul.post-list { font-size: 90%; }
 ul.post-list li, .post-header .post-meta { 
 	clear: both; width: 90%;
-	margin: 0 4.5% 1em 4.5%; // padding: 0.5em;
+	margin: 0 4.5% 1em 4.5%;
 	border-bottom: 1px dotted #999;
 	border-top: 1px solid #F3F3F3;
 }
@@ -186,7 +200,8 @@ ul.post-list .tagline {
 	padding: 0; margin: 0;
 	text-align: right; color: #888;
 }
-
+ul.post-list li li { margin: 2px; border: none; }
+ul.post-list li li:hover { border-top: none; border-bottom: none; }
 
 /* hovers */
 ul.post-list:hover .post-meta { color: #000; }
@@ -200,7 +215,7 @@ ul.post-list:hover .post-meta { color: #000; }
 .menu { text-align: center; color: #A5A5A5; }
 .submenu { background: #DEF; border-top: none; }
 
-.menu a { display: inline-block; width: 13%; margin: 0 auto; padding: 3px; }
+.menu a { display: inline-block; width: 13%; margin: 0 auto; padding: 4px; }
 .menu a:hover, #tags .tag:hover { background: #6ED6FA; text-decoration: none; }
 .menu a.active, #tags .tag.active { background: #8EE6FF; }
 .submenu a { width: 17%; }
