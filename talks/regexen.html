@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Regexen</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+	@import url(http://fonts.googleapis.com/css?family=Quicksand:300,700);
+      	body { font-family: 'Quicksand'; font-weight: 300; }
+      	.happy { background-image: url(https://cloud.githubusercontent.com/assets/584600/5992569/2e807aee-aa2f-11e4-9618-e6446ec7fe2f.png) }
+	a, a:visited, a:hover { color: #DDD; }
+	ul { list-style-type: none; }
+	ul li { height: 1.5em; }
+	.best .remark-inline-code { color: yellow; }
+	.best { color: #EEE; }
+
+      	h1, h2, h3 {
+          font-weight: 300;
+  	  text-align: center;
+	  color: #CCC;
+      	}
+      	.middle h1 {
+      	  font-size: 2.5em;
+      	  color: white;
+      	}
+	h1 { font-weight: bold; }
+	div.remark-slide-content {
+	  color: #AAA;
+	  background-color: #333;
+	  font-size: 200%;
+	}
+
+	.remark-code, .remark-inline-code {
+	  font-family: monospace, sans-serif;
+	  background: #000;
+	  border: 1px solid #666;
+	  border-radius: 2px;
+	  color: #CCC;
+	  padding: 0.25em;
+	  font-size: 100%;
+	  text-align: left;
+	}
+
+	code.hljs div.remark-code-line span.hljs-comment { color: gold; }
+
+	.b { font-weight: bold; }
+	.contrib { font-size: 90%; }
+
+	p.info { font-size: 75%; margin: 0; padding: 0; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle
+# Regexen
+
+&nbsp;
+
+.b[[@abelar_s](https://twitter.com/abelar_s) -
+[@ParisRB](https://twitter.com/parisrb) -
+[@RailsGirlsParis](https://twitter.com/railsgirlsparis)]
+ 
+[maitre-du-monde.fr](maitre-du-monde.fr)
+
+.contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/regexen.html)]
+
+???
+
+---
+class: center
+# The Phantom Menace
+
+- Unix Glob: `_` `*`
+- SQL LIKE: `?` `%` 
+- Reg Exp: `.` `.*`
+
+```
+"Yay~" if /Reg(ular )?\/ [Ee]xp\w*/ =~
+  "Regular / Expressions"
+```
+
+---
+class: center
+# Attack of the Clones
+
+- 0-1 `/Reg(ular)?/`
+- 1-n `/expres+ion/`
+- 0-n `/regex.*magic/`
+
+```
+/Bonjour #{client.nom},?/i
+```
+
+---
+class: center
+# Revenge of the Characters
+
+- `/(91|92|93|94)...` strings' OR
+- `/9[1234]\d\d\d/` chars' OR
+- `/9[1-4]\d{3}/` counting
+
+```ruby
+min = /yolooo*/, /yolooo+/, /yolo{3,}/
+max = /great!{,5}/
+boundaries = /lo{3,5}l/
+```
+
+---
+class: center
+# A new hope
+
+case `/ReGeXp/i`
+
+```
+# start/end of line/string
+/^part$/ =~ %Q[in
+part
+icular]
+/p.*ar/m =~ %Q[pec
+uliar]
+/\Apart\Z/ !~ "particle"
+```
+
+---
+class: center
+# The Group Strikes Back
+
+- `"banana" =~ /b(.).\1.\1/`
+- `# "bonobo", "bikini"`
+
+```
+title = "Bonjour, Monsieur Vincent"
+title =~ /, (\w*) (\w*)/
+Regexp.last_match
+# => #<MatchData ", Monsieur Vincent" 1:"Monsieur" 2:"Vincent"> 
+title.gsub(/.*, (\w*) (\w*)/,
+ 'Cher \1 \2,')
+```
+
+---
+class: center
+# Return of the captured
+
+```
+/(?<foo>.)(?<bar>.)/.named_captures
+#=> {"foo"=>[1], "bar"=>[2]}
+
+/(?<foo>.)(?<bar>.)(?<baz>.)/.names
+#=> ["foo", "bar", "baz"]
+```
+
+---
+class: center
+# The RegExp awakens
+
+```
+m = /s(\w{2}).*(c)/.match('haystack')
+m == Regexp.last_match
+#=> #<MatchData "stac" 1:"ta" 2:"c">
+
+$& == m[0] # => "stac"
+$` == m.pre_match # => "hay"
+$' == m.post_match #=> "k"
+$1 == m[1] #=> "ta"
+$3 == m[3] #=> nil
+$+ == m[-1] #=> "c"
+```
+
+---
+class: center
+# Character Classes
+
+```
+ /\w\W/ # word [a-zA-Z0-9_] & non-\w
+ /\s\S/ # whitespace [ \t\r\n\f] & non-\S
+
+ /[[:xdigit:]]/ # POSIX [0-9a-fA-F]
+ /\p{Alnum}/ # Unicode classes
+ /\p{Ll}/ # Unicode General Category
+ # 'Letter: Lowercase'
+```
+
+---
+class: center, middle, happy
+# Questions?
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+.b[[@abelar_s](https://twitter.com/abelar_s) -
+[@ParisRB](https://twitter.com/parisrb) -
+[@RailsGirlsParis](https://twitter.com/railsgirlsparis)]
+ 
+[maitre-du-monde.fr](maitre-du-monde.fr)
+
+.contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/regexen.html)]
+
+---
+class: center, middle, happy
+# Thanks!
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+.b[[@abelar_s](https://twitter.com/abelar_s) -
+[@ParisRB](https://twitter.com/parisrb) -
+[@RailsGirlsParis](https://twitter.com/railsgirlsparis)]
+ 
+[maitre-du-monde.fr](maitre-du-monde.fr)
+
+.contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/regexen.html)]
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create({
+      highlightLanguage: 'ruby',
+      highlightStyle: 'dark'
+      });
+    </script>
+  </body>
+</html>

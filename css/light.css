@@ -8,7 +8,7 @@ body {
  font-weight: 500;
  line-height: 20px;
  color: #444;
- background-color: #EEE;
+ background-color: #DDD;
  margin: 0;
 }
 
@@ -21,7 +21,7 @@ body {
 
 .tooltip {
  border: 1px solid silver;
- background: #EEEEEE;
+ background: #EEE;
  display: none;
  padding: 5px;
 }
@@ -30,7 +30,7 @@ div:hover > .tooltip { display: block; }
 
 .dark.col {
   padding: 0.5em;
-  background: #E0E0E0;
+  background: #CCC;
   border-top: 1px solid silver;
   border-bottom: 1px solid #FEFEFE;
 }
@@ -115,12 +115,12 @@ li h4 { margin-top: 0.75em; }
   clear: both;
 }
 
-.content { background: #F3F3F3; }
+.content { background: #EEE; }
 
 /* responsive */
 @media screen and (min-width:870px) {
 
-.dark.col {
+ .dark.col {
   position: absolute;
   width: 180px;
   top: 0;
@@ -128,18 +128,17 @@ li h4 { margin-top: 0.75em; }
   padding-top: 170px;
   background-position: 50% 10px;
   background-repeat: no-repeat;
-}
-
-#bio {
-  left: 0;
-  background-image: url('/img/glider_time.png');
  }
 
-#series {
+ #bio {
+  left: 0;
+  background-image: url('/img/glider_time.png');
+  }
+
+ #series {
   right: 0;
   background-image: url('/img/abelar_s_round.png');
-}
-
+ }
 }
 
 @media screen and (max-width:870px) {
@@ -190,7 +189,7 @@ ul.post-list li, .post-header .post-meta {
 	clear: both; width: 90%;
 	margin: 0 4.5% 1em 4.5%;
 	border-bottom: 1px dotted #999;
-	border-top: 1px solid #F3F3F3;
+	border-top: 1px solid #EEE;
 }
 ul.post-list h3 { float: left; }
 ul.post-list li p { clear: both; font-size: 90%; }
@@ -228,7 +227,6 @@ blockquote { border-left: 3px solid #CCC; }
        display: flex;
        flex-wrap: wrap;
        justify-content: space-around;
-//      border: 1px dotted #CCC;
 	padding: 3px;
 	margin-bottom: 1em;
 	text-align: center;
@@ -236,12 +234,11 @@ blockquote { border-left: 3px solid #CCC; }
 }
 #tags a {
      flex: 1 1 auto; 
-//     flex-basis: 75px;
       display: inline-block;
       padding: 1px 3px;
       margin: 2px;
       border: 1px solid #CCC;
-      background: #EEE;
+      background: #DDD;
       color: #666;
       border-radius: 3px;
 }

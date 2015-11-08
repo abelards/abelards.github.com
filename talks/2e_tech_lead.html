@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>The 2€ Tech Lead</title>
+    <title>The 2€ CTO</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <style type="text/css">
 	@import url(http://fonts.googleapis.com/css?family=Quicksand:300,700);
@@ -47,20 +47,20 @@
   <body>
     <textarea id="source">
 class: center, middle
-# The 2€
-# Tech Lead
+# The 2€ CTO
 
 &nbsp;
 
-.b[[@abelar_s](https://twitter.com/abelar_s) -
-[@ParisRB](https://twitter.com/parisrb) -
-[@RailsGirlsParis](https://twitter.com/railsgirlsparis)]
+.b[remark.js: press P to get the transcript]
  
 [maitre-du-monde.fr](maitre-du-monde.fr)
 
 .contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/2e_tech_lead.html)]
 
 ???
+Hi everyone,
+I often get asked if I can be or refer to a CTO.
+Coders also ask me how to become one, which would be another talk entirely (but this could do as an introduction).
 
 ---
 class: center
@@ -69,10 +69,28 @@ class: center
 - Chinese Master?
 - Young Gullible With Shiny Title?
 
+???
+As always, we first need to define what the topic at hand is.  
+Either you need an old guru, chinese-master like, and I bow to you,  
+or you need a single, young, gullible developer and the CTO title is a way to pay that guy[1] less.
+
+[1] yes, I try to use inclusive language, but this actually is more targeted on guys than gals.  
+Women exploitation in the workplace is real, but this is also another talk entirely and I'm not qualified to talk about it.
+
 ---
 class: center
 # What is a 2€ CTO?
 ## Some questions or advice <br /> I often repeat.
+
+You will become a great CEO on slides 13, 20, 25, 36 and 40.
+
+???
+So, what these people need is a 2€ CTO.  
+Something you could use to quickly get, understand or emulate what a CTO does.  
+And preferably a thing that doesn't cost a thing.
+
+Time is definitely NOT free, but peope think it is.  
+So... follow me, spend a little time, and you can be a decent CTO yourself :)
 
 ---
 class: center
@@ -80,12 +98,37 @@ class: center
 <img src="https://upload.wikimedia.org/wikipedia/en/4/45/DiffusionOfInnovation.png" />
 ### Works for products & hires
 
+???
+Here is the Technology Adoption Lifecycle.  
+If you sell a product, you will talk to these kind of people, one after another.
+
+Interestingly enough, this will also work for your hires:  
+your cofounders are likely innovators (novelty attracts them),  
+your 1st hires are likely early adopters (novelty doesn't frighten them).
+
+So be prepared: you will hire early/late majority:  
+either by opportunity (innovators are few) or attrition (innovators flee).
+
 ---
 class: center
 # Hype Cycle
 <div style="background: #CCC;padding:1em;">
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Gartner_Hype_Cycle.svg" />
 </div>
+
+???
+Here is the Hype Cycle.  
+A combination of many psychological and economic things, I won't dwell on that too much.
+
+Just remember this applies to technologies. How do articles sound now?  
+Rails is Dead! NodeJS is all the rage!  
+(of course, you might just have a useless toy without a plateau of productivity)
+
+Remember this also happens to people, and most likely to your company:  
+You barely even launched, you got media coverage? Great, remember it's inflated.  
+You have a product that works, invested in scaling, and nobody buys? Disillusionment.
+
+Keep in mind that might drive your innovators away. How will you live through this?
 
 ---
 class: center
@@ -95,40 +138,209 @@ class: center
 <img src="//lh6.googleusercontent.com/m0JcOzjp2pgY9opaN9xbtAI4VE9rFJr1gSnImxbW4QWIlqBJj5vIXwSKER5gHnF6EDwGX9F2C-CpYdltC90KslCaTPIOJGaigVn-iPBn1Namzhly-6vE-ALHnUM9ws42xg" />
 </a>
 
+???
+History repeats itself, so you read Power Porn and imitate.
+
+Hey, I hate to break this news to you, but there's only one Google or one Facebook.  
+BUT... There was a Yahoo, a Microsoft, an Apple, a Minecraft and a SnapChat!
+
+People who succeeded will tell you their story, and attribute their luck to their work.  
+Their opportunity has already been grabbed.  
+Move on, good news is: there will be others.  
+If you make them happen.
+
+---
+class: center
+# Programmer Competency Matrix
+
+http://sijinjoseph.com/programmer-competency-matrix/
+
+???
+BTW, what is a good programmer?  
+A good dev will know technical interviews are hard to gauge a person,  
+and our human biases make it difficult to be fair and not swayed by subjective cues.  
+An alternative is working together. That can be long and expensive and you night not want that.
+
+I suggest this matrix for SOME of the ratings/tests you give, but you can change/update it.  
+A few companies doing open-salary policies (FogCreek, Buffer) provide some matrices of their own.
+
+But if you're ready to hire without a senior checking or without a dev at all,  
+it might be a nice exercise to give this to your candidate for self-assessment of skill.    
+Few people know this, and it will at least prove him you're serious about development / personal growth.
+
+
+---
+class: center
+# History shapes code
+## <a href="http://www.joelonsoftware.com/uibook/chapters/fog0000000059.html">Code/UI reflects history</a>
+
+- That big customer's requirements
+- Devices and leaky abstractions
+- Support
+
+???
+We all lack time.  
+So whenever there's a quick win, quick fix, an emergency...  
+things get added without conscious, thought-out plan.
+
+You will find your codebase (and your UI!) littered with these choices from a big customer's needs, support requests, and perhaps the legacy of the systems / integrations you supported, in order.
+
 ---
 class: center
 # Org shapes code
 ## The code reflects the organisation
 
+- This team and split responsibility
+- That deadline-induced rush
+- Who talks to whom
+- Each intern
+- Reorg
+
+???
+It is said code reflects the organisation that made it happen.
+
+If you split responsibilities, it will show.  
+If you had a rush and never pay the technical debt, it shows.  
+By code styles, a seasoned dev can often feel which part was made by which intern.
+
+If you change the organisation, you probably expect delays,  
+uncertainty, overlap and holes in many jobs. In code too.
+
+---
+class: center
+# Org shapes code
+## So what 'smells' are we looking for?
+
 - Can do / Can't do
 - Not my problem
-- Whose problem is this?
+- We don't know anymore
+
+???
+Like code, organisations have "smells":  
+- things which are not independently 100% wrong,  
+  but should tip you there's a thing to watch,
+
+- things which are not wrong from time to time,  
+  but raise big warnings if you have several at once, or one for a long time.
+
+In short, we all hate ass-covering, name-calling and flattery, but we all fall for them.  
+Fix this.
+
+---
+class: center
+# Org shapes code
+## Let's be a <a href="https://www.goodreads.com/book/show/6399113-the-passionate-programmer">pragmatic / passionnate programmer</a>
+
+- Monkey traps :(
+- Boiling frogs :)
+- Stone soups :)
+
+???
+What we need is explained in The Pragmatic / Passionate Programmer.  
+Just read this, I don't have time to redo the stories and it's a shame to cut them.
+
+**Monkey trap:** when you won't let go and you should  
+**Boiling frog:** when you want sudden changes and you should do it slowly  
+**Stone soup:** how to get buy-ins from a hostile crowd
+
+---
+class: center
+# Org shapes code
+
+- "Let's add an option"
+- cf my <a href="https://speakerdeck.com/abelar_s/known-unknowns">Known Unknowns</a>
+- <a href="https://en.wikipedia.org/wiki/Poka-yoke">Baka-Yoke / Poke-Yoke</a>
+<img src="http://www.joelonsoftware.com/uibook/pictures/Whoops_I_Did_it_Again.gif" />
+
+???
+If that was abstract, here are a few concrete examples, and links to other talks.
+
+Understand things that look simple are often not, and put safeguards against human error.  
+Think of it as stupid users if you will, but it will often save you from yourself.
+
+---
+class: center, middle, happy
+# Interlude
+
+???
+Here's an interlude. You deserve it. It's a hard topic.  
+You are probably thinking of examples in your current / past jobs.  
+We're dealing with sad stuff right now, so let's admire this happiest man.
 
 ---
 class: center
 # Your stack
 ## What do you know <br />& how do you know it?
-- Identity! Factoids! Trends!
+- Identity! Factoids!
+- Trends! FOMO! FUD!
 - A Full Rewrite in X is a Full Rewrite
+
+???
+For any technical choice, I will of course recommend either my company or Ruby/Rails.  
+With the years I've become more forgiving (some say less arrogant?),  
+and understand you probably chose your stack based on shiny blogs,  
+advice from people with vested interests, and rationalising choices.
+
+I will talk about trends, SocialFX dealt with factoids.  
+Looking at trends is a nice indicator, but beware  
+- Fear Of Missing Out (FOMO -- what if I skipped the killer tech?)  
+- FUD (Fear, Uncertainty and Doubt -- these people win money if everyone believes their lies)
+
+One of the biggest and probably unwitting examples is devs patting  
+themselves on the back when they've done a rewrite in another tech.  
+OK, they should, because they made their boss part with a big chunk of money  
+for them to play with new techs: being grateful is the least they can do :)
+
+But the trick is: they already know the project and problems well,  
+and given a rewrite cost they probably have buy-in from the bosses.  
+But could they have got the same pleasure and gains just with time off  
+for a rewrite, from techn X to... tech X? It is often so.
 
 ---
 class: center
-# Your stack
+# Your codebase
 ## Feedback from a guru
 - Smells are right
 - Understanding of skill is right
+- anyway, he will answer "it depends"
+
+???
+Based on all this, if you happen to have a guru at hand,  
+their feelings about the code smells are probably right  
+(your code lacks clarity or consistency, syntax is weird...)  
+and their understanding of devs' skills are probably right.
+
+But they don't have the history, and will probably say "it depends".  
+And if they don't, well, they're not a worthy guru ;)
 
 ---
 class: center
-# Your stack
+# Your code
 ## "We need to rewrite everything" <a href="http://www.joelonsoftware.com/articles/fog0000000069.html">is probably wrong</a>
 - Why is this person telling you this?
 - You got it wrong once, why not twice?
 - You got it right once, why not expand?
 
+???
+
+We all pretend to be smartasses because we know what's right and
+everything is obvious both in context and in hindsight.
+
+Just remember the person might have a hidden interest:  
+money is obvious, trying to have the office closest to the window / coffee isn't.
+
+If you're a late majority I probably should tell you risks are worth it,
+and you sometimes need to change.  
+But this is a Ruby meetup, so instead I probably have to tell you to slow down
+and weigh options. If not for the project, at least to get some respect.
+
+Nothing is all black or all white, you can probably please both sides
+of the table by just isolating what is or isn't worth it.  
+And you'll  know both your codebase and the problem space better.
+
 ---
 class: center
-# Your stack
+# Your goals
 ## Are you choosing 
 - <a href="http://www.joelonsoftware.com/articles/fog0000000024.html">McD vs gourmet food?</a>
 - Someone just like you?
@@ -136,9 +348,16 @@ class: center
 - Lang skills or problem-solving?
 - To solve scalability that won't happen?
 
+???
+So if we're turning the "choosing the right tech" into a
+"choosing the right person (with some tech knowledge)" debate,
+we should probably inquire about how we choose people.
+
+And how we choose problems too.
+
 ---
 class: center
-# Your stack
+# Your TODO
 ## Are you choosing people to
 
 - make it
@@ -147,6 +366,48 @@ class: center
 - deploy it
 - run it
 - fix it
+
+???
+Here's the sanity check: would you trust someone to make but not test?  
+To run but not fix? If not, that is a huge no-go.
+
+I actually don't think there are so many people with such a problem.  
+But I do think some have problems with these, and you can help with the right environment.
+
+---
+class: center
+# Your speed
+## <a href="http://www.joelonsoftware.com/articles/fog0000000017.html">(it takes 10 years)</a>
+- Few people = consistent design
+- More people = more layers/waste
+- Recurring annoyances:
+- noticed and fixed quickly?
+- SMART goals
+
+???
+How's your speed in this?  
+Actually I don't know, but Joel says it'll take ten years.
+
+If it's going to take 10 years' worth of lessons,  
+you might as well make sure to get them fast.
+
+I'm not saying FAIL fast, because even this became void of meaning.  
+I don't want you to fail, I want you to experiment fearlessly, with control and metrics.  
+Risk-averse people might be great to suggest risk mitigation conducts.
+
+One I have to address quickly is: the solution is not so often to add more people.
+
+Notice this is "choosing the right problem" not for your devs, but for you.
+
+
+---
+class: center, middle, happy
+# Interlude
+
+???
+Did I lose you yet? Here's another interlude.  
+Complex topic ahead, so I figured we'd need a slight pause to renew attention.  
+If you're plunging into your smartphone, well, I lost my audience but you lost some content.
 
 ---
 class: center
@@ -157,6 +418,20 @@ class: center
 - Opportunity to become a leader
 - To be with the cool guys
 - Easier to find jobs
+- ... or is it?
+
+???
+Defining oneself as X is the most powerful thing.  
+Your parents, culture, teenage rebellion, whatever makes most impression
+on your life and whatever helps you in dire times are probably "I am a X".  
+Is a programming language worth this?  
+I may be passionnate, but I don't think so.
+
+Choosing a favourite language often happens just as you switch jobs.  
+More often, as you enter your first job, since you're not likely to change.  
+So it's an age thing.
+
+You probably found an identity to get a cool job with cool guys, why not.
 
 ---
 class: center
@@ -167,16 +442,30 @@ class: center
 - Learning
 - Local Guru
 
+???
+We also have some more reasons which lead most of us (who last in coding jobs)
+to look for support and mentoring, if only for a feeling of community.  
+We ARE social animals indeed.
+
 ---
 class: center
 # Identity
 ## Defining oneself by X is the most *dangerous* thing
 
-- Stuck
 - Trolls
 - Traitors
+- Stuck there
 - Echo chamber
 - Useless rivalries
+
+???
+But this leads to dangerous pitfalls.  
+How will you handle attacks on your identity? On your bread-winning skills?  
+How will you accept when someone switches to another lang? Traitor? Idiot?  
+
+What if you invest so much you can't leave? (THAT is a Monkey Trap, by the way)
+
+What if you alienate super nice people just because they didn't have the exact same epiphany at the exact same point?
 
 ---
 class: center
@@ -191,6 +480,24 @@ class: center
 
 <a href="http://www.joelonsoftware.com/articles/fog0000000007.html">Not Invented Here Syndrome</a>
 
+???
+And since we all fall for it, we might as well use it to our own advantage.
+
+When managing by "Command and Control" or using money don't work on
+the spoiled brats we are, it's the only solution you have anyway.
+
+(Just kidding: there's more to "Econ 101" than just money.  
+Find this, give it to us, and you're King of the Devs.)
+
+---
+class: center, middle, happy
+# Interlude
+
+???
+Yet another interlude. Because who doesn't like Matthieu Ricard?  
+He's all "let's practice empathy and compassion to love each other"!  
+Like, putting the individual in... teams? Oh! You got teams, right?
+
 ---
 class: center, ruby
 # Team
@@ -201,15 +508,27 @@ class: center, ruby
 - Take time to get better
 - Echo chamber or diversity
 
+???
+Yes I'm repeating things, but it's good to look back on common wisdom.
+
 ---
 class: center, ruby
 # Team
 ## It's too hard to hire seniors
 
 - Understand what they need
+- Mentors, someone to look up to
 - Non-dev tech people (<a href="http://www.joelonsoftware.com/items/2010/01/26.html">testers?</a>)
-- Non-tech people (politics *shielders*)
+- Designers, <a href="http://www.joelonsoftware.com/uibook/chapters/fog0000000057.html">UX people</a>
+- Other non-tech (politics *shielders*)
 - Train juniors
+
+???
+Here are super ideas if you can't hire seniors devs:
+- hire people who aren't devs
+- give non-seniors the ability to deliver like seniors
+
+And it's easier than you think. You just have to shed some prejudices.
 
 ---
 class: center, ruby
@@ -220,6 +539,11 @@ class: center, ruby
 - Offices, quiet
 - Books, tools
 
+???
+Free the devs from politics, from noise and interruptions,  
+give them tools and (the right amount of) freedom.  
+This costs WAY LESS than hiring more people, by the way.
+
 ---
 class: center, ruby
 # Team
@@ -229,6 +553,18 @@ class: center, ruby
 - Foolish hiding?
 - A success a day!
 
+???
+Sociologists know the "audience effect".  
+For simple tasks, check on me so I don't get bored or wander on the Internet.  
+And try to make it sound like a challenge, that'd help (though I won't be fooled long).
+
+But for complex tasks, leave me alone: I have to check/test things I might be
+embarrassed about, or I fear you wouldn't understand and don't want to lose
+time explaining.
+
+My brain is working at top speed, and any hindrance will slow your
+problem from getting a solution. Your call, now.
+
 ---
 class: center, ruby
 # Individuals
@@ -237,14 +573,40 @@ class: center, ruby
 - 10x the bullshit
 - 10x manager?
 
+???
+Top speed?
+
+The fact that there can be 10x developers is probably an ego-flattering scam.  
+Even if it works, it probably means there is poor person/task fit.  
+This is not fixed by hiring 10x devs (would you pay the 10x salary they deserve?)
+but in recruiting and managing people.
+
+Also, if there is a tiny truth behind 10x devs, it's so harmful to people
+(beginners and introverts particularly) that it's not worth seeking anyway.
+
+You might hire a costly rockstar by promising a 10x-devs-team.  
+You would have an even better ROI by having a compassionate tech lead
+who would raise the bar and triple the productivity for each of your 5 juniors.
+
 ---
 class: center, ruby
 # Individuals
 ## So who should I hire?
 
 - Pirate ninja rockstar fireman?
-- or...
-- Code gardener!
+- or... Code gardener!
+
+Look at <a href="http://www.joelonsoftware.com/articles/fog0000000043.html">
+  Joel's Test</a>:
+a beautiful garden people want to come in & keep clean
+
+???
+I mentioned Rockstar too. I hate these words, please fix this.
+
+I could go on ranting on the appropriate words for hours (code artist, dancer, doctor, defuser, what have you).
+
+Let's keep that banter for conversations over lunch, and set your
+culture so that it lets people be happy and productive.
 
 ---
 class: center, ruby
@@ -252,21 +614,46 @@ class: center, ruby
 ## "Jack of all trades,<br /> master of one"
 - "Know something about everything,<br /> and everything about something"
 
----
-class: center, ruby
-# Dreyfus Model<br />of Skill Acquisition
-1. Novice <p class="info">stick to plan</p>
-2. Advanced beginner <p class="info">understands parts</p>
-3. Competent <p class="info">sees, plans, makes routines</p>
-4. Proficient <p class="info">gets, prioritizes, sees deviations, flexible maxims</p>
-5. Expert <p class="info">transcends, intuition, vision, analytical approaches</p>
+???
+What you really want are T-shaped people.  
+Would you recruit Renaissance developers?
 
 ---
 class: center, ruby
 # Dreyfus Team
 ## Experts write tools for others to use
+- Dreyfus' model of skill
+- acquisition (bonus slide #1)
 - Enhances productivity
 - Reduces damage
+- Get to Flow
+
+???
+If I've shown you something it's how you can't and shouldn't have an
+all-experts team, be it for long-term purposes, accident-proofing your
+team, or simply to maximise revenue.
+
+In a mixed-skill environment, or to onboard people safely,
+you probably want to have some code, or code-writing process,
+which also is Baka-Yoke ("stupid-proof").
+
+This will let beginners learn recipes to become proficient,  
+let skilled room to experiment and confront their model,  
+and harness the maximum out of the masters.
+
+---
+class: center, ruby
+# <a href="https://en.wikipedia.org/wiki/Flow_%28psychology%29">Flow</a>
+
+<div style="background: #CCC;padding:1em;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Challenge_vs_skill.svg" />
+</div>
+???
+
+You have all kind of problems, and some are easy:  
+take that opportunity to teach the juniors, and not bore the masters!  
+By keeping people in the right amount of challenge / skill,  
+you're creating the infinitely precious Flow.
 
 ---
 class: center, ruby
@@ -275,6 +662,32 @@ class: center, ruby
 
 - Once again a case for diversity
 - "Developers in IT are a dime a dozen" - @zedshaw LPTHW
+
+???
+Lastly, if you are not a CEO, a CTO, nor even a team lead,  
+here's a reminder:  
+THIS is where magic happens, and this is where you want to be.
+
+---
+class: center, middle, happy
+# Thanks!
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+.b[[@abelar_s](https://twitter.com/abelar_s) -
+[@ParisRB](https://twitter.com/parisrb) -
+[@RailsGirlsParis](https://twitter.com/railsgirlsparis)]
+ 
+[maitre-du-monde.fr](maitre-du-monde.fr)
+
+.contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/2e_tech_lead.html)]
+
+???
+Well, thanks everybody, stay for the bonuses and enjoy life :D
 
 ---
 class: center
@@ -286,8 +699,36 @@ class: center
 ## <a href="https://en.wikipedia.org/wiki/Perverse_incentive">
   Perverse Incentive</a>
 
-## <a href="http://www.joelonsoftware.com/">
-  Joel on Software</a>
+## <a href="http://www.joelonsoftware.com/"> Joel on Software</a>
+
+## <a href="http://local.joelonsoftware.com/wiki/French">Best-Of in French</a>
+
+???
+Well, I found out that for any topic I wanted to explain,
+Joel did this fifteen years before and better than me.
+So here you are, read away!
+
+---
+class: center, middle
+# Not covered in this talk
+
+- culture & motivation
+- mentoring & feedback
+- planning & delegating
+- surviving SNR, FUD & FOMO
+- ?
+
+???
+Yeah I know there are a lot of topics left, but they're not for a 2€ CTO.
+
+---
+class: center, middle
+# Team Lead!
+## I don't know any for 2€
+
+???
+They are for a team lead that sits with the team and make them grow.  
+And... I don't know of any that costs 2€, sorry.
 
 ---
 class: center, middle, happy
@@ -307,23 +748,44 @@ class: center, middle, happy
 
 .contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/2e_tech_lead.html)]
 
+
+
 ---
-class: center, middle, happy
-# Thanks!
+class: center, ruby
+# Bonus slide #1
+## Dreyfus Model<br />of Skill Acquisition
+1. Novice <p class="info">stick to plan</p>
+2. Advanced beginner <p class="info">understands parts</p>
+3. Competent <p class="info">sees, plans, makes routines</p>
+4. Proficient <p class="info">gets, prioritizes, sees deviations, flexible maxims</p>
+5. Expert <p class="info">transcends, intuition, vision, analytical approaches</p>
 
-&nbsp;
+???
+Here is a memo on how skill gets built.
+Here's what you want to find and evaluate instead of cherry-picking some abilities.
 
-&nbsp;
 
-&nbsp;
+---
+class: center
+# Bonus slide #2
+## Know where to go
+### But docs are boring / for suits
+- Too many documents is bad
+- Too few documentation is bad
+- Write it yourself
 
-.b[[@abelar_s](https://twitter.com/abelar_s) -
-[@ParisRB](https://twitter.com/parisrb) -
-[@RailsGirlsParis](https://twitter.com/railsgirlsparis)]
- 
-[maitre-du-monde.fr](maitre-du-monde.fr)
+???
+Sorry, this one didn't fit so... stuck at the end for openings!
 
-.contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/2e_tech_lead.html)]
+Your devs need to know where to go, and nobody wants to write docs.  
+Also, the level is often wrong: too many details or not enough.
+
+I suggest you learn this skill, by writing the doc yourself
+(your devs will love you for that) and asking them honest feedback
+(so you're not the PPT-boss).
+
+Accept all criticism from them, but they will have to accept the occasional
+"if you don't like it, write it yourself" (to be shown, not to flee the responsibility).
 
     </textarea>
     <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
