@@ -40,7 +40,7 @@ div:hover > .tooltip { display: block; }
 .short { display: none; }
 .tab { display: none; }
 
-.post-header .post-meta, .c { text-align: center; }
+.post-header .post-meta, .c, .more { text-align: center; }
 
 .koan { font-family: serif; font-size: 85%; }
 footer, .footnotes { border-top: 1px dotted #999; margin-top: 2em; }

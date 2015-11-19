@@ -6,9 +6,67 @@
 </description>
     <link>http://maitre-du-monde.fr/</link>
     <atom:link href="http://maitre-du-monde.fr/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 08 Nov 2015 22:29:59 +0100</pubDate>
-    <lastBuildDate>Sun, 08 Nov 2015 22:29:59 +0100</lastBuildDate>
+    <pubDate>Thu, 19 Nov 2015 10:48:16 +0100</pubDate>
+    <lastBuildDate>Thu, 19 Nov 2015 10:48:16 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Now &amp; Goals</title>
+        <description>&lt;style&gt;h3 { text-align: center; } &lt;/style&gt;
+
+&lt;p&gt;Do you know the “now page” movement?
+@sivers and @practicingruby use it as a focus manifesto.&lt;/p&gt;
+
+&lt;p&gt;I probably lacks some of the focus they say I should have, but I’m not signing it.
+It’s nice to have focus, make baby steps and feel progress to keep motivation.
+Bit I have concerns about losing the Big Picture and closing doors (yes that’s FOMO).&lt;/p&gt;
+
+&lt;p&gt;My page would rather be: Goals.
+I have a few long-term goals and I sometimes manage to break them into tiny bits for now.&lt;/p&gt;
+
+&lt;h3 id=&quot;make-tech-more-inclusive&quot;&gt;make tech more inclusive&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;now I’m doing RailsGirls + a weekly study group, and trying to understand minorities&lt;/li&gt;
+  &lt;li&gt;in the next 2 years I hope to visit schools to give the yearning for programming&lt;/li&gt;
+  &lt;li&gt;in the coming years I hope to do something for the physically disabled&lt;/li&gt;
+  &lt;li&gt;after that, probably for the mentally disabled when possible&lt;/li&gt;
+  &lt;li&gt;and after that, perhaps some training for inmates to get a job after prison&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are opportunities I’m willing to pursue.
+If you have half a plan and need a hand, I’d gladly change that order for your target audience.&lt;/p&gt;
+
+&lt;h3 id=&quot;be-a-better-person&quot;&gt;be a better person&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;make business a better place for family constraints, worklife balance (in great progress)&lt;/li&gt;
+  &lt;li&gt;learn more languages such as german and japanese (nice progress), sign language and russian&lt;/li&gt;
+  &lt;li&gt;learn more about psychology, sociology and education&lt;/li&gt;
+  &lt;li&gt;share whatever I can, lower the bar for these&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;selfish-projects&quot;&gt;selfish projects&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;do sports, be more fit&lt;/li&gt;
+  &lt;li&gt;make boardgames &amp;amp; art&lt;/li&gt;
+  &lt;li&gt;raise a family&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;impossible-possibles&quot;&gt;impossible possibles&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;fix education, society &amp;amp; the world&lt;/li&gt;
+  &lt;li&gt;expand humanity to other planets&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 11 Nov 2015 00:00:00 +0100</pubDate>
+        <link>http://maitre-du-monde.fr/2015/11/11/now.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2015/11/11/now.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Forgive my negativity</title>
@@ -427,7 +485,7 @@ Why would I simply spam my friends with things I don’t know a thing about?&lt;
 &lt;p&gt;I get that most of these offer come from recruiters, and as middlemen
 they only get paid if the job contract is signed through them.&lt;/p&gt;
 
-&lt;p&gt;I’m very sorry about this &lt;a href=&quot;2015/07/26/recruiters-cycle.html&quot;&gt;vicious cycle&lt;/a&gt;,
+&lt;p&gt;I’m very sorry about this &lt;a href=&quot;/2015/07/26/recruiters-cycle.html&quot;&gt;vicious cycle&lt;/a&gt;,
 but I need at least:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -472,36 +530,6 @@ So this will explain your salary range’s width, AND be inclusive.&lt;/p&gt;
         <pubDate>Sun, 19 Jul 2015 00:00:00 +0200</pubDate>
         <link>http://maitre-du-monde.fr/2015/07/19/mystery-offers.html</link>
         <guid isPermaLink="true">http://maitre-du-monde.fr/2015/07/19/mystery-offers.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Sociologie des devs</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://pixelastic.com&quot;&gt;Tim Carry&lt;/a&gt; est un développeur et prend des
-notes des nombreux &lt;a href=&quot;http://meetups.pixelastic.com&quot;&gt;meetups&lt;/a&gt; auxquels
-il assiste.&lt;/p&gt;
-
-&lt;p&gt;Apparemment mon talk sur &lt;a href=&quot;https://speakerdeck.com/abelar_s/effects-of-sociology-on-devs&quot;&gt;“Quelques effets de la sociologie appliqués aux développeurs”&lt;/a&gt;
-lui a beaucoup plu et au lieu d’un résumé il a écrit une &lt;a href=&quot;http://meetups.pixelastic.com/2015/06/09/humantalks-juin-2015/#sociologie-applique-aux-dveloppeurs-a-namesocioa&quot;&gt;transcription détaillée&lt;/a&gt;
-de la plupart des effets.&lt;/p&gt;
-
-&lt;p&gt;Devant la masse de travail j’ai également contribué à l’article sur son blog
-en ajoutant notes de pied de page et liens pour en savoir plus.&lt;/p&gt;
-
-&lt;p&gt;Je ne suis pas toujours d’accord avec quelques raccourcis et certaines
-interprétations, et j’ai parfois ajouté mon grain de sel, mais j’ai
-évité de modifier ou retirer son point de vue : il est intéressant de
-voir comment cela a été perçu, et je suppose qu’une autre partie de
-l’audience aura tiré d’autres enseignements encore.&lt;/p&gt;
-
-&lt;p&gt;Merci pour son travail qui ajoute énormément à tous ceux qui n’ont pas pu assister
-au talk ou qui voudraient s’y replonger en format texte !&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 09 Jul 2015 00:00:00 +0200</pubDate>
-        <link>http://maitre-du-monde.fr/2015/07/09/sociologie_devs.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2015/07/09/sociologie_devs.html</guid>
         
         
       </item>
