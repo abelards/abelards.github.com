@@ -6,60 +6,69 @@
 </description>
     <link>http://maitre-du-monde.fr/</link>
     <atom:link href="http://maitre-du-monde.fr/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 Nov 2015 10:48:16 +0100</pubDate>
-    <lastBuildDate>Thu, 19 Nov 2015 10:48:16 +0100</lastBuildDate>
+    <pubDate>Wed, 25 Nov 2015 16:00:57 +0100</pubDate>
+    <lastBuildDate>Wed, 25 Nov 2015 16:00:57 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Now &amp; Goals</title>
-        <description>&lt;style&gt;h3 { text-align: center; } &lt;/style&gt;
+        <title>Now &amp; Tomorrow</title>
+        <description>&lt;p&gt;Do you know the &lt;a href=&quot;http://sivers.org/nowff&quot;&gt;“now page movement”&lt;/a&gt;?&lt;/p&gt;
 
-&lt;p&gt;Do you know the “now page” movement?
-@sivers and @practicingruby use it as a focus manifesto.&lt;/p&gt;
+&lt;p&gt;I first came across it via &lt;a href=&quot;https://twitter.com/sivers&quot;&gt;@sivers&lt;/a&gt; and
+&lt;a href=&quot;https://twitter.com/practicingdev&quot;&gt;@practicingdev&lt;/a&gt;.
+It looks like a manifesto on focus, a way to make it clear what your
+main activities currently are or should be.[1]&lt;/p&gt;
 
-&lt;p&gt;I probably lacks some of the focus they say I should have, but I’m not signing it.
+&lt;p&gt;I would like to expand on it.&lt;/p&gt;
+
+&lt;p&gt;There’s no question these two know how to prioritize, act and deliver.
 It’s nice to have focus, make baby steps and feel progress to keep motivation.
-Bit I have concerns about losing the Big Picture and closing doors (yes that’s FOMO).&lt;/p&gt;
+This is good advice I’ve needed at some point in my life, and were it not
+expressed in an absolute tone I wouldn’t have acted on it.&lt;/p&gt;
 
-&lt;p&gt;My page would rather be: Goals.
-I have a few long-term goals and I sometimes manage to break them into tiny bits for now.&lt;/p&gt;
+&lt;p&gt;But now I get this rule, and I can transgress it.
+I feel bad losing the Big Picture, and closing doors.&lt;/p&gt;
 
-&lt;h3 id=&quot;make-tech-more-inclusive&quot;&gt;make tech more inclusive&lt;/h3&gt;
+&lt;p&gt;I’m aware that might be &lt;a href=&quot;https://en.wikipedia.org/wiki/Fear_of_missing_out&quot;&gt;FOMO&lt;/a&gt;
+(bad), but can relabel it as embracing serendipity and opportunity (good).&lt;/p&gt;
+
+&lt;p&gt;My page would rather be “Goals”. Or “&lt;a href=&quot;/now/&quot;&gt;Tomorrow&lt;/a&gt;”.
+I’m summarizing below but feel free to see the detailed version.&lt;/p&gt;
+
+&lt;style&gt;h3 { text-align: center; } &lt;/style&gt;
+
+&lt;h3 id=&quot;make-tech-more-inclusive&quot;&gt;Make tech more inclusive&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;now I’m doing RailsGirls + a weekly study group, and trying to understand minorities&lt;/li&gt;
-  &lt;li&gt;in the next 2 years I hope to visit schools to give the yearning for programming&lt;/li&gt;
-  &lt;li&gt;in the coming years I hope to do something for the physically disabled&lt;/li&gt;
-  &lt;li&gt;after that, probably for the mentally disabled when possible&lt;/li&gt;
-  &lt;li&gt;and after that, perhaps some training for inmates to get a job after prison&lt;/li&gt;
+  &lt;li&gt;RailsGirlsParis: empowering a handful of women right now, broadening the caring culture with the awesome mentors I’ve met.&lt;/li&gt;
+  &lt;li&gt;Next: learning about minorities, safe spaces, reaching out to kids&lt;/li&gt;
+  &lt;li&gt;Extending to disabled people physically &amp;amp; mentally, and prison reinsertion&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;These are opportunities I’m willing to pursue.
 If you have half a plan and need a hand, I’d gladly change that order for your target audience.&lt;/p&gt;
 
-&lt;h3 id=&quot;be-a-better-person&quot;&gt;be a better person&lt;/h3&gt;
+&lt;h3 id=&quot;be-a-better-person&quot;&gt;Be a better person&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;make business a better place for family constraints, worklife balance (in great progress)&lt;/li&gt;
-  &lt;li&gt;learn more languages such as german and japanese (nice progress), sign language and russian&lt;/li&gt;
-  &lt;li&gt;learn more about psychology, sociology and education&lt;/li&gt;
-  &lt;li&gt;share whatever I can, lower the bar for these&lt;/li&gt;
+  &lt;li&gt;Embodying my values: voting with my ballot, my wallet, my example &amp;amp; my company&lt;/li&gt;
+  &lt;li&gt;Learning &amp;amp; sharing stuff&lt;/li&gt;
+  &lt;li&gt;Do sports, be fit, make time for friends, raise a family&lt;/li&gt;
+  &lt;li&gt;Create boardgame and my dream strategy game&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;selfish-projects&quot;&gt;selfish projects&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;do sports, be more fit&lt;/li&gt;
-  &lt;li&gt;make boardgames &amp;amp; art&lt;/li&gt;
-  &lt;li&gt;raise a family&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;impossible-possibles&quot;&gt;impossible possibles&lt;/h3&gt;
+&lt;h3 id=&quot;impossible-possibles&quot;&gt;Impossible possibles&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;fix education, society &amp;amp; the world&lt;/li&gt;
   &lt;li&gt;expand humanity to other planets&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;[1] The thought resonated and recent community use is also some kind of
+general statement and intent on what you do right now, like updating
+on a friend you haven’t seen in a year (I also have reserves on
+defining oneself by your work, as some tend to do, but that wasn’t the
+main original focus).&lt;/p&gt;
 </description>
         <pubDate>Wed, 11 Nov 2015 00:00:00 +0100</pubDate>
         <link>http://maitre-du-monde.fr/2015/11/11/now.html</link>

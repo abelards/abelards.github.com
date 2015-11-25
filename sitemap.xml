@@ -150,7 +150,7 @@
     </url>
     <url>
         <loc>http://maitre-du-monde.fr/2015/11/11/now.html</loc>
-        <lastmod>2015-11-19T10:44:16+01:00</lastmod>
+        <lastmod>2015-11-25T15:57:01+01:00</lastmod>
     </url>
     <url>
         <loc>http://maitre-du-monde.fr/404.html</loc>
@@ -193,8 +193,8 @@
         <lastmod>2015-04-11T20:56:45+02:00</lastmod>
     </url>
     <url>
-        <loc>http://maitre-du-monde.fr/</loc>
-        <lastmod>2015-11-19T10:44:16+01:00</lastmod>
+        <loc>http://maitre-du-monde.fr/blog/archive/</loc>
+        <lastmod>2015-08-28T21:48:37+02:00</lastmod>
     </url>
     <url>
         <loc>http://maitre-du-monde.fr/koans/</loc>
@@ -205,24 +205,28 @@
         <lastmod>2015-08-17T17:14:21+02:00</lastmod>
     </url>
     <url>
-        <loc>http://maitre-du-monde.fr/blog/series/</loc>
-        <lastmod>2015-11-04T14:26:02+01:00</lastmod>
+        <loc>http://maitre-du-monde.fr/blog/</loc>
+        <lastmod>2015-11-09T09:46:43+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://maitre-du-monde.fr/</loc>
+        <lastmod>2015-11-25T15:57:01+01:00</lastmod>
     </url>
     <url>
         <loc>http://maitre-du-monde.fr/projects/boardgames/</loc>
         <lastmod>2015-08-17T17:12:29+02:00</lastmod>
     </url>
     <url>
-        <loc>http://maitre-du-monde.fr/blog/</loc>
-        <lastmod>2015-11-09T09:46:43+01:00</lastmod>
+        <loc>http://maitre-du-monde.fr/now/</loc>
+        <lastmod>2015-11-25T16:00:18+01:00</lastmod>
     </url>
     <url>
         <loc>http://maitre-du-monde.fr/projects/</loc>
         <lastmod>2015-08-17T17:12:29+02:00</lastmod>
     </url>
     <url>
-        <loc>http://maitre-du-monde.fr/blog/archive/</loc>
-        <lastmod>2015-08-28T21:48:37+02:00</lastmod>
+        <loc>http://maitre-du-monde.fr/blog/series/</loc>
+        <lastmod>2015-11-04T14:26:02+01:00</lastmod>
     </url>
     <url>
         <loc>http://maitre-du-monde.fr/talks/</loc>
@@ -233,12 +237,12 @@
         <lastmod>2015-08-17T17:13:33+02:00</lastmod>
     </url>
     <url>
-        <loc>http://maitre-du-monde.fr/koans/mine.html</loc>
-        <lastmod>2015-08-17T17:13:55+02:00</lastmod>
-    </url>
-    <url>
         <loc>http://maitre-du-monde.fr/koans_fr/mine.html</loc>
         <lastmod>2015-08-17T17:13:33+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://maitre-du-monde.fr/koans/mine.html</loc>
+        <lastmod>2015-08-17T17:13:55+02:00</lastmod>
     </url>
     <url>
         <loc>http://maitre-du-monde.fr/projects/past.html</loc>
