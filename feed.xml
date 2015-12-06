@@ -6,9 +6,87 @@
 </description>
     <link>http://maitre-du-monde.fr/</link>
     <atom:link href="http://maitre-du-monde.fr/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Nov 2015 16:17:00 +0100</pubDate>
-    <lastBuildDate>Wed, 25 Nov 2015 16:17:00 +0100</lastBuildDate>
+    <pubDate>Sun, 06 Dec 2015 18:38:23 +0100</pubDate>
+    <lastBuildDate>Sun, 06 Dec 2015 18:38:23 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Refuse free work</title>
+        <description>&lt;p&gt;Many people will obviously tell you to refuse to work for free.
+I also suggest not to accept free work.&lt;/p&gt;
+
+&lt;p&gt;Most people guess a free work is fine to take, actually you should
+wrench the maximum of free work from as many people as you can get
+away with.&lt;/p&gt;
+
+&lt;p&gt;My point is beyond ethics (exploitation or fairness), but a basic
+advice for any business to be sustainable and mutually beneficial.&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;I’ve seen many friends accepting free work, as competitions’ prizes,
+favor to repay or such. What you get is you now depend on work that
+will probably be low priority or high resentment for your vendor.&lt;/p&gt;
+
+&lt;p&gt;I don’t like equating power to the power of nuisance, but it’s useful
+to ask that question now and then.
+If they are in an emergency, what are the consequences of a failure?
+On one hand, an actual customer with actual contract and payment to
+withhold or penalty fees. On the other, you and a gift not given.
+A favor not or badly repaid.&lt;/p&gt;
+
+&lt;p&gt;It’s hard enough to get people to do what you want, be they kids,
+spouses, coworkers, teams, bosses… given the emotional ties or
+constraints you have. Why do you think you will be able to
+exert command and control on people who are working for naught?&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;This is not to say you shouldn’t try to be flexible:
+I’ve seen and made many business arrangements for convenience or
+fair-play, which only exceptionally turn out not to work.&lt;/p&gt;
+
+&lt;p&gt;This is not to say you shouldn’t benefit of great opportunities
+that happen to look unbalanced.
+This is to say you should always check you vendors and deals.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 02 Dec 2015 00:00:00 +0100</pubDate>
+        <link>http://maitre-du-monde.fr/2015/12/02/refuse-free-work.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2015/12/02/refuse-free-work.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Asking the class</title>
+        <description>&lt;p&gt;I was a good student, marks-wise.
+I was probably a very bad student, class-wise.&lt;/p&gt;
+
+&lt;p&gt;Mentoring at &lt;a href=&quot;http://railsgirls.com/paris&quot;&gt;RailsGirlsParis&lt;/a&gt;,
+listening to &lt;a href=&quot;https://devchat.tv/ruby-rogues/232-rr-teaching-and-how-we-can-all-do-more-to-teach-technical-topics-to-others-with-eric-normand&quot;&gt;RubyRogues 232 on teaching&lt;/a&gt;,
+I now notice that being the guy who gets things and rushes to answer, was shutting down my peers’ brains.&lt;/p&gt;
+
+&lt;p&gt;If some people always answer, first and fast, it discourages the other ones.
+I was a bad student regarding this, and I apologize to my classmates.&lt;/p&gt;
+
+&lt;p&gt;Here are some tricks for the teachers though:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;always wait for a majority of raised hands&lt;/li&gt;
+  &lt;li&gt;get into the habit of asking students easy things&lt;/li&gt;
+  &lt;li&gt;thank for participations (questions are not traps, but normal and harmless)&lt;/li&gt;
+  &lt;li&gt;ask everyone to get a sheet of paper and making them write things down&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I strongly suggest you listen to this one :)&lt;/p&gt;
+</description>
+        <pubDate>Sat, 28 Nov 2015 00:00:00 +0100</pubDate>
+        <link>http://maitre-du-monde.fr/2015/11/28/asking-the-class.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2015/11/28/asking-the-class.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Now &amp; Tomorrow</title>
@@ -429,116 +507,6 @@ Prouvez-moi que votre process n’est pas un &lt;a href=&quot;https://fr.wikiped
         <pubDate>Sun, 09 Aug 2015 00:00:00 +0200</pubDate>
         <link>http://maitre-du-monde.fr/2015/08/09/un-nouvel-outil-organisationnel.html</link>
         <guid isPermaLink="true">http://maitre-du-monde.fr/2015/08/09/un-nouvel-outil-organisationnel.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Recruiters&#39; Vicious Cycle</title>
-        <description>&lt;p&gt;Many developers hate recruiters but can’t explain why.&lt;/p&gt;
-
-&lt;p&gt;We like laws, logic, systems and hacking them. It is simply a
-&lt;a href=&quot;https://en.wikipedia.org/wiki/The_Market_for_Lemons&quot;&gt;Market for lemons&lt;/a&gt;
-problem.&lt;/p&gt;
-
-&lt;p&gt;Here’s my take on what makes for a vicious cycle:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;as middlemen they only get paid if the job contract is signed through them&lt;/li&gt;
-  &lt;li&gt;as hires or employers we would like to get most of that mystery out&lt;/li&gt;
-  &lt;li&gt;this blind process makes everyone wary and suspicious&lt;/li&gt;
-  &lt;li&gt;as a result, a recruiter needs to get more and more devs&lt;/li&gt;
-  &lt;li&gt;they don’t have enough time for each, and forgo quality checks&lt;/li&gt;
-  &lt;li&gt;employers then prefer to use several recruiters for one opening&lt;/li&gt;
-  &lt;li&gt;one developer will then get called by many recruiters,&lt;/li&gt;
-  &lt;li&gt;as every company with open job offers will get called too&lt;/li&gt;
-  &lt;li&gt;this becomes more and more of a volume thing, not quality&lt;/li&gt;
-  &lt;li&gt;some recruiters find dirty tactics&lt;/li&gt;
-  &lt;li&gt;everyone has to follow or die&lt;/li&gt;
-  &lt;li&gt;many developers hate recruiters&lt;/li&gt;
-  &lt;li&gt;developers try to find jobs without recruiters&lt;/li&gt;
-  &lt;li&gt;back to #1&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I’ve seen many recruiting companies adressing a few of these points in
-hopes of breaking the whole cycle. I wish them the best to grow and
-destroy every single step of this vicious cycle, but it often falls into
-a case of #10.&lt;/p&gt;
-
-&lt;p&gt;As employers, I think you can only act on #1 and #6: choose one
-recruiter and stay with him wherever the hires come from. This will of
-course mostly mean you hire a recruiter in-house instead of giving
-exclusivity to a single recruiter cabinet.&lt;/p&gt;
-
-&lt;p&gt;Of course some will say this simply means getting rid of recruiters.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 26 Jul 2015 00:00:00 +0200</pubDate>
-        <link>http://maitre-du-monde.fr/2015/07/26/recruiters-cycle.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2015/07/26/recruiters-cycle.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Mystery Offers</title>
-        <description>&lt;p&gt;Would you recommend a restaurant you’ve never been to, or a book you didn’t read?&lt;/p&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;As a developer and as &lt;a href=&quot;http://rubyparis.org&quot;&gt;ParisRB&lt;/a&gt;’s organiser,
-I often get asked to pass on offers to “my network”.&lt;/p&gt;
-
-&lt;p&gt;The most common problem is simply that I’m not given relevant information.
-Why would I simply spam my friends with things I don’t know a thing about?&lt;/p&gt;
-
-&lt;p&gt;I get that most of these offer come from recruiters, and as middlemen
-they only get paid if the job contract is signed through them.&lt;/p&gt;
-
-&lt;p&gt;I’m very sorry about this &lt;a href=&quot;/2015/07/26/recruiters-cycle.html&quot;&gt;vicious cycle&lt;/a&gt;,
-but I need at least:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;to know the company and business model (fame and ethics)&lt;/li&gt;
-  &lt;li&gt;location (commute is a significant happiness modifier)&lt;/li&gt;
-  &lt;li&gt;expected work conditions (remote, time off…)&lt;/li&gt;
-  &lt;li&gt;to meet the current team (mandatory in the process, great as an opener)&lt;/li&gt;
-  &lt;li&gt;your philosophy&lt;/li&gt;
-  &lt;li&gt;how your hiree will be managed, how expectations are set and checked&lt;/li&gt;
-  &lt;li&gt;opportunities for growth&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And of course you should (or are legally required to) avoid exclusive language.&lt;/p&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;You might want to remove whatever the others are adding by default:
-yes, we all want dedicated, motivated, skilled autonomous, self-improving workers.&lt;/p&gt;
-
-&lt;p&gt;We also want coworkers who wash themselves and do not assault others,
-but that’s never mentioned as it should be obvious.
-So it’s not really what makes you different, right? Skip it.&lt;/p&gt;
-
-&lt;p&gt;Last but not least, on salary range, some say don’t mention it, most
-say you should. The key here is: most people know it’s open for
-negociation, especially seniors, so that won’t make them flee.&lt;/p&gt;
-
-&lt;p&gt;You should’t go for “depending on skills and previous experience”
-though, since everybody writes that. How about the very inclusive
-“feel free to apply even if you don’t meet all the requirements”?
-Men usually are not stopped by it, but many women are.
-So this will explain your salary range’s width, AND be inclusive.&lt;/p&gt;
-
-&lt;p&gt;So: upfront salary or not? I’d say:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;don’t worry, a large range is fine ($x-yK with y &amp;gt; 2*x is fine)&lt;/li&gt;
-  &lt;li&gt;or just explain: $xK for juniors, $yK for seniors&lt;/li&gt;
-  &lt;li&gt;or simply better: post two openings, one for juniors and one for seniors&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 19 Jul 2015 00:00:00 +0200</pubDate>
-        <link>http://maitre-du-monde.fr/2015/07/19/mystery-offers.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2015/07/19/mystery-offers.html</guid>
         
         
       </item>
