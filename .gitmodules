@@ -1,0 +1,3 @@
+[submodule "web_primer"]
+	path = web_primer
+	url = http://github.com/abelards/web_primer
