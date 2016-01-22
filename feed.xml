@@ -6,20 +6,26 @@
 </description>
     <link>http://maitre-du-monde.fr/</link>
     <atom:link href="http://maitre-du-monde.fr/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Jan 2016 22:34:39 +0100</pubDate>
-    <lastBuildDate>Wed, 20 Jan 2016 22:34:39 +0100</lastBuildDate>
+    <pubDate>Fri, 22 Jan 2016 23:38:40 +0100</pubDate>
+    <lastBuildDate>Fri, 22 Jan 2016 23:38:40 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>RailsGirls et mixité</title>
         <description>&lt;p&gt;RailsGirls Paris a commencé mixte. On m’a suggéré de changer [1], j’ai tenté, j’y resterai.&lt;/p&gt;
 
-&lt;p&gt;La raison la plus évidente est celle-ci :
-&amp;gt; 45 débutantes + 5 débutants / 10 mentors = 1 mentor pour 5&lt;/p&gt;
+&lt;p&gt;La raison la plus évidente est celle-ci :&lt;/p&gt;
 
-&lt;p&gt;Mais notre éducation favorise les hommes qui parlent fort et les femmes discrètes. Rapidement :
-&amp;gt; 5 débutants accaparent 5 mentors = 1 mentor pour 1 homme
-&amp;gt; 45 débutantes / 5 mentors = 1 mentor pour 9 femmes&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;45 débutantes + 5 débutants / 10 mentors = 1 mentor pour 5&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Mais notre éducation favorise les hommes qui parlent fort et les femmes discrètes. Rapidement :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;5 débutants accaparent 5 mentors = 1 mentor pour 1 homme
+45 débutantes / 5 mentors = 1 mentor pour 9 femmes&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Je disais, par souci d’égalité, “les femmes sont prioritaires si on
 manque de place, mais les hommes sont les bienvenus.”
