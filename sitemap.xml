@@ -1,283 +1,444 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
-    <url>
-        <loc>http://maitre-du-monde.fr/2014/12/31/i-have-opinions.html</loc>
-        <lastmod>2015-08-28T21:48:37+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/01/01/fr.html</loc>
-        <lastmod>2015-08-28T21:48:37+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/01/07/i-share-things.html</loc>
-        <lastmod>2015-08-28T21:48:37+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/01/14/on-IP.html</loc>
-        <lastmod>2015-08-28T21:48:37+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/01/21/blogging-ego.html</loc>
-        <lastmod>2015-08-28T21:48:37+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/01/28/own-your-content.html</loc>
-        <lastmod>2015-08-28T21:48:37+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/02/04/structured-content.html</loc>
-        <lastmod>2015-08-28T21:48:37+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/02/11/i-love-hate-startups.html</loc>
-        <lastmod>2015-08-28T21:48:37+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/02/18/three-kinds-of-startups.html</loc>
-        <lastmod>2015-08-28T21:48:37+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/02/25/the-funds-startup.html</loc>
-        <lastmod>2015-08-28T21:48:37+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/03/01/the-grants-startup.html</loc>
-        <lastmod>2015-08-28T21:48:37+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/03/08/the-customers-startup.html</loc>
-        <lastmod>2015-08-28T21:48:37+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/03/15/hadopi.html</loc>
-        <lastmod>2015-08-28T21:48:37+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/03/22/smalltalk.html</loc>
-        <lastmod>2015-08-28T21:48:37+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/03/29/introductions.html</loc>
-        <lastmod>2015-08-28T21:48:37+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/04/05/lizards.html</loc>
-        <lastmod>2015-08-28T21:48:37+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/04/12/mouchards.html</loc>
-        <lastmod>2015-08-28T21:48:37+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/04/19/haveaniceday.html</loc>
-        <lastmod>2015-08-28T21:48:37+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/04/26/selfWiki.html</loc>
-        <lastmod>2015-08-28T21:48:37+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/05/03/gullible-young.html</loc>
-        <lastmod>2015-11-06T23:04:18+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/05/06/stay-late-get-pizza.html</loc>
-        <lastmod>2015-08-28T21:48:37+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/05/10/youre-no-manager.html</loc>
-        <lastmod>2015-08-28T21:48:37+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/05/13/youre-no-cto.html</loc>
-        <lastmod>2015-08-28T21:48:37+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/05/17/looking-for-partner.html</loc>
-        <lastmod>2015-11-06T23:05:20+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/05/20/hard-to-find-good-devs.html</loc>
-        <lastmod>2015-11-06T23:06:12+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/05/24/the-inequal-partner.html</loc>
-        <lastmod>2015-11-06T23:06:34+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/06/07/responsibility.html</loc>
-        <lastmod>2015-08-28T21:48:37+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/07/09/sociologie_devs.html</loc>
-        <lastmod>2015-08-28T21:48:37+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/07/19/mystery-offers.html</loc>
-        <lastmod>2015-11-10T11:28:36+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/07/26/recruiters-cycle.html</loc>
-        <lastmod>2015-11-06T23:02:19+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/08/09/un-nouvel-outil-organisationnel.html</loc>
-        <lastmod>2015-08-28T21:48:37+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/08/13/microsf.html</loc>
-        <lastmod>2016-01-09T16:42:28+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/08/23/bidirectional-communication.html</loc>
-        <lastmod>2015-11-06T23:11:02+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/08/30/wont-pay-quality.html</loc>
-        <lastmod>2015-11-06T23:13:47+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/09/03/bothering-my-network.html</loc>
-        <lastmod>2015-11-06T23:11:30+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/09/10/policy-on-referrals.html</loc>
-        <lastmod>2015-11-06T23:08:55+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/09/13/forgive-negativity.html</loc>
-        <lastmod>2015-11-04T17:53:10+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/11/11/now.html</loc>
-        <lastmod>2015-11-25T15:57:01+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/11/28/asking-the-class.html</loc>
-        <lastmod>2015-11-27T15:19:33+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2015/12/02/refuse-free-work.html</loc>
-        <lastmod>2015-12-06T18:36:43+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/2016/01/16/railsgirls-not-boys.html</loc>
-        <lastmod>2016-01-22T23:36:56+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/404.html</loc>
-        <lastmod>2015-08-17T17:12:29+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/about/</loc>
-        <lastmod>2015-05-13T21:07:57+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/projects/archkata.html</loc>
-        <lastmod>2015-08-17T17:12:29+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/best_of.html</loc>
-        <lastmod>2015-08-28T21:48:37+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/koans_fr/bestof.html</loc>
-        <lastmod>2015-12-29T13:17:04+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/koans/bestof.html</loc>
-        <lastmod>2015-12-29T13:16:43+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/projects/couchsurfrb.html</loc>
-        <lastmod>2015-08-17T17:12:29+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/talks/events.html</loc>
-        <lastmod>2015-08-17T17:14:21+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/koans/feed.xml</loc>
-        <lastmod>2015-04-11T20:56:56+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/koans_fr/feed.xml</loc>
-        <lastmod>2015-04-11T20:56:45+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/blog/archive/</loc>
-        <lastmod>2016-01-14T16:35:32+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/koans/</loc>
-        <lastmod>2015-08-17T17:13:55+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/paris/</loc>
-        <lastmod>2015-08-17T17:14:21+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/blog/</loc>
-        <lastmod>2015-11-09T09:46:43+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/</loc>
-        <lastmod>2016-01-22T23:36:56+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/projects/boardgames/</loc>
-        <lastmod>2015-08-17T17:12:29+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/now/</loc>
-        <lastmod>2015-11-25T16:12:52+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/projects/</loc>
-        <lastmod>2016-01-05T14:41:04+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/blog/series/</loc>
-        <lastmod>2015-11-04T14:26:02+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/talks/</loc>
-        <lastmod>2015-08-17T17:14:21+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/koans_fr/</loc>
-        <lastmod>2015-08-17T17:13:33+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/koans_fr/mine.html</loc>
-        <lastmod>2015-08-17T17:13:33+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/koans/mine.html</loc>
-        <lastmod>2015-08-17T17:13:55+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/projects/past.html</loc>
-        <lastmod>2015-08-17T17:12:29+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/projects/provincerb.html</loc>
-        <lastmod>2015-08-17T17:12:29+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/projects/remoterb.html</loc>
-        <lastmod>2015-08-17T17:12:29+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/projects/together.html</loc>
-        <lastmod>2016-01-05T14:40:07+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/talks/videos.html</loc>
-        <lastmod>2015-08-17T17:14:21+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://maitre-du-monde.fr/projects/weekly_railsgirls.html</loc>
-        <lastmod>2016-01-05T14:20:28+01:00</lastmod>
-    </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://maitre-du-monde.fr/2016/09/10/business-experiments.html</loc>
+<lastmod>2016-09-10T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2016/09/03/team_not_company.html</loc>
+<lastmod>2016-09-03T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2016/08/27/when_copy_paste.html</loc>
+<lastmod>2016-08-27T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2016/08/24/split-beginners-groups.html</loc>
+<lastmod>2016-08-24T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2016/08/20/railsgirls-application-form.html</loc>
+<lastmod>2016-08-20T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2016/04/20/admitting-failure.html</loc>
+<lastmod>2016-04-20T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2016/01/16/railsgirls-not-boys.html</loc>
+<lastmod>2016-01-16T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/12/02/refuse-free-work.html</loc>
+<lastmod>2015-12-02T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/11/28/asking-the-class.html</loc>
+<lastmod>2015-11-28T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/11/11/now.html</loc>
+<lastmod>2015-11-11T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/09/13/forgive-negativity.html</loc>
+<lastmod>2015-09-13T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/09/10/policy-on-referrals.html</loc>
+<lastmod>2015-09-10T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/09/03/bothering-my-network.html</loc>
+<lastmod>2015-09-03T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/08/30/wont-pay-quality.html</loc>
+<lastmod>2015-08-30T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/08/23/bidirectional-communication.html</loc>
+<lastmod>2015-08-23T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/08/13/microsf.html</loc>
+<lastmod>2015-08-13T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/08/09/un-nouvel-outil-organisationnel.html</loc>
+<lastmod>2015-08-09T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/07/26/recruiters-cycle.html</loc>
+<lastmod>2015-07-26T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/07/19/mystery-offers.html</loc>
+<lastmod>2015-07-19T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/07/09/sociologie_devs.html</loc>
+<lastmod>2015-07-09T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/06/07/responsibility.html</loc>
+<lastmod>2015-06-07T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/05/24/the-inequal-partner.html</loc>
+<lastmod>2015-05-24T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/05/20/hard-to-find-good-devs.html</loc>
+<lastmod>2015-05-20T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/05/17/looking-for-partner.html</loc>
+<lastmod>2015-05-17T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/05/13/youre-no-cto.html</loc>
+<lastmod>2015-05-13T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/05/10/youre-no-manager.html</loc>
+<lastmod>2015-05-10T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/05/06/stay-late-get-pizza.html</loc>
+<lastmod>2015-05-06T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/05/03/gullible-young.html</loc>
+<lastmod>2015-05-03T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/04/26/selfWiki.html</loc>
+<lastmod>2015-04-26T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/04/19/haveaniceday.html</loc>
+<lastmod>2015-04-19T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/04/12/mouchards.html</loc>
+<lastmod>2015-04-12T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/04/05/lizards.html</loc>
+<lastmod>2015-04-05T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/03/29/introductions.html</loc>
+<lastmod>2015-03-29T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/03/22/smalltalk.html</loc>
+<lastmod>2015-03-22T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/03/15/hadopi.html</loc>
+<lastmod>2015-03-15T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/03/08/the-customers-startup.html</loc>
+<lastmod>2015-03-08T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/03/01/the-grants-startup.html</loc>
+<lastmod>2015-03-01T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/02/25/the-funds-startup.html</loc>
+<lastmod>2015-02-25T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/02/18/three-kinds-of-startups.html</loc>
+<lastmod>2015-02-18T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/02/11/i-love-hate-startups.html</loc>
+<lastmod>2015-02-11T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/02/04/structured-content.html</loc>
+<lastmod>2015-02-04T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/01/28/own-your-content.html</loc>
+<lastmod>2015-01-28T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/01/21/blogging-ego.html</loc>
+<lastmod>2015-01-21T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/01/14/on-IP.html</loc>
+<lastmod>2015-01-14T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/01/07/i-share-things.html</loc>
+<lastmod>2015-01-07T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2015/01/01/fr.html</loc>
+<lastmod>2015-01-01T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/2014/12/31/i-have-opinions.html</loc>
+<lastmod>2014-12-31T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/404.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/about/</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/projects/archkata.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/best_of.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/bestof.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans_fr/bestof.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/projects/couchsurfrb.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/talks/events.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/blog/archive/</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/paris/</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/projects/boardgames/</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/blog/series/</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/now/</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/projects/</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/blog/</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/talks/</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans_fr/</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans_fr/mine.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/mine.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/projects/past.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/projects/provincerb.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/projects/remoterb.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/projects/together.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/talks/videos.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/projects/weekly_railsgirls.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/01f.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/01e.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/01d.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/00g.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/01g.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/00l.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/00m.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/00k.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/00j.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/00o.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/00i.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/00h.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/00p.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/00n.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/00q.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/00r.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/00a.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/00b.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/00c.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/00d.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/00e.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/00f.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/01a.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/01b.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/01c.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans/01h.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans_fr/01g.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans_fr/01f.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans_fr/01e.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans_fr/01d.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans_fr/00g.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans_fr/00a.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans_fr/00b.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans_fr/00c.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans_fr/00d.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans_fr/00e.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans_fr/00f.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans_fr/01a.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans_fr/01b.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/koans_fr/01c.html</loc>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/cases/mine.html</loc>
+<lastmod>2015-04-25T18:23:03+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/google9f8ec1d02d4d40d5.html</loc>
+<lastmod>2016-04-09T11:48:06+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/talks/10mnCTO.html</loc>
+<lastmod>2015-11-19T10:46:16+01:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/talks/10years_reads.html</loc>
+<lastmod>2016-09-25T10:43:42+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/talks/2e_tech_lead.html</loc>
+<lastmod>2015-11-17T19:04:34+01:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/talks/C_in_Ruby.html</loc>
+<lastmod>2015-08-28T17:53:27+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/talks/SOLID.html</loc>
+<lastmod>2015-06-03T12:17:14+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/talks/TMNR.html</loc>
+<lastmod>2015-04-06T14:03:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/talks/master2student.html</loc>
+<lastmod>2016-09-25T10:06:27+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/talks/no_networking.html</loc>
+<lastmod>2016-04-03T16:47:20+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/talks/regexen.html</loc>
+<lastmod>2015-11-07T12:18:56+01:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/talks/unix_rules.html</loc>
+<lastmod>2016-04-10T18:16:51+02:00</lastmod>
+</url>
+<url>
+<loc>http://maitre-du-monde.fr/talks/unix_shortcuts.html</loc>
+<lastmod>2015-06-03T07:36:56+02:00</lastmod>
+</url>
 </urlset>

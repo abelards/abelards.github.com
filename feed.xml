@@ -6,9 +6,315 @@
 </description>
     <link>http://maitre-du-monde.fr/</link>
     <atom:link href="http://maitre-du-monde.fr/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 Jan 2016 23:38:40 +0100</pubDate>
-    <lastBuildDate>Fri, 22 Jan 2016 23:38:40 +0100</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <pubDate>Sun, 25 Sep 2016 16:14:03 +0200</pubDate>
+    <lastBuildDate>Sun, 25 Sep 2016 16:14:03 +0200</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Business experiments</title>
+        <description>&lt;p&gt;Innovation has a cycle of expansion and consolidation.
+Your company, teams, products and tasks can be too.&lt;/p&gt;
+
+&lt;p&gt;I am comfortable with the unknown and am often in missions to help
+(new or old) projects do new things in a new way. They often are
+a whole experiment in themselves.&lt;/p&gt;
+
+&lt;p&gt;In my “Agile” team, we’re given specifications like: I want X to do Y in such way.
+I’m perfectly comfortable with that and my team is able to deliver value continuously.
+When it’s “too new”, we sit down and guess, think out, hypothesise the technical answers.&lt;/p&gt;
+
+&lt;p&gt;In the office in front of mine, they’re given a slightly different kind of specifications.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-scientific-method-specifications&quot;&gt;The Scientific Method specifications&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;in context A we face problem B and solve it with C&lt;/li&gt;
+  &lt;li&gt;we will give you X weeks and Y€ to come up with a different way, likely Z&lt;/li&gt;
+  &lt;li&gt;experiment will be used for D weeks on E% or F thousand customers&lt;/li&gt;
+  &lt;li&gt;we currently pay G€ and have things work in an average time of Hhours&lt;/li&gt;
+  &lt;li&gt;your experiment will be a success if G or H go down by at least I%
+    &lt;ul&gt;
+      &lt;li&gt;if it works, we plan to expand your experiment for more time/customers/contexts&lt;/li&gt;
+      &lt;li&gt;failing that, we will revert to the old ways&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Their projects look like they always work great and satisfy everyone, customers included.
+Why wouldn’t they? They know exactly how things work and what improvements look like.&lt;/p&gt;
+
+&lt;p&gt;The very fact that such a spec arrives shows the stakeholders are already OK with investment:
+they have to pay to play, they know it, and they budgeted how much they could spend.&lt;/p&gt;
+
+&lt;p&gt;So don’t try to replicate the rules, but try to ask the same questions.
+It’s all about knowing your business, and making other people know the stakes too.&lt;/p&gt;
+
+&lt;p&gt;Bonus idea: have some idea log, wiki or whatever house rule so you can add:
+“we have tried such and such in the past and it didn’t fork for (we guess) these reasons”.
+and revisit the list from time to time: it’ll give you more ideas, and it’ll be a great
+way to know if some assumptions changed and if it might be time to revisit ideas again.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Sep 2016 00:00:00 +0200</pubDate>
+        <link>http://maitre-du-monde.fr/2016/09/10/business-experiments.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2016/09/10/business-experiments.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Team, not company</title>
+        <description>&lt;p&gt;I always hear about “small businesses this” or “huge companies that”.&lt;/p&gt;
+
+&lt;h3 id=&quot;its-all-about-the-team-not-the-company&quot;&gt;It’s all about the team, not the company.&lt;/h3&gt;
+
+&lt;p&gt;I’ve worked AT both, FOR both. None is like the other.
+The basic unit for me is the team, and set of teams.&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;It’s like a tree (a graph, actually) where constraints are applied.&lt;/p&gt;
+
+&lt;p&gt;A bad manager can spoil everything below them, while also inciting
+higher-ups to impose even more constraints in the hopes of fixing
+things, or even just understanding.&lt;/p&gt;
+
+&lt;p&gt;A good (great) manager can shield and reorient many things so the
+teams in his responsibility, and direct communications (managers,
+partners, customers, teams that have to talk to yours) can be
+fully functional or happy, produces value or limits damage.&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;Yes, layers of management do add time, and take out responsibilities and involvement.
+But a fully functional chain of management with trust can do wonders.&lt;/p&gt;
+
+&lt;p&gt;Yes, big companies do allow for some waste to happen, and attracts parasitic behaviors.
+But so do well-funded startups, or full freedom to any single person. “Trust, but verify”.&lt;/p&gt;
+
+&lt;p&gt;Yes, small companies with a toxic leader result in the full organisation being (able to be) toxic.&lt;/p&gt;
+
+&lt;p&gt;Of course, everyone wants smart leaders of smart teams, with enough challenge to be motivation,
+with enough money and safety so you can experiment, leverage things and see awesome results.&lt;/p&gt;
+
+&lt;p&gt;But please, don’t think any of these is startup-specific, or Fortune-500 only.
+Understand your manager, his managers, and decide for yourself what to keep and what to change.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 03 Sep 2016 00:00:00 +0200</pubDate>
+        <link>http://maitre-du-monde.fr/2016/09/03/team_not_company.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2016/09/03/team_not_company.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>When to copy/paste</title>
+        <description>&lt;p&gt;Problem: I have two things working similarly, what is the best architecture?&lt;/p&gt;
+
+&lt;p&gt;Answer: you don’t know yet, just copy-paste and see what happens next.&lt;/p&gt;
+
+&lt;p&gt;Rationale: duplication is much cheaper than the wrong abstraction.&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;Here’s what I suggested to an (optimistic, motivated, skilled) beginner:
+&lt;em&gt;you should just copy-paste the code&lt;/em&gt; because you probably won’t reuse it.&lt;/p&gt;
+
+&lt;p&gt;You notice that you are confused, you can’t settle on the “best” approach:
+that’s because there is no way to decide on that yet.&lt;/p&gt;
+
+&lt;p&gt;Copy-pasting is fast and easy to do, its dangers are known:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;it settles standards: bad code will be copied&lt;/li&gt;
+  &lt;li&gt;it’s easy to copy X and replace the variable name N times, just to forget the N+1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;But here’s what I &lt;em&gt;guessed&lt;/em&gt; would happen: the things that look similar right now
+(things like reviews, comments, scores, life cycles)  will probably turn out different:
+one has more fields, one has some manager validations, one has automatic behaviours…&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;So here’s what to keep in mind: if you happen to copy-paste this &lt;em&gt;one more time&lt;/em&gt;
+then it’s a smell and you should refactor, but for now you’re probably doing
+wild guesses and any modelling is good enough.&lt;/p&gt;
+
+&lt;p&gt;I would hate for you to have a “super clever design” (which we can’t guess right now)
+then just make complicated solutions for the new needs to fit the old cleverness:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;if you find a third thing which is super-similar and you change too often: refactor&lt;/li&gt;
+  &lt;li&gt;if it happens that you’ll need other things, in a similar way: refactor&lt;/li&gt;
+  &lt;li&gt;if it happens that X and Y are actually different in the long run… at least you didn’t start the hard way and delivered fast :)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Typical Tetris Effect!&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 27 Aug 2016 00:00:00 +0200</pubDate>
+        <link>http://maitre-du-monde.fr/2016/08/27/when_copy_paste.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2016/08/27/when_copy_paste.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>RailsGirls groups</title>
+        <description>&lt;p&gt;RailsGirls teaches people to code, so we are sat at tables with computers.
+You’ll have to split groups, namely: who will sit at the same table?&lt;/p&gt;
+
+&lt;p&gt;Sit one mentor at every table, and be very clear that everyone can change tables:
+this will allow people not to feel shame if they are uncomfortable with anyone,
+or if they feel pressured into learning a specific topic they don’t like.&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;Many events will try to separate based on previous experience, which
+looks like an easy solution, and works quite well (I don’t judge),
+but I found quite difficult to get the right mix. Some key questions are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;knows programming or never programmed&lt;/li&gt;
+  &lt;li&gt;knows the Web stack (HTML/CSS/basic JS) or not&lt;/li&gt;
+  &lt;li&gt;knows MVC (in any lang/framework) or not&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;How would a “true beginner” compare to an advanced WordPress tweaker,
+a systems C programmer, a PHP-without-framework developer?&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;So I try to split by interests, and I found it helped foster a feeling
+of bonding and sharing: “we’re here for the same reason, and if you
+teach me things you already know I hope I can bring my perspective
+from another point of view”.&lt;/p&gt;
+
+&lt;p&gt;My four categories are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“I want to understand what the hell my coworkers are talking about”&lt;/li&gt;
+  &lt;li&gt;“I have some app from friends or freelancers or agency and want to regain control of it but just touch the design”&lt;/li&gt;
+  &lt;li&gt;same as above but backend-only&lt;/li&gt;
+  &lt;li&gt;“I want to become full-fledged developers”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Yes, you’ll notice it could be very close to “what is your context,
+who are the people around you right now or in very short-term future,
+and what do/will they need?”.&lt;/p&gt;
+
+&lt;p&gt;Because teaching people is helping them help others, and everyone be awesome :)&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 24 Aug 2016 00:00:00 +0200</pubDate>
+        <link>http://maitre-du-monde.fr/2016/08/24/split-beginners-groups.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2016/08/24/split-beginners-groups.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>RailsGirls application form</title>
+        <description>&lt;p&gt;Here’s what I do to gather information for RailsGirls.
+You might want to use it as your own starting point.
+No pressure, do it your way :)&lt;/p&gt;
+
+&lt;h3 id=&quot;welcome&quot;&gt;Welcome&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[date, place, target audience, welcome text, code of conduct]&lt;/li&gt;
+  &lt;li&gt;[explain how you’ll use/share data, when will people hear back from you]&lt;/li&gt;
+  &lt;li&gt;[add an “other” option to most questions to get more detailed feedback]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;let-us-know-you&quot;&gt;Let us know you&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Your name:&lt;/li&gt;
+  &lt;li&gt;Your email (we won’t spam!):&lt;/li&gt;
+  &lt;li&gt;Your Twitter account if any:&lt;/li&gt;
+  &lt;li&gt;You want to come to RailsGirls X as a:
+    &lt;ul&gt;
+      &lt;li&gt;Beginner (to learn)&lt;/li&gt;
+      &lt;li&gt;Mentor (to teach)&lt;/li&gt;
+      &lt;li&gt;Assistant (I can teach stuff but I’m no expert)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Your current occupation:&lt;/li&gt;
+  &lt;li&gt;Your computer runs on: [Windows, Mac, Linux]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-do-you-know-what-would-you-like-to-learn&quot;&gt;What do you know, what would you like to learn&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Why do you want to attend RailsGirls X? [text]&lt;/li&gt;
+  &lt;li&gt;Do you know HTML/CSS? [1-5]&lt;/li&gt;
+  &lt;li&gt;Do you know how Internet works? [1-5]&lt;/li&gt;
+  &lt;li&gt;Do you know how to program? [1-5]&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tell us what you’re strong at [text]&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;What would you like to learn?
+    &lt;ul&gt;
+      &lt;li&gt;how app/web work&lt;/li&gt;
+      &lt;li&gt;design&lt;/li&gt;
+      &lt;li&gt;programming&lt;/li&gt;
+      &lt;li&gt;find a job as a developer&lt;/li&gt;
+      &lt;li&gt;teach other people&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;additional-information&quot;&gt;Additional information&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Do you have a special diet?
+    &lt;ul&gt;
+      &lt;li&gt;Kascher, Halal, Lactose-free, Gluten-free, Vegetarian, Vegan&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Do you have any other constraint we should know about?
+    &lt;ul&gt;
+      &lt;li&gt;that’s handicap, hearing/vision/movement, constraints and such&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 20 Aug 2016 00:00:00 +0200</pubDate>
+        <link>http://maitre-du-monde.fr/2016/08/20/railsgirls-application-form.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2016/08/20/railsgirls-application-form.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Admitting failure</title>
+        <description>&lt;p&gt;There’s been a lot written on admitting failure.&lt;/p&gt;
+
+&lt;p&gt;You’re seen as trustworthy, since responsibility and transparency are key everywhere.&lt;/p&gt;
+
+&lt;p&gt;The obvious gains are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;makes you less of a liar and bragger&lt;/li&gt;
+  &lt;li&gt;doesn’t embarrass other people with hidden failure&lt;/li&gt;
+  &lt;li&gt;makes your claims at what you succeed more believable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Not hiding stuff is great too, because “one lie leads to many lies”,
+and since you fucked up in the first place, and in a bad enough way
+that you don’t want others to know, you probably are not the best
+person to cover up the consequences alone.&lt;/p&gt;
+
+&lt;p&gt;Covering up your own bullshit will take an order of magnitude more
+work than what could/should have been done in the first place.&lt;/p&gt;
+
+&lt;p&gt;So admitting failure is also a great boost in focus and opportunities to learn.
+If you let it be.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+        <link>http://maitre-du-monde.fr/2016/04/20/admitting-failure.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2016/04/20/admitting-failure.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>RailsGirls et mixité</title>
@@ -32,9 +338,9 @@ manque de place, mais les hommes sont les bienvenus.”
 Avec le constat précédent, cette “égalité” a un drôle de goût.&lt;/p&gt;
 
 &lt;p&gt;Je suis disponible pour aider tous ceux qui le demandent à monter des
-RailsGirls dans leur ville. J’ai conseillé Lille et St Étienne, je
-suis allé à Marseille. Mes conditions surtout si je participe sont
-de faire attention aux sponsors, et mon conseil est de faire non mixte.&lt;/p&gt;
+RailsGirls dans leur ville. J’ai conseillé Lille, St Étienne, Marseille,
+Bordeaux. Mes conditions surtout si je participe sont de faire attention
+aux sponsors, et mon conseil est de faire non mixte.&lt;/p&gt;
 
 &lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
 
@@ -191,303 +497,6 @@ main original focus).&lt;/p&gt;
         <pubDate>Wed, 11 Nov 2015 00:00:00 +0100</pubDate>
         <link>http://maitre-du-monde.fr/2015/11/11/now.html</link>
         <guid isPermaLink="true">http://maitre-du-monde.fr/2015/11/11/now.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Forgive my negativity</title>
-        <description>&lt;p&gt;You might notice much negativity on here.&lt;/p&gt;
-
-&lt;p&gt;I am deeply sorry, because I know it makes us all miserable, and we
-would all live better days and better lives if only we were more positive.&lt;/p&gt;
-
-&lt;p&gt;Plus, I know not everyone deserves the harsh comments.
-It’s easy to categorize things and people and belittle them.&lt;/p&gt;
-
-&lt;p&gt;I aim to do short articles here, and the inspiration spawns from
-advice I’m asked and discussions I have. I am much more positive
-or nuanced in real life but I seldom take time here for the usual
-disclaimers. This blog post is my overall disclaimer.&lt;/p&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;Please note my posts are more intended as warnings (you think X but
-please check Y) than attacks: I don’t wish to fall in the “cynicism
-makes you look smart”, but rather to warn people about blunders or
-unnecessary hardships they can avoid.&lt;/p&gt;
-
-&lt;p&gt;I had to learn these the hard way, and I wish you don’t.
-I know most lessons only stick when learnt the hard way,
-so here’s for my optimism: I hope that you learn anyway :)&lt;/p&gt;
-
-&lt;p&gt;I think my willingness to not hide ugly truths even when I have
-interests in comfortable lies happening are a huge part of why people
-not only come to me for advice, but come back for followups.&lt;/p&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;Lastly, the very first blog post reminds these ideas are mine, open to
-debate and possibly wrong. I am willing to change my mind.
-Whenever I felt I must be negative: please prove me wrong! :)&lt;/p&gt;
-</description>
-        <pubDate>Sun, 13 Sep 2015 00:00:00 +0200</pubDate>
-        <link>http://maitre-du-monde.fr/2015/09/13/forgive-negativity.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2015/09/13/forgive-negativity.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Policy on referrals</title>
-        <description>&lt;p&gt;I don’t take any kind of money or presents for referrals.&lt;/p&gt;
-
-&lt;p&gt;Many people ask me for referrals because of my position as a co-organiser
-at &lt;a href=&quot;http://www.meetup.com/ParisRB&quot;&gt;ParisRB&lt;/a&gt;,
-hence I think it should all go back to the ParisRB community.&lt;/p&gt;
-
-&lt;p&gt;The good news is: if you give money to ParisRB you’ll be listed
-as a sponsor, which is good for more exposure and finding hires.&lt;/p&gt;
-
-&lt;p&gt;It also communicates your engagement: you have funds,
-and you are ready to spend them for things you need.&lt;/p&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;This is not noble, it is merely logical and efficient.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;most people will try to give me a present from 10 to 300€&lt;/li&gt;
-  &lt;li&gt;most people would pay recruiters or head-hunters from 2000 to 9000€&lt;/li&gt;
-  &lt;li&gt;ParisRB’s job board, events, or sponsoring would cost 100, 300, to 1500€&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And if you end up sponsoring us, we’ll be glad to explain how to
-present your speech or job offer so as not to throw this money away,
-and increase your chances to get the greatest developers :)&lt;/p&gt;
-</description>
-        <pubDate>Thu, 10 Sep 2015 00:00:00 +0200</pubDate>
-        <link>http://maitre-du-monde.fr/2015/09/10/policy-on-referrals.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2015/09/10/policy-on-referrals.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Bothering my network</title>
-        <description>&lt;p&gt;As a developer and as &lt;a href=&quot;http://rubyparis.org&quot;&gt;ParisRB&lt;/a&gt;’s organiser,
-I often get asked to pass on offers to “my network”.&lt;/p&gt;
-
-&lt;p&gt;First, I have a
-&lt;a href=&quot;/2015/09/10/policy-on-referrals.html&quot;&gt;policy on that&lt;/a&gt;
-too often with &lt;a href=&quot;/blog/series/#partner&quot;&gt;red flags&lt;/a&gt;,
-but let’s suppose it’s not the problem here.&lt;/p&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;What is a network? What is yours? What can you do with it?&lt;/p&gt;
-
-&lt;p&gt;If your network is just a loose set of LinkedIn connections gained
-through business cards exchange and knee-jerk reaction to connect,
-you cannot ask these people anything:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;they won’t remember you and your proposal has no weigh&lt;/li&gt;
-  &lt;li&gt;they will have no second thoutght in blocking you if you spam&lt;/li&gt;
-  &lt;li&gt;they won’t get up for you at 3AM in the morning like you’re their best friend&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Or it can be a network of trust. You are skilled, a connector, or
-both. You don’t chase people, people chase you because they know you
-always have good things in store.&lt;/p&gt;
-
-&lt;p&gt;In this position, forwarding low-value things is a reputation killer.
-Forwarding a valued thing that you do not endorse might too: like
-giving a birthday cake that’s not fitted to the recipient’s taste; or
-rotten/poisonous dessert.&lt;/p&gt;
-
-&lt;p&gt;It’s like retweeting some witty word and finding out the author or the
-twitterer have very opposing political views from your own.&lt;/p&gt;
-
-&lt;p&gt;Forwarding shouldn’t mean strict endorsement, but the whole experience
-is nonetheless attached to the forwarder: his honesty, trustworthiness
-and respectability are at stake.&lt;/p&gt;
-
-&lt;p&gt;To forward anything, you should then do actual and painstakingly long
-and hard research on offers you get. You probably don’t have time for
-all of these, so you will often have to cut those who are not clear
-enough upfront, and, well… recruiter is a full-time job.&lt;/p&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;So let me rephrase what you ask of me when you want to use “my network”:
-you’re asking me to spam my friends, and people I took a long time to
-build trust with, and forward an offer with
-&lt;a href=&quot;/2015/07/19/mystery-offers.html&quot;&gt;so little information&lt;/a&gt;
-I simply risk to lose that quality network.&lt;/p&gt;
-
-&lt;p&gt;Thanks, but no thanks.&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 03 Sep 2015 00:00:00 +0200</pubDate>
-        <link>http://maitre-du-monde.fr/2015/09/03/bothering-my-network.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2015/09/03/bothering-my-network.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>I won&#39;t pay for quality</title>
-        <description>&lt;p&gt;“I don’t care about quality.”
-Is that really the signal you want to send?
-There are so many subtle ways you might lose your target on this.&lt;/p&gt;
-
-&lt;p&gt;As a developer and as &lt;a href=&quot;http://rubyparis.org&quot;&gt;ParisRB&lt;/a&gt;’s organiser,
-I often get asked&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;for senior devs referrals, and then told the team is all junior coders&lt;/li&gt;
-  &lt;li&gt;if I can refer young developers ready for production code (I call them “seniors”)&lt;/li&gt;
-  &lt;li&gt;if I know someone to untangle a mess done by waves of interns&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Good developers are expensive, so we devs tend to hear this as&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;I want cheap coders&lt;/li&gt;
-  &lt;li&gt;I won’t train them&lt;/li&gt;
-  &lt;li&gt;I don’t really care for quality&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you’re trying to recruit a good developer, this is a red flag:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;will you pay me?&lt;/li&gt;
-  &lt;li&gt;if I need something to work, will you pay for it?&lt;/li&gt;
-  &lt;li&gt;if I need something, will I get the high-end or low-quality?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Of course, it’s perfectly fine for a company to grow and to have
-chosen tradeoffs in the past, that you’d like to change by now.&lt;/p&gt;
-
-&lt;p&gt;I’m not saying you’re doomed and there is something you can do about it: &lt;b&gt;there is hope!&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;If you happen to raise this kind of red flag, please be clear about
-it, communicate the story that led there, your intent and possibly
-your plan to get out of this soon[1]. 
-Or you’ll just look like so many other exploiters.&lt;/p&gt;
-
-&lt;p&gt;[1] it’s fine to say you need that senior dev to give you inputs,
-actually even if you have a plan I hope you’re ready to change it
-from inputs from that person you’re hiring to help.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 30 Aug 2015 00:00:00 +0200</pubDate>
-        <link>http://maitre-du-monde.fr/2015/08/30/wont-pay-quality.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2015/08/30/wont-pay-quality.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Job offers go both ways</title>
-        <description>&lt;p&gt;I see a huge lot of offers where the employers think they are very
-clear on what they want, but not nearly as much on what they offer.&lt;/p&gt;
-
-&lt;h3 id=&quot;entrepreneurs&quot;&gt;Entrepreneurs&lt;/h3&gt;
-
-&lt;p&gt;For a developer to even bother contacting you regarding your offer,
-you probably need some proofreading to:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;put yourself in the others’ shoes&lt;/li&gt;
-  &lt;li&gt;add how your teams and decisions work&lt;/li&gt;
-  &lt;li&gt;add a salary range (we KNOW it’s negociable)&lt;/li&gt;
-  &lt;li&gt;add your Joel Test maturity level&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And add whatever makes you better than others.
-If you don’t have such points, you have other things to worry about than hiring.&lt;/p&gt;
-
-&lt;p&gt;You will likely have to remove mentions&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;are you sure you need or even want what you listed?&lt;/li&gt;
-  &lt;li&gt;that inadvertently discriminate or alienate huge parts of the population.&lt;/li&gt;
-  &lt;li&gt;why the schoolyears? Lousy engineers exist, as do amazing autodidacts&lt;/li&gt;
-  &lt;li&gt;anything that others use, either abusive or non-discriminatory&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Lastly, why some precise technologies? Good engineers can learn. 
-For Rails jobs, I would rather hire an expert on Python or Java MVC
-than an expert on non-web Ruby.&lt;/p&gt;
-
-&lt;h3 id=&quot;hires&quot;&gt;Hires&lt;/h3&gt;
-
-&lt;p&gt;You’re going for a job interview. Yes, you’ve probably been trained
-to be on the begging side, to just be happy to have a job.&lt;/p&gt;
-
-&lt;p&gt;But you are going to spend more of your waking hours at work
-than with your family, friends or significant others.&lt;/p&gt;
-
-&lt;p&gt;It can’t hurt to research or grill the prospective company with
-questions.  And if you can’t find any of your own (really?) there are
-some ready for you, written on the excellent Joel Spolksy and aptly named:
-&lt;a href=&quot;http://www.joelonsoftware.com/articles/fog0000000043.html&quot;&gt;the Joel Test&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 23 Aug 2015 00:00:00 +0200</pubDate>
-        <link>http://maitre-du-monde.fr/2015/08/23/bidirectional-communication.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2015/08/23/bidirectional-communication.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>MicroSF</title>
-        <description>&lt;p class=&quot;help&quot;&gt;
-   Inspired by the &lt;a href=&quot;https://twitter.com/MicroSFF&quot;&gt;@MicroSFF&lt;/a&gt;
-   Twitter account (SF in 140 chars), I tried to make some. That&#39;s pretty hard!
-&lt;/p&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;The alien arrived in a dangerous zone.
-“Bring it to safety, quick!” Jovians said.
-“Sulfur storm? They’re killing me!” Zhāng shouted. #μSF&lt;/p&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;“How many worlds did you discover?
-- Just yours: the other videos are other people in the same space suit.”
-Li was no longer their hero #μSF&lt;/p&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;“How do semitranslucent walls work?
-- it’s just visual FX on the video, to show what’s inside.”
-The Aliens didn’t need us &amp;amp; wiped Earth #μSF&lt;/p&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;The Aliens invited human ambassadors.
-The travel made them claustrophobic, the FTL jump crazy &amp;amp; sick.
-They died. We declared war. #μSF&lt;/p&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;Zhao finished the time machine.
-Just a few seconds later, just a quick test.
-It worked, but Earth was many miles away.
-Horror, briefly. #μSF&lt;/p&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;An alien species sent greetings.
-Unknown sickness from the probe wiped the others.
-Other aliens thinks they’re aggressive, &amp;amp; retaliate. #μSF&lt;/p&gt;
-</description>
-        <pubDate>Thu, 13 Aug 2015 00:00:00 +0200</pubDate>
-        <link>http://maitre-du-monde.fr/2015/08/13/microsf.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2015/08/13/microsf.html</guid>
         
         
       </item>
