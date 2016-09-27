@@ -16,7 +16,7 @@
       	h1, h2, h3 {
           font-weight: 300;
   	  text-align: center;
-	  color: #CCC;
+	  color: #BBBBBB;
       	}
       	.middle h1 {
       	  font-size: 2.5em;
@@ -24,8 +24,8 @@
       	}
 	h1 { font-weight: bold; }
 	div.remark-slide-content {
-	  color: #AAA;
-	  background-color: #333;
+	  color: #999999;
+	  background-color: #333333;
 	  font-size: 200%;
 	}
 
@@ -39,6 +39,13 @@
 	  font-size: 100%;
 	  text-align: left;
 	}
+
+	.l0 { color: #BBBBBB; }  .l0::before { content: 'x ' } /* '\01F7C1' } */
+	.l1 { color: #FFAAAA; }  .l1::before { content: '. ' } /* '\01F7C1' } */
+	.l2 { color: #AAAAFF; }  .l2::before { content: ': ' } /* '\01F7C5' } */
+	.l3 { color: #AAFFAA; }  .l3::before { content: '+ ' } /* '\01F7C9' } */
+	.l23 { color: #AAEEEE; } .l23::before { content: '? ' } /* '\01F7C9' } */
+	.l4 { color: #EEEEEE; }  .l4::before { content: 'o '; color: gold; } /* '\01F7CA' } // 1F7D3 // 2739 */
 
 	code.hljs div.remark-code-line span.hljs-comment { color: gold; }
 
@@ -66,69 +73,92 @@ class: center, middle
 ???
 
 ---
-class: center
+class: left
 # The Full Circle
 
 "In the beginner's mind there are many possibilities, in the expert's mind there are few"
 
-* beginner
-* skilled
-* expert
-* master
+* .l0[novice]
+* .l1[advanced beginner]
+* .l2[competent]
+* .l3[proficient]
+* .l4[expert]
+
+And then back to novice... at other things :)
 
 ???
 How Dreyfus' skill model applies in some code things.
 
 ---
-class: center
+class: left
 # What I want, what I do
 
-Needs are: Strategy -> Tactics -> Ops
-Doing is: Ops -> Tactics -> Strategy
+.b[You want:] Strategy -> Tactics -> Ops<br />
+.b[Doing is:] Ops -> Tactics -> Strategy
 
-* Vision / none
-* Strategy / Ops
-* Tactics / Tactics
-* Ops / Strategy
+* .l1[Vision / none]
+* .l2[Strategy / Ops]
+* .l3[Tactics / Tactics]
+* .l4[Ops / Strategy]
+
+... and then back to vision :)
 
 ???
 
-This is why it's hard to go from Expert to Master: you feel like you're good, and improving will feel hard :)
+This is why it's hard to go from Expert to Master:
+you feel like you're good, and improving will feel hard :)
 
 ---
-class: center
+class: left
 # Names
 
 Naming is hard, it should be explicit
 
-- `the_variable_to_count_categories`
-- `x`
-- `counts`
-- `categories_counts`
+- .l0[] `categories`
+- .l1[] `dashboard_categories_counter`
+- .l2[] `x`
+- .l3[] `counts`
+- .l4[] `categories_counts`
+
+... and perhaps back to `dasbhoard_categories_counter` :)
 
 ???
 
 ---
-class: center
+class: left
 # DRY
 
 Don't Repeat Yourself
 
-* I don't get it: Copy-and-Paste
-* Code: Factors functions, reuses code
-* Data: Factors project, reuses classes
-* Architecture: has Single Source of Truth
+* .l0[I don't get it: Copy-and-Paste]
+* .l1[I know I should, and I can't do it]
+* .l2[Code: Factors functions, reuses code]
+* .l3[Data: Factors project, reuses classes]
+* .l4[Architecture: Single Source of Truth]
 
-Also, the master allows Copy-and-Paste: duplication is far cheaper than the wrong abstraction
+... and back to Copy-and-Paste: duplication is far cheaper than the wrong abstraction
 
 ---
-class: center
+class: left
 # Project maturity
 
-* tutorial or fear
-* fills in blanks
-* rewrites from scratch
-* refactors knowledge
+* .l0[tutorial or fear]
+* .l1[fills in blanks]
+* .l23[rewrites from scratch]
+* .l23[painfully adds up]
+* .l4[refactors knowledge]
+
+... and back to address fears (of others) and (writing) tutorials.
+
+---
+class: left
+# Become a mentor!
+
+* .l0[write checklists]
+* .l1[code reviews]
+* .l2[deliberate practice]
+* .l3[architecture katas]
+* .l4[train teams]
 
 ---
 class: center, middle, happy
