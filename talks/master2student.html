@@ -40,12 +40,12 @@
 	  text-align: left;
 	}
 
-	.l0 { color: #BBBBBB; }  .l0::before { content: 'x ' } /* '\01F7C1' } */
-	.l1 { color: #FFAAAA; }  .l1::before { content: '. ' } /* '\01F7C1' } */
-	.l2 { color: #AAAAFF; }  .l2::before { content: ': ' } /* '\01F7C5' } */
-	.l3 { color: #AAFFAA; }  .l3::before { content: '+ ' } /* '\01F7C9' } */
-	.l23 { color: #AAEEEE; } .l23::before { content: '? ' } /* '\01F7C9' } */
-	.l4 { color: #EEEEEE; }  .l4::before { content: 'o '; color: gold; } /* '\01F7CA' } // 1F7D3 // 2739 */
+	.l0 { color: #BBBBBB; }  .l0::before  { content: 'x '; font-family: monospace; } /* '\01F7C1' } */
+	.l1 { color: #FFAAAA; }  .l1::before  { content: '. '; font-family: monospace; } /* '\01F7C1' } */
+	.l2 { color: #AAAAFF; }  .l2::before  { content: ': '; font-family: monospace; } /* '\01F7C5' } */
+	.l3 { color: #AAFFAA; }  .l3::before  { content: '+ '; font-family: monospace; } /* '\01F7C9' } */
+	.l23 { color: #AAEEEE; } .l23::before { content: '? '; font-family: monospace; } /* '\01F7C9' } */
+	.l4 { color: #EEEEEE; }  .l4::before  { content: 'o '; font-family: monospace; color: gold; } /* '\01F7CA' } // 1F7D3 // 2739 */
 
 	code.hljs div.remark-code-line span.hljs-comment { color: gold; }
 
@@ -78,41 +78,90 @@ class: left
 
 "In the beginner's mind there are many possibilities, in the expert's mind there are few"
 
+.b[Dreyfus Model of Skill Acquisition]<br />
+This is per skill, not per person!
+
+Don't be Fixed Mindset,<br />
+look for lessons everywhere.
+
+---
+class: left
+# The Full Circle
+
+Color codes I'll use during the talk:
+
 * .l0[novice]
 * .l1[advanced beginner]
 * .l2[competent]
 * .l3[proficient]
 * .l4[expert]
 
-And then back to novice... at other things :)
+Then back to novice... at other things :)
 
 ???
 How Dreyfus' skill model applies in some code things.
+It's quite close to the Four Stages of competence:
+- .l0[unconscious incompetence]
+- .l1[conscious incompetence]
+- .l23[conscious competence]
+- .l4[~ unconscious competence]
+
+
+Also .l1[Shu].l23[Ha].l4[Ri] https://en.wikipedia.org/wiki/Shuhari
+
+https://www.oreilly.com/ideas/the-traits-of-a-proficient-programmer
+
+---
+class: left
+# Expectations
+
+Also why I love newbies <3
+
+* .l1[10x: life-changing]
+* .l2[2x: life-improving]
+* .l3[1.1x (+10%): incremental]
+* .l4[10x: life-changing]
+
+... but not via code :)
+
+---
+class: left
+# Bullshit tolerance
+
+It's so easy to become a grumpy hater :(
+
+* .l1[anything: don't know]
+* .l2[non-obvious: confused? Clarify]
+* .l3[very little: attitude is key!]
+* .l4[anything: better hear small signals]
+
+Anything you hear has some degree of truth for someone.<br />
+Accept reality like a Zen buddhist.
+
+???
 
 ---
 class: left
 # What I want, what I do
 
-.b[You want:] Strategy -> Tactics -> Ops<br />
-.b[Doing is:] Ops -> Tactics -> Strategy
+Want / Can do & work given
 
-* .l1[Vision / none]
-* .l2[Strategy / Ops]
-* .l3[Tactics / Tactics]
-* .l4[Ops / Strategy]
+* .l0[Vision / none]
+* .l1[Strategy / Ops]
+* .l2[Tactics / Tactics]
+* .l3[Ops / Strategy]
+* .l4[Vision / everything]
 
-... and then back to vision :)
+.l2[] to .l3[] is hard! You like where you are!<br />
+.l3[] to .l4[] is hard! You must change vision!
 
 ???
-
-This is why it's hard to go from Expert to Master:
-you feel like you're good, and improving will feel hard :)
 
 ---
 class: left
 # Names
 
-Naming is hard, it should be explicit
+Names withheld to protect the culprits
 
 - .l0[] `categories`
 - .l1[] `dashboard_categories_counter`
@@ -124,28 +173,60 @@ Naming is hard, it should be explicit
 
 ???
 
+
+---
+class: left
+# Names
+
+Advice you can give
+
+- .l0[I just want to stop crashes]
+- .l1[explicit names]
+- .l2[short names]
+- .l3[explicit & as short as possible]
+- .l4[self-explanatory names]
+
+not to people of some level, but go through all levels every single time.
+
 ---
 class: left
 # DRY
 
-Don't Repeat Yourself
+Don't Repeat Yourself: results
 
 * .l0[I don't get it: Copy-and-Paste]
 * .l1[I know I should, and I can't do it]
-* .l2[Code: Factors functions, reuses code]
-* .l3[Data: Factors project, reuses classes]
-* .l4[Architecture: Single Source of Truth]
+* .l2[Factors functions, reuses code]
+* .l3[Factors structures, reuses classes]
+* .l4[Back to Copy-and-Paste?]
 
-... and back to Copy-and-Paste: duplication is far cheaper than the wrong abstraction
+Single Source of Truth matters more.
+
+---
+class: left
+# DRY
+
+Don't Repeat Yourself: focus on
+
+* .l0[Not My Problem]
+* .l1[Code]
+* .l2[Data]
+* .l3[Architecture]
+* .l4[Pragmatism]
+
+<blockquote><a href="http://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction">
+  "Duplication is far cheaper than the wrong abstraction" -- @sandimetz</a></blockquote>
 
 ---
 class: left
 # Project maturity
 
+Once again about what makes sense
+
 * .l0[tutorial or fear]
 * .l1[fills in blanks]
 * .l23[rewrites from scratch]
-* .l23[painfully adds up]
+* .l23[painfully adds up to legacy]
 * .l4[refactors knowledge]
 
 ... and back to address fears (of others) and (writing) tutorials.
@@ -154,11 +235,44 @@ class: left
 class: left
 # Become a mentor!
 
+You will learn even more!
+
 * .l0[write checklists]
 * .l1[code reviews]
 * .l2[deliberate practice]
 * .l3[architecture katas]
-* .l4[train teams]
+* .l4[train teams, leverage business]
+
+What works will have to scale. Congrats!
+
+---
+class: left
+# Bonus
+
+How to use StackOverflow
+
+- .l0[read code]
+- .l1[make an hypothesis: how it works]
+- .l2[why, with what does it work?]
+- .l3[check & learn, rinse & repeat]
+- .l4[read code: yours, OSS, SO]
+
+And here's the full circle :)
+
+
+---
+class: left
+# Thanks!
+
+Now be a proud developer!
+
+- .l0[I can code]
+- .l1[my code works]
+- .l2[my code is elegant]
+- .l3[my code is simple]
+- .l4[my code is not the problem]
+
+... but you can leverage code to solve problems, and that's awesome.
 
 ---
 class: center, middle, happy
@@ -177,25 +291,6 @@ class: center, middle, happy
 [maitre-du-monde.fr](maitre-du-monde.fr)
 
 .contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/master2student.html)]
-
----
-class: center, middle, happy
-# Thanks!
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-.b[[@abelar_s](https://twitter.com/abelar_s) -
-[@ParisRB](https://twitter.com/parisrb) -
-[@RailsGirlsParis](https://twitter.com/railsgirlsparis)]
- 
-[maitre-du-monde.fr](maitre-du-monde.fr)
-
-.contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/master2student.html)]
-
     </textarea>
     <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
     </script>

@@ -73,7 +73,13 @@
 </div>
 
     <div class="content" id="page">
-       <h2>Ideas</h2>
+      <style>
+li.s3 .post-meta::after { content: ' \2B51\2B51\2B51'; }
+li.s2 .post-meta::after { content: ' \2B51\2B51'; }
+li.s1 .post-meta::after { content: ' \2B51'; }
+</style>
+
+ <h2>Ideas</h2>
  <h3>
   <a href="https://github.com/abelards/talks">What do you want next? Let's share ideas!</a></h3>
  <p>
@@ -86,77 +92,308 @@
 
  <p class="help">
    When I use <a href="http://remarkjs.com">remark.js</a>,
-   hit P to read the notes:
+   hit P to read the notes. Filter using the tag cloud:
+<script>
+// v2   return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
+function hasClass(e, cls) { return e.className.indexOf(cls) != -1; }
+
+function removeClass (e, cls) {
+    console.log('before', e, e.className, cls, hasClass(e, cls), e.classList);
+    // v1    e.classList.remove(cls);
+    // v2    e.className.replace(cls, '');
+    
+    var newClass = ' ' + e.className.replace( /[\t\r\n]/g, ' ') + ' ';
+    if (hasClass(e, cls)) {
+	while (newClass.indexOf(' ' + cls + ' ') >= 0 ) {
+	    newClass = newClass.replace(' ' + cls + ' ', ' ');
+	}
+	e.className = newClass.replace(/^\s+|\s+$/g, '');
+    }
+
+    console.log('after', e, e.className, cls, hasClass(e, cls), e.classList);
+}
+
+
+function dispall(sel, disp) {
+    var tags = document.querySelectorAll(sel);
+    for (var i = 0; i < tags.length; i++) { tags[i].style.display = disp; }
+}
+
+function clickTag(event)
+{
+    var e = this;
+    var lit = hasClass(e, 'active');
+    var tags = document.querySelectorAll('#tags .active');
+
+    //    console.log(e, lit, tags.length);
+
+    for (var i = 0; i < tags.length; i++) { removeClass(tags[i], 'active'); }
+
+    if (!lit) { e.className += ' active'; }
+
+    if (document.querySelectorAll('#tags .active').length == 0) {
+	dispall('ul.post-list li', 'block');
+    } else {
+	dispall('ul.post-list li', 'none');
+	dispall('.' + e.innerHTML, 'block');
+    }
+}
+
+window.onload = function(){
+    var tags = document.getElementById('tags');
+    if (tags != null) {
+	var tags = document.getElementsByClassName('tag');
+	for (var i = 0; i < tags.length; i++) {
+	    var e = tags[i];
+	    if (e.addEventListener) { 
+		e.addEventListener('click', clickTag, false); }
+	    else if (e.attachEvent) { // old IEs
+		e.attachEvent('onclick', function() { return clickTag.apply(e, [window.event]) })
+	    }
+	}
+    }
+}
+</script>
+
+<div id="tags"><a class="tag">architecture</a> <a class="tag">health</a> <a class="tag">learning</a> <a class="tag">management</a> <a class="tag">opinion</a> <a class="tag">self</a> <a class="tag">speaking</a> <a class="tag">tech_lead</a> <a class="tag">tools</a></div>
    <ul class="post-list">
      
-     
-     <li><span class="post-meta">2015-03-03</span>
-       <h3><a href="/talks/unix_shortcuts.html">Unix keyboard shortcuts</a></h3>
+       
+       
+     <li class="s3 tech_lead">
+       <span class="post-meta">tech_lead</span>
+       <h3><a href="/talks/2e_tech_lead.html">
+	   The 2€ CTO</a></h3>
        <br style="clear: both" />
+       <p>Intemporal advice on tech leadership, for all levels</p>
      </li>
    
    
      
-     
-     <li><span class="post-meta">2015-04-07</span>
-       <h3><a href="/talks/TMNR.html">Ruby's a teenager</a></h3>
+       
+       
+     <li class="s2 learning">
+       <span class="post-meta">learning</span>
+       <h3><a href="/talks/master2student.html">
+	   From Master to Student</a></h3>
        <br style="clear: both" />
+       <p>Path to mastering code</p>
      </li>
    
    
      
-     
-     <li><span class="post-meta">2015-09-01</span>
-       <h3><a href="/talks/C_in_Ruby.html">The C in Ruby - `%`</a></h3>
+       
+       
+     <li class="s2 opinion">
+       <span class="post-meta">opinion</span>
+       <h3><a href="https://speakerdeck.com/abelar_s/why-i-dont-network-on-linkedin">
+	   I don't network in LinkedIn</a></h3>
        <br style="clear: both" />
+       <p>Actual relationships are not a connections count</p>
      </li>
    
    
      
-     
-     <li><span class="post-meta">2015-10-06</span>
-       <h3><a href="/talks/2e_tech_lead.html">The 2€ CTO - part 1</a></h3>
+       
+       
+     <li class="s2 opinion">
+       <span class="post-meta">opinion</span>
+       <h3><a href="/talks/TMNR.html">
+	   Ruby's a teenager</a></h3>
        <br style="clear: both" />
+       <p>Ruby ecosystem have grown & will grow. Have a look</p>
      </li>
    
    
      
-     
-     <li><span class="post-meta">TODO</span>
-       <h3><a href="/talks/regexen.html">/\AReg[eE]x(|p|en)\s*(?<magic>[Mm]agi.*)?\Z/</a></h3>
+       
+       
+     <li class="s2 management">
+       <span class="post-meta">management</span>
+       <h3><a href="https://speakerdeck.com/abelar_s/12-sociology-effects-and-why-they-matter-to-dev-teams">
+	   Sociology effects on devs</a></h3>
        <br style="clear: both" />
+       <p>12 social dynamics effects and how they apply to dev teams</p>
      </li>
    
    
      
-     
-     <li><span class="post-meta">2016-04-05</span>
-       <h3><a href="/talks/no_networking.html">Why I don't network in LinkedIn</a></h3>
+       
+       
+     <li class="s2 management">
+       <span class="post-meta">management</span>
+       <h3><a href="https://speakerdeck.com/abelar_s/lets-build-pyramids">
+	   Let's build pyramids!</a></h3>
        <br style="clear: both" />
+       <p>Organisational mess on huge projects and how to guess/cope</p>
      </li>
    
    
      
-     
-     <li><span class="post-meta">WIP</span>
-       <h3><a href="/talks/SOLID.html">SOLID & concrete</a></h3>
+       
+       
+     <li class="s2 tech_lead">
+       <span class="post-meta">tech_lead</span>
+       <h3><a href="https://speakerdeck.com/abelar_s/known-unknowns">
+	   Known Unknowns</a></h3>
        <br style="clear: both" />
+       <p>"I just need X, can you hack it in 5mn?" and its dangers</p>
      </li>
    
    
      
-     
-     <li><span class="post-meta">2016-11-08</span>
-       <h3><a href="/talks/10years_reads.html">10 ans de lecture</a></h3>
+       
+       
+     <li class="s2 health">
+       <span class="post-meta">health</span>
+       <h3><a href="https://speakerdeck.com/abelar_s/health-tips-from-geek-to-geek">
+	   Health tips from geek to geek</a></h3>
        <br style="clear: both" />
+       <p>Your best hardware is wetware. Take care</p>
      </li>
    
    
      
-     
-     <li><span class="post-meta">2016-12-06</span>
-       <h3><a href="/talks/master2student.html">From Master to Student</a></h3>
+       
+       
+     <li class="s1 speaking">
+       <span class="post-meta">speaking</span>
+       <h3><a href="https://speakerdeck.com/abelar_s/how-to-talk">
+	   How to Talk in Public</a></h3>
        <br style="clear: both" />
+       <p>Some tips to give presentations (with ponies)</p>
+     </li>
+   
+   
+     
+       
+       
+     <li class="s1 tools">
+       <span class="post-meta">tools</span>
+       <h3><a href="https://speakerdeck.com/abelar_s/text-tools">
+	   Text Tools</a></h3>
+       <br style="clear: both" />
+       <p>Ditaa Gnuplot Graphviz et .q</p>
+     </li>
+   
+   
+     
+       
+       
+     <li class="s1 tools">
+       <span class="post-meta">tools</span>
+       <h3><a href="https://speakerdeck.com/abelar_s/rails">
+	   Rails I18N with GetText</a></h3>
+       <br style="clear: both" />
+       <p>I prefer GetText to Rails' translations</p>
+     </li>
+   
+   
+     
+       
+       
+     <li class="s2 learning">
+       <span class="post-meta">learning</span>
+       <h3><a href="https://speakerdeck.com/abelar_s/ce-que-jaurais-voulu-savoir">
+	   What I wish I'd known</a></h3>
+       <br style="clear: both" />
+       <p>Some tools to at least know about: FSM ETL Unix</p>
+     </li>
+   
+   
+     
+       
+       
+     <li class="s2 self">
+       <span class="post-meta">self</span>
+       <h3><a href="https://speakerdeck.com/abelar_s/hack-your-brain">
+	   Hack Your Brain</a></h3>
+       <br style="clear: both" />
+       <p>Intelligence, Expertise, Memory: how they work</p>
+     </li>
+   
+   
+     
+       
+       
+     <li class="s2 self">
+       <span class="post-meta">self</span>
+       <h3><a href="https://speakerdeck.com/abelar_s/hack-your-motivation">
+	   Hack Your Motivation</a></h3>
+       <br style="clear: both" />
+       <p>How to stay motivated</p>
+     </li>
+   
+   
+     
+       
+       
+     <li class="s1 self">
+       <span class="post-meta">self</span>
+       <h3><a href="https://speakerdeck.com/abelar_s/hack-your-brain-iii-the-dark-side">
+	   Hack Your Brain - the Dark Side</a></h3>
+       <br style="clear: both" />
+       <p>How to get back up when you're down</p>
+     </li>
+   
+   
+     
+       
+       
+     <li class="s1 tools">
+       <span class="post-meta">tools</span>
+       <h3><a href="/talks/unix_shortcuts.html">
+	   Unix keyboard shortcuts</a></h3>
+       <br style="clear: both" />
+       <p>Know your tools, get them in muscle memory</p>
+     </li>
+   
+   
+     
+       
+       
+     <li class="s1 tools">
+       <span class="post-meta">tools</span>
+       <h3><a href="/talks/C_in_Ruby.html">
+	   The C in Ruby - `%`</a></h3>
+       <br style="clear: both" />
+       <p>How to format Strings the Ruby way - old but gold</p>
+     </li>
+   
+   
+     
+       
+       
+     <li class="s1 tools">
+       <span class="post-meta">tools (TODO)</span>
+       <h3><a href="/talks/regexen.html">
+	   Regexp (are not) Magic</a></h3>
+       <br style="clear: both" />
+       <p>/\AReg[eE]x(|p|en)\s*(?<magic>[Mm]agi.*)?\Z/</p>
+     </li>
+   
+   
+     
+       
+       
+     <li class="s2 architecture">
+       <span class="post-meta">architecture (WIP)</span>
+       <h3><a href="/talks/SOLID.html">
+	   SOLID & concrete</a></h3>
+       <br style="clear: both" />
+       <p>Applying SOLID principles in everyday Ruby</p>
+     </li>
+   
+   
+     
+       
+       
+     <li class="s2 learning">
+       <span class="post-meta">learning (WIP)</span>
+       <h3><a href="/talks/10years_reads.html">
+	   10 ans de lecture</a></h3>
+       <br style="clear: both" />
+       <p>Cool reads to get ahead on the daily grind</p>
      </li>
    
    </ul>
