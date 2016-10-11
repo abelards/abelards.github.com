@@ -6,9 +6,101 @@
 </description>
     <link>http://maitre-du-monde.fr/</link>
     <atom:link href="http://maitre-du-monde.fr/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 09 Oct 2016 16:17:00 +0200</pubDate>
-    <lastBuildDate>Sun, 09 Oct 2016 16:17:00 +0200</lastBuildDate>
+    <pubDate>Tue, 11 Oct 2016 12:04:40 +0200</pubDate>
+    <lastBuildDate>Tue, 11 Oct 2016 12:04:40 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Slackbot &quot;les gars&quot;</title>
+        <description>&lt;p&gt;Dans la communauté Slack &lt;a href=&quot;http://parisrb-slack-invite.herokuapp.com/&quot;&gt;ParisRB&lt;/a&gt;,
+nous avons utilisé un “hack” très simple pour favoriser le langage inclusif :
+Slackbot détecte tout usage du mot “gars” et répond&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;slackbot les gars &lt;em&gt;et les filles&lt;/em&gt; \o/ (ou : tout le monde)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Bien sûr le grep est simpliste et si vous écrivez vraiment “les gars et les filles”,
+ou si vous parlez vraiment d’UN gars dont le genre est connu,
+vous tombez dans un cas pathologique où l’intervention de slackbot semble ridicule.&lt;/p&gt;
+
+&lt;p&gt;Mais voilà, sauf quand on cherche expressément à embêter Slackbot sur ce point,
+son usage régulier est correct à 80, 90, 95% : il dénote un langage moins inclusif,
+des habitudes de pensées bénignes… mais des habitudes que chacun a quand même
+et sur lesquelles on peut et on devrait travailler.&lt;/p&gt;
+
+&lt;p&gt;C’est pourquoi je reverrai peut-être un peu la formulation, ajouterai
+peut-être un lien avec des lectures, mais il est extrêmement
+improbable que je le retire.&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;Bref, &lt;a href=&quot;/2014/12/31/i-have-opinions.html&quot;&gt;ce sont mes idées&lt;/a&gt;,
+vous avez les vôtres, apprenons l’un de l’autre !&lt;/p&gt;
+
+&lt;p&gt;Mais si vous voulez jouer &lt;a href=&quot;/2016/10/07/cynicism.html&quot;&gt;l’avocat du diable ou le cynisme&lt;/a&gt;,
+ajoutez rapidement quelque chose d’intéressant à la conversation,
+ou je risque de ne plus jouer au tennis argumentatif avec vous très longtemps.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 10 Oct 2016 00:00:00 +0200</pubDate>
+        <link>http://maitre-du-monde.fr/2016/10/10/slackbot-les-gars.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2016/10/10/slackbot-les-gars.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Cynicism</title>
+        <description>&lt;p&gt;Cynicism, Devil’s advocate, snarks &amp;amp; dark humour.
+I’ve played these cards more than once in my younger years.&lt;/p&gt;
+
+&lt;p&gt;I try not to anymore: it usually doesn’t help do whatever you intended,
+alienates people, make some suffer, and opens the gate for other,
+actually harmful people.&lt;/p&gt;
+
+&lt;p&gt;If you are good-willed, want to share, educate and strive for greater values,
+it’s easy to attack “bad people”, but you might harm others in doing so.
+Please embody your greater, stricter standards and values with us,
+by finding positive ways to share and educate.&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;If you can’t, I get you’re dying to show us your opinions,
+I often am too, but you’ll only be adding to the mess,
+and come out as less brilliant and benevolent as you certainly are.&lt;/p&gt;
+
+&lt;p&gt;It will show aggressive debate is fine, which it isn’t.
+It will let other people escalate, and you’d be responsible for it.&lt;/p&gt;
+
+&lt;p&gt;It will let others nitpick and sidetrack onto other paths
+you didn’t want to debate on, and ultimately weakens your point.&lt;/p&gt;
+
+&lt;p&gt;If you are such a good and smart person, do what other smart people do:
+explain with facts and patience, build simple and logic arguments.
+That will lead to more inclusive and productive conversations,
+from which people will actually learn instead of rejecting everything up front.&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;Yes, Twitter doesn’t have room to include disclaimers.
+Yes, people will always find counter-examples and we are all biased.
+Yes, some days we are more open to things we dislike, and some other days we can react violently.&lt;/p&gt;
+
+&lt;p&gt;Yes, it’s funny to find the one sentence to destroy an opponent on the form, not principles.
+I still love provocation as jokes, or ways to explore or reframe hard topics.
+But “you can laugh about everything, just not with everyone (at every moment)”.
+That’s not being a coward or a flip-flopper. That’s being kind, considerate and appropriate.&lt;/p&gt;
+
+&lt;p&gt;So please, forgive my negativity and forgive yours,
+hold me to higher standards and hold yourself too.
+I look forward to discovering where we’ll go.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 07 Oct 2016 00:00:00 +0200</pubDate>
+        <link>http://maitre-du-monde.fr/2016/10/07/cynicism.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2016/10/07/cynicism.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Business experiments</title>
@@ -400,103 +492,6 @@ This is to say you should always check you vendors and deals.&lt;/p&gt;
         <pubDate>Wed, 02 Dec 2015 00:00:00 +0100</pubDate>
         <link>http://maitre-du-monde.fr/2015/12/02/refuse-free-work.html</link>
         <guid isPermaLink="true">http://maitre-du-monde.fr/2015/12/02/refuse-free-work.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Asking the class</title>
-        <description>&lt;p&gt;I was a good student, marks-wise.
-I was probably a very bad student, class-wise.&lt;/p&gt;
-
-&lt;p&gt;Mentoring at &lt;a href=&quot;http://railsgirls.com/paris&quot;&gt;RailsGirlsParis&lt;/a&gt;,
-listening to &lt;a href=&quot;https://devchat.tv/ruby-rogues/232-rr-teaching-and-how-we-can-all-do-more-to-teach-technical-topics-to-others-with-eric-normand&quot;&gt;RubyRogues 232 on teaching&lt;/a&gt;,
-I now notice that being the guy who gets things and rushes to answer, was shutting down my peers’ brains.&lt;/p&gt;
-
-&lt;p&gt;If some people always answer, first and fast, it discourages the other ones.
-I was a bad student regarding this, and I apologize to my classmates.&lt;/p&gt;
-
-&lt;p&gt;Here are some tricks for the teachers though:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;always wait for a majority of raised hands&lt;/li&gt;
-  &lt;li&gt;get into the habit of asking students easy things&lt;/li&gt;
-  &lt;li&gt;thank for participations (questions are not traps, but normal and harmless)&lt;/li&gt;
-  &lt;li&gt;ask everyone to get a sheet of paper and making them write things down&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I strongly suggest you listen to this one :)&lt;/p&gt;
-</description>
-        <pubDate>Sat, 28 Nov 2015 00:00:00 +0100</pubDate>
-        <link>http://maitre-du-monde.fr/2015/11/28/asking-the-class.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2015/11/28/asking-the-class.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Now &amp; Tomorrow</title>
-        <description>&lt;p&gt;Do you know the &lt;a href=&quot;http://sivers.org/nowff&quot;&gt;“now page movement”&lt;/a&gt;?&lt;/p&gt;
-
-&lt;p&gt;I first came across it via &lt;a href=&quot;https://twitter.com/sivers&quot;&gt;@sivers&lt;/a&gt; and
-&lt;a href=&quot;https://twitter.com/practicingdev&quot;&gt;@practicingdev&lt;/a&gt;.
-It looks like a manifesto on focus, a way to make it clear what your
-main activities currently are or should be.[1]&lt;/p&gt;
-
-&lt;p&gt;I would like to expand on it.&lt;/p&gt;
-
-&lt;p&gt;There’s no question these two know how to prioritize, act and deliver.
-It’s nice to have focus, make baby steps and feel progress to keep motivation.
-This is good advice I’ve needed at some point in my life, and were it not
-expressed in an absolute tone I wouldn’t have acted on it.&lt;/p&gt;
-
-&lt;p&gt;But now I get this rule, and I can transgress it.
-I feel bad losing the Big Picture, and closing doors.&lt;/p&gt;
-
-&lt;p&gt;I’m aware that might be &lt;a href=&quot;https://en.wikipedia.org/wiki/Fear_of_missing_out&quot;&gt;FOMO&lt;/a&gt;
-(bad), but can relabel it as embracing serendipity and opportunity (good).&lt;/p&gt;
-
-&lt;p&gt;My page would rather be “Goals”. Or “&lt;a href=&quot;/now/&quot;&gt;Tomorrow&lt;/a&gt;”.
-I’m summarizing below but feel free to see the detailed version.&lt;/p&gt;
-
-&lt;style&gt;h3 { text-align: center; } &lt;/style&gt;
-
-&lt;h3 id=&quot;make-tech-more-inclusive&quot;&gt;Make tech more inclusive&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;RailsGirlsParis: empowering a handful of women right now, broadening the caring culture with the awesome mentors I’ve met.&lt;/li&gt;
-  &lt;li&gt;Next: learning about minorities, safe spaces, reaching out to kids&lt;/li&gt;
-  &lt;li&gt;Extending to disabled people physically &amp;amp; mentally, and prison reinsertion&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;These are opportunities I’m willing to pursue.
-If you have half a plan and need a hand, I’d gladly change that order for your target audience.&lt;/p&gt;
-
-&lt;h3 id=&quot;be-a-better-person&quot;&gt;Be a better person&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Embodying my values: voting with my ballot, my wallet, my example &amp;amp; my company&lt;/li&gt;
-  &lt;li&gt;Learning &amp;amp; sharing stuff&lt;/li&gt;
-  &lt;li&gt;Do sports, be fit, make time for friends, raise a family&lt;/li&gt;
-  &lt;li&gt;Create boardgame and my dream strategy game&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;impossible-possibles&quot;&gt;Impossible possibles&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;fix education, society &amp;amp; the world&lt;/li&gt;
-  &lt;li&gt;expand humanity to other planets&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;[1] The thought resonated and recent community use is also some kind of
-general statement and intent on what you do right now, like updating
-on a friend you haven’t seen in a year (I also have reserves on
-defining oneself by your work, as some tend to do, but that wasn’t the
-main original focus).&lt;/p&gt;
-</description>
-        <pubDate>Wed, 11 Nov 2015 00:00:00 +0100</pubDate>
-        <link>http://maitre-du-monde.fr/2015/11/11/now.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2015/11/11/now.html</guid>
         
         
       </item>
