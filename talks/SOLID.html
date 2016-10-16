@@ -76,49 +76,83 @@ class: center, middle
 
 ---
 class: center, java
-# SRP
+# SRP 4 JAVA
 ## Single Responsibility Principle
-### Javaists
+
 "A class should only have a single responsibility"
 
 ---
 class: center, rationale
-# SRP
+# SRP Rationale
 ## Single Responsibility Principle
-### Rationale
+
 "A responsibility is a reason to change"
 
 ---
 class: center, ruby
-# SRP
+# SRP 4 RUBY
 ## Single Responsibility Principle
-### Rubyists
-Triggers: when I create an order in the right state, send an email.
+
+- `check_state`, `to_state_x` # also sends mail
+
 - right_state?
 - send_email
 - trigger: send_email_when_right_state
 
-Validations: use the block syntax only to chain one or two methods
+???
+Triggers: when I create an order in the right state, send an email.
 
 ---
-class: center,koans
-# SRP
+class: center, koans
+# SRP Koäns
 ## Single Responsibility Principle
-### Koäns
+
  - [175 Flat Shark](http://thecodelesscode.com/case/175)
  - [83 Consequences](http://thecodelesscode.com/case/83)
  - [117 Bareback](http://thecodelesscode.com/case/117)
  - [167 Back to Basics](http://thecodelesscode.com/case/167)
 
 ---
-# OCP
+class: java
+# OCP 4 JAVA
 ## Open-Closed Principle
 
 "Software entities … should be open for extension, but closed for modification."
 
+Abstract classes all the way down.
+
+---
+class: rationale
+# OCP Rationale
+## Open-Closed Principle
+
+Isolation, tests, change.
+
+Libraries' reuse, adding meaning to basic structures...
+
+---
+class: ruby
+# OCP 4 RUBY
+## Open-Closed Principle
+
+OMG we're Rubyists! o_O;
+
+JK we just limit on monkeypatching, metaprog, and...
+it's message passing time! <3
+
+---
+class: center, koans
+# OCP Koäns
+## Open-Closed Principle
+
+ - [175 Flat Shark](http://thecodelesscode.com/case/175)
+ - [83 Consequences](http://thecodelesscode.com/case/83)
+ - [117 Bareback](http://thecodelesscode.com/case/117)
+ - [167 Back to Basics](http://thecodelesscode.com/case/167)
+
 ---
 class: center, java
-# LSP
+# LSP 4 JAVA
 ## Liskov Substitution Principle
 ### Javaists
 
@@ -130,46 +164,98 @@ A Rectangle is a Square, not the other way around.
 
 ---
 class: center, rationale
-# LSP
+# LSP Rationale
 ## Liskov Substitution Principle
 ### Rationale
 
+- don't mess up with the pointers
+
 "Be laxist in what you accept, strict in what you give."
+
 - keep the same interface
 - accept more data
-- 
+- grow
 
 ---
 class: center, ruby
-# LSP
+# LSP 4 RUBY
 ## Liskov Substitution Principle
 ### Rubyists
 
-Composition over inheritance,
-
-[contracts.coffee], [contracts.ruby]
+- Composition over inheritance
+- Methods and fields look the same
+- Duck-typing makes many patterns easier
+- Introspection makes LAZINESS easier!
 
 ---
 class: center,koans
-# LSP
+# LSP Koäns
 ## Liskov Substitution Principle
 ### Koäns
+
  - [175 Flat Shark](http://thecodelesscode.com/case/175)
  - [83 Consequences](http://thecodelesscode.com/case/83)
  - [117 Bareback](http://thecodelesscode.com/case/117)
  - [167 Back to Basics](http://thecodelesscode.com/case/167)
 
-
 ---
-# ISP
+# ISP 4 JAVA
 ## Interface Separation Principle
 
-    “many client-specific interfaces are better than one general-purpose interface.”[8]
+"many client-specific interfaces are better than one general-purpose interface."
 
 ---
-# DIP
+# ISP Rationale
+## Interface Separation Principle
+
+- "Duplication is far cheaper than the wrong abstraction"
+- Reasons for change
+
+---
+# ISP 4 RUBY
+## Interface Separation Principle
+
+- Clever code is too clever
+
+---
+# ISP Koäns
+## Interface Separation Principle
+
+ - [175 Flat Shark](http://thecodelesscode.com/case/175)
+ - [83 Consequences](http://thecodelesscode.com/case/83)
+ - [117 Bareback](http://thecodelesscode.com/case/117)
+ - [167 Back to Basics](http://thecodelesscode.com/case/167)
+
+---
+# DIP 4 JAVA
 ## Dependency Inversion Principle
-    one should “Depend upon Abstractions. Do not depend upon concretions.”[8]
+
+"one should Depend upon Abstractions. Do not depend upon concretions."
+
+---
+# DIP Rationale
+## Dependency Inversion Principle
+
+You can trust the idea to persist.
+You cannot trust the implementation.
+
+You can trust your friends, not their address.
+Leaky abstractions.
+
+---
+# DIP 4 RUBY
+## Dependency Inversion Principle
+
+I give you the info I have, you don't have to ask me.
+
+---
+# DIP Koäns
+## Dependency Inversion Principle
+
+ - [175 Flat Shark](http://thecodelesscode.com/case/175)
+ - [83 Consequences](http://thecodelesscode.com/case/83)
+ - [117 Bareback](http://thecodelesscode.com/case/117)
+ - [167 Back to Basics](http://thecodelesscode.com/case/167)
 
 ---
 class: center, middle, happy

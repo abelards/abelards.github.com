@@ -6,15 +6,52 @@
 </description>
     <link>http://maitre-du-monde.fr/</link>
     <atom:link href="http://maitre-du-monde.fr/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Oct 2016 12:04:40 +0200</pubDate>
-    <lastBuildDate>Tue, 11 Oct 2016 12:04:40 +0200</lastBuildDate>
+    <pubDate>Sun, 16 Oct 2016 12:07:35 +0200</pubDate>
+    <lastBuildDate>Sun, 16 Oct 2016 12:07:35 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Young entrepreneur</title>
+        <description>&lt;p&gt;I meet many people who want to be entrepreneurs.
+If this is going to be your first job after internships,
+I usually want to warn you about all of this.&lt;/p&gt;
+
+&lt;p&gt;For those in a hurry, I’d just say:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Do two jobs for two years each first, then create your company.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For the others, I have to go the full grandpa-advice:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Be good to your heart (be happy, chase your dream, live with your values)&lt;/li&gt;
+  &lt;li&gt;Be good to your body (eat, drink &amp;amp; sleep well: you’ll do no good if you aren’t good)&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Don’t let your energy starve (keep growing, be curious, don’t get satisfied)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Why do you want to be an entrepreneur? Why this idea?&lt;/li&gt;
+  &lt;li&gt;Power Porn is not the real world (read bios but make things)&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Your idea will change, be open and lose that ego (it started things &amp;amp; will keep you going though)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Get experience &amp;amp; money, knowledge &amp;amp; network, trust &amp;amp; proof first&lt;/li&gt;
+  &lt;li&gt;You don’t even know what you don’t know, clear some of that first&lt;/li&gt;
+  &lt;li&gt;Managing humans is hard, learn it before you need it super-badly&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Blog posts to come!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 15 Oct 2016 00:00:00 +0200</pubDate>
+        <link>http://maitre-du-monde.fr/2016/10/15/young-entrepreneur.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2016/10/15/young-entrepreneur.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Slackbot &quot;les gars&quot;</title>
         <description>&lt;p&gt;Dans la communauté Slack &lt;a href=&quot;http://parisrb-slack-invite.herokuapp.com/&quot;&gt;ParisRB&lt;/a&gt;,
-nous avons utilisé un “hack” très simple pour favoriser le langage inclusif :
-Slackbot détecte tout usage du mot “gars” et répond&lt;/p&gt;
+et chez nous, Slackbot détecte tout usage du mot “gars” et répond&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;slackbot les gars &lt;em&gt;et les filles&lt;/em&gt; \o/ (ou : tout le monde)&lt;/p&gt;
@@ -24,7 +61,14 @@ Slackbot détecte tout usage du mot “gars” et répond&lt;/p&gt;
 ou si vous parlez vraiment d’UN gars dont le genre est connu,
 vous tombez dans un cas pathologique où l’intervention de slackbot semble ridicule.&lt;/p&gt;
 
-&lt;p&gt;Mais voilà, sauf quand on cherche expressément à embêter Slackbot sur ce point,
+&lt;p&gt;Et ça me convient ! Aucune regexp ne sera complète.
+L’objectif est simplement de faire prendre conscience aux gens
+que le langage aliénant existe, que la communauté entière aspire à mieux,
+et qu’un tel langage n’est pas accepté sans mot dire.&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;En pratique, sauf quand on cherche expressément à embêter Slackbot sur ce point,
 son usage régulier est correct à 80, 90, 95% : il dénote un langage moins inclusif,
 des habitudes de pensées bénignes… mais des habitudes que chacun a quand même
 et sur lesquelles on peut et on devrait travailler.&lt;/p&gt;
@@ -444,54 +488,6 @@ aux sponsors, et mon conseil est de faire non mixte.&lt;/p&gt;
         <pubDate>Sat, 16 Jan 2016 00:00:00 +0100</pubDate>
         <link>http://maitre-du-monde.fr/2016/01/16/railsgirls-not-boys.html</link>
         <guid isPermaLink="true">http://maitre-du-monde.fr/2016/01/16/railsgirls-not-boys.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Refuse free work</title>
-        <description>&lt;p&gt;Many people will obviously tell you to refuse to work for free.
-I also suggest not to accept free work.&lt;/p&gt;
-
-&lt;p&gt;Most people guess a free work is fine to take, actually you should
-wrench the maximum of free work from as many people as you can get
-away with.&lt;/p&gt;
-
-&lt;p&gt;My point is beyond ethics (exploitation or fairness), but a basic
-advice for any business to be sustainable and mutually beneficial.&lt;/p&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;I’ve seen many friends accepting free work, as competitions’ prizes,
-favor to repay or such. What you get is you now depend on work that
-will probably be low priority or high resentment for your vendor.&lt;/p&gt;
-
-&lt;p&gt;I don’t like equating power to the power of nuisance, but it’s useful
-to ask that question now and then.
-If they are in an emergency, what are the consequences of a failure?
-On one hand, an actual customer with actual contract and payment to
-withhold or penalty fees. On the other, you and a gift not given.
-A favor not or badly repaid.&lt;/p&gt;
-
-&lt;p&gt;It’s hard enough to get people to do what you want, be they kids,
-spouses, coworkers, teams, bosses… given the emotional ties or
-constraints you have. Why do you think you will be able to
-exert command and control on people who are working for naught?&lt;/p&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;This is not to say you shouldn’t try to be flexible:
-I’ve seen and made many business arrangements for convenience or
-fair-play, which only exceptionally turn out not to work.&lt;/p&gt;
-
-&lt;p&gt;This is not to say you shouldn’t benefit of great opportunities
-that happen to look unbalanced.
-This is to say you should always check you vendors and deals.&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 02 Dec 2015 00:00:00 +0100</pubDate>
-        <link>http://maitre-du-monde.fr/2015/12/02/refuse-free-work.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2015/12/02/refuse-free-work.html</guid>
         
         
       </item>

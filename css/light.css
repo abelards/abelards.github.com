@@ -40,10 +40,11 @@ div:hover > .tooltip { display: block; }
 .short { display: none; }
 .tab { display: none; }
 
-.post-header .post-meta, .c, .more { text-align: center; }
+.post-header .post-meta, .posts-nav, .c, .more { text-align: center; }
 
 .koan { font-family: serif; font-size: 85%; }
 footer, .footnotes { border-top: 1px dotted #999; margin-top: 2em; }
+.posts-nav { border-bottom: 1px dotted #999; padding-bottom: 0.5em; margin-bottom: 1em; }
 
 footer { padding: 1em; }
 footer ul, footer li { padding-top: 0.25em; margin: 0; }
