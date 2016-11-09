@@ -11,7 +11,6 @@
 	ul { list-style-type: none; }
 	ul li { height: 1.5em; }
 	.best .remark-inline-code { color: yellow; }
-	.best { color: #EEE; }
 
       	h1, h2, h3 {
           font-weight: 300;
@@ -23,11 +22,15 @@
       	  color: white;
       	}
 	h1 { font-weight: bold; }
+
 	div.remark-slide-content {
-	  color: #999999;
-	  background-color: #333333;
+	  color: #DDD;
+	  background-color: #333;
 	  font-size: 200%;
 	}
+	div.remark-slide-content.best { color: #CCC; background: #222; }
+	div.remark-slide-content.wide { padding: 1em; }
+
 
 	.remark-code, .remark-inline-code {
 	  font-family: monospace, sans-serif;
@@ -40,12 +43,12 @@
 	  text-align: left;
 	}
 
-	.l0 { color: #BBBBBB; }  .l0::before  { content: 'x '; font-family: monospace; } /* '\01F7C1' } */
-	.l1 { color: #FFAAAA; }  .l1::before  { content: '. '; font-family: monospace; } /* '\01F7C1' } */
-	.l2 { color: #AAAAFF; }  .l2::before  { content: ': '; font-family: monospace; } /* '\01F7C5' } */
-	.l3 { color: #AAFFAA; }  .l3::before  { content: '+ '; font-family: monospace; } /* '\01F7C9' } */
-	.l23 { color: #AAEEEE; } .l23::before { content: '? '; font-family: monospace; } /* '\01F7C9' } */
-	.l4 { color: #EEEEEE; }  .l4::before  { content: 'o '; font-family: monospace; color: gold; } /* '\01F7CA' } // 1F7D3 // 2739 */
+	.l0  { color: #BBBBBB; } .l0::before  { content: 'x '; font-family: monospace; }
+	.l1  { color: #FFAAAA; } .l1::before  { content: '. '; font-family: monospace; }
+	.l2  { color: #AAAAFF; } .l2::before  { content: ': '; font-family: monospace; }
+	.l3  { color: #AAFFAA; } .l3::before  { content: '+ '; font-family: monospace; }
+	.l23 { color: #AAEEEE; } .l23::before { content: '? '; font-family: monospace; }
+	.l4  { color: #EEEEEE; } .l4::before  { content: 'o '; font-family: monospace; color: gold; }
 
 	code.hljs div.remark-code-line span.hljs-comment { color: gold; }
 
@@ -57,7 +60,7 @@
   </head>
   <body>
     <textarea id="source">
-class: center, middle
+class: center, middle best
 # From Master to Student
 
 &nbsp;
@@ -73,15 +76,26 @@ class: center, middle
 ???
 
 ---
-class: left
-# The Full Circle
+class: center wide
+# Zen proverbs
+<br />
+When an ordinary man attains knowledge,<br />
+he is a sage;<br />
+when a sage attains understanding,<br />
+he is an ordinary man.<br />
+<br />
 
-"In the beginner's mind there are many possibilities, in the expert's mind there are few"
+In the beginner's mind there are many possibilities,<br />
+in the expert's mind there are few.
+
+---
+class: left best
+# The Full Circle
 
 .b[Dreyfus Model of Skill Acquisition]<br />
 This is per skill, not per person!
 
-Don't be Fixed Mindset,<br />
+.b[Don't be Fixed Mindset],<br />
 look for lessons everywhere.
 
 ---
@@ -112,7 +126,7 @@ Also .l1[Shu].l23[Ha].l4[Ri] https://en.wikipedia.org/wiki/Shuhari
 https://www.oreilly.com/ideas/the-traits-of-a-proficient-programmer
 
 ---
-class: left
+class: left best
 # Expectations
 
 Also why I love newbies <3
@@ -141,7 +155,7 @@ Accept reality like a Zen buddhist.
 ???
 
 ---
-class: left
+class: left best
 # What I want, what I do
 
 Want / Can do & work given
@@ -159,6 +173,20 @@ Want / Can do & work given
 
 ---
 class: left
+# Project maturity
+
+Once again about what makes sense
+
+* .l0[tutorial or fear]
+* .l1[fills in blanks]
+* .l23[rewrites from scratch]
+* .l23[painfully adds up to legacy]
+* .l4[refactors knowledge]
+
+... and back to address fears (of others) and (writing) tutorials.
+
+---
+class: left
 # Names
 
 Names withheld to protect the culprits
@@ -173,9 +201,8 @@ Names withheld to protect the culprits
 
 ???
 
-
 ---
-class: left
+class: left best
 # Names
 
 Advice you can give
@@ -203,7 +230,7 @@ Don't Repeat Yourself: results
 Single Source of Truth matters more.
 
 ---
-class: left
+class: left best
 # DRY
 
 Don't Repeat Yourself: focus on
@@ -219,20 +246,21 @@ Don't Repeat Yourself: focus on
 
 ---
 class: left
-# Project maturity
+# Clever Code
 
-Once again about what makes sense
+What is clever code anyway?
 
-* .l0[tutorial or fear]
-* .l1[fills in blanks]
-* .l23[rewrites from scratch]
-* .l23[painfully adds up to legacy]
-* .l4[refactors knowledge]
+- .l0[these people hate me]
+- .l1[so clever! the dev must be smart]
+- .l23[I do clever code & I feel clever]
+- .l23[my mess is clean, yours is ugly]
+- .l4[this is so needlessly convoluted]
 
-... and back to address fears (of others) and (writing) tutorials.
+The Master does not think the dev IS stupid.
+The Master thinks the dev HAS BEEN less than clever HERE.
 
 ---
-class: left
+class: left best
 # Become a mentor!
 
 You will learn even more!
@@ -246,10 +274,10 @@ You will learn even more!
 What works will have to scale. Congrats!
 
 ---
-class: left
-# Bonus
+class: left best
+# Bonus: StackOverflow
 
-How to use StackOverflow
+How to use code from the Internet
 
 - .l0[read code]
 - .l1[make an hypothesis: how it works]
@@ -261,7 +289,7 @@ And here's the full circle :)
 
 ---
 class: left
-# Thanks!
+# Crafts-wo-manship
 
 Now be a proud developer!
 
@@ -274,6 +302,36 @@ Now be a proud developer!
 ... but you can leverage code to solve problems, and that's awesome.
 
 ???
+
+---
+class: left best
+# Priorities
+
+Do everything for a reason.
+
+- .l0[make it]
+- .l1[make it work]
+- .l23[make it fast]
+- .l23[make it beautiful]
+- .l4[make it readable]
+
+It will either make it fast & clean, or help it on the right track.
+
+---
+class: left
+# Career management
+
+Show up, good attitude, good context.
+
+- .l0[it will be hard, I will stick with it]
+- .l1[team with many tasks & coaching]
+- .l2[join a team with mentoring & peers]
+- .l3[make sure you keep growing]
+- .l4[begin anew]
+
+Most companies can be changed from within.
+Change management, theory of orgs, social dynamics...
+are very interesting skills to have.
 
 
 ---
@@ -293,52 +351,6 @@ class: center, middle, happy
 [maitre-du-monde.fr](maitre-du-monde.fr)
 
 .contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/master2student.html)]
-
-
----
-class: left
-# Bonus 2
-
-Priorities
-
-- .l0[make it]
-- .l1[make it work]
-- .l23[make it fast]
-- .l23[make it beautiful]
-- .l4[make it readable]
-
-It will either make it fast & clean, or help it on the right track.
-
----
-class: left
-# Bonus 3
-
-Clever code
-
-- .l0[these people hate me]
-- .l1[so clever! the dev must be smart]
-- .l23[I do clever code & I feel clever]
-- .l23[my mess is clean, yours is ugly]
-- .l4[this is so needlessly convoluted]
-
-The Master does not think the dev IS stupid.
-The Master thinks the dev HAS BEEN less than clever HERE.
-
----
-class: left
-# Bonus 4
-
-How to manage your career
-
-- .l0[it will be hard, I will stick with it]
-- .l1[team with many tasks & coaching]
-- .l2[join a team with mentoring & peers]
-- .l3[make sure you keep growing]
-- .l4[begin anew]
-
-Most companies can be changed from within.
-Change management, theory of orgs, social dynamics...
-are very interesting skills to have.
 
     </textarea>
     <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">

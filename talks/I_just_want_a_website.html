@@ -9,7 +9,7 @@
       	.happy { background-image: url(https://cloud.githubusercontent.com/assets/584600/5992569/2e807aee-aa2f-11e4-9618-e6446ec7fe2f.png) }
 	a, a:visited, a:hover { color: #DDD; }
 	.bestof ul { list-style-type: none; }
-	ul li { height: 1.5em; }
+	ul li { line-height: 1.5em; }
 	.best .remark-inline-code { color: yellow; }
 	.best { color: #EEE; }
 
@@ -25,7 +25,7 @@
       	  font-size: 2.5em;
       	  color: white;
       	}
-	h1 { font-weight: bold; }
+	h1 { font-weight: bold; padding: 0.1em; margin: 0.1em; }
 	div.remark-slide-content {
 	  color: #AAA;
 	  background-color: #333;
@@ -43,15 +43,18 @@
 	  text-align: left;
 	}
 
+	div.remark-slide-content.wide { padding: 1em; background: black; }
+	div.remark-slide-content.wide ul { list-style-type: none; }
+
 	code.hljs div.remark-code-line span.hljs-comment { color: gold; }
 
-	 // .b { font-weight: bold; }
+	 .x { font-weight: bold; }
 	.contrib { font-size: 90%; }
 
-	div.remark-slide-content.p1  p { font-size: 150%; }
-	div.remark-slide-content.p2  p { font-size: 110%; }
-	div.remark-slide-content.p5  p { font-size: 90%; }
-	div.remark-slide-content.p10 p { font-size: 50%; }
+	div.remark-slide-content.p1  p, .p1  { font-size: 140%; }
+	div.remark-slide-content.p2  p, .p2  { font-size: 110%; }
+	div.remark-slide-content.p5  p, .p5  { font-size: 90%; }
+	div.remark-slide-content.p10 p, .p10 { font-size: 49%; }
 
 	p.info { font-size: 75%; margin: 0; padding: 0; }
 	.n { text-decoration: underline; }
@@ -67,7 +70,7 @@
   <body>
     <textarea id="source">
 class: center, middle
-# I just want a website
+# Je veux juste un site Web
 
 &nbsp;
 
@@ -82,26 +85,91 @@ class: center, middle
 ???
 
 ---
-class: p1
-"Je veux juste un site web"
+class: center middle wide
+
+# Je veux plein<br /> de choses,<br /> et je .x[crois] qu'un<br /> site web<br /> est la solution.
+
+???
+
+Bon, c'est beaucoup de se prendre tout ça dans la figure.
 
 ---
 class: p1
+# démystifions
+
 "Je veux .n.r[juste] un .n.g[site web].n.b[.]"
+
+???
 
 ---
 class: p2
 
+# décomposer, expliciter
+
 "Je veux .r[concevoir et développer] une .g[application Web] .b[pour un intérêt et pour un certain temps]"
+
+???
+
+---
+class: p2
+
+# toujours des non-dits
+
+"Je veux .r[concevoir]
+et .o[développer]
+une .g[application Web]
+pour un .y[intérêt]
+et pour un certain .b[temps]"
 
 ---
 class: p5
 
-"Je veux .r[concevoir] (l'architecture, le code, les processus, l'ergonomie et l'expérience utilisateur)
-et .o[développer] (construire, tester, livrer plusieurs versions de l'application, au sein d'une équipe de devs)
-une .g[application Web] (de la page sur ordinateur aux possibilités modernes des tablette, mobiles et autres)
-pour un .y[intérêt] (valeur, temps, argent, pour mon business et celui des clients que j'aurai trouvés et convaincus)
-et pour un certain .b[temps] (satisfaction et qualité du code et des relations dans l'équipe, l'entreprise et avec ses clients)"
+# Devil in the details
+
+".x[Je veux .r[concevoir]] (l'architecture, le code, les processus, l'ergonomie et l'expérience utilisateur)
+.x[et .o[développer]] (construire, tester, livrer, plusieurs versions de l'application, au sein d'une .w.x[équipe] de devs)
+.x[une .g[application Web]] (de la page sur ordinateur aux possibilités modernes des tablettes, mobiles et autres)
+.x[pour un .y[intérêt]] (valeur, temps, argent, pour mon business et celui des clients que j'aurai trouvés et convaincus)
+.x[et pour un certain .b[temps]] (satisfaction et qualité du code et des relations dans l'équipe, l'entreprise et avec ses clients)"
+
+---
+class: p5 left wide
+# STOP
+
+* .x[C'était ça ?]
+* &nbsp;
+* .x[On sait faire ?]
+* &nbsp;
+* .x[Qui fait quoi ?]
+* &nbsp;
+* .x[Budget, délai ?]
+
+---
+class: p5 left wide
+# STOP
+
+* .x[C'était ça ?]
+* Sinon un blog ou une eBoutique, ça marche.
+* .x[On sait faire ?]
+* On s'améliore déjà en exploration / expression :)
+* .x[Qui fait quoi ?]
+* Il faut s'entourer, déléguer, écouter... juger ?
+* .x[Budget, délai ?]
+* Et du coup... on a l'argent pour tout ça ?
+* Ou on vise un peu plus bas / plus long ?
+
+---
+class: p5 wide
+# LET'S GO
+
+Si c'est non, fin de l'histoire,<br />ou plutôt début, mais ailleurs et autrement :)
+
+Si c'est bon, on reprend le manifesto :
+
+* .x[nous voulons]
+* .x[faire un produit]
+* .x[et le faire marcher]
+* .x[dans la durée]
 
 ---
 class: p10
@@ -109,9 +177,14 @@ class: p10
 "Nous sommes des humains faillibles qui voulons faire un logiciel
 pour des humains faillibles, dans une équipe d'humains faillibles.
 
+Clients, équipiers, managers, fournisseurs et proches sont à
+convaincre pour établir une relation de confiance et de respect.
+
+
 Nous avons identifié un problème et des gains possibles,
 nous pensons pouvoir les alléger ou supprimer
 et nous voulons en faire notre métier ou produit.
+
 
 À partir de besoins découverts ou reçus, rassemblés et analysés,
 nous avons pu déterminer notre périmètre et contraintes d'intervention,
@@ -121,13 +194,15 @@ qui mis en face avec nos moyens nous imposent une vision globale.
 Nous nous placerons dans des équipes et environnements SI donnés,
 et nos utilisateurs auront aussi des contraintes techniques de matériel, connexion, et pratiques.
 
+
 Nous avons la mission ou la liberté de concevoir, modifier, améliorer cet environnement.
 Au fur et à mesure, nous devrons pouvoir y regarder certaines métriques,
 pour nous permettre de nous ajuster pour nos clients, chefs, et équipes diverses.
 
 Nous livrerons et maintiendrons une application fiable, efficiente et sécurisée,
-à partir de telles et telles briques d'infrastructure et de code
-que nous lierons entre elles, de l'expérience au produit "définitif" mais vivant.
+en composant et reliant des briques d'infrastructure, de code et d'information,
+de l'expérience à chaque version stable.
+
 
 Nous espérons que cela nous apprenne des choses et savons qu'alors le plan changera.
 Il faudra alors changer code et données, avec un minimum d'effort et un maximum de confiance.
@@ -141,7 +216,9 @@ class: p5
 # 1/4 nous voulons
 
 .w[Nous sommes des humains faillibles qui voulons faire un logiciel
-pour des humains faillibles, dans une équipe d'humains faillibles.]
+pour des humains faillibles, dans une équipe d'humains faillibles.
+Clients, équipiers, managers, fournisseurs et proches sont à
+convaincre pour établir une relation de confiance et de respect.]
 
 .y[Nous avons identifié un problème et des gains possibles,
 nous pensons pouvoir les alléger ou supprimer
@@ -161,25 +238,34 @@ et nos utilisateurs auront aussi des contraintes techniques de matériel, connex
 
 ---
 class: p5
-# 3/4 satisfaisant
+# 3/4 & le faire marcher
 
 .y[Nous avons la mission ou la liberté de concevoir, modifier, améliorer cet environnement.]
 .b[Au fur et à mesure, nous devrons pouvoir y regarder certaines métriques,
 pour nous permettre de nous ajuster pour nos clients, chefs, et équipes diverses.]
 
 .t[Nous livrerons et maintiendrons une application fiable, efficiente et sécurisée,
-à partir de telles et telles briques d'infrastructure et de code
-que nous lierons entre elles], de l'expérience au produit "définitif" mais vivant.
+en composant et reliant des briques d'infrastructure, de code et d'information,]
+de l'expérience à chaque version stable.
 
 ---
 class: p5
 # 4/4 dans la durée
 
 .b[Nous espérons que cela nous apprenne des choses et savons qu'alors le plan changera.]
+
 .w[Il faudra alors changer code et données, avec un minimum d'effort et un maximum de confiance.]
+
 .y[Et ce parfois dans un cadre de crise : temps, argent, image, éthique, contraintes légales.]
 
 Réussir un projet informatique, c'est tout cela.
+
+---
+class: middle center wide
+
+# Alors, qui veut juste un site Web ?
+
+# Profitez de l'aventure ;)
 
 ---
 class: center, middle, happy

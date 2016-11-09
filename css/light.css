@@ -107,7 +107,8 @@ a:hover { color: #33475F; text-decoration: underline; }
 h3 a { font-weight: 700; }
 li h4 { margin-top: 0.75em; }
 
-.help { font-size: 90%; margin-top: 1px; padding-top: 1px; }
+.help, dd { font-size: 90%; margin-top: 1px; padding-top: 1px; }
+dt { padding-left: 1em; }
 
 .page, .content {
   margin: auto;
