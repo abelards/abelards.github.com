@@ -6,9 +6,157 @@
 </description>
     <link>http://maitre-du-monde.fr/</link>
     <atom:link href="http://maitre-du-monde.fr/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 09 Nov 2016 21:42:49 +0100</pubDate>
-    <lastBuildDate>Wed, 09 Nov 2016 21:42:49 +0100</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
+    <pubDate>Sun, 04 Dec 2016 22:31:51 +0100</pubDate>
+    <lastBuildDate>Sun, 04 Dec 2016 22:31:51 +0100</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Most Important Improvement</title>
+        <description>&lt;p&gt;What is the most important thing?&lt;/p&gt;
+
+&lt;p&gt;I don’t know, we’re all connected, everything depends on other things.&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;Is the engine the most important part of a car? Well without gas it won’t run.&lt;/p&gt;
+
+&lt;p&gt;Is the Brain the most important part of the body?
+Heart beats, mouth eats, lungs breathe… take any single one away and you die.&lt;/p&gt;
+
+&lt;p&gt;Dev skill, language or framework mastery is important?
+Communication, politeness, problem discovery, social dynamics more important ?&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;I think of important things as glass panels: light shines outside,
+you want to have some light inside, and we have many panels in between.&lt;/p&gt;
+
+&lt;p&gt;If any of these panels lets 0%~10% of light pass,
+other panels can be crystal-clear, but you will live in the dark.&lt;/p&gt;
+
+&lt;p&gt;If every panel lets 90% of light pass, but you have many layers,
+you will live in the dark too.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 26 Nov 2016 00:00:00 +0100</pubDate>
+        <link>http://maitre-du-monde.fr/2016/11/26/most-important.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2016/11/26/most-important.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>OOP vs FP</title>
+        <description>&lt;p&gt;Popular techs, tools and methods are &lt;a href=&quot;/2016/11/19/not-enemies.html&quot;&gt;not enemies&lt;/a&gt;.
+They compete for attention and trendiness, not in codebases, workplaces, or skillsets.&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;There’s a fake divide between OOP and FP, and a weird divide on several methods.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;You can use functional ideas in an OOP language/stack!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I do it daily in Rails, and I got at least 50% to 80% of the FP boost
+in clarity, productivity, quality, less bugs…&lt;/p&gt;
+
+&lt;p&gt;But I do not follow the FP way “all the way” and I do not get the benefits of,
+say immutability, but I don’t get the hassle too ;)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Just like you can Agile + DDD + TDD + CQRS + ES + almost any stack.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;These are not exclusive and each will bring some of its advantages to the table.&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;By the way, JS is OOP but prototype-based. It’s pretty much one-of-a-kind.&lt;/p&gt;
+
+&lt;p&gt;Ruby/Smalltalk/Objective C are message-passing OOP (I call it the &lt;em&gt;Alan-Kay-OOP&lt;/em&gt; and I feel that’s the only correct one),
+almost all others are/feel/are used like inheritance-OOP (I call it the &lt;em&gt;Stroustrup OOP&lt;/em&gt; or C++/Java OOP).&lt;/p&gt;
+
+&lt;p&gt;I feel that Java-OOP has problems and when you see the GoF book (design patterns: a catalogue of usual solutions).
+I feel like you actually have usual problems caused by your typing system and that it’s a “language smell” you should get rid of.&lt;/p&gt;
+
+&lt;p&gt;Incidentally, you can definitely use inheritance patterns with JS or Ruby, but that makes me sad because you lose the strengths they have that I love.&lt;/p&gt;
+
+&lt;p&gt;FP-fans are big on immutability: you set a variable, it doesn’t change.
+It’s not so hard once you get the idea, and it forces you to rename variables.
+No more &lt;code class=&quot;highlighter-rouge&quot;&gt;things = category.things; things = things.select(&amp;amp;:foobar)&lt;/code&gt;
+But you can do &lt;code class=&quot;highlighter-rouge&quot;&gt;things = category.foobar_compliant_things&lt;/code&gt; or
+&lt;code class=&quot;highlighter-rouge&quot;&gt;cat_things = category.things; displayable_things = cat_things.select(&amp;amp;:foobar)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;So the first time you &lt;em&gt;force&lt;/em&gt; immutability on people it usually is super frustrating.
+But what I found I like is you tell them about the idea (awareness) then train them (education) then gradually add and fix it in your codebase…
+then you can either force the immutability (reflexes are OK but you don’t want to throw all code away just to change language)
+or be happy that you are already 80% of the way and continue working (while reaching 90%) :)&lt;/p&gt;
+</description>
+        <pubDate>Tue, 22 Nov 2016 00:00:00 +0100</pubDate>
+        <link>http://maitre-du-monde.fr/2016/11/22/oop-vs-fp.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2016/11/22/oop-vs-fp.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Not enemies</title>
+        <description>&lt;p&gt;Popular techs, tools and methods are not enemies.&lt;/p&gt;
+
+&lt;p&gt;They compete for brain-space, attention, a spot in HN, tweets or trendy blogs.
+But they do not compete in codebases, workplaces, or skillsets.&lt;/p&gt;
+
+&lt;p&gt;As people debate fiercely about things they like,
+it’s important to remind we’re not enemies, our passions are not enemies,
+and when we say it’s super important, no one can say what “the most important thing” is.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 19 Nov 2016 00:00:00 +0100</pubDate>
+        <link>http://maitre-du-monde.fr/2016/11/19/not-enemies.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2016/11/19/not-enemies.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>We are not managers</title>
+        <description>&lt;p&gt;As young devs, we are not managers: learn it before you need it super-badly.&lt;/p&gt;
+
+&lt;p&gt;I dislike most management schools or classes or methods or whatever.
+I almost only trust learning doing the job with great examples and mentors.
+By the way, I also think this applies for becoming a dev worth any salt too.&lt;/p&gt;
+
+&lt;p&gt;So you will be young and in charge of creating a company and managing a team.
+But theory doesn’t really help when a coworker gets a divorce or someone they love has cancer.&lt;/p&gt;
+
+&lt;p&gt;Life is harsh. Plan around it.&lt;/p&gt;
+
+&lt;p&gt;And learn to be a great manager before you’re in a situation where neglecting a thing
+kills your company, your safety net, your relationships…&lt;/p&gt;
+</description>
+        <pubDate>Wed, 16 Nov 2016 00:00:00 +0100</pubDate>
+        <link>http://maitre-du-monde.fr/2016/11/16/we-are-not-managers.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2016/11/16/we-are-not-managers.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Start here, go there</title>
+        <description>&lt;p&gt;Young devs are rarely great POs/marketers.
+Hell, we’re even rarely even great devs.&lt;/p&gt;
+
+&lt;p&gt;And the reverse is true:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;if you start by being a dev you probably suck at marketing/business/law. It’s fine, you’re young.&lt;/li&gt;
+  &lt;li&gt;if you start being a marketer you probably suck at tech (at least dev) and law, perhaps even business.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And so on for every skill.
+Be curious and learn at the previous jobs.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 12 Nov 2016 00:00:00 +0100</pubDate>
+        <link>http://maitre-du-monde.fr/2016/11/12/start-here-go-there.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2016/11/12/start-here-go-there.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>First prove it</title>
@@ -184,194 +332,6 @@ and that you will likely not reconsider often. You got too soft and comfortable.
         <pubDate>Sat, 22 Oct 2016 00:00:00 +0200</pubDate>
         <link>http://maitre-du-monde.fr/2016/10/22/mind-your-motivation.html</link>
         <guid isPermaLink="true">http://maitre-du-monde.fr/2016/10/22/mind-your-motivation.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Ça agace les devs</title>
-        <description>&lt;p&gt;J’ai lu &lt;a href=&quot;http://www.developpez.net/forums/d1606531-3/general-developpement/debats-developpement-best-of/trolldi-qu-agace-plus-tant-developpeurs/#post8774266&quot;&gt;
-ce sondage sur Développez.net&lt;/a&gt; (&lt;a href=&quot;/2016/10/20/developpez-net.html&quot;&gt;je suis un peu developpez.net, vous devriez aussi&lt;/a&gt;) et je n’ai pas aimé les choix, alors je propose les miens :&lt;/p&gt;
-
-&lt;p&gt;Qu’est-ce qui vous agace en tant que développeur ?&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;mes propres limitations&lt;/li&gt;
-  &lt;li&gt;avoir des contraintes sans avoir les moyens&lt;/li&gt;
-  &lt;li&gt;les attitudes négatives, avec lesquelles on progresse moins/pas&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;Les choix présentés correspondent bien à ce que je pensais en tant que junior.
-C’est vraiment un manque de vision sur l’ensemble :&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;qui n’aime pas les réunions ou le patron, n’a pas compris SOIT l’utilité SOIT comment convaincre. Ça s’apprend&lt;/li&gt;
-  &lt;li&gt;qui n’aime pas les QA, les bugs ou les collègues est souvent remis à sa place parce qu’il a raté un truc. Ça arrive, ça s’évite.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Depuis qu’on apprend le code, on est remis à notre place : on a mal codé, on a oublié un cas, on a mal lu la doc, mal testé, oublié un point virgule…
-Pendant des années d’école et de carrière on apprend que ce n’est pas une fatalité, qu’on peut s’améliorer. Alors faisons-le.&lt;/p&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;Le plus symptômatique pour moi c’est la doc. Mais mettons-nous à la place des autres :
-on s’enrage quand les outils qu’on achète et les libs qu’on utilise sont mal documentées.&lt;/p&gt;
-
-&lt;p&gt;Pourquoi détester la doc ? Je suis heureux d’être développeur car mes “superpouvoirs” aident des gens.
-Sans manuel, ça ne les aide pas, pire ça les frustre ou les coince ou leur fait faire des bêtises !
-Donnez un couteau à un enfant sans expliquer à quoi ça sert, mais que ça coupe et comment s’en servir, vous ne l’avez pas aidé loin de là.&lt;/p&gt;
-
-&lt;p&gt;Bref, sans écrire de la doc, mon travail et mes compétences sont inutiles, je suis inutile voire malfaisant.
-Là encore on peut s’améliorer : meilleurs noms de variables, meilleurs libellés, messages d’erreur informatifs, reprise sur erreur…
-C’est tout simplement de l’UX (Expérience Utilisateur) !&lt;/p&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;Pour moi le plus grand danger de l’informatique, c’est d’avoir des contraintes sans avoir des moyens.&lt;/p&gt;
-
-&lt;p&gt;Vous savez qu’il faut agir et vous ne le faites pas.
-Vous voulez la qualité mais vous n’avez pas le temps.
-Vous voulez le temps mais vous n’avez pas l’argent pour ça.
-Vous voulez aider les utilisateurs mais vous ne les rencontrez pas.
-Vous voulez une équipe de qualité mais vous ne savez/pouvez pas les recruter/attirer/garder.
-Vous voulez que le projet soit un succès mais vous n’avez que les on-dit de quelqu’un et vous ne savez pas qui évaluera le succès et comment.&lt;/p&gt;
-
-&lt;p&gt;Il y a toujours quelqu’un qui édicte les règles, et qui n’a pas pensé que c’était incohérent voire anti productif.
-Ce n’est même pas sa faute ! Je lui pardonne aussi ! Mais il faut pouvoir l’identifier, le dire, et changer la règle si nécessaire.&lt;/p&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;Et enfin, si vous avez une attitude négative… vous passerez à côté de tout cela, et vous préférerez dire “la doc c’est chiant” que “je veux gagner ma vie en profitant de mes superpouvoirs durement acquis, pour aider les gens à gagner des superpouvoirs facilement”.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 21 Oct 2016 00:00:00 +0200</pubDate>
-        <link>http://maitre-du-monde.fr/2016/10/21/dangers-devs.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2016/10/21/dangers-devs.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>developpez.net</title>
-        <description>&lt;p&gt;Je suis un peu developpez.net, vous devriez aussi.&lt;/p&gt;
-
-&lt;p&gt;On peut reprocher que c’est un site, un look et des technos un peu vieillissants.&lt;/p&gt;
-
-&lt;p&gt;Mais je cherche à me plonger exprès dans ce que je ne connais pas, pour sortir de ma bulle, de ma chambre à écho.&lt;/p&gt;
-
-&lt;p&gt;Et vu le contenu technique en anglais, la France n’a pas beaucoup de communautés énormes de devs.
-Il est facile pour toute grosse communauté de s’enfermer dans des travers,
-mais si vous voulez discuter avec des gens qui viennent potentiellement de là-bas,
-il faut éviter de les fâcher, comprendre pourquoi ils pensent ce qu’ils pensent,
-et comment les accompagner vers ce que vous pensez être mieux.&lt;/p&gt;
-
-&lt;p&gt;C’est pourquoi devant la quasi absence de Ruby et Rails dans cette communauté, j’ai tenté de la faire vivre un peu :
-pour certains, ce que j’y écrirai sera leur premier contact avec ces technos.
-Essayons de rendre l’expérience agréable, non ?&lt;/p&gt;
-
-&lt;p&gt;Alors venez vous aussi, ça ne prend pas forcément longtemps et ça peut tous nous aider :)&lt;/p&gt;
-</description>
-        <pubDate>Thu, 20 Oct 2016 00:00:00 +0200</pubDate>
-        <link>http://maitre-du-monde.fr/2016/10/20/developpez-net.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2016/10/20/developpez-net.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Mind your body</title>
-        <description>&lt;p&gt;Eat. 
-Sleep. 
-Live.&lt;/p&gt;
-
-&lt;p&gt;Have fun, meet friends and family,
-do your chores and earn money.&lt;/p&gt;
-
-&lt;p&gt;If your company takes 2 years before earning money, you need a safety net.
-This can be yours, your parents’[1], your significant other…&lt;/p&gt;
-
-&lt;p&gt;But your company will not be in good health if you are not.
-A dead founder is of no use to a company.&lt;/p&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;[1] yes, the startup world is NOT meritocratic: inherited wealth &amp;amp; connections help. Life’s unfair.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 19 Oct 2016 00:00:00 +0200</pubDate>
-        <link>http://maitre-du-monde.fr/2016/10/19/mind-your-body.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2016/10/19/mind-your-body.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Mind your mind</title>
-        <description>&lt;p&gt;You want to create a company. Please do! I wish you luck.
-I hope your business will make you and countless others happy.&lt;/p&gt;
-
-&lt;p&gt;Be bold enough that you’re not a quitter!
-Be flexible enough that you’re not a fool in a Monkey Trap!
-Stay alive! Eat, sleep, and get enough motivation to work every day!&lt;/p&gt;
-
-&lt;p&gt;I would be sad if it doesn’t help people, or if you fail miserably.
-Here are some things to check before starting the journey.&lt;/p&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;Be honest as to &lt;a href=&quot;/2016/10/26/reasons-for-startup.html&quot;&gt;WHY you want to create a company&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Creating a company is hard, lonely work. 
-You WILL be depressed and frustrated at times.&lt;/p&gt;
-
-&lt;p&gt;You WILL face people who don’t understand (and judge you). 
-We all want to belong to a group:
-without family and friends’ support, the journey gets harder.&lt;/p&gt;
-
-&lt;p&gt;Still excited about creating your own business? 
-Rest on it, explore these possibilities, explore others,
-and if you’re still on it, well: I wish you luck :)&lt;/p&gt;
-</description>
-        <pubDate>Mon, 17 Oct 2016 00:00:00 +0200</pubDate>
-        <link>http://maitre-du-monde.fr/2016/10/17/mind-your-mind.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2016/10/17/mind-your-mind.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Young entrepreneur</title>
-        <description>&lt;p&gt;I meet many people who want to be entrepreneurs.
-If this is going to be your first job after internships,
-I usually want to warn you about all of this.&lt;/p&gt;
-
-&lt;p&gt;For those in a hurry, I’d just say:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Do two jobs for two years each first, then create your company.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;For the others, I have to go the full grandpa-advice:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Be good to your heart (be happy, chase your dream, live with your values)&lt;/li&gt;
-  &lt;li&gt;Be good to your body (eat, drink &amp;amp; sleep well: you’ll do no good if you aren’t good)&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Don’t let your energy starve (keep growing, be curious, don’t get satisfied)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Why do you want to be an entrepreneur? Why this idea?&lt;/li&gt;
-  &lt;li&gt;Power Porn is not the real world (read bios but make things)&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Your idea will change, be open and lose that ego (it started things &amp;amp; will keep you going though)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Get experience &amp;amp; money, knowledge &amp;amp; network, trust &amp;amp; proof first&lt;/li&gt;
-  &lt;li&gt;You don’t even know what you don’t know, clear some of that first&lt;/li&gt;
-  &lt;li&gt;Managing humans is hard, learn it before you need it super-badly&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Blog posts to come!&lt;/p&gt;
-</description>
-        <pubDate>Sat, 15 Oct 2016 00:00:00 +0200</pubDate>
-        <link>http://maitre-du-monde.fr/2016/10/15/young-entrepreneur.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2016/10/15/young-entrepreneur.html</guid>
         
         
       </item>

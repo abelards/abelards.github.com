@@ -1,0 +1,129 @@
+# Prolifération du choix
+Depuis que l'homme écrit du Code,
+Depuis qu'il bataille à coeur joie
+Entre mille et une arch's notoires,
+Si j'étais t'nu de faire un choix,
+Je sais bien que tout s'accélère,
+Mais je vous dirais tout de suit' :
+"Moi, mon tech lead, cell' que j'préfère,
+C'est de faire des beaux monolithes !"
+
+# Attention, c'est de l'opinion et de l'humour mais ce n'est pas de l'irrespect
+Est-ce à dire que je méprise
+Les design patterns de jadis,
+Que je m' souci’ comm' d'un' cerise
+De faire * des microservices ?
+Au contrair', je les révère
+Et leur donne un satisfecit,
+Mais, mon tech lead, cell' que j'préfère,
+C'est de faire des beaux monolithes !
+
+# Certaines bonnes idées n'excluent pas les autres, bien au contraire
+Il faudrait pas tout mélanger
+les principes et les méthodos
+CQRS et DDD,
+Event Sourcing, ou bas-en-haut...
+Leurs bons usages sont légendaires,
+il y en a même en Javascript,
+Car, mon tech lead, ce que j'préfère,
+C'est de faire des beaux monolithes !
+
+# Tout commence par une insatisfaction, mais reprenez vos leçons d'Histoire
+Bien sûr, les méthodes en V
+et le Java nous ont déçus,
+On les a vraiment rejetées,
+Et tristement craché dessus
+C'était pas que des cons naguère
+Relisons-les, les rubyistes !
+Moi, mon tech lead, cell' que j'préfère,
+C'est de faire des beaux monolithes !
+
+# Et tout système est rarement isolé
+Mon but n'est pas de refuser
+De faire toute sorte d'intégration
+Webservice ou SFTP
+import export c'est ma passion
+je vous fais confiance c'est pas la guerre
+mais je vérifie quand je vous invite
+Car mon tech lead, faut pas m'la faire
+Et casser mon beau monolithe !
+
+# Si vous échouez à faire un monolithe ou même à prioriser, vous échouerez les µservices
+Je comprends bien le découpage
+séparant les problèmes métiers,
+mais je vous vois faire les sauvages :
+ta startup va trop vite changer !
+On croit qu'il faut "faire ou pas faire"
+le job à moitié, on évite !
+Mais mon tech lead, ce qu'on peut faire
+ce serait faire deux monolithes !
+
+# Et ça occasionne tout autant de problèmes de sécu si les données sont partagées/en cache
+Quand un pirate vous attaque
+il peut piquer toutes vos données
+mais par service, surface d'attaque
+on croit qu'on a bien cloisonné
+Vous vous croyez safe et pépères
+Mais on déchante y'a des grosses fuites
+Car mon tech lead, plusieurs gruyères
+sont pas mieux que mon monolithe.
+
+# Parfois même on a des soucis de perf, alors que souvent un coup de SQL sauverait le tout
+"Oui mais mon appli est trop lente
+Je vais la casser en morceaux",
+maintenant elle est en attente
+chaque appel rame dans les tuyaux
+C'est un devops qui récupère
+ton code qu'ils réécrivent bien vite
+Car mon tech-lead ce qu'ils savent faire
+C'est du SQL émérite
+
+# Une autre approche c'est de juste vouloir se débarrasser des problèmes (infra, spec)
+Tout recoder est un défaut :
+paye un service on n'a pas le temps !
+L'informatique est un LEGO
+on branche des gems et c'est marrant
+Et puis les coûts s'multiplièrent
+Ma marge tombe, ma boîte est cuite,
+Le Cloud c'est pour les têtes en l'air,
+le terre-à-terre c'est l'monolithe.
+
+# À votre tour d'attaquer
+Le mot me tourne en ridicule :
+trop vieux, trop lourd, fais la bascule !
+Mais mon archi a des modules
+Comme quoi je connais la formule.
+Certains voulaient une rime vulgaire
+Si vous voulez, c'est implicite
+Mais mon tech-lead je suis expert
+et j'ai choisi le monolithe
+
+# Il y a des problèmes humains bien plus souvent que des soucis techniques
+Parfois la demande vient d'en bas
+parfois elle vient de tout en haut
+le vrai besoin n'est jamais ça
+les devs veulent jouer, les rigolos
+Mais comprenez cette guéguerre
+c'est la confiance en déficit
+Moi mon tech-lead je la récupère
+en livrant mes beaux monolithes.
+
+# Et on est bien plus soumis à la mode qu'on croit
+Du junior dev au manager
+Tout le monde croit qu'il a raison
+On suit les modes, faut pas qu'on s'leurre
+t'es pas devin, j'ai pas raison.
+Chacune a quelque chos' pour plaire,
+mais attention à leurs faillites,
+Mais, mon tech lead, cell' que j'préfère,
+C'est de faire des beaux monolithes !
+
+# Alors je suis pas contre hein, mais cherchons mieux, la vérité est probablement ailleurs
+Du fond de son sac à malices,
+On va sans doute, à l'occasion,
+Faire une archi - un vrai délice ! -
+Qui me fera grosse impression...
+En attendant, je persévère
+A dir' qu'mon archi favorit'
+Cell', mon colon, que j'voudrais faire,
+C'est de faire des beaux monolithes !

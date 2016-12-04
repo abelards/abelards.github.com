@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Microservices et Monolithe</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+	@import url(http://fonts.googleapis.com/css?family=Quicksand:300,700);
+      	body { font-family: 'Quicksand'; font-weight: 300; }
+      	.happy { background-image: url(https://cloud.githubusercontent.com/assets/584600/5992569/2e807aee-aa2f-11e4-9618-e6446ec7fe2f.png) }
+	a, a:visited, a:hover { color: #DDD; }
+	ul { list-style-type: none; }
+	ul li { height: 1.5em; }
+	.best .remark-inline-code { color: yellow; }
+	.best { color: #EEE; }
+
+      	h1, h2, h3 {
+          font-weight: 300;
+  	  text-align: center;
+	  color: #EEE; // BBBBBB;
+      	}
+
+	.remark-slide-content h1 { font-size: 1.1em; }
+	p { margin: 0.1em; }
+
+      	.middle h1 {
+      	  font-size: 2.5em;
+      	  color: white;
+      	}
+	h1 { font-weight: bold; }
+	div.remark-slide-content {
+	  color: #999999;
+	  background-color: #333333;
+	  font-size: 200%;
+	  padding: 1em 2em;
+	}
+	.remark-code, .remark-inline-code {
+	  font-family: monospace, sans-serif;
+	  background: #000;
+	  border: 1px solid #666;
+	  border-radius: 2px;
+	  color: #CCC;
+	  padding: 0.25em;
+	  font-size: 100%;
+	  text-align: left;
+	}
+
+	.l0 { color: #BBBBBB; }  .l0::before  { content: 'x '; font-family: monospace; } /* '\01F7C1' } */
+	.l1 { color: #FFAAAA; }  .l1::before  { content: '. '; font-family: monospace; } /* '\01F7C1' } */
+	.l2 { color: #AAAAFF; }  .l2::before  { content: ': '; font-family: monospace; } /* '\01F7C5' } */
+	.l3 { color: #AAFFAA; }  .l3::before  { content: '+ '; font-family: monospace; } /* '\01F7C9' } */
+	.l23 { color: #AAEEEE; } .l23::before { content: '? '; font-family: monospace; } /* '\01F7C9' } */
+	.l4 { color: #EEEEEE; }  .l4::before  { content: 'o '; font-family: monospace; color: gold; } /* '\01F7CA' } // 1F7D3 // 2739 */
+
+	code.hljs div.remark-code-line span.hljs-comment { color: gold; }
+
+	.b { font-weight: bold; }
+	.contrib { font-size: 90%; }
+
+	p.info { font-size: 75%; margin: 0; padding: 0; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle
+# Microservices et monolithe
+
+&nbsp;
+
+.b[[@abelar_s](https://twitter.com/abelar_s) -
+[@ParisRB](https://twitter.com/parisrb) -
+[@RailsGirlsParis](https://twitter.com/railsgirlsparis)]
+
+[maitre-du-monde.fr](maitre-du-monde.fr)
+
+.contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/chanson_monolithe.html)]
+
+???
+
+---
+# On en entend beaucoup parler, alors on a peur de le rater
+
+Depuis que l'homme écrit du Code,
+
+Depuis qu'il bataille à coeur joie
+
+Entre mille et une arch's notoires,
+
+Si j'étais t'nu de faire un choix,
+
+Je sais bien que tout s'accélère,
+
+Mais je vous dirais tout de suit' :
+
+"Moi, mon tech lead, cell' que j'préfère,
+
+C'est de faire des beaux monolithes !"
+
+---
+# Attention, c'est de l'opinion et de l'humour mais ce n'est pas de l'irrespect
+
+Est-ce à dire que je méprise
+
+Les design patterns de jadis,
+
+Que je m' souci’ comm' d'un' cerise
+
+De faire * des microservices ?
+
+Au contrair', je les révère
+
+Et leur donne un satisfecit,
+
+Mais, mon tech lead, cell' que j'préfère,
+
+C'est de faire des beaux monolithes !
+
+---
+# Certaines bonnes idées n'excluent pas les autres, bien au contraire
+
+Il faudrait pas tout mélanger
+
+les principes et les méthodos
+
+CQRS et DDD,
+
+Event Sourcing, ou bas-en-haut...
+
+Leurs bons usages sont légendaires,
+
+il y en a même en Javascript,
+
+Car, mon tech lead, ce que j'préfère,
+
+C'est de faire des beaux monolithes !
+
+---
+# Tout commence par une insatisfaction, mais reprenez vos leçons d'Histoire
+
+Bien sûr, les méthodes en V
+
+et le Java nous ont déçus,
+
+On les a vraiment rejetées,
+
+Et tristement craché dessus
+
+C'était pas que des cons naguère
+
+Relisons-les, les rubyistes !
+
+Moi, mon tech lead, cell' que j'préfère,
+
+C'est de faire des beaux monolithes !
+
+---
+# Monolithe ne veut pas dire isolé : tout système (qui marche) communique !
+
+Mon but n'est pas de refuser
+
+De faire toute sorte d'intégration
+
+Webservice ou SFTP
+
+import export c'est ma passion
+
+je vous fais confiance c'est pas la guerre
+
+mais je vérifie quand je vous invite
+
+Car mon tech lead, faut pas m'la faire
+
+Et casser mon beau monolithe !
+
+---
+# Si vous échouez à définir, découper et prioriser... ce n'est pas l'archi
+
+Je comprends bien le découpage
+
+séparant les problèmes métiers,
+
+mais je vous vois faire les sauvages :
+
+ta startup va trop vite changer !
+
+On croit qu'il faut "faire ou pas faire"
+
+le job à moitié, on évite !
+
+Mais mon tech lead, ce qu'on peut faire
+
+ce serait faire deux monolithes !
+
+---
+# Et ça occasionne tout autant de problèmes de sécu si les données sont partagées/en cache
+
+Quand un pirate vous attaque
+
+il peut piquer toutes vos données
+
+mais par service, surface d'attaque
+
+on croit qu'on a bien cloisonné
+
+Vous vous croyez safe et pépères
+
+Mais on déchante y'a des grosses fuites
+
+Car mon tech lead, plusieurs gruyères
+
+sont pas mieux que mon monolithe.
+
+---
+# Parfois même on a des soucis de perf, alors que souvent un coup de SQL sauverait le tout
+
+"Oui mais mon appli est trop lente
+
+Je vais la casser en morceaux",
+
+maintenant elle est en attente
+
+chaque appel rame dans les tuyaux
+
+C'est un devops qui récupère
+
+ton code qu'ils réécrivent bien vite
+
+Car mon tech-lead ce qu'ils savent faire
+
+C'est du SQL émérite
+
+---
+# Une autre approche c'est de juste vouloir se débarrasser des problèmes (infra, spec) sur un presta
+
+Tout recoder est un défaut :
+
+paye un service on n'a pas le temps !
+
+L'informatique est un LEGO
+
+on branche des gems et c'est marrant
+
+Et puis les coûts s'multiplièrent
+
+Ma marge tombe, ma boîte est cuite,
+
+Le Cloud c'est pour les têtes en l'air,
+
+le terre-à-terre c'est l'monolithe.
+
+---
+# Le mot est trompeur : la modularité existe tout autant dans un monolithe. Les critiques sont-elles fondées ?
+
+Le mot me tourne en ridicule :
+
+trop vieux, trop lourd, fais la bascule !
+
+Mais mon archi a des modules
+
+Comme quoi je connais la formule.
+
+Certains voulaient une rime vulgaire
+
+Si vous voulez, c'est implicite
+
+Mais mon tech-lead je suis expert
+
+et j'ai choisi le monolithe
+
+---
+# Il y a des problèmes humains bien plus souvent que des soucis techniques
+
+Parfois la demande vient d'en bas
+
+parfois elle vient de tout en haut
+
+le vrai besoin n'est jamais ça
+
+les devs veulent jouer, les rigolos
+
+Mais comprenez cette guéguerre
+
+c'est la confiance en déficit
+
+Moi mon tech-lead je la récupère
+
+en livrant mes beaux monolithes.
+
+---
+# Et on est bien plus soumis à la mode qu'on croit
+
+Du junior dev au manager
+
+Tout le monde croit qu'il a raison
+
+On suit les modes, faut pas qu'on s'leurre...
+
+Seule vérité : l'adaptation !
+
+Chacune a quelque chos' pour plaire,
+
+mais attention à leurs faillites,
+
+Mais, mon tech lead, cell' que j'préfère,
+
+C'est de faire des beaux monolithes !
+
+---
+# Alors je suis pas contre hein, mais cherchons mieux, la vérité est probablement ailleurs
+
+Du fond de son sac à malices,
+
+On va sans doute, à l'occasion,
+
+Faire une archi - un vrai délice ! -
+
+Qui me fera grosse impression...
+
+En attendant, je persévère
+
+A dir' qu'mon archi favorit'
+
+Cell', mon colon, que j'voudrais faire,
+
+C'est de faire des beaux monolithes !
+
+---
+class: center, middle, happy
+# Questions?
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+.b[[@abelar_s](https://twitter.com/abelar_s) -
+[@ParisRB](https://twitter.com/parisrb) -
+[@RailsGirlsParis](https://twitter.com/railsgirlsparis)]
+
+[maitre-du-monde.fr](maitre-du-monde.fr)
+
+.contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/chanson_monolithe.html)]
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create({
+      highlightLanguage: 'ruby',
+      highlightStyle: 'dark'
+      });
+    </script>
+  </body>
+</html>

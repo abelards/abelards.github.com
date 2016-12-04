@@ -9,10 +9,10 @@
   <meta name="author" content="Sylvain Abélard" />
   <!-- Welcome to Expert Mode \o/ -->
 
-  <title>Mystery Offers - Sylvain Abélard</title>
-  <meta name="description" content="Would you recommend a restaurant you’ve never been to, or a book you didn’t read?">
+  <title>OOP vs FP - Sylvain Abélard</title>
+  <meta name="description" content="Popular techs, tools and methods are not enemies.They compete for attention and trendiness, not in codebases, workplaces, or skillsets.">
   <link rel="stylesheet" href="/css/light.css">
-  <link rel="canonical" href="http://maitre-du-monde.fr/2015/07/19/mystery-offers.html">
+  <link rel="canonical" href="http://maitre-du-monde.fr/2016/11/22/oop-vs-fp.html">
   <link rel="alternate" type="application/rss+xml" title="Sylvain Abélard" href="http://maitre-du-monde.fr/feed.xml" />
   <meta name="twitter:card" content="product">
 <meta name="twitter:site" content="@abelar_s">
@@ -66,71 +66,58 @@
   <header class="post-header">
     <p class="post-meta">
       
-    <span>&#x21fd; <a href="/2015/07/09/sociologie_devs.html">Sociologie des devs</a></span>
+    <span>&#x21fd; <a href="/2016/11/19/not-enemies.html">Not enemies</a></span>
     
     &mdash;
     
-    <span><a href="/2015/07/26/recruiters-cycle.html">Recruiters' Vicious Cycle</a> &#x21fe;</span>
+    <span><a href="/2016/11/26/most-important.html">Most Important Improvement</a> &#x21fe;</span>
     
     </p>
-    <h1 class="post-title" title="hiring, recruiters">Mystery Offers</h1>
+    <h1 class="post-title" title="code, abstractions">OOP vs FP</h1>
   </header>
 
   <article class="post-content">
-    <p>Would you recommend a restaurant you’ve never been to, or a book you didn’t read?</p>
+    <p>Popular techs, tools and methods are <a href="/2016/11/19/not-enemies.html">not enemies</a>.
+They compete for attention and trendiness, not in codebases, workplaces, or skillsets.</p>
 
 <p class="c">&mdash; &mdash; &mdash;</p>
 
-<p>As a developer and as <a href="http://rubyparis.org">ParisRB</a>’s organiser,
-I often get asked to pass on offers to “my network”.</p>
+<p>There’s a fake divide between OOP and FP, and a weird divide on several methods.</p>
 
-<p>The most common problem is simply that I’m not given relevant information.
-Why would I simply spam my friends with things I don’t know a thing about?</p>
+<p><em>You can use functional ideas in an OOP language/stack!</em></p>
 
-<p>I get that most of these offer come from recruiters, and as middlemen
-they only get paid if the job contract is signed through them.</p>
+<p>I do it daily in Rails, and I got at least 50% to 80% of the FP boost
+in clarity, productivity, quality, less bugs…</p>
 
-<p>I’m very sorry about this <a href="/2015/07/26/recruiters-cycle.html">vicious cycle</a>,
-but I need at least:</p>
+<p>But I do not follow the FP way “all the way” and I do not get the benefits of,
+say immutability, but I don’t get the hassle too ;)</p>
 
-<ul>
-  <li>to know the company and business model (fame and ethics)</li>
-  <li>location (commute is a significant happiness modifier)</li>
-  <li>expected work conditions (remote, time off…)</li>
-  <li>to meet the current team (mandatory in the process, great as an opener)</li>
-  <li>your philosophy</li>
-  <li>how your hiree will be managed, how expectations are set and checked</li>
-  <li>opportunities for growth</li>
-</ul>
+<p><strong>Just like you can Agile + DDD + TDD + CQRS + ES + almost any stack.</strong></p>
 
-<p>And of course you should (or are legally required to) avoid exclusive language.</p>
+<p>These are not exclusive and each will bring some of its advantages to the table.</p>
 
 <p class="c">&mdash; &mdash; &mdash;</p>
 
-<p>You might want to remove whatever the others are adding by default:
-yes, we all want dedicated, motivated, skilled autonomous, self-improving workers.</p>
+<p>By the way, JS is OOP but prototype-based. It’s pretty much one-of-a-kind.</p>
 
-<p>We also want coworkers who wash themselves and do not assault others,
-but that’s never mentioned as it should be obvious.
-So it’s not really what makes you different, right? Skip it.</p>
+<p>Ruby/Smalltalk/Objective C are message-passing OOP (I call it the <em>Alan-Kay-OOP</em> and I feel that’s the only correct one),
+almost all others are/feel/are used like inheritance-OOP (I call it the <em>Stroustrup OOP</em> or C++/Java OOP).</p>
 
-<p>Last but not least, on salary range, some say don’t mention it, most
-say you should. The key here is: most people know it’s open for
-negociation, especially seniors, so that won’t make them flee.</p>
+<p>I feel that Java-OOP has problems and when you see the GoF book (design patterns: a catalogue of usual solutions).
+I feel like you actually have usual problems caused by your typing system and that it’s a “language smell” you should get rid of.</p>
 
-<p>You should’t go for “depending on skills and previous experience”
-though, since everybody writes that. How about the very inclusive
-“feel free to apply even if you don’t meet all the requirements”?
-Men usually are not stopped by it, but many women are.
-So this will explain your salary range’s width, AND be inclusive.</p>
+<p>Incidentally, you can definitely use inheritance patterns with JS or Ruby, but that makes me sad because you lose the strengths they have that I love.</p>
 
-<p>So: upfront salary or not? I’d say:</p>
+<p>FP-fans are big on immutability: you set a variable, it doesn’t change.
+It’s not so hard once you get the idea, and it forces you to rename variables.
+No more <code class="highlighter-rouge">things = category.things; things = things.select(&amp;:foobar)</code>
+But you can do <code class="highlighter-rouge">things = category.foobar_compliant_things</code> or
+<code class="highlighter-rouge">cat_things = category.things; displayable_things = cat_things.select(&amp;:foobar)</code></p>
 
-<ul>
-  <li>don’t worry, a large range is fine ($x-yK with y &gt; 2*x is fine)</li>
-  <li>or just explain: $xK for juniors, $yK for seniors</li>
-  <li>or simply better: post two openings, one for juniors and one for seniors</li>
-</ul>
+<p>So the first time you <em>force</em> immutability on people it usually is super frustrating.
+But what I found I like is you tell them about the idea (awareness) then train them (education) then gradually add and fix it in your codebase…
+then you can either force the immutability (reflexes are OK but you don’t want to throw all code away just to change language)
+or be happy that you are already 80% of the way and continue working (while reaching 90%) :)</p>
 
   </article>
 
@@ -139,29 +126,29 @@ So this will explain your salary range’s width, AND be inclusive.</p>
     You might want to read these related posts:
     <ul class="related-list">
       
+       
+      <li>
+	<span class="related-meta">code, abstractions
+	  
+	</span>
+	<h4>
+	  <a class="post-link" href="/2016/11/26/most-important.html">Most Important Improvement</a>
+	</h4>
+      </li>
+  
       
+       
       
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+       
+      <li>
+	<span class="related-meta">code, abstractions
+	  
+	</span>
+	<h4>
+	  <a class="post-link" href="/2016/11/19/not-enemies.html">Not enemies</a>
+	</h4>
+      </li>
+  
       
       
       
@@ -197,98 +184,11 @@ So this will explain your salary range’s width, AND be inclusive.</p>
       
        
       <li>
-	<span class="related-meta">meta, hiring, partner
+	<span class="related-meta">code, abstractions
 	  
 	</span>
 	<h4>
-	  <a class="post-link" href="/2015/09/10/policy-on-referrals.html">Policy on referrals</a>
-	</h4>
-      </li>
-  
-      
-       
-      <li>
-	<span class="related-meta">social, hiring
-	  
-	</span>
-	<h4>
-	  <a class="post-link" href="/2015/09/03/bothering-my-network.html">Bothering my network</a>
-	</h4>
-      </li>
-  
-      
-       
-      <li>
-	<span class="related-meta">hiring, young, partner
-	  
-	</span>
-	<h4>
-	  <a class="post-link" href="/2015/08/30/wont-pay-quality.html">I won't pay for quality</a>
-	</h4>
-      </li>
-  
-      
-       
-      <li>
-	<span class="related-meta">young, hiring
-	  
-	</span>
-	<h4>
-	  <a class="post-link" href="/2015/08/23/bidirectional-communication.html">Job offers go both ways</a>
-	</h4>
-      </li>
-  
-      
-      
-      
-      
-      
-       
-      <li>
-	<span class="related-meta">hiring, recruiters
-	  
-	</span>
-	<h4>
-	  <a class="post-link" href="/2015/07/26/recruiters-cycle.html">Recruiters' Vicious Cycle</a>
-	</h4>
-      </li>
-  
-      
-       
-      
-      
-      
-      
-      
-       
-      <li>
-	<span class="related-meta">hiring, partner
-	  
-	</span>
-	<h4>
-	  <a class="post-link" href="/2015/05/24/the-inequal-partner.html">The Inequal Partner</a>
-	</h4>
-      </li>
-  
-      
-       
-      <li>
-	<span class="related-meta">hiring, partner
-	  
-	</span>
-	<h4>
-	  <a class="post-link" href="/2015/05/20/hard-to-find-good-devs.html">Hard to find devs?</a>
-	</h4>
-      </li>
-  
-      
-       
-      <li>
-	<span class="related-meta">hiring, partner
-	  
-	</span>
-	<h4>
-	  <a class="post-link" href="/2015/05/17/looking-for-partner.html">Looking for dev partner</a>
+	  <a class="post-link" href="/2016/08/27/when_copy_paste.html">When to copy/paste</a>
 	</h4>
       </li>
   
@@ -299,16 +199,49 @@ So this will explain your salary range’s width, AND be inclusive.</p>
       
       
       
-       
-      <li>
-	<span class="related-meta">jobs, young, hiring
-	  
-	</span>
-	<h4>
-	  <a class="post-link" href="/2015/05/03/gullible-young.html">The Gullible Young</a>
-	</h4>
-      </li>
-  
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
       
       
       
