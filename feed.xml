@@ -6,9 +6,55 @@
 </description>
     <link>http://maitre-du-monde.fr/</link>
     <atom:link href="http://maitre-du-monde.fr/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 04 Dec 2016 22:31:51 +0100</pubDate>
-    <lastBuildDate>Sun, 04 Dec 2016 22:31:51 +0100</lastBuildDate>
+    <pubDate>Sat, 10 Dec 2016 15:38:21 +0100</pubDate>
+    <lastBuildDate>Sat, 10 Dec 2016 15:38:21 +0100</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Parler politique</title>
+        <description>&lt;p&gt;Indépendamment de l’article lui-même (https://vorpus.org/blog/why-does-calloc-exist/),
+l’auteur s’est rendu compte que ça devenait populaire sur Hacker News,
+et a commencé par une note à leur intention :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[Edit: Welcome Hacker News readers! Before we dive into the neat memory management esoterica, I want to briefly note that as engineers we have an ethical obligation in our work to consider the “safety, health, and welfare of the public”, because if we don’t, terrible things happen. This is a challenging responsibility that requires we all stay thoughtful and informed – but that’s difficult if popular technical news aggregators choose to censor links and discussions about the societal implications of technology. I sympathize with their moderation challenges, but this idea of creating a politics-free safe space is the cowards’ way out, quite literally choosing the “absence of tension” over “the presence of justice”. I hope the HN moderators find a way to step up to the responsibility their position entails; in the mean time, you might consider also subscribing to to The Recompiler and Model View Culture, and checking out Safety Pin Box, techsolidarity.org, or Fund Club. Anyway, thanks for listening! We now return to our regularly scheduled calloc-related programming, and I hope you enjoy my essay. And if you like this, you might also enjoy Cory Benfield’s related post.]&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Outre le fait que je suis d’accord sur le principe (sans juger les publications qu’il recommande)
+c’est une parfaite illustration du “take sides” du talk de @r3trofitted sur Megadeth au ParisRB du 6/12/2016.&lt;/p&gt;
+
+&lt;p&gt;Nous avons une responsabilité, il a eu une vague de célébrité, et c’est un bon usage d’icelles je trouve.&lt;/p&gt;
+
+&lt;p&gt;J’ai envie de dire que je ne me sens pas le leader de la communauté ParisRB :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;elle se compose d’individus, et de tous ceux que j’ai la chance de connaître, ils sont généralement formidables&lt;/li&gt;
+  &lt;li&gt;elle est vivante et produit des initiatives “à côté” comme Women On Rails, Rails Thematic Workshops et Ruby Workshops Paris&lt;/li&gt;
+  &lt;li&gt;je ne peux pas la guider ou lui demander d’aller dans une direction “en tant que chef”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Mais j’ai de la visibilité et je peux montrer mes valeurs par l’exemple.
+En ces temps troublés, je ferai l’inverse de HN et &lt;em&gt;encourage&lt;/em&gt; les gens à parler politique, ici ou ailleurs.
+J’aimerais toutefois que ça se fasse en bonne intelligence, pour comprendre et apprendre,
+et contre les biais et moisissures argumentatives https://cortecs.org/materiel/moisissures-argumentatives/&lt;/p&gt;
+
+&lt;p&gt;De fait, les mêmes peurs et constatations (peu de ressources, peur de vivre moins bien) mènent parfois à des conclusions opposées (retirez les ressources des gens différents&lt;br /&gt; augmentez la protection de tous afin que mes proches et moi-même soient toujours “sauvé” si on devait dégringoler par un hasard de la vie).&lt;/p&gt;
+
+&lt;p&gt;Pour moi la clé est d’en parler. Je laisse le mot de la fin à Berthold Brecht :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;« Le pire des analphabètes, c’est l’analphabète politique.
+Il n’écoute pas, ne parle pas, ne participe pas aux événements politiques.
+Il ne sait pas que le coût de la vie dépend des décisions politiques. L’analphabète politique est si bête qu’il s’enorgueillit et gonfle la poitrine pour dire qu’il déteste la politique.
+Il ne sait pas, l’imbécile, que c’est son ignorance politique qui produit la prostituée, l’enfant de la rue, le voleur, le pire de tous les bandits et surtout le politicien malhonnête, menteur et corrompu, qui lèche les pieds des entreprises nationales et multinationales. »
+Bertolt Brecht, poète et dramaturge allemand (1898/1956)&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Wed, 07 Dec 2016 00:00:00 +0100</pubDate>
+        <link>http://maitre-du-monde.fr/2016/12/07/parler-politique.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2016/12/07/parler-politique.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Most Important Improvement</title>
@@ -280,58 +326,6 @@ Because you have a safety net, and why not?&lt;/p&gt;
         <pubDate>Wed, 26 Oct 2016 00:00:00 +0200</pubDate>
         <link>http://maitre-du-monde.fr/2016/10/26/reasons-for-startup.html</link>
         <guid isPermaLink="true">http://maitre-du-monde.fr/2016/10/26/reasons-for-startup.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Mind your motivation</title>
-        <description>&lt;p&gt;Creating a company is hard.&lt;/p&gt;
-
-&lt;p&gt;I already suggest to mind your body and heart:
-if the machine doesn’t work, your company won’t work.&lt;/p&gt;
-
-&lt;p&gt;One way I suggested was to take two 2-year jobs to learn, earn cash, and create a network.&lt;/p&gt;
-
-&lt;p&gt;But here’s the catch: in these 4 years, many things can happen.
-You might not want to create a company after that:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;you found happiness in other ways, and that’s fine.&lt;/li&gt;
-  &lt;li&gt;you have many more constraints than expected, and that’s fine.&lt;/li&gt;
-  &lt;li&gt;you got soft, in a comfort zone you don’t want to leave from, and that’s too bad.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;Changing jobs changes many things: location/commute, responsibilities, relationships…
-If that’s your first job, it’s even going from student to employed: even more changes!
-I wrote these posts for young entrepreneurs, so I’ll probably add things that happen
-and change your life drastically: significant others, habits in life…&lt;/p&gt;
-
-&lt;p&gt;You’ll be settling for a new rythm, and you might not create your business after that.&lt;/p&gt;
-
-&lt;p&gt;If you’re happy where you are and stop wanting to create a company, so be it!
-I will certainly not be the judge of what makes you happy or not.&lt;/p&gt;
-
-&lt;p&gt;Some will even find in their current job the challenges
-which made them want to create a company in the first place. Great!&lt;/p&gt;
-
-&lt;p&gt;If you’re stuck with student debt and mortage, well, that’s life.
-It means it would have been dangerous to create a business, for a reason that didn’t depend on you.
-There are plenty of things you can do to pay for that debt faster:
-learn more, put safety nets, try things… these are great things to learn!&lt;/p&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;But you can just be stuck in habits that formed, that don’t make you happier,
-and that you will likely not reconsider often. You got too soft and comfortable.&lt;/p&gt;
-
-&lt;p&gt;Get out that comfort zone! You had dreams, act on them!&lt;/p&gt;
-</description>
-        <pubDate>Sat, 22 Oct 2016 00:00:00 +0200</pubDate>
-        <link>http://maitre-du-monde.fr/2016/10/22/mind-your-motivation.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2016/10/22/mind-your-motivation.html</guid>
         
         
       </item>

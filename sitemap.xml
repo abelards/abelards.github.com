@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://maitre-du-monde.fr/2016/12/07/parler-politique.html</loc>
+<lastmod>2016-12-07T00:00:00+01:00</lastmod>
+</url>
+<url>
 <loc>http://maitre-du-monde.fr/2016/11/26/most-important.html</loc>
 <lastmod>2016-11-26T00:00:00+01:00</lastmod>
 </url>
@@ -445,7 +449,7 @@
 </url>
 <url>
 <loc>http://maitre-du-monde.fr/talks/chanson_monolithe.html</loc>
-<lastmod>2016-11-27T22:58:05+01:00</lastmod>
+<lastmod>2016-12-06T09:33:31+01:00</lastmod>
 </url>
 <url>
 <loc>http://maitre-du-monde.fr/talks/master2student.html</loc>
@@ -461,11 +465,7 @@
 </url>
 <url>
 <loc>http://maitre-du-monde.fr/talks/public_speaking.html</loc>
-<lastmod>2016-12-04T22:22:51+01:00</lastmod>
-</url>
-<url>
-<loc>http://maitre-du-monde.fr/talks/railsgirls.html</loc>
-<lastmod>2016-11-25T10:48:32+01:00</lastmod>
+<lastmod>2016-12-10T15:11:39+01:00</lastmod>
 </url>
 <url>
 <loc>http://maitre-du-monde.fr/talks/regexen.html</loc>
@@ -481,6 +481,6 @@
 </url>
 <url>
 <loc>http://maitre-du-monde.fr/talks/welcome_all.html</loc>
-<lastmod>2016-12-04T10:09:09+01:00</lastmod>
+<lastmod>2016-12-10T10:51:35+01:00</lastmod>
 </url>
 </urlset>
