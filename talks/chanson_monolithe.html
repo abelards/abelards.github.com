@@ -56,7 +56,7 @@
 	.b { font-weight: bold; }
 	.contrib { font-size: 90%; }
 
-	p.info { font-size: 75%; margin: 0; padding: 0; }
+	.info { font-size: 75%; margin: 0; padding: 0; }
     </style>
   </head>
   <body>
@@ -79,11 +79,11 @@ class: center, middle
 ---
 # On en entend beaucoup parler, alors on a peur de le rater
 
-Depuis que l'homme écrit du Code,
+Depuis que l'homme écrit du code,
 
 Depuis qu'il bataille à coeur joie
 
-Entre mille et une arch's notoires,
+Sur mille et une archis à la mode,
 
 Si j'étais t'nu de faire un choix,
 
@@ -127,7 +127,7 @@ Event Sourcing, ou bas-en-haut...
 
 Leurs bons usages sont légendaires,
 
-il y en a même en Javascript,
+c'est même faisable en JavaScript,
 
 Car, mon tech lead, ce que j'préfère,
 
@@ -191,7 +191,7 @@ Mais mon tech lead, ce qu'on peut faire
 ce serait faire deux monolithes !
 
 ---
-# Et ça occasionne tout autant de problèmes de sécu si les données sont partagées/en cache
+# La sécu est meilleure, sûrement, mais se croire plus safe est un piège
 
 Quand un pirate vous attaque
 
@@ -208,6 +208,25 @@ Mais on déchante y'a des grosses fuites
 Car mon tech lead, plusieurs gruyères
 
 sont pas mieux que mon monolithe.
+
+---
+# Car la sécu, c'est toute la chaîne, bien entendu
+
+Avez-vous bien monitoré
+
+tous vos services ainsi bâtis ?
+
+Sauriez-vous vraiment les couper
+
+gardant un service même mini ?
+
+Alors dans ce cas je n'pousse plus guère
+
+votre archi a tous les mérites
+
+la robustesse que je voulais faire
+
+dans mon bon vieux gros monolithe.
 
 ---
 # Parfois même on a des soucis de perf, alors que souvent un coup de SQL sauverait le tout
@@ -233,7 +252,7 @@ C'est du SQL émérite
 
 Tout recoder est un défaut :
 
-"paye un service, on n'a pas le temps !"
+"paie-toi un SaaS, on n'a pas le temps !"
 
 L'informatique est un LEGO
 
@@ -304,24 +323,62 @@ Mais, mon tech lead, cell' que j'préfère,
 
 C'est de faire des beaux monolithes !
 
+
 ---
-# Alors je suis pas contre hein, mais cherchons mieux, la vérité est probablement ailleurs
+# Une fois qu'on a dit ça, on pense quoi du monolithe ?
 
-Du fond de son sac à malices,
+Les petits jeunes sont arrivés
 
-On va sans doute, à l'occasion,
+Vous croyez quoi, qu'on est tout nus ?
 
-Faire une archi - un vrai délice ! -
+Je savais bien monitorer
 
-Qui me fera grosse impression...
+J'fais l'intégration continue,
 
-En attendant, je persévère
+Si c'est la mode qu'on voulait faire,
 
-A dir' qu'mon archi favorit'
+et toutes les âneries qu'on débite,
 
-Cell', mon colon, que j'voudrais faire,
+ou vous êtes matures, pas de mystère,
 
-C'est de faire des beaux monolithes !
+c'est peut-être mieux qu'le monolithe.
+
+---
+# Couplet invité <3
+# Je suis pas contre hein, mais cherchons toujours.
+
+Du fond de son sac à patterns
+
+Matz va sans doute à l'occasion
+
+M'en sortir un super moderne
+
+Que j'utiliserai à foison
+
+Pour mon marteau, tout sera un clou
+
+Et ma startup fera faillite
+
+Mais mon tech lead, je serai tout fou
+
+J'aurai fait un beau monolithe !
+
+---
+# BREF
+
+.info[Les microservices c'est pas une excuse pour passer 6 mois / 2 ans à
+coder tranquille entre devs sans fournir de valeur aux clients.
+
+Ça exige une maturité dans le déploiement, le test, le monitoring, la
+graceful degradation, la documentation, les contrats d'interface
+stables et propres, la séparation des tâches...
+Et ça par contre, ça vaut le coup d'investir six mois dedans !
+
+Si vous ne savez pas faire, vos microservices seront un nid de serpents,
+et si vous savez faire, même votre monolithe serait modulaire, propre et mature.]
+
+http://martinfowler.com/bliki/MicroservicePrerequisites.html
+https://news.ycombinator.com/item?id=12509533
 
 ---
 class: center, middle, happy

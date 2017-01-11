@@ -13,6 +13,13 @@
 	.best .remark-inline-code { color: yellow; }
 	.best { color: #EEE; }
 
+	div.remark-slide-content {
+	  color: #999999;
+	  background-color: #333333;
+	  font-size: 200%;
+	  padding: 1em 2em;
+	}
+
       	h1, h2, h3 {
           font-weight: 300;
   	  text-align: center;
@@ -45,7 +52,7 @@
 	.b { font-weight: bold; }
 	.contrib { font-size: 90%; }
 
-	p.info { font-size: 75%; margin: 0; padding: 0; }
+	.info { font-size: 75%; margin: 0; padding: 0; }
     </style>
   </head>
   <body>
@@ -94,7 +101,7 @@ class: center
 class: center
 # Revenge of the Characters
 
-- `/(91|92|93|94)...` strings' OR
+- `/(91|92|93|94).../` strings' OR
 - `/9[1234]\d\d\d/` chars' OR
 - `/9[1-4]\d{3}/` counting
 
@@ -164,6 +171,18 @@ $1 == m[1] #=> "ta"
 $3 == m[3] #=> nil
 $+ == m[-1] #=> "c"
 ```
+
+---
+class: center
+# Rogue \\1
+
+.info[`s = "[Changing [brackets]] [into parentheses]"`]
+
+`s.gsub(/\[(.*?)\]/, "(\\1)")`
+
+.info[`=> "(Changing [brackets)] (into parentheses)"`]
+
+`.*` `.*?` (Greed[oy])
 
 ---
 class: center
