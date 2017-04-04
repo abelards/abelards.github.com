@@ -10,10 +10,12 @@
 	a, a:visited, a:hover { color: #DDD; }
 	ul { list-style-type: none; }
 	ul li { min-height: 1.5em; }
-	.best .remark-inline-code { color: yellow; }
 	.best { color: #EEE; }
+	.best .remark-inline-code { color: yellow; }
 
 	div.remark-slide-content.bestof { color: white; background: black; }
+	div.remark-slide-content.bestof a { text-decoration: none; }
+	div.remark-slide-content.bestof a .info { color: gold; }
 	div.remark-slide-content.bestof h1 { color: gold; }
 
       	h1, h2, h3 {
@@ -33,6 +35,8 @@
 	  padding: 1em 2em;
 	}
 
+	div.remark-slide-content li li { color: #DDD; }
+
 	.remark-code, .remark-inline-code {
 	  font-family: monospace, sans-serif;
 	  background: #000;
@@ -47,9 +51,10 @@
 	code.hljs div.remark-code-line span.hljs-comment { color: gold; }
 
 	.b { font-weight: bold; }
+	.br { display: block; }
 	.contrib { font-size: 90%; }
 
-	p.info { font-size: 75%; margin: 0; padding: 0; }
+	.info { font-size: 75%; margin: 0; padding: 0; }
     </style>
   </head>
   <body>
@@ -73,11 +78,11 @@ class: center, middle
 class: left
 # 10 years
 
-* my phone was a Nokia 3310<br /> smartphones & data weren't there
+* my phone was a Nokia 3310 .br.info[smartphones: Sharp Zaurus, data: GPRS/EDGE]
 
-* no GitHub, no StackOverflow!<br /> doc was: man, MLs, forums, blogs
+* RTFM was `man`, MLs, forums, blogs, IRC .br.info[no StackOverflow, no Slack]
 
-* crises, wars, demagogy, collusion<br /> plenty of progress since (science, medicine)
+* crises, wars, demagogy, collusion .br.info[actually tons of progress since (science, medicine)]
 
 ???
 
@@ -94,17 +99,102 @@ class: center bestof
 
 .b[These darker slides are takeaways]
 
-Lessons are everywhere for the listener.
+Cheat codes are usually visible. .br.info[But it takes privilege to benefit from them.]
 
-No problem goes away<br />until it teaches you its lesson.
+Lessons are everywhere for the listener. .br.info[Fear AND comfort are the mind killers.]
+
+No problem goes away .br.info[until it teaches you its lesson.]
 
 ---
 class: left
-# SNR: signal-to-noise ratio
+# Fresh outta EPITA
 
-* game trick: XP/resource-booster first
+* "learn to learn"
+* code skills, bare metal
+* the world was simpler then
 
-* game trick: know the secret treasures
+---
+class: left
+# Fresh outta EPITA
+
+* "learn to learn" -> "be teachable"
+  - mostly BS to avoid expertise & judgement
+  - learn to NOT trust yourself
+* "low-tech" helps "full stack"
+  - a good understanding of the basics
+  - "how would I code X" is a good question
+* the world IS complex
+  - I just knew less
+  - history repeats itself
+
+---
+class: center bestof
+# &#x2605; 5 reads for 10 years
+
+* [Tom Hirschfield's 10 rules of thumb .br.info[Tips when you're stuck] ](http://blog.creativethink.com/2006/11/tom_hirshfields.html)
+
+* [Smart Questions .br.info[Please make a good alternative] ](http://www.catb.org/%7Eesr/faqs/smart-questions.html)
+
+* [Strategy Letter V, on Complements .br.info[Joel Spolsky] ](http://www.joelonsoftware.com/articles/StrategyLetterV.html)
+
+* ["You and your research" .br.info[Richard Hamming] ](http://www.cs.virginia.edu/~robins/YouAndYourResearch.html)
+
+* [Achieving your childhood dreams .br.info[Randy Pausch's Last Lecture] ](http://www.cmu.edu/randyslecture/)
+
+
+---
+class: left
+# Quick reads
+
+ - Array, Hash, String, Enumerable
+ - SQL, ActiveRecord::Base
+ - KISS, YAGNI
+
+ - Fallacies of distributed programming
+ - 10 principles of good design
+ - The Agile Manifesto
+ - The Zen of Python
+
+---
+class: left
+# Good reads
+
+ - DDD
+ - ETL, KM
+ - SOLID, CQRS, ES
+ - MCD, BPM(N), CRC
+
+ - The Mythical Man-Month
+ - The Pragmatic Programmer
+
+---
+class: left
+# Dangerous reads
+
+ - DRY
+ - Metaprogramming
+ - UML (which one-s?)
+ - Design Patterns (GoF)
+ - Matrices / MindMap of skills
+
+---
+class: center
+# Still not a dinosaur
+
+* 1867: keyboard
+* 1961: email
+* 1970: UNIX
+* 1974: TCP/IP
+* 1991: HTTP
+* 2000: REST
+
+---
+class: center bestof
+# Game tricks
+
+* boost the XP boosters first
+
+* try the side quests
 
 ---
 class: left
@@ -136,12 +226,12 @@ Community & Sharing
 class: left
 # 1st Rails internship
 
-* asset management company: how Stock Exchange works
-* OpenSource licences
-
-* personal data: filing paper for french CNIL
-
-* bad posture: neck strain & physiotherapist
+* asset management company:
+ - how Stock Exchange works
+ - OpenSource licences
+ - personal data: filing paper for french CNIL
+* bad posture:
+  - neck strain & physiotherapist
 * parties, nights, transportation, sleep
 
 ???
@@ -158,17 +248,17 @@ Health & Care
 
 ???
 
+http://www.psychologuedutravail.com/psychologie-du-travail/
+
 ---
-class: center others
+class: left
 # More on laws
 
-* Laws: how they're enforced
-* Chain of responsibility
+* Laws: they're a... Code .br.info[bloat, legacy, side effects, contradicting specs]
+* "Nemo censetur ignorare legem" .br.info[inquire, model, monitor, keep up-to-date]
 
-* conflicting interests, risk taking
-
-* Nemo censetur ignorare legem
-* Nemo auditur propriam turpitudinem allegans
+* Live in a falsely deterministic world .br.info[risk: likeliness? best/worst cases? cost of protection/breach]
+* Trials & chain of responsibility .br.info["Nemo auditur propriam turpitudinem allegans"]
 
 ???
 
@@ -184,85 +274,47 @@ For you: infosec + process + metrics
 
 For others: info leak + impersonation
 
-For some people, self-reinforcing feedback, privacy are key.
-A SLIGHT PROBLEM here can mean DEATH.
+For some: privacy breach can mean DEATH
 
 ---
 class: left
 # 1st Rails internship
 
-* Office layout
-* People dynamics
-* Power & Conway's law
+## Some words I still struggle with
+
+* DOABLE: needs, possibility, consensus
+* TODO: cost-effectiveness, timing, priority
+* DONE: spec'd, made, tested, shipped, doc'd
+* !OVER: people use it, OPEX, baka-yoke
+* GROWTH: contonuous improvement, or death
+* DEATH: decommission is hard work
 
 ---
 class: left
-# What DOABLE means
+# 1st Rails internship
 
-* Rationality
-* Clear communication
-* Cost effectiveness
+* Office Layout
+  - Power structure
+  - Conway's Law
 
-* DOABLE is not TODO
-* Timing, priority, expectations
-
----
-class: left
-# What DONE means
-
-* specs: written but agreed
-* tests & validation
-* documentation & baka-yoke
-
-* DONE is not OVER
-* Shipped means people use it
-
----
-class: left
-# Learn by example
-
-* Diversity @ Champs Élysées ?
-* Rational & cost-effective
-* Meritocracy is non-menacing /!\
-
-* Broadness of info for accurate, big-picture decisions
+* Diversity @ Champs-Élysées
+  - Actual meritocracy is non-menacing
+  - Broadness of info for accurate big-picture
+  - Market equilibrium
 
 ---
 class: center bestof
 # Other jobs
 
-Trust but verify
+Words have meaning
 
-What DONE means
+Disambiguisation
+
+Trust but verify
 
 Self-interest != self-centered
 
 ???
-
-
----
-class: left
-# DONE is not OVER
-
-You're never "done", it's a process/system:
-
-* health & monitoring
-* security & support
-* continuous improvement
-
-* decommission is hard work too
-
----
-class: left
-# Compound interests
-
-Learn how to learn: bullshit or optimization?
-
-1.01**365 => 37.78 / 0.99**365 => 0.025
-
-* Hack Your Brain / Master2Student
-* Dreyfus Model of Skill Acquisition
-* T-shaped skills
 
 ---
 class: left
@@ -283,98 +335,78 @@ Analyse your own work
 
 Boy-scout rule
 
-
 ---
 class: left
-# Basic Techniques
+# Choosing libraries
 
-* Array, Hash, String, Enumerable
-* ActiveRecord::Base
+* "Right tool for the job"
+ - what I know and think is best
+ - what I want to play with /!\
 
-# Advanced techniques
-
-* SQL, ETL, KM
-* SOLID, CQRS, DDD, ES
-
-???
-
----
-class: left
-# Podcasts
-
-* RubyRogues, GreaterThanCode
-* DeveloperTea (ZenM4)
-* RubyBookClub, CodeNewbie
-* LeComptoirSecu, NoLimitSecu
-
-* Freakonomics, PlanetMoney
-
-???
+* "Right fit for the project"
+ - fitting your problem
+ - maintained, active
+ - business fits
+ - technical debt
 
 ---
 class: center bestof
-# Thought leaders
+# Code is (for) Business
 
-Fame is not given, it is made.
+- keep the big picture
+- long/short term tradeoffs
+- know where your money comes from/goes to
 
-Let's be awesome together!
+???
+
+---
+class: left
+# Tech watch & news
+
+* media diet & SNR
+  - why: T-shaped (breadth + depth)
+  - when: twitter, podcasts, blogs, books
+
+* weak/strong signal, echo chambers?
+  - hotness: read a bit later (HN daily)
+  - follow people that are different
+
+---
+class: left
+# FOMO
+
+* thought leaders
+ - if it's outstanding, it will reach you
+ - fame is not given, it is made
+
+* my trick: skip every other generation
+ - you're hot half the time
+ - you don't look so bad half the time
+ - .info[(phone, home, JS... now 1/3, or is it 1/10, 1/20?)]
 
 ---
 class: left
 # More reading
 
+`1.01**365 == 37.78`
+`0.99**365 == 0.025`
+
 * thecodelesscode.com
 * HPMOR.com
-* Arkency
 
----
-class: left
-# Twitter & HN
-
-* Curation, friends, confs
-* Follow-limit 256 (then 300)
-
-* Weak/strong signals, echo chambers
-* People that are like me... ciao?
-
-* People-that-are-not-like-you<br />18% to 31% women with actual meritocracy
-
-* Read hours later, eg: HN daily
-
----
-class: center
-# Email
-
-* Trust
-* Fear
-* Calm
-
----
-class: center
-# SNR
-
-Signal-to-Noise Ratio
-
-lower noise
-improve signal
-
----
-class: center
-# My talks
-
-It's not ego:
-
-sharing is caring
-
-teaching is learning
-
-???
+* become a speaker! It's not ego:
+  - sharing is caring
+  - teaching is learning
 
 ---
 class: center bestof
-# Strong opinions<br />weakly held
+# &#x2605; Beware of what you like 
 
-I didn't learn all that not to change my mind<br />-- Foucault
+Strong opinions weakly held
+
+When you WANT to believe...<br />is when you SHOULD NOT believe
+
+.info[I didn't learn all that not to change my mind<br />-- Foucault]
 
 ---
 class: center, middle, happy
@@ -411,6 +443,77 @@ class: center, middle, happy
 [maitre-du-monde.fr](maitre-du-monde.fr)
 
 .contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/10years_reads.html)]
+
+---
+class: left
+# The Zen of Python
+
+- Beautiful is better than ugly
+- Explicit is better than implicit
+- Simple is better than complex
+- Complex is better than complicated
+- Readability counts
+
+---
+class: left
+# Smart Questions
+
+* forget the word Hacker, forget ESR
+* forget superiority complex, forget exclusionary words
+* please someone do a better writeup
+
+1. try yourself (RTFM)
+2. choose the correct place
+3. pick a clear, concise topic
+4. explain your steps and give error messages
+5. respect people (polite, clear writing, no rush)
+
+---
+class: left
+# Tom Hirshfield's Rules
+
+.info[
+1. If you hit every time, the target's too near -- or too big.
+2. Never learn details before deciding on a first approach.
+3. Never state a problem to yourself in the same terms as it was brought to you.
+4. The second assault on the same problem should come from a totally different direction.
+5. If you don't understand a problem, then explain it to an audience and listen to yourself.
+6. Don't mind approaches that transform one problem into another, that's a new chance.
+7. If it's surprising, it's useful.
+8. Studying the inverse problem always helps.
+9. Spend a proportion of your time analyzing your work methods.
+10. If you don't ask "Why this?" often enough, someone else will ask, "Why you?"
+]
+
+---
+class: left
+# FR Legalese
+
+.info[
+https://www.donneespersonnelles.fr/
+
+CNIL et données personnelles :
+[devoirs](https://www.cnil.fr/fr/comprendre-vos-obligations) &
+[sanctions](https://www.cnil.fr/fr/les-sanctions-penales)
+
+[GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) : 4% du CA O_o;
+
+Obligation de conseil<br />
+http://www.blogdegerardpicovschi.com/html/articles/290029.html
+.br.info[ [le professionnel] doit anticiper tous les problèmes qui pourraient survenir, même ceux qui ne sont pas de son ressort ou directement dus à son intervention.]
+
+]
+
+???
+
+Il y a quelques situations clé assez "exemplaires" pour savoir si vous
+êtes dans le cadre au niveau de la vie privée ou sécurité.
+
+Pour la vie privée : imaginez un conjoint volage et un divorce difficile.
+Si vos caméras, votre site web... peuvent prouver à l'autre conjoint que le premier faute, KO.
+
+Pour la sécurité : imaginez une rupture difficile et un-e ex psychopathe violent.
+Si votre site peut leaker des infos persos (mail, tel, adresse, localisation), la personne est morte.
 
     </textarea>
     <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">

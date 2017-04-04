@@ -6,9 +6,298 @@
 </description>
     <link>http://maitre-du-monde.fr/</link>
     <atom:link href="http://maitre-du-monde.fr/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 11 Jan 2017 22:05:38 +0100</pubDate>
-    <lastBuildDate>Wed, 11 Jan 2017 22:05:38 +0100</lastBuildDate>
-    <generator>Jekyll v3.3.1</generator>
+    <pubDate>Tue, 04 Apr 2017 18:12:11 +0200</pubDate>
+    <lastBuildDate>Tue, 04 Apr 2017 18:12:11 +0200</lastBuildDate>
+    <generator>Jekyll v3.4.0</generator>
+    
+      <item>
+        <title>Validating phone numbers</title>
+        <description>&lt;h1 id=&quot;dont&quot;&gt;DON’T&lt;/h1&gt;
+
+&lt;p&gt;Except blank (empty or filled with space/tab characters),
+just keep the format people want you to store:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;France likes spaces or dots, groups of two 01.23.45.67.89&lt;/li&gt;
+  &lt;li&gt;UK likes groups of three 01 23 456 789&lt;/li&gt;
+  &lt;li&gt;Services in the US like mnemonics like 01234-PIZZA&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Validating numericality will remove all of these:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;01 23 45 67 89 -&amp;gt; 0123456789 (legibility)&lt;/li&gt;
+  &lt;li&gt;0800 123 123 -&amp;gt; 0800123123 (123.123 is more memorable than 12.31.23)&lt;/li&gt;
+  &lt;li&gt;0800 42 42 42 -&amp;gt; 0800424242 (0800 means free number, French people like it better than 08.00)&lt;/li&gt;
+  &lt;li&gt;0800 1 PIZZA -&amp;gt; KO or 0800174992 (there are gems to find mnemonics IIRC)&lt;/li&gt;
+  &lt;li&gt;a shorter phone number that’s inside a company’s office -&amp;gt; KO&lt;/li&gt;
+  &lt;li&gt;foreign number: +49 (0) 123456789 -&amp;gt; KO&lt;/li&gt;
+  &lt;li&gt;special numbers like 911 -&amp;gt; KO&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I don’t always say that, but: trust people, not code ;)&lt;/p&gt;
+</description>
+        <pubDate>Wed, 08 Mar 2017 00:00:00 +0100</pubDate>
+        <link>http://maitre-du-monde.fr/2017/03/08/phones.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2017/03/08/phones.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Letting your project</title>
+        <description>&lt;p&gt;You set up a great community, but life happens, it’s time to go.&lt;/p&gt;
+
+&lt;p&gt;First, thanks for what you did. Setting up things that work, especially with humans,
+is hard, demanding and often thankless. You could have done nothing, but you did.
+You might learn, hours or years after you left, how people liked what you did.
+Pat yourself on the back, you deserve it.&lt;/p&gt;
+
+&lt;p&gt;Now, how would you set the transition up? Well, like a normal project.&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What makes you want to quit?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Is it non negotiable, like moving away? Will you regret it, like a bruised ego thing?&lt;/p&gt;
+
+&lt;p&gt;Is it “just” that you burned out? Perhaps you can just step down:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I will only keep being a leader if someone helps me with [XXX]&lt;/li&gt;
+  &lt;li&gt;I will not be the leader, but I would help anyone who takes over by doing [YYY]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Many people don’t want to be a leader, but are willing to help.
+What can you ask the community, that would keep you helping them?&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What does it take to take over?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What were you doing in that “job”?&lt;/li&gt;
+  &lt;li&gt;What would the next person need to know or do?&lt;/li&gt;
+  &lt;li&gt;How many hours did you spend weekly? Should we expect rushes?&lt;/li&gt;
+  &lt;li&gt;Do most project require hard work or just letting momentum going?&lt;/li&gt;
+  &lt;li&gt;What help would you provide to someone who could takeover but is not sure yet?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Have you contacted the leaders in each kind of task there is, each “sub-project”?
+Explain this, ask and answer the questions together, and see if they’re willing.&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;Now you’re a little bit more ready for the next steps:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;let it go without regret: it was too hard to keep going and you tried your best&lt;/li&gt;
+  &lt;li&gt;actually, things aren’t so bad, you are simply reshaping the organisation and your role&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 04 Mar 2017 00:00:00 +0100</pubDate>
+        <link>http://maitre-du-monde.fr/2017/03/04/associations-takeover.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2017/03/04/associations-takeover.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>The Remote Mentor</title>
+        <description>&lt;p&gt;Hard problem ahead? Want me to help?&lt;/p&gt;
+
+&lt;p&gt;Well I’m willing to, but I will not give you the answer ;)&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;What I want to know from you are these:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;context&lt;/strong&gt; - what do you have now? where are you?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;goals&lt;/strong&gt; - where would you like to go?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Feel lost already? Not sure? No problem, continue telling me more about, we’ll sort this out.&lt;/p&gt;
+
+&lt;p&gt;If you can’t answer, that’ll be hard for both of us. Calm down, tell me more, and it’ll work.&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;What I want to try out now are these:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;plan&lt;/strong&gt; - what steps could we take, to solve this?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;action&lt;/strong&gt; - what next step can we take right now?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It’s OK for you not to have these answers. It’s why you needed a mentor for.&lt;/p&gt;
+
+&lt;p&gt;But if you tried things before, I want to know. Perhaps:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;it was a nice try, you missed just a little bit&lt;/li&gt;
+  &lt;li&gt;you had the first part right, the rest is just not fitting&lt;/li&gt;
+  &lt;li&gt;you went into a dead end, because you missed something&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Anyway, I’m glad you tried. We’ll discuss that and fill in the blanks.&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;Perhaps you’ve tried to do these steps on your own, and succeeded by now?
+Well, that’s awesome, now the merit is all yours :D&lt;/p&gt;
+</description>
+        <pubDate>Sun, 22 Jan 2017 00:00:00 +0100</pubDate>
+        <link>http://maitre-du-monde.fr/2017/01/22/remote-mentor.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2017/01/22/remote-mentor.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Copy Pasta</title>
+        <description>&lt;p&gt;&lt;strong&gt;&lt;del&gt;Never&lt;/del&gt;Don’t &lt;ins&gt;just&lt;/ins&gt; copy-paste code.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You are learning code, you are stuck. 
+You can be either hasty, frustraded or both. 
+I understand and absolve you from all this, but please, don’t “just” copy-paste code.&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;I’ve seen questions on the Internet (forums, IRC, Slack,
+StackOverflow…) that were obviously exercice for school or program.&lt;/p&gt;
+
+&lt;p&gt;There’s no shame in asking questions, but in the short attention-span
+world that is Internet, what you will likely get are answers that are
+each ugly in a way:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;magic tricks&lt;/li&gt;
+  &lt;li&gt;convoluted code&lt;/li&gt;
+  &lt;li&gt;ill-fit habits from other languages&lt;/li&gt;
+  &lt;li&gt;library or gem your teacher will disapprove&lt;/li&gt;
+  &lt;li&gt;…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And so your call for help will bite you in the back: lose you right
+now, teach you bad code habits, and give the illusion that the problem
+is solved, when your understanding clearly isn’t.&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;Plus, these exercises are likely easy to find all over the web, so why ask it?&lt;/p&gt;
+
+&lt;p&gt;I want you as a junior dev to be an excellent searcher.
+This will give you the basic words, which you will find in the doc/ref.&lt;/p&gt;
+
+&lt;p&gt;Over years, this habit will give you awesome “problem solver” skills,
+strong basics, and a coworker I’d love to be with.&lt;/p&gt;
+
+&lt;p&gt;Looking for recipes is fine as long as you cross-check and make sure
+that every line you copy (which is not a sin) is well understood.&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;Oh, and take the time to read the whole page, but here’s short excerpt:
+http://catb.org/~esr/faqs/smart-questions.html#homework&lt;/p&gt;
+
+&lt;p&gt;(sorry, ESR wrote it, it’s kind of offensive and dated, but still a good reference)&lt;/p&gt;
+
+&lt;p&gt;Go now! I get that you have no time and plenty of fun to have elsewhere.&lt;/p&gt;
+
+&lt;p&gt;I hope that wasn’t too patronizing, really not the intent,
+but I’ve seen too many juniors “broken by StackOverflow/Slacks”.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 21 Jan 2017 00:00:00 +0100</pubDate>
+        <link>http://maitre-du-monde.fr/2017/01/21/copy-pasta.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2017/01/21/copy-pasta.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Fable Voyageurs</title>
+        <description>&lt;p&gt;J’ai lu une histoire de ce genre au primaire.
+J’ai tenté de trouver la source, mais je ne trouve que ça :&lt;/p&gt;
+
+&lt;p&gt;http://www.pitt.edu/~dash/traveltales.html#twotravelersandfarmer&lt;/p&gt;
+
+&lt;p&gt;Alors voici ma transcription, de mémoire.&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;Un voyageur arrive devant une ville, et voit un vieillard assis.
+“Bonjour ! Peux-tu me dire quel genre de gens sont les citoyens de cette ville ?&lt;br /&gt;
+— comment étaient-ils d’où tu viens ?&lt;br /&gt;
+— agréables, honnêtes et accueillants : j’y avais beaucoup d’amis, et je suis triste de les avoir quittés&lt;br /&gt;
+— tu trouveras les mêmes ici”&lt;br /&gt;
+Le jeune homme entre dans la ville, heureux.&lt;br /&gt;
+Puis un autre voyageur arrive.&lt;br /&gt;
+“Bonjour ! Peux-tu me dire quel genre de gens sont les citoyens de cette ville ?&lt;br /&gt;
+— comment étaient-ils d’où tu viens ?&lt;br /&gt;
+— menteurs, voleurs et désagréables : à dire vrai, je suis content de les avoir quittés.&lt;br /&gt;
+— tu trouveras les mêmes ici”&lt;br /&gt;
+Le jeune homme passe son chemin.&lt;br /&gt;
+Un autre qui passait par là demande au vieil homme :&lt;br /&gt;
+“mais, c’est incroyable, tu leur as dit complètement l’inverse à l’un puis l’autre !&lt;br /&gt;
+— non, je leur ai dit la même chose.”&lt;/p&gt;
+</description>
+        <pubDate>Fri, 20 Jan 2017 00:00:00 +0100</pubDate>
+        <link>http://maitre-du-monde.fr/2017/01/20/fable-voyageurs.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2017/01/20/fable-voyageurs.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Self skill assessment</title>
+        <description>&lt;p&gt;“I’m learning to code, when will I be good enough to get a Junior-level job?”&lt;/p&gt;
+
+&lt;p&gt;This is a question I get a lot in my tech communities.&lt;/p&gt;
+
+&lt;p&gt;There are three keys for me:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;TRUST&lt;/li&gt;
+  &lt;li&gt;SKILL&lt;/li&gt;
+  &lt;li&gt;TASKS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;SKILL&lt;/p&gt;
+
+&lt;p&gt;How can I guess what my “skill level” is?&lt;/p&gt;
+
+&lt;p&gt;You can do plenty of job interviews, and see what people want, what you like, and how much they offer you.&lt;/p&gt;
+
+&lt;p&gt;You can show up with MOOCs’ certificates or shipped software.&lt;/p&gt;
+
+&lt;p&gt;You can stalk people or companies you want to work with/for, guess or ask what they need, and work on this.&lt;/p&gt;
+
+&lt;p&gt;Or you can use any list of skills. Here are three tips:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Programmer Competency Matrix
+http://sijinjoseph.com/programmer-competency-matrix/&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Why Rails is hard (a list of skills you should have)
+https://www.codefellows.org/blog/this-is-why-learning-rails-is-hard/&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Any company talking about their Open Salary or Compensation Policy
+Of course, Joel Spolsky made his point long ago:
+https://www.joelonsoftware.com/2000/08/30/fog-creek-compensation/&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 15 Jan 2017 00:00:00 +0100</pubDate>
+        <link>http://maitre-du-monde.fr/2017/01/15/skill-assessment.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2017/01/15/skill-assessment.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>No trolling</title>
@@ -170,215 +459,6 @@ et on peut reconduire si #1 ca marche + #2 les devs en redemandent.&lt;/p&gt;
         <pubDate>Wed, 14 Dec 2016 00:00:00 +0100</pubDate>
         <link>http://maitre-du-monde.fr/2016/12/14/part-time-tech-lead.html</link>
         <guid isPermaLink="true">http://maitre-du-monde.fr/2016/12/14/part-time-tech-lead.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Parler politique</title>
-        <description>&lt;p&gt;Je suis tombé sur &lt;a href=&quot;https://vorpus.org/blog/why-does-calloc-exist/&quot;&gt;cet article&lt;/a&gt;,
-et indépendamment du contenu, l’auteur s’est rendu compte que ça devenait populaire sur Hacker News,
-et a commencé par une note à l’intention de ce lectorat :&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;[Edit: Welcome Hacker News readers! Before we dive into the neat memory management esoterica, I want to briefly note that as engineers we have an ethical obligation in our work to consider the “safety, health, and welfare of the public”, because if we don’t, terrible things happen. This is a challenging responsibility that requires we all stay thoughtful and informed – but that’s difficult if popular technical news aggregators choose to censor links and discussions about the societal implications of technology. I sympathize with their moderation challenges, but this idea of creating a politics-free safe space is the cowards’ way out, quite literally choosing the “absence of tension” over “the presence of justice”. I hope the HN moderators find a way to step up to the responsibility their position entails; in the mean time, you might consider also subscribing to to The Recompiler and Model View Culture, and checking out Safety Pin Box, techsolidarity.org, or Fund Club. Anyway, thanks for listening! We now return to our regularly scheduled calloc-related programming, and I hope you enjoy my essay. And if you like this, you might also enjoy Cory Benfield’s related post.]&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Outre le fait que je suis d’accord sur le principe (sans juger les publications qu’il recommande)
-c’est une parfaite illustration du “take sides” du talk de @r3trofitted sur Megadeth au ParisRB du 6/12/2016.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;Nous avons une responsabilité, il a eu une vague de célébrité, et c’est un bon usage d’icelles&lt;/b&gt; je trouve.&lt;/p&gt;
-
-&lt;p&gt;J’ai envie de dire que je ne me sens pas le leader de la communauté ParisRB :&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;elle se compose d’individus, et de tous ceux que j’ai la chance de connaître, ils sont généralement formidables&lt;/li&gt;
-  &lt;li&gt;elle est vivante et produit des initiatives “à côté” comme Women On Rails, Rails Thematic Workshops et Ruby Workshops Paris&lt;/li&gt;
-  &lt;li&gt;je ne peux pas la guider ou lui demander d’aller dans une direction “en tant que chef”&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Mais j’ai de la visibilité et je peux montrer mes valeurs par l’exemple.
-En ces temps troublés, je ferai l’inverse de HN et &lt;em&gt;encourage&lt;/em&gt; les gens à parler politique, ici ou ailleurs.
-J’aimerais toutefois que ça se fasse en bonne intelligence, pour comprendre et apprendre,
-et contre les biais et moisissures argumentatives https://cortecs.org/materiel/moisissures-argumentatives/&lt;/p&gt;
-
-&lt;p&gt;De fait, les mêmes peurs et constatations (peu de ressources, peur de vivre moins bien) mènent parfois à des conclusions opposées (retirez les ressources des gens différents&lt;br /&gt; augmentez la protection de tous afin que mes proches et moi-même soient toujours “sauvé” si on devait dégringoler par un hasard de la vie).&lt;/p&gt;
-
-&lt;p&gt;Pour moi la clé est d’en parler. Je laisse le mot de la fin à Berthold Brecht :&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;« Le pire des analphabètes, c’est l’analphabète politique.&lt;br /&gt;
-Il n’écoute pas, ne parle pas, ne participe pas aux événements politiques.&lt;br /&gt;
-Il ne sait pas que le coût de la vie dépend des décisions politiques.&lt;br /&gt;
-L’analphabète politique est si bête qu’il s’enorgueillit et gonfle la poitrine pour dire qu’il déteste la politique.&lt;br /&gt;
-Il ne sait pas, l’imbécile, que c’est son ignorance politique qui produit la prostituée, l’enfant de la rue, le voleur, le pire de tous les bandits et surtout le politicien malhonnête, menteur et corrompu, qui lèche les pieds des entreprises nationales et multinationales. »&lt;/p&gt;
-
-  &lt;p&gt;Bertolt Brecht, poète et dramaturge allemand (1898/1956)&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Wed, 07 Dec 2016 00:00:00 +0100</pubDate>
-        <link>http://maitre-du-monde.fr/2016/12/07/parler-politique.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2016/12/07/parler-politique.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Most Important Improvement</title>
-        <description>&lt;p&gt;What is the most important thing?&lt;/p&gt;
-
-&lt;p&gt;I don’t know, we’re all connected, everything depends on other things.&lt;/p&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;Is the engine the most important part of a car? Well without gas it won’t run.&lt;/p&gt;
-
-&lt;p&gt;Is the Brain the most important part of the body?
-Heart beats, mouth eats, lungs breathe… take any single one away and you die.&lt;/p&gt;
-
-&lt;p&gt;Dev skill, language or framework mastery is important?
-Communication, politeness, problem discovery, social dynamics more important ?&lt;/p&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;I think of important things as glass panels: light shines outside,
-you want to have some light inside, and we have many panels in between.&lt;/p&gt;
-
-&lt;p&gt;If any of these panels lets 0%~10% of light pass,
-other panels can be crystal-clear, but you will live in the dark.&lt;/p&gt;
-
-&lt;p&gt;If every panel lets 90% of light pass, but you have many layers,
-you will live in the dark too.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 26 Nov 2016 00:00:00 +0100</pubDate>
-        <link>http://maitre-du-monde.fr/2016/11/26/most-important.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2016/11/26/most-important.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>OOP vs FP</title>
-        <description>&lt;p&gt;Popular techs, tools and methods are &lt;a href=&quot;/2016/11/19/not-enemies.html&quot;&gt;not enemies&lt;/a&gt;.
-They compete for attention and trendiness, not in codebases, workplaces, or skillsets.&lt;/p&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;There’s a fake divide between OOP and FP, and a weird divide on several methods.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;You can use functional ideas in an OOP language/stack!&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;I do it daily in Rails, and I got at least 50% to 80% of the FP boost
-in clarity, productivity, quality, less bugs…&lt;/p&gt;
-
-&lt;p&gt;But I do not follow the FP way “all the way” and I do not get the benefits of,
-say immutability, but I don’t get the hassle too ;)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Just like you can Agile + DDD + TDD + CQRS + ES + almost any stack.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;These are not exclusive and each will bring some of its advantages to the table.&lt;/p&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;By the way, JS is OOP but prototype-based. It’s pretty much one-of-a-kind.&lt;/p&gt;
-
-&lt;p&gt;Ruby/Smalltalk/Objective C are message-passing OOP (I call it the &lt;em&gt;Alan-Kay-OOP&lt;/em&gt; and I feel that’s the only correct one),
-almost all others are/feel/are used like inheritance-OOP (I call it the &lt;em&gt;Stroustrup OOP&lt;/em&gt; or C++/Java OOP).&lt;/p&gt;
-
-&lt;p&gt;I feel that Java-OOP has problems and when you see the GoF book (design patterns: a catalogue of usual solutions).
-I feel like you actually have usual problems caused by your typing system and that it’s a “language smell” you should get rid of.&lt;/p&gt;
-
-&lt;p&gt;Incidentally, you can definitely use inheritance patterns with JS or Ruby, but that makes me sad because you lose the strengths they have that I love.&lt;/p&gt;
-
-&lt;p&gt;FP-fans are big on immutability: you set a variable, it doesn’t change.
-It’s not so hard once you get the idea, and it forces you to rename variables.
-No more &lt;code class=&quot;highlighter-rouge&quot;&gt;things = category.things; things = things.select(&amp;amp;:foobar)&lt;/code&gt;
-But you can do &lt;code class=&quot;highlighter-rouge&quot;&gt;things = category.foobar_compliant_things&lt;/code&gt; or
-&lt;code class=&quot;highlighter-rouge&quot;&gt;cat_things = category.things; displayable_things = cat_things.select(&amp;amp;:foobar)&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;So the first time you &lt;em&gt;force&lt;/em&gt; immutability on people it usually is super frustrating.
-But what I found I like is you tell them about the idea (awareness) then train them (education) then gradually add and fix it in your codebase…
-then you can either force the immutability (reflexes are OK but you don’t want to throw all code away just to change language)
-or be happy that you are already 80% of the way and continue working (while reaching 90%) :)&lt;/p&gt;
-</description>
-        <pubDate>Tue, 22 Nov 2016 00:00:00 +0100</pubDate>
-        <link>http://maitre-du-monde.fr/2016/11/22/oop-vs-fp.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2016/11/22/oop-vs-fp.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Not enemies</title>
-        <description>&lt;p&gt;Popular techs, tools and methods are not enemies.&lt;/p&gt;
-
-&lt;p&gt;They compete for brain-space, attention, a spot in HN, tweets or trendy blogs.
-But they do not compete in codebases, workplaces, or skillsets.&lt;/p&gt;
-
-&lt;p&gt;As people debate fiercely about things they like,
-it’s important to remind we’re not enemies, our passions are not enemies,
-and when we say it’s super important, no one can say what “the most important thing” is.&lt;/p&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;Yes, they will probably end up competing for attention and trendyness in your
-bosses’ minds, company strategy, buying constraints.&lt;/p&gt;
-
-&lt;p&gt;This is not about tech, this is about making your company’s decisions more rational.
-A key part of this is having clear, accessible information that people actually refer to.&lt;/p&gt;
-
-&lt;p&gt;Playing the distraction game might help in the short term.
-It will help future irrational decisions, too.&lt;/p&gt;
-
-&lt;p&gt;Don’t hate the players, but change the game.&lt;/p&gt;
-
-</description>
-        <pubDate>Sat, 19 Nov 2016 00:00:00 +0100</pubDate>
-        <link>http://maitre-du-monde.fr/2016/11/19/not-enemies.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2016/11/19/not-enemies.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>We are not managers</title>
-        <description>&lt;p&gt;As young devs, we are not managers: learn it before you need it super-badly.&lt;/p&gt;
-
-&lt;p&gt;I dislike most management schools or classes or methods or whatever.
-I almost only trust learning doing the job with great examples and mentors.
-By the way, I also think this applies for becoming a dev worth any salt too.&lt;/p&gt;
-
-&lt;p&gt;So you will be young and in charge of creating a company and managing a team.
-But theory doesn’t really help when a coworker gets a divorce or someone they love has cancer.&lt;/p&gt;
-
-&lt;p&gt;Life is harsh. Plan around it.&lt;/p&gt;
-
-&lt;p&gt;And learn to be a great manager before you’re in a situation where neglecting a thing
-kills your company, your safety net, your relationships…&lt;/p&gt;
-</description>
-        <pubDate>Wed, 16 Nov 2016 00:00:00 +0100</pubDate>
-        <link>http://maitre-du-monde.fr/2016/11/16/we-are-not-managers.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2016/11/16/we-are-not-managers.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Start here, go there</title>
-        <description>&lt;p&gt;Young devs are rarely great POs/marketers.
-Hell, we’re even rarely even great devs.&lt;/p&gt;
-
-&lt;p&gt;And the reverse is true:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;if you start by being a dev you probably suck at marketing/business/law. It’s fine, you’re young.&lt;/li&gt;
-  &lt;li&gt;if you start being a marketer you probably suck at tech (at least dev) and law, perhaps even business.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And so on for every skill.
-Be curious and learn at the previous jobs.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 12 Nov 2016 00:00:00 +0100</pubDate>
-        <link>http://maitre-du-monde.fr/2016/11/12/start-here-go-there.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2016/11/12/start-here-go-there.html</guid>
         
         
       </item>
