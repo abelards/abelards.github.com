@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Forgotten HTML</title>
+    <title>Diff / Patch</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <style type="text/css">
 	@import url(http://fonts.googleapis.com/css?family=Quicksand:300,700);
@@ -62,7 +62,7 @@
   <body>
     <textarea id="source">
 class: center, middle
-# Forgotten HTML
+# Diff / Patch
 
 &nbsp;
 
@@ -72,170 +72,147 @@ class: center, middle
 
 [maitre-du-monde.fr](maitre-du-monde.fr)
 
-.contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/forgotten_html.html)]
+.contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/diff_patch.html)]
 
 ???
 
 ---
-# Set
+# fichiers
 
-`UL LI`
-- Unordered List
-- List Item
-
----
-# Array
-
-`OL LI`
-1. Ordered List
-2. List Item
-
----
-# Hash
-
-`DL DT DD`
-<dl>
-  <dt>DL</dt><dd>Definition List</dd>
-  <dt>DT</dt><dd>Definition Term</dd>
-  <dt>DD</dt><dd>Definition Description</dd>
-</dl>
-
----
-# Hash
-
-`DL DD DT`
+`$ cat old`
 ```
-<dl>
-  <dt>DL</dt><dd>Definition List</dd>
-  <dt>DT</dt><dd>Definition Term</dd>
-  <dt>DD</dt><dd>Definition Description</dd>
-</dl>
+Ligne à retirer
+Ligne à changer
+Ligne qui reste
 ```
-
-DT DD DD : one term, several definitions
-
-DT DT DD : several terms, one definition
-
----
-# SELECT OPTION
-
-<select>
-  <option value="EUR">€</option>
-  <option value="USD">$</option>
-  <option value="GBP">£</option>
-</select>
-
-
-<select multiple="multiple">
-  <option value="EUR">€</option>
-  <option value="USD">$</option>
-  <option value="GBP">£</option>
-</select>
-
----
-# SELECT OPTION
-
+`$ cat new`
 ```
-<select>
-  <option value="EUR">€</option>
-  <option value="USD">$</option>
-  <option value="GBP">£</option>
-</select>
-
-
-<select multiple="multiple">
-  <option value="EUR">€</option>
-  <option value="USD">$</option>
-  <option value="GBP">£</option>
-</select>
+Ligne changée
+Ligne qui reste
+Ligne ajoutée
 ```
 
 ---
-# SELECT OPTGROUP OPTION
-
-<select>
- <optgroup label="Asia">
-  <option value="INR">₹</option>
-  <option value="JPY">¥</option>
-  <option value="KRW">₩</option>
- </optgroup>
- <optgroup label="Middle-East">
-  <option value="ILS">₪</option>
- </optgroup>
-</select>
-
----
-# SELECT OPTGROUP OPTION
+# diff
+`$ diff old new`
 
 ```
-<select>
- <optgroup label="Asia">
-  <option value="INR">₹</option>
-  <option value="JPY">¥</option>
-  <option value="KRW">₩</option>
- </optgroup>
- <optgroup label="Middle-East">
-  <option value="ILS">₪</option>
- </optgroup>
-</select>
+1,2c1
+< Ligne à retirer
+< Ligne à changer
+---
+> Ligne changée
+3a3
+> Ligne ajoutée
 ```
 
 ---
-# HTML5
+# options
 
-`<input type="?">`
-
-- checkbox, file, hidden, password, radio, text
-- button, img, reset, submit
-
-- color
-- email, tel, url
-- number, range
-- date, datetime-local
-- search
+* `-b` ignorer le "whitespace"
+* `-c` 3 lignes de contexte
+* `-C N` N lignes de contexte
+* `-r` récursif
+* `-u` format unifié
 
 ---
-# ATTRIBUTES
+# récursif
 
-- min, max, placeholder
-- pattern, required, x-moz-errormessage
-- autocomplete
+```
+$ ls olds
+one two three
+$ ls news
+two three four
+$ cat olds/two
+Fichier deux
+$ cat news/two
+Fichier 2
+```
 
 ---
-# REQUIRED
-
-`<input required=''>`
-
-CSS selector `:required` `:valid` `:invalid`
-JS event `invalid`
+# récursif
 
 ```
-<input type=submit name=submit value="Submit">
-<input type=submit formnovalidate name=save value="Save draft">```
-
-???
-radios? checkboxes?
+$ diff -r olds news
+Only in news: four
+Only in olds: one
+diff -r olds/two news/two
+1c1
+< Fichier deux
+---
+> Fichier 2
+```
 
 ---
-# DATALIST
+# diff unifié
 
 ```
-<input type=text list=bad_browsers>
-<datalist id=bad_browsers>
-  <option value="Safari">
-  <option value="iOS Safari">
-  <option value="Opera Mini">
-</datalist>
+$ diff -u old new
+--- old2017-05-30 09:41:17.000000000 +0200
++++ new2017-05-30 09:41:26.000000000 +0200
+@@ -1,3 +1,3 @@
+-Ligne à retirer
+-Ligne à changer
++Ligne changée
+ Ligne qui reste
++Ligne ajoutée
 ```
 
-<input type=text list=bad_browsers>
-<datalist id=bad_browsers>
-  <option value="Safari">
-  <option value="iOS Safari">
-  <option value="Opera Mini">
-</datalist>
+`@@ -1,3 +1,3 @@` signifie :
+- dans l'ancien fichier, à partir de la ligne 1, bloc de 3 lignes
++ dans le nouveau fichier,  à partir de la ligne 1, bloc de 3 lignes
 
-https://demo.agektmr.com/datalist/
+---
+# 1974: diff, 1985: patch
+
+Utiliser le format de diff unifié pour appliquer les transformations.
+
+`patch` essaie d'être intelligent :
+- deviner le format de diff
+- retrouver les sections
+- vous avertir en cas d'erreur
+
+`man patch` ou simplement `--dry-run`
+
+Attention, pas de récursif, les options sont trompeuses :
+ `-r` (fichier rejet) ou `-R` (patch inverse) 
+
+`diff -Naur` :
+- fichier inexistant = vide
+- en mode texte
+- unifié
+- récursif
+
+---
+# patch
+
+```
+$ diff -u old new > modifs.diff
+$ patch < modifs.diff
+patching file old
+$ cat old
+Ligne changée
+Ligne qui reste
+Ligne ajoutée
+$ patch -R < modifs.diff
+patching file old
+$ cat old
+Ligne à retirer
+Ligne à changer
+Ligne qui reste
+```
+
+---
+
+---
+# Autres outils
+
+- `git` ou autre SGCS bien sûr
+- `diff3 mine old yours`
+- merge
+- rdiff, rsync
+
+https://en.wikipedia.org/wiki/Comparison_of_file_comparison_tools
 
 ---
 class: center, middle, happy
@@ -253,7 +230,7 @@ class: center, middle, happy
 
 [maitre-du-monde.fr](maitre-du-monde.fr)
 
-.contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/forgotten_html.html)]
+.contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/diff_patch.html)]
     </textarea>
     <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
     </script>
