@@ -9,7 +9,7 @@
       	.happy { background-image: url(https://cloud.githubusercontent.com/assets/584600/5992569/2e807aee-aa2f-11e4-9618-e6446ec7fe2f.png) }
 	a, a:visited, a:hover { color: #DDD; }
 	ul { list-style-type: none; }
-	ul li { height: 1.5em; }
+	ul li { min-height: 1.5em; }
 	.best .remark-inline-code { color: yellow; }
 	.best { color: #EEE; }
 
@@ -76,10 +76,12 @@ class: center, middle
 class: center
 # The Phantom Menace
 
+Matching characters:
 - Unix Glob: `_` `*`
 - SQL LIKE: `?` `%` 
 - Reg Exp: `.` `.*`
 
+Example in Ruby:
 ```
 "Yay~" if /Reg(ular )?\/ [Ee]xp\w*/ =~
   "Regular / Expressions"
@@ -89,22 +91,28 @@ class: center
 class: center
 # Attack of the Clones
 
+We found the previous character N times:
+
 - 0-1 `/Reg(ular)?/`
 - 1-n `/expres+ion/`
 - 0-n `/regex.*magic/`
 
+Please generate your longest regexps:
 ```
-/Bonjour #{client.nom},?/i
+/#{first_part}@#{domains}\.#{tld}/
 ```
 
 ---
 class: center
 # Revenge of the Characters
 
+French postcodes around Paris:
+
 - `/(91|92|93|94).../` strings' OR
 - `/9[1234]\d\d\d/` chars' OR
 - `/9[1-4]\d{3}/` counting
 
+Match over-enthusiastic expressions:
 ```ruby
 min = /yolooo*/, /yolooo+/, /yolo{3,}/
 max = /great!{,5}/
@@ -117,6 +125,7 @@ class: center
 
 case `/ReGeXp/i`
 
+Multiline matching is error-prone:
 ```
 # start/end of line/string
 /^part$/ =~ %Q[in
@@ -137,10 +146,12 @@ class: center
 ```
 title = "Bonjour, Monsieur Vincent"
 title =~ /, (\w*) (\w*)/
-Regexp.last_match
+result = Regexp.last_match
 # => #<MatchData ", Monsieur Vincent" 1:"Monsieur" 2:"Vincent"> 
-title.gsub(/.*, (\w*) (\w*)/,
- 'Cher \1 \2,')
+matched, salutation, name = result.to_a
+
+title.gsub(/.*, (\w*) (\w*)/, 'Cher \1 \2,')
+# => "Cher Monsieur Vincent,"
 ```
 
 ---
@@ -197,6 +208,16 @@ class: center
  /\p{Ll}/ # Unicode General Category
  # 'Letter: Lowercase'
 ```
+
+---
+# The Last Jedi
+
+* basic : .* and \( \) \? \+
+* `-e`xtended : ./()?+
+
+Regular expressions are a Type-3 Grammar in Chomsky's classification.
+
+They are, can be run as, and can model automata.
 
 ---
 class: center, middle, happy
