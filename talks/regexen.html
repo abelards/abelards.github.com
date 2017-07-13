@@ -73,6 +73,21 @@ class: center, middle
 ???
 
 ---
+# A long long time ago
+
+Old UNIX tools are great.<br />
+Tools for more elegant times.<br />
+I want to match things.
+
+`"Bonjour" =~ /jour/ # => 3`
+`"Bonsoir".matches("jour") # => nil`
+
+```ruby
+  r = /#{first_part}@#{domains}\.#{tld}/
+  emails.reject {|e| e !~ r }
+```
+
+---
 class: center
 # The Phantom Menace
 
@@ -80,12 +95,6 @@ Matching characters:
 - Unix Glob: `_` `*`
 - SQL LIKE: `?` `%` 
 - Reg Exp: `.` `.*`
-
-Example in Ruby:
-```
-"Yay~" if /Reg(ular )?\/ [Ee]xp\w*/ =~
-  "Regular / Expressions"
-```
 
 ---
 class: center
@@ -97,20 +106,17 @@ We found the previous character N times:
 - 1-n `/expres+ion/`
 - 0-n `/regex.*magic/`
 
-Please generate your longest regexps:
-```
-/#{first_part}@#{domains}\.#{tld}/
-```
-
 ---
 class: center
 # Revenge of the Characters
 
 French postcodes around Paris:
 
-- `/(91|92|93|94).../` strings' OR
-- `/9[1234]\d\d\d/` chars' OR
-- `/9[1-4]\d{3}/` counting
+```ruby
+/(91|92|93|94).../ # strings' OR # accepts 94xxx
+/9[1234]\d\d\d/ # chars' OR # accepts numbers
+/9[1-4]\d{3}/ # counting
+```
 
 Match over-enthusiastic expressions:
 ```ruby
@@ -136,6 +142,8 @@ uliar]
 /\Apart\Z/ !~ "particle"
 ```
 
+RUBY ONLY: `\z` means EOS, `\Z` EOS + chomp
+
 ---
 class: center
 # The Group Strikes Back
@@ -143,32 +151,27 @@ class: center
 - `"banana" =~ /b(.).\1.\1/`
 - `# "bonobo", "bikini"`
 
+```ruby
+str = "You are strong"
+str.gsub(/(\w*) (\w*) (\w*)/, "\\3, \\1 \\2")
+# => "strong, You are"
 ```
-title = "Bonjour, Monsieur Vincent"
-title =~ /, (\w*) (\w*)/
+
+---
+# The Group Strikes Back
+
+Ruby allow you to get that in the MatchData object
+
+```ruby
+title = "I am your father"
+title =~ /am (\w*) (\w*)/
 result = Regexp.last_match
-# => #<MatchData ", Monsieur Vincent" 1:"Monsieur" 2:"Vincent"> 
-matched, salutation, name = result.to_a
-
-title.gsub(/.*, (\w*) (\w*)/, 'Cher \1 \2,')
-# => "Cher Monsieur Vincent,"
+# => #<MatchData "am your father" 1:"your" 2:"father"> 
 ```
 
 ---
 class: center
-# Return of the captured
-
-```
-/(?<foo>.)(?<bar>.)/.named_captures
-#=> {"foo"=>[1], "bar"=>[2]}
-
-/(?<foo>.)(?<bar>.)(?<baz>.)/.names
-#=> ["foo", "bar", "baz"]
-```
-
----
-class: center
-# The RegExp awakens
+# Return of the $
 
 ```
 m = /s(\w{2}).*(c)/.match('haystack')
@@ -185,19 +188,44 @@ $+ == m[-1] #=> "c"
 
 ---
 class: center
+# The RegExp awakens
+
+```
+/(?<foo>.)(?<bar>.)/.named_captures
+#=> {"foo"=>[1], "bar"=>[2]}
+
+/(?<foo>.)(?<bar>.)(?<baz>.)/.names
+#=> ["foo", "bar", "baz"]
+```
+
+---
+class: center
 # Rogue \\1
 
-.info[`s = "[Changing [brackets]] [into parentheses]"`]
-
-`s.gsub(/\[(.*?)\]/, "(\\1)")`
-
-.info[`=> "(Changing [brackets)] (into parentheses)"`]
+```ruby
+s = "[Changing [brackets]] [into parentheses]"
+s.gsub(/\[(.*?)\]/, "(\\1)")
+# => "(Changing [brackets)] (into parentheses)"
+```
 
 `.*` `.*?` (Greed[oy])
 
 ---
 class: center
-# Character Classes
+# The Last Jedi
+
+* basic : .* and \( \) \? \+
+* `-e`xtended : ./()?+
+
+.info[
+Regular expressions are a Type-3 Grammar in Chomsky's classification.<br />
+They are, can be run as, and can model automata.]
+
+`/!\` DO NOT PARSE HTML WITH REGEXP!
+
+---
+class: center
+# Classes of the Old Republic
 
 ```
  /\w\W/ # word [a-zA-Z0-9_] & non-\w
@@ -208,16 +236,6 @@ class: center
  /\p{Ll}/ # Unicode General Category
  # 'Letter: Lowercase'
 ```
-
----
-# The Last Jedi
-
-* basic : .* and \( \) \? \+
-* `-e`xtended : ./()?+
-
-Regular expressions are a Type-3 Grammar in Chomsky's classification.
-
-They are, can be run as, and can model automata.
 
 ---
 class: center, middle, happy
