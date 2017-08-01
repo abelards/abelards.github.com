@@ -69,9 +69,64 @@
 </div>
 
     <div class="content" id="page">
-      <ul class="post-list">
+      <script>
+function hasClass(e, cls) { return e.className.indexOf(cls) != -1; }
+
+function removeClass (e, cls) {
+    var newClass = ' ' + e.className.replace( /[\t\r\n]/g, ' ') + ' ';
+    if (hasClass(e, cls)) {
+	while (newClass.indexOf(' ' + cls + ' ') >= 0 ) {
+	    newClass = newClass.replace(' ' + cls + ' ', ' ');
+	}
+	e.className = newClass.replace(/^\s+|\s+$/g, '');
+    }
+}
+
+
+function dispall(sel, disp) {
+    var tags = document.querySelectorAll(sel);
+    for (var i = 0; i < tags.length; i++) { tags[i].style.display = disp; }
+}
+
+function clickTag(event)
+{
+    var e = this;
+    var lit = hasClass(e, 'active');
+    var tags = document.querySelectorAll('#tags .active');
+
+    for (var i = 0; i < tags.length; i++) { removeClass(tags[i], 'active'); }
+
+    if (!lit) { e.className += ' active'; }
+
+    if (document.querySelectorAll('#tags .active').length == 0) {
+	dispall('ul.post-list li', 'block');
+    } else {
+	dispall('ul.post-list li', 'none');
+	dispall('.' + e.innerHTML, 'block');
+    }
+}
+
+window.onload = function(){
+    var tags = document.getElementById('tags');
+    if (tags != null) {
+	var tags = document.getElementsByClassName('tag');
+	for (var i = 0; i < tags.length; i++) {
+	    var e = tags[i];
+	    if (e.addEventListener) { 
+		e.addEventListener('click', clickTag, false); }
+	    else if (e.attachEvent) { // old IEs
+		e.attachEvent('onclick', function() { return clickTag.apply(e, [window.event]) })
+	    }
+	}
+    }
+}
+</script>
+
+<div id="tags"><a class="tag">abstractions</a> <a class="tag">attitude</a> <a class="tag">business</a> <a class="tag">change</a> <a class="tag">code</a> <a class="tag">community</a> <a class="tag">debate</a> <a class="tag">ego</a> <a class="tag">entrepreneur</a> <a class="tag">events</a> <a class="tag">fable</a> <a class="tag">fr</a> <a class="tag">hiring</a> <a class="tag">human</a> <a class="tag">IP</a> <a class="tag">jobs</a> <a class="tag">law</a> <a class="tag">learning</a> <a class="tag">life</a> <a class="tag">management</a> <a class="tag">mentoring</a> <a class="tag">meta</a> <a class="tag">metaphor</a> <a class="tag">partner</a> <a class="tag">politics</a> <a class="tag">professional</a> <a class="tag">quotes</a> <a class="tag">railsgirls</a> <a class="tag">recruiters</a> <a class="tag">sf</a> <a class="tag">social</a> <a class="tag">startups</a> <a class="tag">talks</a> <a class="tag">teaching</a> <a class="tag">techlead</a> <a class="tag">UX</a> <a class="tag">writing</a> <a class="tag">young</a></div>
+
+<ul class="post-list">
   
-  <li>
+  <li class="ux">
     <span class="post-meta">UX</span>
     <h3>
       <a class="post-link" href="/2017/03/08/phones.html">Validating phone numbers</a>
@@ -79,7 +134,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="events  community">
     <span class="post-meta">events, community</span>
     <h3>
       <a class="post-link" href="/2017/03/04/associations-takeover.html">Letting your project</a>
@@ -87,7 +142,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="mentoring  learning">
     <span class="post-meta">mentoring, learning</span>
     <h3>
       <a class="post-link" href="/2017/01/22/remote-mentor.html">The Remote Mentor</a>
@@ -95,7 +150,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="mentoring  learning">
     <span class="post-meta">mentoring, learning</span>
     <h3>
       <a class="post-link" href="/2017/01/21/copy-pasta.html">Copy Pasta</a>
@@ -103,7 +158,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="fable  attitude">
     <span class="post-meta">fable, attitude</span>
     <h3>
       <a class="post-link" href="/2017/01/20/fable-voyageurs.html">Fable Voyageurs</a>
@@ -111,7 +166,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="hiring  mentoring">
     <span class="post-meta">hiring, mentoring</span>
     <h3>
       <a class="post-link" href="/2017/01/15/skill-assessment.html">Self skill assessment</a>
@@ -119,7 +174,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="meta  debate">
     <span class="post-meta">meta, debate</span>
     <h3>
       <a class="post-link" href="/2017/01/11/no-trolling.html">No trolling</a>
@@ -127,7 +182,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="meta  debate">
     <span class="post-meta">meta, debate</span>
     <h3>
       <a class="post-link" href="/2017/01/10/dark-humour.html">Dark Humour</a>
@@ -135,7 +190,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="meta  debate">
     <span class="post-meta">meta, debate</span>
     <h3>
       <a class="post-link" href="/2017/01/09/fake-news.html">Fake news</a>
@@ -143,7 +198,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="fr  mentoring">
     <span class="post-meta">fr, mentoring</span>
     <h3>
       <a class="post-link" href="/2016/12/14/part-time-tech-lead.html">Tech coaching</a>
@@ -151,7 +206,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="politics  debate">
     <span class="post-meta">politics, debate</span>
     <h3>
       <a class="post-link" href="/2016/12/07/parler-politique.html">Parler politique</a>
@@ -159,7 +214,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="code  abstractions">
     <span class="post-meta">code, abstractions</span>
     <h3>
       <a class="post-link" href="/2016/11/26/most-important.html">Most Important Improvement</a>
@@ -167,7 +222,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="code  abstractions">
     <span class="post-meta">code, abstractions</span>
     <h3>
       <a class="post-link" href="/2016/11/22/oop-vs-fp.html">OOP vs FP</a>
@@ -175,7 +230,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="techlead">
     <span class="post-meta">techlead</span>
     <h3>
       <a class="post-link" href="/2016/11/19/not-enemies.html">Not enemies</a>
@@ -183,7 +238,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="entrepreneur  life">
     <span class="post-meta">entrepreneur, life</span>
     <h3>
       <a class="post-link" href="/2016/11/16/we-are-not-managers.html">We are not managers</a>
@@ -191,7 +246,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="entrepreneur  life">
     <span class="post-meta">entrepreneur, life</span>
     <h3>
       <a class="post-link" href="/2016/11/12/start-here-go-there.html">Start here, go there</a>
@@ -199,7 +254,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="entrepreneur  life">
     <span class="post-meta">entrepreneur, life</span>
     <h3>
       <a class="post-link" href="/2016/11/09/first-prove-it.html">First prove it</a>
@@ -207,7 +262,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="entrepreneur  life">
     <span class="post-meta">entrepreneur, life</span>
     <h3>
       <a class="post-link" href="/2016/11/05/plan-vs-world.html">Plan, meet enemy</a>
@@ -215,7 +270,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="entrepreneur  life">
     <span class="post-meta">entrepreneur, life</span>
     <h3>
       <a class="post-link" href="/2016/11/02/power-porn.html">Power Porn</a>
@@ -223,7 +278,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="entrepreneur  life">
     <span class="post-meta">entrepreneur, life</span>
     <h3>
       <a class="post-link" href="/2016/10/26/reasons-for-startup.html">Why a startup?</a>
@@ -231,7 +286,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="entrepreneur  life">
     <span class="post-meta">entrepreneur, life</span>
     <h3>
       <a class="post-link" href="/2016/10/22/mind-your-motivation.html">Mind your motivation</a>
@@ -239,7 +294,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="fr  professional">
     <span class="post-meta">fr, professional</span>
     <h3>
       <a class="post-link" href="/2016/10/21/dangers-devs.html">Ça agace les devs</a>
@@ -247,7 +302,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="fr  professional">
     <span class="post-meta">fr, professional</span>
     <h3>
       <a class="post-link" href="/2016/10/20/developpez-net.html">developpez.net</a>
@@ -255,7 +310,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="entrepreneur  life">
     <span class="post-meta">entrepreneur, life</span>
     <h3>
       <a class="post-link" href="/2016/10/19/mind-your-body.html">Mind your body</a>
@@ -263,7 +318,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="entrepreneur  life">
     <span class="post-meta">entrepreneur, life</span>
     <h3>
       <a class="post-link" href="/2016/10/17/mind-your-mind.html">Mind your mind</a>
@@ -271,7 +326,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="entrepreneur">
     <span class="post-meta">entrepreneur</span>
     <h3>
       <a class="post-link" href="/2016/10/15/young-entrepreneur.html">Young entrepreneur</a>
@@ -279,7 +334,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="fr  community  debate">
     <span class="post-meta">fr, community, debate</span>
     <h3>
       <a class="post-link" href="/2016/10/10/slackbot-les-gars.html">Slackbot "les gars"</a>
@@ -287,7 +342,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="meta  debate">
     <span class="post-meta">meta, debate</span>
     <h3>
       <a class="post-link" href="/2016/10/07/cynicism.html">Cynicism</a>
@@ -295,7 +350,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="business">
     <span class="post-meta">business</span>
     <h3>
       <a class="post-link" href="/2016/09/10/business-experiments.html">Business experiments</a>
@@ -303,7 +358,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="business  management">
     <span class="post-meta">business, management</span>
     <h3>
       <a class="post-link" href="/2016/09/03/team_not_company.html">Team, not company</a>
@@ -311,7 +366,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="code  abstractions">
     <span class="post-meta">code, abstractions</span>
     <h3>
       <a class="post-link" href="/2016/08/27/when_copy_paste.html">When to copy/paste</a>
@@ -319,7 +374,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="railsgirls  teaching">
     <span class="post-meta">railsgirls, teaching</span>
     <h3>
       <a class="post-link" href="/2016/08/24/split-beginners-groups.html">RailsGirls groups</a>
@@ -327,7 +382,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="railsgirls  teaching">
     <span class="post-meta">railsgirls, teaching</span>
     <h3>
       <a class="post-link" href="/2016/08/20/railsgirls-application-form.html">RailsGirls application form</a>
@@ -335,7 +390,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="human  professional">
     <span class="post-meta">human, professional</span>
     <h3>
       <a class="post-link" href="/2016/04/20/admitting-failure.html">Admitting failure</a>
@@ -343,7 +398,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="railsgirls  fr">
     <span class="post-meta">railsgirls, fr</span>
     <h3>
       <a class="post-link" href="/2016/01/16/railsgirls-not-boys.html">RailsGirls et mixité</a>
@@ -351,7 +406,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="hiring  fr">
     <span class="post-meta">hiring, fr</span>
     <h3>
       <a class="post-link" href="/2016/01/02/deminage-diversite.html">Déminage de la diversité</a>
@@ -359,7 +414,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="business  startups">
     <span class="post-meta">business, startups</span>
     <h3>
       <a class="post-link" href="/2015/12/02/refuse-free-work.html">Refuse free work</a>
@@ -367,7 +422,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="life  mentoring">
     <span class="post-meta">life, mentoring</span>
     <h3>
       <a class="post-link" href="/2015/11/28/asking-the-class.html">Asking the class</a>
@@ -375,7 +430,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="life  meta">
     <span class="post-meta">life, meta</span>
     <h3>
       <a class="post-link" href="/2015/11/11/now.html">Now & Tomorrow</a>
@@ -383,7 +438,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="meta  debate">
     <span class="post-meta">meta, debate</span>
     <h3>
       <a class="post-link" href="/2015/09/13/forgive-negativity.html">Forgive my negativity</a>
@@ -391,7 +446,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="meta  hiring  partner">
     <span class="post-meta">meta, hiring, partner</span>
     <h3>
       <a class="post-link" href="/2015/09/10/policy-on-referrals.html">Policy on referrals</a>
@@ -399,7 +454,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="social  hiring">
     <span class="post-meta">social, hiring</span>
     <h3>
       <a class="post-link" href="/2015/09/03/bothering-my-network.html">Bothering my network</a>
@@ -407,7 +462,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="hiring  young  partner">
     <span class="post-meta">hiring, young, partner</span>
     <h3>
       <a class="post-link" href="/2015/08/30/wont-pay-quality.html">I won't pay for quality</a>
@@ -415,7 +470,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="young  hiring">
     <span class="post-meta">young, hiring</span>
     <h3>
       <a class="post-link" href="/2015/08/23/bidirectional-communication.html">Job offers go both ways</a>
@@ -423,7 +478,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="writing  sf">
     <span class="post-meta">writing, sf</span>
     <h3>
       <a class="post-link" href="/2015/08/13/microsf.html">MicroSF</a>
@@ -431,7 +486,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="fr  management  change">
     <span class="post-meta">fr, management, change</span>
     <h3>
       <a class="post-link" href="/2015/08/09/un-nouvel-outil-organisationnel.html">Transformation orga</a>
@@ -439,7 +494,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="hiring  recruiters">
     <span class="post-meta">hiring, recruiters</span>
     <h3>
       <a class="post-link" href="/2015/07/26/recruiters-cycle.html">Recruiters' Vicious Cycle</a>
@@ -447,7 +502,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="hiring  recruiters">
     <span class="post-meta">hiring, recruiters</span>
     <h3>
       <a class="post-link" href="/2015/07/19/mystery-offers.html">Mystery Offers</a>
@@ -455,7 +510,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="fr  talks  management">
     <span class="post-meta">fr, talks, management</span>
     <h3>
       <a class="post-link" href="/2015/07/09/sociologie_devs.html">Sociologie des devs</a>
@@ -463,7 +518,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="life  social">
     <span class="post-meta">life, social</span>
     <h3>
       <a class="post-link" href="/2015/06/07/responsibility.html">Responsibility</a>
@@ -471,7 +526,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="hiring  partner">
     <span class="post-meta">hiring, partner</span>
     <h3>
       <a class="post-link" href="/2015/05/24/the-inequal-partner.html">The Inequal Partner</a>
@@ -479,7 +534,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="hiring  partner">
     <span class="post-meta">hiring, partner</span>
     <h3>
       <a class="post-link" href="/2015/05/20/hard-to-find-good-devs.html">Hard to find devs?</a>
@@ -487,7 +542,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="hiring  partner">
     <span class="post-meta">hiring, partner</span>
     <h3>
       <a class="post-link" href="/2015/05/17/looking-for-partner.html">Looking for dev partner</a>
@@ -495,7 +550,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="jobs  young">
     <span class="post-meta">jobs, young</span>
     <h3>
       <a class="post-link" href="/2015/05/13/youre-no-cto.html">You're no CTO</a>
@@ -503,7 +558,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="jobs  young">
     <span class="post-meta">jobs, young</span>
     <h3>
       <a class="post-link" href="/2015/05/10/youre-no-manager.html">You're no manager</a>
@@ -511,7 +566,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="jobs  young">
     <span class="post-meta">jobs, young</span>
     <h3>
       <a class="post-link" href="/2015/05/06/stay-late-get-pizza.html">Stay late, get pizza</a>
@@ -519,7 +574,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="jobs  young  hiring">
     <span class="post-meta">jobs, young, hiring</span>
     <h3>
       <a class="post-link" href="/2015/05/03/gullible-young.html">The Gullible Young</a>
@@ -527,7 +582,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="meta  debate">
     <span class="post-meta">meta, debate</span>
     <h3>
       <a class="post-link" href="/2015/04/26/selfWiki.html">The Self Wiki</a>
@@ -535,7 +590,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="life  social">
     <span class="post-meta">life, social</span>
     <h3>
       <a class="post-link" href="/2015/04/19/haveaniceday.html">Have A Nice Day</a>
@@ -543,7 +598,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="law  metaphor fr">
     <span class="post-meta">law, metaphor,fr</span>
     <h3>
       <a class="post-link" href="/2015/04/12/mouchards.html">Mouchards de l'état</a>
@@ -551,15 +606,15 @@
     <br style="clear:both" />
   </li>
   
-  <li>
-    <span class="post-meta">quotes, Douglas Adams</span>
+  <li class="quotes">
+    <span class="post-meta">quotes</span>
     <h3>
       <a class="post-link" href="/2015/04/05/lizards.html">Voting for lizards</a>
     </h3>
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="life  social">
     <span class="post-meta">life, social</span>
     <h3>
       <a class="post-link" href="/2015/03/29/introductions.html">Introductions</a>
@@ -567,7 +622,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="life  social">
     <span class="post-meta">life, social</span>
     <h3>
       <a class="post-link" href="/2015/03/22/smalltalk.html">Smalltalk</a>
@@ -575,7 +630,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="law  metaphor fr">
     <span class="post-meta">law, metaphor,fr</span>
     <h3>
       <a class="post-link" href="/2015/03/15/hadopi.html">HADOPI</a>
@@ -583,7 +638,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="startups">
     <span class="post-meta">startups</span>
     <h3>
       <a class="post-link" href="/2015/03/08/the-customers-startup.html">The Customers startup</a>
@@ -591,7 +646,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="startups">
     <span class="post-meta">startups</span>
     <h3>
       <a class="post-link" href="/2015/03/01/the-grants-startup.html">The Grants startup</a>
@@ -599,7 +654,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="startups">
     <span class="post-meta">startups</span>
     <h3>
       <a class="post-link" href="/2015/02/25/the-funds-startup.html">The Funds startup</a>
@@ -607,7 +662,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="startups">
     <span class="post-meta">startups</span>
     <h3>
       <a class="post-link" href="/2015/02/18/three-kinds-of-startups.html">Three kinds of startups</a>
@@ -615,7 +670,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="startups">
     <span class="post-meta">startups</span>
     <h3>
       <a class="post-link" href="/2015/02/11/i-love-hate-startups.html">I love/hate startups</a>
@@ -623,7 +678,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="meta  writing">
     <span class="post-meta">meta, writing</span>
     <h3>
       <a class="post-link" href="/2015/02/04/structured-content.html">On Structured Content</a>
@@ -631,7 +686,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="meta  ip">
     <span class="post-meta">meta, IP</span>
     <h3>
       <a class="post-link" href="/2015/01/28/own-your-content.html">Own your content</a>
@@ -639,7 +694,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="meta  ego">
     <span class="post-meta">meta, ego</span>
     <h3>
       <a class="post-link" href="/2015/01/21/blogging-ego.html">The Blogging Ego</a>
@@ -647,7 +702,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="meta  ip">
     <span class="post-meta">meta, IP</span>
     <h3>
       <a class="post-link" href="/2015/01/14/on-IP.html">On Intellectual Property</a>
@@ -655,7 +710,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="meta  ip">
     <span class="post-meta">meta, IP</span>
     <h3>
       <a class="post-link" href="/2015/01/07/i-share-things.html">I share things</a>
@@ -663,7 +718,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="fr  meta">
     <span class="post-meta">fr, meta</span>
     <h3>
       <a class="post-link" href="/2015/01/01/fr.html">Un blog bilingue ?</a>
@@ -671,7 +726,7 @@
     <br style="clear:both" />
   </li>
   
-  <li>
+  <li class="meta  debate">
     <span class="post-meta">meta, debate</span>
     <h3>
       <a class="post-link" href="/2014/12/31/i-have-opinions.html">I have opinions</a>
@@ -680,6 +735,8 @@
   </li>
   
 </ul>
+
+<br style="clear:both" />
 
     </div>
 
@@ -735,6 +792,18 @@
   
 
   <li><a href="http://twitter.com/abelar_s" title="Sylvain Abélard on Twitter"><img alt="Twitter" src ="/img/twitter.ico" /> @abelar_s</a></li>
+ 
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  <li><a href="https://lerubynouveau.fr" title="Sylvain Abélard on LeRubyNouveau"><img alt="LeRubyNouveau" src ="/img/lerubynouveau.png" /> Le Ruby Nouveau</a></li>
  
   
   
