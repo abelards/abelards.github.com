@@ -6,9 +6,159 @@
 </description>
     <link>http://maitre-du-monde.fr/</link>
     <atom:link href="http://maitre-du-monde.fr/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Aug 2017 13:58:42 +0200</pubDate>
-    <lastBuildDate>Tue, 01 Aug 2017 13:58:42 +0200</lastBuildDate>
+    <pubDate>Thu, 28 Sep 2017 18:19:43 +0200</pubDate>
+    <lastBuildDate>Thu, 28 Sep 2017 18:19:43 +0200</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>20 results max</title>
+        <description>&lt;p&gt;Blunt statement: nobody wants more than 20 results.&lt;/p&gt;
+
+&lt;p&gt;I’ve done web apps for many things, especially in Faveod and Ruby on Rails.
+It’s easy to have your brain think in CRUD mode, and it actually maps people’s uses pretty well.
+Listing, showing, editing data.&lt;/p&gt;
+
+&lt;p&gt;But we often have to choose from a huge list (hint: use autocomplete),
+or display the whole data set like Excel would.&lt;/p&gt;
+
+&lt;p&gt;If Google has shown anything, it’s that nobody wants that: after 20+
+results (I dare say 10 results), people get tired, they miss information,
+and they can’t act on it.&lt;/p&gt;
+
+&lt;p&gt;If you have more than 20 results anywhere, you should limit that.
+&lt;strong&gt;Try&lt;/strong&gt; this, and know &lt;em&gt;it’s a good time to ask the customer&lt;/em&gt; for more input.&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;h3 id=&quot;sort&quot;&gt;Sort&lt;/h3&gt;
+
+&lt;p&gt;No one wants the list of all shippings.&lt;br /&gt;
+&lt;strong&gt;Try&lt;/strong&gt; providing shortcuts to the most recent shippings.&lt;br /&gt;
+&lt;strong&gt;Ask&lt;/strong&gt; if users need history and how they’d access it.&lt;/p&gt;
+
+&lt;h3 id=&quot;rank&quot;&gt;Rank&lt;/h3&gt;
+
+&lt;p&gt;No one wants the list of all customers.&lt;br /&gt;
+&lt;strong&gt;Try&lt;/strong&gt; providing the list of most important customers.&lt;br /&gt;
+&lt;strong&gt;Ask&lt;/strong&gt; if there’s one or more relevant scoring.&lt;/p&gt;
+
+&lt;h3 id=&quot;contextualize&quot;&gt;Contextualize&lt;/h3&gt;
+
+&lt;p&gt;No one wants the list of all payments.&lt;br /&gt;
+&lt;strong&gt;Try&lt;/strong&gt; providing the list of failed payments.&lt;br /&gt;
+&lt;strong&gt;Ask&lt;/strong&gt; what users do with payments and if there’s a hidden state machine.&lt;/p&gt;
+
+&lt;h3 id=&quot;group&quot;&gt;Group&lt;/h3&gt;
+
+&lt;p&gt;No one wants the list of all products.&lt;br /&gt;
+&lt;strong&gt;Try&lt;/strong&gt; providing “products per category” to customers, “number of products per warehouse” to shippers.&lt;br /&gt;
+&lt;strong&gt;Ask&lt;/strong&gt; how many of each thing you should be considering; consider different points of view.&lt;/p&gt;
+
+&lt;h3 id=&quot;filter&quot;&gt;Filter&lt;/h3&gt;
+
+&lt;p&gt;No one wants the list of all of this, but they want to find relevant data.&lt;br /&gt;
+&lt;strong&gt;Try&lt;/strong&gt; providing filtering options or search fields: names, amounts, dates and numbers with a range from…to and so on.&lt;br /&gt;
+&lt;strong&gt;Ask&lt;/strong&gt; for the most useful searches, and provide autocompletion if possible.&lt;/p&gt;
+
+&lt;h3 id=&quot;report--graph&quot;&gt;Report &amp;amp; graph&lt;/h3&gt;
+
+&lt;p&gt;No one wants the list of credits mixed with debits. Attention would drop even faster.&lt;br /&gt;
+No one wants to match the list of credits with debits.&lt;br /&gt;
+&lt;strong&gt;Try&lt;/strong&gt; providing the sums (per time, like “last 24h”, “per month”, “compared to last year”),
+and a report showing the evolution of cash on hand over the last days or weeks.&lt;br /&gt;
+&lt;strong&gt;Ask&lt;/strong&gt; which objects make sense with other piece of data, how they evolve with time.&lt;/p&gt;
+
+&lt;h3 id=&quot;paginate&quot;&gt;Paginate&lt;/h3&gt;
+
+&lt;p&gt;If all else failed, pagination will help your customers browse the list.&lt;br /&gt;
+They’ll likely get tired of it and demand an Excel export.&lt;br /&gt;
+That’s another problem, for another day :)&lt;/p&gt;
+
+&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
+
+&lt;h3 id=&quot;autocomplete&quot;&gt;Autocomplete&lt;/h3&gt;
+
+&lt;p&gt;We’ve talked about listing things, we can talk about inputs.&lt;br /&gt;
+Many frameworks have some sort of autocompletion, often with AJAX being possible.&lt;br /&gt;
+You should think about which information are the best to search by and display.&lt;/p&gt;
+
+&lt;h3 id=&quot;follow-the-process&quot;&gt;Follow the process&lt;/h3&gt;
+
+&lt;p&gt;Perhaps you don’t want to “create a reminder” then choose “for
+customer X” from thousands of customers. If you are making an
+application for customer support, they probably already used search or
+filters to find the correct person, then from that person’s page they
+should have a simple button opening the “create reminder” which would
+automatically open the form, with the customer already selected.&lt;/p&gt;
+
+&lt;h3 id=&quot;custom&quot;&gt;Custom&lt;/h3&gt;
+
+&lt;p&gt;Specific products will have specific answers.&lt;br /&gt;
+Travel apps will use your GPS or show maps, ecommerce will add recommendations.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you can make my life easier, please do, I’ll be a faithful customer or a vocal user!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 23 Sep 2017 00:00:00 +0200</pubDate>
+        <link>http://maitre-du-monde.fr/2017/09/23/20-results.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2017/09/23/20-results.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Social Media Video</title>
+        <description>&lt;p&gt;I usually hate Video on Twitter. Why is that?
+It took me some time to understand what bothers me so much.&lt;/p&gt;
+
+&lt;p&gt;I used to think that I read fast and video makes it hard to skip/accelerate things.
+That’s part of the reason, but not the whole problem. Why would it irk me so much?&lt;/p&gt;
+
+&lt;h3 id=&quot;media-diet-and-medium&quot;&gt;Media diet and medium&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;On my laptop, my media diet is made of RSS, newsletters, stuff sent by friends.&lt;/li&gt;
+  &lt;li&gt;On public transportation, I usually browse Twitter and load links in LinkBubble.&lt;/li&gt;
+  &lt;li&gt;During the commute, including walking, and during some household chores, I listen to podcasts.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is why videos on Twitter irk me so much: I’m in public transportation,
+with possibly no data, people can see over my shoulder, and so on.&lt;/p&gt;
+
+&lt;p&gt;I could just favorite or buffer it for later, but that’s one more step,
+for something that’ll clog my read list for possibly little value out of context.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-priori-commitment&quot;&gt;A priori commitment&lt;/h3&gt;
+
+&lt;p&gt;Now we’re getting to the root of the problem: when I see a video, I don’t know:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;the value
+    &lt;ul&gt;
+      &lt;li&gt;but hey, that’s Twitter: short-lived jokes and wisdom gems&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;a GIF or a video? is sound important?
+    &lt;ul&gt;
+      &lt;li&gt;do I need to stop my podcast and activate the sound?&lt;/li&gt;
+      &lt;li&gt;should I expect to get a laugh in 5s or to sit through 5+mn (300+s!)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;when the valuable content starts
+    &lt;ul&gt;
+      &lt;li&gt;on desktop I try to send YouTube links with a ?t=1m42s when I point to a specific time&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So, finding a video in my feed feels like a demand of my whole attention
+for an unknown duration and for unknown value.
+The last part is inherent to Twitter, but the first two feel way too much for me.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 15 Sep 2017 00:00:00 +0200</pubDate>
+        <link>http://maitre-du-monde.fr/2017/09/15/social-media-video.html</link>
+        <guid isPermaLink="true">http://maitre-du-monde.fr/2017/09/15/social-media-video.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Validating phone numbers</title>
@@ -374,99 +524,6 @@ As an adult, when raising a problem, it’s better, more responsible to bring at
         <pubDate>Tue, 10 Jan 2017 00:00:00 +0100</pubDate>
         <link>http://maitre-du-monde.fr/2017/01/10/dark-humour.html</link>
         <guid isPermaLink="true">http://maitre-du-monde.fr/2017/01/10/dark-humour.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Fake news</title>
-        <description>&lt;p&gt;It looks like 2016 has been hectic for many.&lt;/p&gt;
-
-&lt;p&gt;Many things happened, many debates were made, many sub-debates were added…
-Much information and many comments were shared, losing many of the signal in the noise.&lt;/p&gt;
-
-&lt;p&gt;Confusion, outrage, overreaction… this plays all too well in our
-reptilian/fight-or-flight and primate/social brains:
-new, shiny, loud things all over the place.&lt;/p&gt;
-
-&lt;p&gt;It’s also easy to lose oneself, one’s time, and one’s mental health in all this.&lt;/p&gt;
-
-&lt;p&gt;There’s a problem with underreaction too!
-The word “normalization” was all over the place in my Twitter timeline.&lt;/p&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;It’s &lt;a href=&quot;https://duckduckgo.com/?q=we+don%27t+change+our+minds+even+with+evidence+of+the+opposite&amp;amp;t=ffab&amp;amp;ia=web&quot;&gt;all well known&lt;/a&gt; that we prefer information we already like, and disregard the rest.
-So it’s not a surprise that we have &lt;a href=&quot;https://duckduckgo.com/?q=why+people+believe+fake+news&quot;&gt;a tendency to believe fake news&lt;/a&gt;. The more we are aware of &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_cognitive_biases&quot;&gt;our many cognitive biases&lt;/a&gt;, the more we should fight the urges to let them rule us.&lt;/p&gt;
-
-&lt;p&gt;As citizens, or as humans, we have a duty to others: to be informed and to act.
-I feel we have a duty to look for truth, to keep a healthy skepticism.&lt;/p&gt;
-
-&lt;p&gt;In a fast-moving world, where jokes or propaganda are re-shared by people in power,
-we have a duty to check the most dubious things, and not share until we check.&lt;/p&gt;
-
-&lt;p&gt;Perhaps the burden should not be on us. Well, no one will take it, so now it is ours.&lt;/p&gt;
-
-&lt;p class=&quot;c&quot;&gt;&amp;mdash; &amp;mdash; &amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;Press and ethics in press have always struggled: they should write what people buy,
-but they should print what people don’t want printed (“or it’s not press but PR”).&lt;/p&gt;
-
-&lt;p&gt;And by the way, I would have said the previous quote is from Orwell.
-But I checked, and there seems to be no evidence for that misattribution.&lt;/p&gt;
-
-&lt;p&gt;Oh, well.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 09 Jan 2017 00:00:00 +0100</pubDate>
-        <link>http://maitre-du-monde.fr/2017/01/09/fake-news.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2017/01/09/fake-news.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Tech coaching</title>
-        <description>&lt;p&gt;Prenons une équipe de développeurs et un projet qui vont mal.
-Ça va ensemble.&lt;/p&gt;
-
-&lt;p&gt;En général, cette équipe n’a pas le temps de s’auto-améliorer ou de faire des sujets de fond.
-Les personnes jouent en permanence aux pompiers sur les problèmes les plus “brûlants”.
-On croit qu’on n’a pas le temps de faire des tests ou des refactorings,
-donc on continue une méthode visiblement mauvaise,
-et on n’essaie apparemment pas de s’améliorer.&lt;/p&gt;
-
-&lt;p&gt;Si les chefs sont trop fermés, ou pieds et poings liés, difficile à dire.
-Mais imaginons qu’ils se disent “comment pouvons-nous nous améliorer ?”&lt;/p&gt;
-
-&lt;p&gt;Certains prennent un coach, un mentor, un senior… mais embaucher c’est cher, alors on prend un consultant.
-Là encore le consultant peut être mauvais, on n’étudiera pas ce cas ; imaginons que ce soit une personne formidable et compétente.&lt;/p&gt;
-
-&lt;p&gt;Une des parties les plus intéressantes de cette prestation… est la définition de cette prestation.
-Le manager qui accepte, les “leads techniques actuels internes à la team” et le “coach / lead tech externe partiel”,
-vont cadrer la prestation : argent, heures, calendrier…&lt;/p&gt;
-
-&lt;p&gt;La loi de Conway nous dit que l’humain impacte la technique et réciproquement, justement par les points
-que l’on organise et que l’on considère comme importants.&lt;/p&gt;
-
-&lt;p&gt;Par exemple, j’ai testé ces 4 choses-là et ça marche super bien :&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;on fait une classroom entre devs 2h par semaine&lt;/li&gt;
-  &lt;li&gt;on va faire un point d’archi sur ce qui est dur à comprendre pour l’expliquer&lt;/li&gt;
-  &lt;li&gt;on va faire une revue de code sur un bout de code parce que telles habitudes sont horribles&lt;/li&gt;
-  &lt;li&gt;on va augmenter la couverture de test ensemble&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;L’avantage est que la charge de nouvelles choses à absorber est 1h par semaine de cours + 1h de pratique :
-pas trop pénible pour les devs, pas trop handicapant pour la “vitesse” actuelle, ni trop cher.&lt;/p&gt;
-
-&lt;p&gt;Si les devs sont réceptifs, on peut augmenter la qualité en permanence (et le coaching peut presque s’arrêter).
-Si les devs sont pas réceptifs, on peut arrêter assez tôt.
-Et du coup il suffit de signer pour 3 mois (12 demi-journées), ça n’est pas un engagement très cher,
-et on peut reconduire si #1 ca marche + #2 les devs en redemandent.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 14 Dec 2016 00:00:00 +0100</pubDate>
-        <link>http://maitre-du-monde.fr/2016/12/14/part-time-tech-lead.html</link>
-        <guid isPermaLink="true">http://maitre-du-monde.fr/2016/12/14/part-time-tech-lead.html</guid>
         
         
       </item>
