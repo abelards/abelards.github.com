@@ -6,7 +6,7 @@
     <style type="text/css">
 	@import url(http://fonts.googleapis.com/css?family=Quicksand:300,700);
       	body { font-family: 'Quicksand'; font-weight: 300; }
-      	.happy { background-image: url(https://cloud.githubusercontent.com/assets/584600/5992569/2e807aee-aa2f-11e4-9618-e6446ec7fe2f.png) }
+      	.happy { background-image: url(https://cloud.githubusercontent.com/assets/584600/5992569/2e807aee-aa2f-11e4-9618-e6446ec7fe2f.png); }
 	a, a:visited, a:hover { color: #DDD; }
 	.bestof ul { list-style-type: none; }
 	ul li { line-height: 1.5em; }
@@ -25,7 +25,7 @@
       	  font-size: 2.5em;
       	  color: white;
       	}
-	h1 { font-weight: bold; padding: 0.1em; margin: 0.1em; }
+	h1, h2 { font-weight: bold; padding: 0.1em; margin: 0.1em; }
 	div.remark-slide-content {
 	  color: #AAA;
 	  background-color: #333;
@@ -50,6 +50,8 @@
 
 	 .x { font-weight: bold; }
 	.contrib { font-size: 90%; }
+	.small { font-size: 65%; }
+	.happy .contrib, .happy .small, .happy .contrib a, .happy .small a { color: black; font-weight: bold; }
 
 	div.remark-slide-content.p1  p, .p1  { font-size: 140%; }
 	div.remark-slide-content.p2  p, .p2  { font-size: 110%; }
@@ -70,17 +72,25 @@
   <body>
     <textarea id="source">
 class: center, middle
+
+.contrib.b[
+[@abelar_s](https://twitter.com/abelar_s) -
+[@faveod](https://twitter.com/faveod)
+]
+
 # Je veux juste un site Web
 
 &nbsp;
 
-.b[[@abelar_s](https://twitter.com/abelar_s) -
-[@ParisRB](https://twitter.com/parisrb) -
-[@RailsGirlsParis](https://twitter.com/railsgirlsparis)]
- 
-[maitre-du-monde.fr](maitre-du-monde.fr)
+.small[
+[@ParisRB](https://twitter.com/parisrb),
+[@RailsGirlsParis](https://twitter.com/railsgirlsparis),
+[@womenonrails](https://twitter.com/womenonrails),
+[@lerubynouveau](https://twitter.com/lerubynouveau)
+]
 
-.contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/I_just_want_a_website.html)]
+.small.contrib[[CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) -
+[contribute on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/I_just_want_a_website.html)]
 
 ???
 
@@ -98,9 +108,20 @@ Bon, c'est beaucoup de se prendre tout ça dans la figure.
 
 ---
 class: p1
-# démystifions
+# Démystifier
 
 "Je veux .n.r[juste] un .n.g[site web].n.b[.]"
+
+---
+class: p1
+# Démystifier
+
+"Je veux .n.r[juste] un .n.g[site web].n.b[.]"
+
+- Désirs / Peurs
+- Contexte / Contraintes
+- Petit / Grand
+- Asso / Pro
 
 ???
 
@@ -116,7 +137,7 @@ Je vous propose ce manifeste "je veux juste un site web", qui pourra servir à e
 ---
 class: p2
 
-# décomposer, expliciter
+# Expliciter
 
 "Je veux .r[concevoir et développer] une .g[application Web] .b[pour un intérêt et pour un certain temps]"
 
@@ -125,7 +146,7 @@ class: p2
 ---
 class: p2
 
-# toujours des non-dits
+# Toujours des non-dits
 
 "Je veux .r[concevoir]
 et .o[développer]
@@ -138,6 +159,51 @@ class: p5
 
 # Devil in the details
 
+".x[Je veux .r[concevoir]] *(l'architecture, le code, les processus, l'ergonomie et l'expérience utilisateur)*
+
+---
+class: p5
+
+# Devil in the details
+
+".x[Je veux .r[concevoir]] (l'architecture, le code, les processus, l'ergonomie et l'expérience utilisateur)
+.x[et .o[développer]] *(construire, tester, livrer, plusieurs versions de l'application, au sein d'une .w.x[équipe] de devs)*
+
+---
+class: p5
+
+# Devil in the details
+
+".x[Je veux .r[concevoir]] (l'architecture, le code, les processus, l'ergonomie et l'expérience utilisateur)
+.x[et .o[développer]] (construire, tester, livrer, plusieurs versions de l'application, au sein d'une .w.x[équipe] de devs)
+.x[une .g[application Web]] *(de la page sur ordinateur aux possibilités modernes des tablettes, mobiles et autres)*
+
+---
+class: p5
+
+# Devil in the details
+
+".x[Je veux .r[concevoir]] (l'architecture, le code, les processus, l'ergonomie et l'expérience utilisateur)
+.x[et .o[développer]] (construire, tester, livrer, plusieurs versions de l'application, au sein d'une .w.x[équipe] de devs)
+.x[une .g[application Web]] (de la page sur ordinateur aux possibilités modernes des tablettes, mobiles et autres)
+.x[pour un .y[intérêt]] *(valeur, temps, argent, pour mon business et celui des clients que j'aurai trouvés et convaincus)*
+
+---
+class: p5
+
+# Devil in the details
+
+".x[Je veux .r[concevoir]] (l'architecture, le code, les processus, l'ergonomie et l'expérience utilisateur)
+.x[et .o[développer]] (construire, tester, livrer, plusieurs versions de l'application, au sein d'une .w.x[équipe] de devs)
+.x[une .g[application Web]] (de la page sur ordinateur aux possibilités modernes des tablettes, mobiles et autres)
+.x[pour un .y[intérêt]] (valeur, temps, argent, pour mon business et celui des clients que j'aurai trouvés et convaincus)
+.x[et pour un certain .b[temps]] *(satisfaction et qualité du code et des relations dans l'équipe, l'entreprise et avec ses clients)*"
+
+---
+class: p5
+
+# Twittable slide
+
 ".x[Je veux .r[concevoir]] (l'architecture, le code, les processus, l'ergonomie et l'expérience utilisateur)
 .x[et .o[développer]] (construire, tester, livrer, plusieurs versions de l'application, au sein d'une .w.x[équipe] de devs)
 .x[une .g[application Web]] (de la page sur ordinateur aux possibilités modernes des tablettes, mobiles et autres)
@@ -146,7 +212,15 @@ class: p5
 
 ---
 class: p5 left wide
-# STOP
+# STOP !
+
+## Se méfier de ce qu'on croit
+
+## De ce qu'on a *envie* de croire
+
+---
+class: p5 left wide
+# Demander
 
 * .x[C'était ça ?]
 * &nbsp;
@@ -155,10 +229,54 @@ class: p5 left wide
 * .x[Qui fait quoi ?]
 * &nbsp;
 * .x[Budget, délai ?]
+* &nbsp;
+* &nbsp;
 
 ---
 class: p5 left wide
-# STOP
+# Demander
+
+* .x[C'était ça ?]
+* Sinon un blog ou une eBoutique, ça marche.
+* .x[On sait faire ?]
+* &nbsp;
+* .x[Qui fait quoi ?]
+* &nbsp;
+* .x[Budget, délai ?]
+* &nbsp;
+* &nbsp;
+
+---
+class: p5 left wide
+# Demander
+
+* .x[C'était ça ?]
+* Sinon un blog ou une eBoutique, ça marche.
+* .x[On sait faire ?]
+* On s'améliore déjà en exploration / expression :)
+* .x[Qui fait quoi ?]
+* &nbsp;
+* .x[Budget, délai ?]
+* &nbsp;
+* &nbsp;
+
+---
+class: p5 left wide
+# Demander
+
+* .x[C'était ça ?]
+* Sinon un blog ou une eBoutique, ça marche.
+* .x[On sait faire ?]
+* On s'améliore déjà en exploration / expression :)
+* .x[Qui fait quoi ?]
+* Il faut s'entourer, déléguer, écouter... juger ?
+* .x[Budget, délai ?]
+* &nbsp;
+* &nbsp;
+
+---
+class: p5 left wide
+# Demander
 
 * .x[C'était ça ?]
 * Sinon un blog ou une eBoutique, ça marche.
@@ -172,19 +290,21 @@ class: p5 left wide
 
 ---
 class: p5 wide
-# LET'S GO
+# Négocier, accepter
 
-Si c'est non, fin de l'histoire,<br />ou plutôt début, mais ailleurs et autrement :)
+Si c'est non, fin de l'histoire, ou plutôt un autre début :)
 
-Si c'est bon, on reprend le manifesto :
+Si c'est oui, on reprend les étapes :
 
-* .x[nous voulons]
-* .x[faire un produit]
-* .x[et le faire marcher]
-* .x[dans la durée]
+* .xx[nous voulons]
+* .xx[faire un produit]
+* .xx[et le faire marcher]
+* .xx[dans la durée]
 
----
-class: p10
+???
+
+# ---
+# class: p10
 
 "Nous sommes des humains faillibles qui voulons faire un logiciel
 pour des humains faillibles, dans une équipe d'humains faillibles.
@@ -257,8 +377,8 @@ class: p5
 pour nous permettre de nous ajuster pour nos clients, chefs, et équipes diverses.]
 
 .t[Nous livrerons et maintiendrons une application fiable, efficiente et sécurisée,
-en composant et reliant des briques d'infrastructure, de code et d'information,]
-de l'expérience à chaque version stable.
+en composant et reliant des briques d'infrastructure, de code et d'information,
+de l'expérience à chaque version stable.]
 
 ---
 class: p5
@@ -281,6 +401,12 @@ class: middle center wide
 
 ---
 class: center, middle, happy
+
+.contrib.b[
+[@abelar_s](https://twitter.com/abelar_s) -
+[@faveod](https://twitter.com/faveod)
+]
+
 # Questions?
 
 &nbsp;
@@ -289,17 +415,27 @@ class: center, middle, happy
 
 &nbsp;
 
-.b[[@abelar_s](https://twitter.com/abelar_s) -
-[@ParisRB](https://twitter.com/parisrb) -
-[@RailsGirlsParis](https://twitter.com/railsgirlsparis)]
- 
-[maitre-du-monde.fr](maitre-du-monde.fr)
+&nbsp;
 
-.contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/I_just_want_a_website.html)]
+.small[
+[@ParisRB](https://twitter.com/parisrb),
+[@RailsGirlsParis](https://twitter.com/railsgirlsparis),
+[@womenonrails](https://twitter.com/womenonrails),
+[@lerubynouveau](https://twitter.com/lerubynouveau)
+]
+
+.small.contrib[[CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) -
+[contribute on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/I_just_want_a_website.html)]
 
 ---
 class: center, middle, happy
-# Thanks!
+
+.contrib.b[
+[@abelar_s](https://twitter.com/abelar_s) -
+[@faveod](https://twitter.com/faveod)
+]
+
+# Merci !
 
 &nbsp;
 
@@ -307,13 +443,17 @@ class: center, middle, happy
 
 &nbsp;
 
-.b[[@abelar_s](https://twitter.com/abelar_s) -
-[@ParisRB](https://twitter.com/parisrb) -
-[@RailsGirlsParis](https://twitter.com/railsgirlsparis)]
- 
-[maitre-du-monde.fr](maitre-du-monde.fr)
+&nbsp;
 
-.contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/I_just_want_a_website.html)]
+.small[
+[@ParisRB](https://twitter.com/parisrb),
+[@RailsGirlsParis](https://twitter.com/railsgirlsparis),
+[@womenonrails](https://twitter.com/womenonrails),
+[@lerubynouveau](https://twitter.com/lerubynouveau)
+]
+
+.small.contrib[[CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) -
+[contribute on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/I_just_want_a_website.html)]
 
     </textarea>
     <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
