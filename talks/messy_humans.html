@@ -131,13 +131,15 @@ French "lycée" (15~18):
 ---
 # Easy lies, hard truths
 
+What can you do as a beginner to get better?
+
 - Principles
 - Quotes
 - Jokes
 - Punchlines
 - Guidelines
 
-=> "Don't make me think, just give me an answer!"
+=> "Don't make me think, just give me an answer!"<br />
 => .ok["It depends"]
 
 ---
@@ -151,13 +153,19 @@ French "lycée" (15~18):
 <br />-- The Kübler-Ross model
 
 ---
-# Clean code, messy people
+# Crisis
+
+- even the "clean, logical, rational" code breaks
+- humans made impressive organisations
+
+---
+# Forgiveness
 
 - even the cleanest code breaks
 - humans made impressive organisations
 
 ---
-# Clean code, messy people
+# Awe
 
 - even the cleanest code breaks
 - humans made impressive organisations
@@ -205,6 +213,7 @@ Privilege:
 - pages and pages of error management
 - .ok[user experience]
 
+How can I get better at this?
 
 - it's OK to use metaphors
 - it's awesome to find conceit
@@ -227,17 +236,51 @@ Privilege:
 
 - .ok[YAGNI]
 - .ok[KISS]
+
+---
+# Principles
+
+- .ok[YAGNI]
+- .ok[KISS]
+- .so[DRY]
+- .so[Skinny controllers, fat models]
+
+---
+# Principles
+
+- .ok[YAGNI]
+- .ok[KISS]
 - .so[DRY]
 - .so[Skinny controllers, fat models]
 - .ko[Design Patterns]
 - .ko[Best Practices]
 - .ko[Meritocracy]
 
+---
+# Dangerous principles
+
+- .ok[YAGNI] (still try to plan)
+- .ok[KISS] (KIS)
+- .so[DRY] (extract libs, don't "God object")
+- .so[Skinny controllers, fat models] (now, services)
+- .ko[Design Patterns] (hugely language-dependent)
+- .ko[Best Practices] ("accept it, I won't explain")
+- .ko[Meritocracy] (status quo is good)
+
+---
+# Dangerous principles
+
+- .ok[YAGNI] (still try to plan)
+- .ok[KISS] (KIS)
+- .so[DRY] (extract libs, don't "God object")
+- .so[Skinny controllers, fat models] (now, services)
+- .ko[Design Patterns] (hugely language-dependent)
+- .ko[Best Practices] ("accept it, I won't explain")
+- .ko[Meritocracy] (status quo is good)
 
 - principles are not laws, they're goals
 - it's OK to get just slightly better today
 - it's OK to take on debt as an informed choice
-
 
 ---
 # Quotable quotes
@@ -303,12 +346,22 @@ Privilege:
 <br />-— Kent Beck 
 
 ---
-# Punchlines
+# What people say
+
+- .ko["Fail fast"]
+- .ko["No big deal. No one will die"]
+
+<img style="margin: 0 30%" src="http://i.skyrock.net/8540/19968540/pics/568894505.jpg" />
+
+> "The Shadoks scientists determined that their rocket has a 1% chance of working, so they blow the 99 first ones on purpose, then we're sure the last one will work"
+
+---
+# is just punchlines
 
 - .ko["Fail fast"] is actually .ok[Frequent feedback]
 - .ko["No big deal. No one will die"] is .ok[Sit back, relax]
 
-<img src="http://i.skyrock.net/8540/19968540/pics/568894505.jpg" />
+<img style="margin: 0 30%" src="http://i.skyrock.net/8540/19968540/pics/568894505.jpg" />
 
 > "The Shadoks scientists determined that their rocket has a 1% chance of working, so they blow the 99 first ones on purpose, then we're sure the last one will work"
 
@@ -340,6 +393,7 @@ Privilege:
  - .so["ask more questions"]
  - .ko["use common sense"]
 
+
  - I give you "WWMGD":<br />.ok[What Would My Grandfather Do]
 
 ---
@@ -354,7 +408,8 @@ Privilege:
  - stop doing bad things
 
 
- => have logs, debug flags, feature flipping
+ => have logs, debug flags, feature flipping<br />
+ => copy the teams' style, have styleguides/rubocop
 
 ---
 # Error handling
@@ -368,12 +423,14 @@ Privilege:
  - don't burn bridges
 
 
+ => have logs, debug flags, feature flipping<br />
  => nothing should ever block, use Circuit Breaker
+ => graceful recovery and/or explicit warnings
 
 ---
 # Collaborative
 
- No code exists in isolation.
+ Use your blinking lights, don't expect others to.
 
  - tell your plan
  - follow your plan
@@ -381,6 +438,7 @@ Privilege:
  - choose what/how to delegate
 
 
+ => have logs, debug flags, feature flipping<br />
  => logs, track records
 
 ---
@@ -408,6 +466,8 @@ Privilege:
  - weekends
  - backup if one is sick
 
+
+ => have logs (, debug flags, feature flipping)<br />
  => Work in shifts? Follow the sun?
 
 ---
@@ -417,24 +477,33 @@ Privilege:
 - Zen of Python
 - [thecodelesscode.com](http://thecodelesscode.com)
 
-Zen proverbs are neither right nor wrong
+Zen proverbs/koans are neither right nor wrong,<br />
+they often like to show where a paradox stands.<br />
+I like to think they're pushing you to either make<br />
+informed choices, or accept whatever comes.
 
 ---
-# Zen
+# Zen of DRY
 
-Beware of what you like. Example:
+It's about information:
+- get your information from One True Source
+- accept duplication (logs, tracking, comparisons)
 
-- .ko[DRY]
+not code:
+- don't DRY every class into metaprog
+- don't DRY every util into a gem (left pad?)
+- learn your stdlib (in Rails: accept ActiveSupport)
 - .ok[@sandimetz]: [duplication is far cheaper than the wrong abstraction](https://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction)
 - .so[DDD: one duplicate per bounded context]
-
 
 ---
 # Stick to the basics
 
-Handle humans with care.
+<img style="float:right; margin: 2em 2em 0 0" src="https://www.explainxkcd.com/wiki/images/8/8d/misinterpretation.png" />
 
-<img src="https://www.explainxkcd.com/wiki/images/8/8d/misinterpretation.png" />
+- Do the scary thing safely.
+- Beware of what you like.
+- Handle humans with care.
 
 ???
 My personal theory is that once someone has kids they understand that sometimes, you have to get your hands dirty.
