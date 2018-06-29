@@ -1,0 +1,528 @@
+<html>
+  <head>
+    <title>Messy humans, Clean code</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+	@import url(http://fonts.googleapis.com/css?family=Quicksand:300,700);
+      	body { font-family: 'Quicksand'; font-weight: 300; }
+      	.happy { background-image: url(https://cloud.githubusercontent.com/assets/584600/5992569/2e807aee-aa2f-11e4-9618-e6446ec7fe2f.png) }
+	a, a:visited, a:hover { color: #DDD; }
+	// ul { list-style-type: none; }
+	// ul li { height: 1.5em; }
+	.best .remark-inline-code { color: yellow; }
+	.best { color: #EEE; }
+
+	blockquote { font-family: serif; font-style: italic; }
+
+   	h1, h2, h3 {
+      font-weight: 300;
+  	  text-align: center;
+	  color: #CCC;
+	  margin: 0;
+    }
+
+	.ko  { color: #FFAAAA; } .l1::before  { content: '- '; font-family: monospace; }
+	.so  { color: #AAAAFF; } .l2::before  { content: '~ '; font-family: monospace; }
+	.ok  { color: #AAFFAA; } .l3::before  { content: '+ '; font-family: monospace; }
+	
+	img { margin: auto; text-align: center; }
+	p { margin: 0.25em; }
+	blockquote { margin: 0.25em 0 0.5em 1em; }
+
+    .middle h1 {
+        font-size: 2.5em;
+        color: white;
+    }
+	h1 { font-weight: bold; }
+	div.remark-slide-content {
+	  color: #AAA;
+	  background-color: #333;
+	  font-size: 200%;
+	  padding: 1em;
+	}
+
+	.remark-code, .remark-inline-code {
+	  font-family: monospace, sans-serif;
+	  background: #000;
+	  border: 1px solid #666;
+	  border-radius: 2px;
+	  color: #CCC;
+	  padding: 0.25em;
+	  font-size: 120%;
+	}
+	.b { font-weight: bold; }
+	.contrib { font-size: 90%; }
+
+	p.info { font-size: 75%; margin: 0; padding: 0; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle
+# Messy Humans, Clean Code
+
+&nbsp;
+
+.b[remark.js: press P to get the transcript]
+
+[@abelar_s](https://twitter.com/abelar_s) - [maitre-du-monde.fr](https://maitre-du-monde.fr)
+
+.contrib[[Contribute to this talk on GitHub!](https://github.com/abelards/abelards.github.com/edit/master/talks/messy_humans.html)]
+
+???
+Many devs struggle when understanding humans. Why can't they be as simple as code?
+But sometimes, living with humans gives interesting lessons to apply to your code.
+Are you an engineer or manager? A beginner or experienced coder?
+We have many code principles that can be weird, or dangerous if applied too litterally.
+My goal is to give simple metaphors, for you to explain to your teams how patterns can be used or misused, for a cleaner codebase and better team communication.
+
+---
+.so[My story]
+> But [computers] are useless. They can only give you answers.
+<br />-- Pablo Picasso
+
+---
+My story
+> But [computers] are useless. They can only give you answers.
+<br />-- Pablo Picasso about computers
+
+.so[Change is hard]
+> I didn't learn all that not to change my mind
+<br />-- Michel Foucault
+
+---
+My story
+> But [computers] are useless. They can only give you answers.
+<br />-- Pablo Picasso about computers
+
+Change is hard
+> I didn't learn all that not to change my mind
+<br />-- Michel Foucault
+
+.so[Dangerous knowledge]
+> "[programmer virtues]: laziness, impatience, and hubris."
+<br />-- Larry Wall, Programming Perl
+
+---
+My story
+> But [computers] are useless. They can only give you answers.
+<br />-- Pablo Picasso about computers
+
+Change is hard
+> I didn't learn all that not to change my mind
+<br />-- Michel Foucault
+
+Dangerous knowledge
+> "[programmer virtues]: laziness, impatience, and hubris."
+<br />-- Larry Wall, Programming Perl
+
+.so[Inspirations]
+> Besides a mathematical inclination, an exceptionally good mastery of one's native tongue is the most vital asset of a competent programmer.
+<br />-- Edsger Dijkstra
+
+---
+# My story
+
+French "lycée" (15~18):
+- .ko[ES for Business]
+- .so[L for Literature]
+- .ok[S for Science]
+
+---
+# Easy lies, hard truths
+
+- Principles
+- Quotes
+- Jokes
+- Punchlines
+- Guidelines
+
+=> "Don't make me think, just give me an answer!"
+=> .ok["It depends"]
+
+---
+# Change is hard
+
+> 1. denial
+> 2. anger
+> 3. bargaining
+> 4. depression
+> 5. acceptance
+<br />-- The Kübler-Ross model
+
+---
+# Clean code, messy people
+
+- even the cleanest code breaks
+- humans made impressive organisations
+
+---
+# Clean code, messy people
+
+- even the cleanest code breaks
+- humans made impressive organisations
+- .ok[getting some reliability out of unreliable parts]
+
+---
+# Simple world
+
+> "All models
+<br />-- George Box
+
+- .ko["elegant" code & tricky one-liners]
+
+---
+# Wrong world
+
+> "All models are wrong
+<br />-- George Box
+
+- "elegant" code & tricky one-liners
+- .so[pages and pages of error management]
+
+---
+# Complex world
+
+> "All models are wrong
+<br />-- George Box
+
+- "elegant" code & tricky one-liners
+- .so[pages and pages of error management]
+
+Privilege:
+- error management and fallback are made for you
+- I can't blame the world for not fitting my code,
+- I should be fitting my code to the world.
+
+---
+# Manageable world
+
+> "All models are wrong but some are useful".
+<br />-- George Box
+
+- "elegant" code
+- tricky one-liners
+- pages and pages of error management
+- .ok[user experience]
+
+
+- it's OK to use metaphors
+- it's awesome to find conceit
+  > (poetry, "Métaphore filée")
+- it's OK to let go past usefulness
+
+---
+# Principles
+
+- .ok[YAGNI]
+- .ok[KISS]
+- .so[DRY]
+- .so[Skinny controllers, fat models]
+- .ko[Design Patterns]
+- .ko[Best Practices]
+- .ko[Meritocracy]
+
+---
+# Principles
+
+- .ok[YAGNI]
+- .ok[KISS]
+- .so[DRY]
+- .so[Skinny controllers, fat models]
+- .ko[Design Patterns]
+- .ko[Best Practices]
+- .ko[Meritocracy]
+
+
+- principles are not laws, they're goals
+- it's OK to get just slightly better today
+- it's OK to take on debt as an informed choice
+
+
+---
+# Quotable quotes
+
+> "Premature optimization is the root of all evil."
+<br />-— Donald Knuth
+
+> &nbsp;
+<br />&nbsp;
+
+<br />
+
+> "Make it run, then make it right, then make it fast."
+<br />-— Kent Beck
+
+---
+# Quotable quotes
+
+> "Premature optimization is the root of all evil."
+<br />-— Donald Knuth
+
+> "Premature generalization is the other root of all evil."
+<br />-— Keith Rarick 
+
+<br />
+
+> "Make it run, then make it right"
+<br />-— Kent Beck
+
+> if speed is a problem, benchmark & optimize just that
+<br />-- the world
+
+---
+# Some quotes are jokes
+
+- small, memorable quotes
+- to get better at your craft
+- to win arguments ("... considered harmful")
+
+> "There are only two hard things in Computer Science: cache invalidation and naming things"
+<br />-- Phil Karlton
+
+> "If there is no solution, then there is no problem."
+<br />-— Les Shadoks, by Jacques Rouxel
+
+> "When your hammer is C++, everything begins to look like a thumb."
+<br />-— Steve Haflich
+
+---
+# Keep the good jokes
+
+- weed out the snarks, the exclusion
+- keep the ones you don't understand for later
+- find mentors and ask them to talk about them
+
+> "Mal nommer les choses, c'est ajouter au malheur du monde."
+<br />-— Albert Camus
+
+> "Simplicity is prerequisite for reliability."
+<br />-— Edsger Dijkstra
+
+> "First you learn the value of abstraction, then you learn the cost of abstraction, then you're ready to engineer."
+<br />-— Kent Beck 
+
+---
+# Punchlines
+
+- .ko["Fail fast"] is actually .ok[Frequent feedback]
+- .ko["No big deal. No one will die"] is .ok[Sit back, relax]
+
+<img src="http://i.skyrock.net/8540/19968540/pics/568894505.jpg" />
+
+> "The Shadoks scientists determined that their rocket has a 1% chance of working, so they blow the 99 first ones on purpose, then we're sure the last one will work"
+
+---
+# Guidelines
+
+  So many smart acronyms! Gives FOMO.
+
+ - SOLID, GRASP, EIP...
+ - MVC, PAC, Services...
+ - 5 whys, 12 factors...
+ - PDCA, XP, Agile, Scrum, SAFE...
+ - UML, RAD, RUP...
+ - TDD, BDD, DDD...
+ - SWEBOK, PMBOK...
+ - PCIDSS, GDPR...
+
+---
+# Rationales
+
+ - .ko["try to think of everything"]
+ - .so["ask more questions"]
+ - .ko["use common sense"]
+
+---
+# Rationales
+
+ - .ko["try to think of everything"]
+ - .so["ask more questions"]
+ - .ko["use common sense"]
+
+ - I give you "WWMGD":<br />.ok[What Would My Grandfather Do]
+
+---
+# Habits
+
+ You have to make sense of things first.
+
+ - have habits
+ - have metrics
+ - know what "normal" is
+ - keep doing good things
+ - stop doing bad things
+
+
+ => have logs, debug flags, feature flipping
+
+---
+# Error handling
+
+ No battle plan resists meeting with the enemy.
+
+ - be persistent: retry once or twice
+ - don't be stupid: stop, investigate
+ - log it for later, ask help
+ - try new things
+ - don't burn bridges
+
+
+ => nothing should ever block, use Circuit Breaker
+
+---
+# Collaborative
+
+ No code exists in isolation.
+
+ - tell your plan
+ - follow your plan
+ - trust, but verify
+ - choose what/how to delegate
+
+
+ => logs, track records
+
+---
+# Performance
+
+ My grandfather could also optimize your code.
+
+ - do less
+ - do it efficiently
+ - do one thing... at a time
+ - do everything... over the week/year
+ - if you think quality is expensive, try non-quality
+
+
+ => know if you are in great, normal or hard times
+ => choose if you will be in survival or leisure mode
+
+---
+# Availability
+
+ 24/7 human team is 3~4 people:
+
+ - weekdays
+ - nights
+ - weekends
+ - backup if one is sick
+
+ => Work in shifts? Follow the sun?
+
+---
+# Zen
+
+- Zen of Duck-Typing
+- Zen of Python
+- [thecodelesscode.com](http://thecodelesscode.com)
+
+Zen proverbs are neither right nor wrong
+
+---
+# Zen
+
+Beware of what you like. Example:
+
+- .ko[DRY]
+- .ok[@sandimetz]: [duplication is far cheaper than the wrong abstraction](https://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction)
+- .so[DDD: one duplicate per bounded context]
+
+
+---
+# Stick to the basics
+
+Handle humans with care.
+
+<img src="https://www.explainxkcd.com/wiki/images/8/8d/misinterpretation.png" />
+
+???
+My personal theory is that once someone has kids they understand that sometimes, you have to get your hands dirty.
+
+---
+# Thank you!
+
+> May, in spite of all distractions generated by technology,
+> all of you succeed in turning information into knowledge,
+> knowledge into understanding, and understanding into wisdom.
+> <br />-— E.W.Dijkstra (EWD 1252, 1996)
+
+---
+class: center, middle, happy
+
+# Questions ?
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+[twitter.com/abelar_s](@abelar_s) - [maitre-du-monde.fr](maitre-du-monde.fr)
+
+---
+# SOLID 1/2
+
+- SRP - Single Responsibility Principle
+  <br />"A class should only have a single responsibility"
+  <br />
+- OCP - Open-Closed Principle
+  <br />"Software entities … should be open for extension, but closed for modification."
+  <br />
+- LSP - Liskov Substitution Principle
+  <br />"an object of type T may be substituted with any object of a subtype S"
+  <br />
+
+---
+# SOLID 2/2
+
+- ISP - Interface Separation Principle
+  <br />"many client-specific interfaces are better than one general-purpose interface."
+  <br />
+- DIP - Dependency Inversion Principle
+  <br />"one should Depend upon Abstractions. Do not depend upon concretions."
+  <br />
+
+---
+# SOLID's missing manual
+
+- SRP - Single Responsibility Principle
+  <br />"A class should only have a single responsibility"
+  <br />Watch out the reasons for change
+- OCP - Open-Closed Principle
+  <br />"Software entities … should be open for extension, but closed for modification."
+  <br />Do your own thing but have clear contracts
+- LSP - Liskov Substitution Principle
+  <br />"an object of type T may be substituted with any object of a subtype S"
+  <br />"Be strict when sending and tolerant when receiving." (Postel, 1980)
+
+---
+# SOLID's missing manual
+
+- ISP - Interface Separation Principle
+  <br />"many client-specific interfaces are better than one general-purpose interface."
+  <br />"Duplication is far cheaper than the wrong abstraction" (@sandimetz)
+- DIP - Dependency Inversion Principle
+  <br />"one should Depend upon Abstractions. Do not depend upon concretions."
+  <br />You can trust the idea, not the implementation. Tell don't ask.
+
+???
+  (I am only subtly wrong)
+  -- Jon Postel RFC760, RFC1122, RFC1958 (1980-1999)
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
